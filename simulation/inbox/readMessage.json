@@ -1,0 +1,58 @@
+{
+	"messageId":4,
+	"folderName":"inbox",
+	"messageType":"email",
+	"senderIcon":"",
+	"msgSource":"yahoo",
+	"receivedDate":"Today, 17:29 PM",
+	"relativeTime":"8 min ago",
+	"receivedTimestamp":"Sat, May 15, 2009 at 10:42AM",
+	"from":[
+			{
+				"name": "Wade Doe",
+				"email": "Wade.doe@verizon.net"
+			}
+	],	
+	"to":[
+			{
+				"name": "Wade Doe",
+				"email": "Wade.doe@verizon.net"
+			},
+			{
+				"name": "Lori Doe",
+				"email": "Lori.doe@verizon.net"
+			}
+	],
+	"cc": [
+		{
+			"name": "Lori Doe",
+			"email": "Lori.doe@verizon.net"
+		},
+		{
+			"name": "Wade Doe",
+			"email": "Wade.doe@verizon.net"
+		}
+	],
+	"replyTo":"sarah@email.com",
+	"subject":"Test123",
+	"senderIcon":"",
+	"mailedBy":"verizon.net",
+	"isStarred":"",
+	"body":"HERE IS THE <b>RICH</b> TEXT BODY",
+	"tags":[
+		{
+			"tagId":12,
+			"tagName":"My Family"
+		}
+	],
+	"attachment":true,
+	"attachmentList":[
+		{
+			"attachName":"test.txt",
+			"attachSize":"1K",
+			"attachPath":"1"
+		}
+	],
+	"blockImages":"false",
+	"msgSource":"google"
+}

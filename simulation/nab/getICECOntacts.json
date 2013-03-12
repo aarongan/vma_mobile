@@ -1,0 +1,207 @@
+{
+    "statusCode":0,
+    "statusDesc":"Success",
+    "items":[{
+        "firstName":"Mary",
+        "lastName":"Smith",
+        "displayName":"Mary Smith",
+        "contactId":"6eb23ed1-0121-1000-804f-50256654842f",
+        "buddyuserid":"",
+        "inNetwork":true,
+        "icsAccount":false,
+        "connected":true,
+        "version":"1",
+       "iceContact":true,
+        "defaultPhone":"(555) 123-6543",
+        "searchPhones":"5551236543,9085551111,2015552222,2125551111",
+        "phones":[{
+            "number":"(555) 123-6543",
+            "index":"",
+            "phoneType":"mobile",
+            "carrier":"VZW",
+            "preference":"0"
+        },{
+            "number":"(908) 555-1111",
+            "index":"",
+            "phoneType":"mobile",
+            "carrier":"ATT",
+            "preference":"0"
+        },
+        {
+            "number":"(201) 555-2222",
+            "index":"",
+            "phoneType":"business",
+            "carrier":"",
+            "preference":"0"
+        },{
+            "number":"(212) 555-1111",
+            "index":"",
+            "phoneType":"home",
+            "carrier":"",
+            "preference":"0"
+        }],
+        "defaultEmail": "mary.smith@verizon.net",
+        "searchEmails": "mary.smith@verizon.net,mary@gmail.com",
+        "emails":[{
+            "type":"business",
+            "index":"",
+            "address":"mary.smith@verizon.net",
+            "preference":"2"
+        },{
+            "type":"personal",
+            "index":"",
+            "address":"mary@gmail.com",
+            "preference":"0"
+        }],
+        "company":"Verizon Wireless",
+        "jobTitle":"Sr Test Engineer",
+        "picUrl":"",
+        "createdDate":"Mar 14, 2009",
+        "updatedDate":"Mar 14, 2009",
+        "groups":[{
+            "id":"145",
+            "name":"Starred",
+            "version":"3"
+        },
+        {
+            "id":"102",
+            "name":"College",
+            "version":"2"
+        },
+        {
+            "id":"103",
+            "name":"Work",
+            "version":"2"
+        }
+        ],
+        "mobileGroups":[
+        {
+            "id":"201",
+            "name":"College",
+            "version":"2"
+        }
+        ],
+        "endPointAssoc":[]
+    },
+    {
+        "firstName":"Stephen",
+        "lastName":"James",
+        "displayName":"Stephen James",
+        "contactId":"6eb23ed1-0121-1000-804f-1111",
+        "buddyuserid":"",
+        "inNetwork":true,
+        "icsMember":true,
+        "connected" : false,
+        "version":"1",
+        "iceContact":true,
+        "defaultPhone":"(555) 123-6201",
+        "phoneList":"5551236201,6075551111",
+        "phones":[{
+            "number":"(555) 123-6201",
+            "index":"",
+            "phoneType":"mobile",
+            "carrier":"VZW",
+            "preference":"0"
+        },{
+            "number":"(607) 555-1111",
+            "index":"",
+            "phoneType":"work",
+            "carrier":"",
+            "preference":"0"
+        }],
+        "defaultEmail": "stephen.james@verizon.net",
+        "emailList": "stephen.james@verizon.net",
+        "emails":[{
+            "type":"business",
+            "index":"",
+            "address":"stephen.james@verizon.net",
+            "preference":"2"
+        }],
+        "company":"IBM",
+        "jobTitle":"CEO",
+        "picUrl":"../simulation/contacts/profileImages/2.png",
+        "createdDate":"Mar 14, 2009",
+        "updatedDate":"Mar 14, 2009",
+        "groups":[{
+            "id":"145",
+            "name":"Starred",
+            "version":"3"
+        },
+        {
+            "id":"102",
+            "name":"College",
+            "version":"2"
+        },
+        {
+            "id":"103",
+            "name":"Work",
+            "version":"2"
+        }
+        ],
+        "mobileGroups":[
+        ],
+        "endPointAssoc":[]
+    },
+    {
+        "firstName":"\u00a0",
+        "lastName":"James",
+        "displayName":"\u00a0 James",
+        "contactId":"6eb23ed1-0121-1000-804f",
+        "buddyuserid":"",
+        "inNetwork":true,
+        "icsMember":true,
+        "connected" : false,
+        "version":"1",
+        "iceContact":true,
+        "defaultPhone":"(555) 123-6201",
+        "phoneList":"5551236201,6075551111",
+        "phones":[{
+            "number":"(555) 123-6201",
+            "index":"",
+            "phoneType":"mobile",
+            "carrier":"VZW",
+            "preference":"0"
+        },{
+            "number":"(607) 555-1111",
+            "index":"",
+            "phoneType":"work",
+            "carrier":"",
+            "preference":"0"
+        }],
+        "defaultEmail": "stephen.james@verizon.net",
+        "emailList": "stephen.james@verizon.net",
+        "emails":[{
+            "type":"business",
+            "index":"",
+            "address":"stephen.james@verizon.net",
+            "preference":"2"
+        }],
+        "company":"IBM",
+        "jobTitle":"CEO",
+        "picUrl":"../simulation/contacts/profileImages/2.png",
+        "createdDate":"Mar 14, 2009",
+        "updatedDate":"Mar 14, 2009",
+        "groups":[{
+            "id":"145",
+            "name":"Starred",
+            "version":"3"
+        },
+        {
+            "id":"102",
+            "name":"Wireless",
+            "version":"2"
+        },
+        {
+            "id":"103",
+            "name":"Work",
+            "version":"2"
+    }
+        ],
+        "mobileGroups":[
+        ],
+        "endPointAssoc":[]
+    }
+    
+
+    ]
+}

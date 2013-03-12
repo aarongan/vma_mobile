@@ -1,0 +1,113 @@
+.pl .icsOverlay div.title {
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    background: #ffffff;
+	cursor: move;
+}
+
+.pl .icsOverlay .icsTopCap {
+	cursor: move;
+}
+
+.pl .dijitDialogFixed .icsTopCap,
+.pl .dijitDialogFixed div.title {
+	cursor: default;
+}
+
+/* this selector is necessary to win out over 
+ * .pl .icsOverlay h3.rounded span span
+ */
+.pl .icsOverlay .title span.dijitDialogCloseIcon {
+    background-image: url('../../../images/ics/inbox/cancel.png');
+	background-color: #ffffff;
+	top: 8px;
+	right: 8px;
+}
+
+.pl .icsOverlay .title span.dijitDialogCloseIcon-hover {
+	background-position: right top;
+}
+
+.pl .icsDialog div.dijitDialogPaneContent,
+.pl .icsOverlay div.dijitDialogPaneContent {
+    border: none;
+	padding: 0;
+}
+
+.icsOverlay .overlayContent {
+	width: 300px;
+	padding: 0 12px 0 17px;
+}
+
+.icsOverlay .dijitDialogPaneContent .cc_content {
+	border-right: 1px solid #D1D1D1;
+	border-left: 1px solid #D1D1D1;
+	padding-bottom: 5px;
+}
+
+.icsOverlay .dijitDialogPaneContent .cc_content .img {
+	padding-left: 25px;
+	float: left;
+}
+
+.icsOverlay .dijitDialogPaneContent .cc_content .text{
+	margin-left:65px;
+	font-weight:bold;
+	height:40px;
+	padding-left:10px;
+	padding-top:7px;
+	text-align:left;
+}
+
+.dj_ie6 .pl .icsOverlay .floatTitle {
+	margin-left: 465px;
+}
+
+/*
+ * Overwrite tundra/Dialog.css for Safari Overlay
+ */
+.dj_safari .tundra .dijitDialog {
+	-webkit-box-shadow: 0px 0px 0px #adadad;
+}
+/* GET PIN Overlay css */
+
+.icsGetPin {height:325px; padding-left:15px; padding-top: 10px; text-align:left;}
+.icsGetPin .pinTitle {margin-bottom:15px;}
+.icsGetPin .leftDiv .mainText {padding-bottom:10px;}
+.icsGetPin .leftDiv { margin-bottom: 20px; padding-right:2px;}
+.icsGetPin .rightDiv { padding-right:20px; padding-top: 10px; border-top: 1px dotted;}
+.icsGetPin .leftDiv ol {padding-left:20px; margin-bottom:0px;}
+.icsGetPin .leftDiv ul {margin:0px;}
+.icsGetPin .leftDiv .padLeftBot {padding-left:15px; padding-bottom:5px;}
+.icsGetPin .leftDiv .spanBold {font-weight:bold;}
+.icsGetPin .rightDiv .sendSpan {padding-left:2px;/*font-weight:bold;*/}
+.icsGetPin .rightDiv .sendDiv {/*padding-left:20px;padding-bottom:10px;*/}
+.icsGetPin .rightDiv .sendBtn {padding-left:10px;}
+.icsGetPin .rightDiv .viewTitle {padding-left:0px;margin-bottom:12px;}
+.icsGetPin .rightDiv .pinView {padding-left:0px;font-weight:bold;font-size:20px;vertical-align: bottom; margin-left:5px;}
+.dj_ie7 .icsGetPin .leftDiv ol {margin-left:10px;}
+.dj_ie7 .getPinOverlay .cc {width:550px;}
+.dj_ie7 .getPinOverlay .cc .title {	height:0px;}
+.icsGetPin .bulletIconClass{color: blue; font-size: 25px; font-weight: bold;}
+.icsGetPin .bulletText{ margin-left: 5px; vertical-align: sub;}
+.icsGetPin .sendToMobileCheckBox{
+    background-image: url("../../../images/ics/nab/icons/checkboxGreen.png");
+    background-position: 0 0;
+    height: 15px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    width: 15px;
+}
+.icsGetPin .sendToMobileCheckBox.checked{background-position: -20px -1px;}
+.icsGetPin  .changePinText{margin-top: 10px;}
+.icsGetPin  .floatLeft{margin-top: 25px;}
+
+.dj_ie .icsGetPin .leftDiv {padding-right:2px;}
+.dj_ie .icsGetPin .bulletIconClass{font-size: 20px;}
+.dj_ie .icsGetPin .bulletText{vertical-align: bottom;}
+.dj_ie .icsGetPin .changePinText{margin-top: 20px;}
+.dj_ie .icsGetPin .rightDiv {margin-top: 25px;}
+.dj_ie .icsGetPin .buttletPoints{margin-bottom: 4px;}
+.dj_ie .icsGetPin .floatLeft{margin-top: 25px; height:40px;}
+.dj_ie .icsGetPin .rightDiv .viewTitle {height:40px; line-height:30px; vertical-align: middle;}
+.dj_ie .icsGetPin .rightDiv .pinView {height:40px; font-size:20px; vertical-align: middle; line-height:30px;}

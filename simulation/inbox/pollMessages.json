@@ -1,0 +1,108 @@
+{
+    "all" : {
+    	"All": 24,
+	    "email": 8,
+	    "sms": 2,
+	    "mms": 3,
+	    "vvm": 6,
+	    "call_log": 1
+    },
+    "unread" : {
+    	"All": 24,
+    	"email": 8,
+    	"sms": 2,
+    	"mms": 3,
+   	 	"vvm": 6,
+    	"call_log": 1
+    },
+	"statusCode": 0,
+	"statusDesc":"",
+    "items": [
+        {
+            "messageId": 2,
+            "folderName": "INBOX",
+            "type": 1,
+			"from":[
+					{
+						"name": "M Raja",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],	            
+            "subject": "Test",
+            "receivedDateShortTxt": "Tue, 17:14 PM",
+            "receivedDateDetailedTxt": "Tue, 17:14 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+			"isThread": true,
+            "size": 34560,
+            "priority": 0,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Apr 28 17:14:45 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": true,
+            "inNetwork": true,
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 3,
+            "folderName": "INBOX",
+            "type": 2,
+			"from":[
+					{
+						"name": "M Raja2",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],
+            "subject": "Test123",
+            "receivedDateShortTxt": "Tue, 17:17 PM",
+            "receivedDateDetailedTxt": "Tue, 17:17 PM (1 month ago)",
+			"senderIcon": "",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue Apr 28 17:17:59 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 6,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":1,
+			"from":[
+					{
+						"name": "M Raja5",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],	            
+            "subject": "Deferred-Delivery -- by 10 minutes",
+            "receivedDateShortTxt": "Tue, 18:19 PM",
+            "receivedDateDetailedTxt": "Tue, 18:19 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Apr 28 18:19:33 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        }
+    ]
+}

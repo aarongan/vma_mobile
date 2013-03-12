@@ -1,0 +1,86 @@
+{
+    "statusCode": 0,
+    "statusDesc": "Success",
+    "emails": [
+        {
+            "folder": "incoming",
+            "size": 300000,
+			"percentage" : 14
+        },
+        {
+            "folder": "sent",
+            "size": 200000,
+			"percentage" : 10			
+        },
+        {
+            "folder": "trash",
+            "size": 400000,
+			"percentage" : 19
+        },
+        {
+            "folder": "drafts",
+            "size": 30000,
+			"percentage" : 1
+        },
+        {
+            "folder": "spam",
+            "size": 70000,
+			"percentage" : 4
+        },
+        {
+            "folder": "total",
+            "size": 1000000,
+			"percentage" : 48
+        }
+    ],
+    "sms": [
+        {
+            "folder": "total",
+            "size": 700000,
+			"percentage" : 33
+        }
+    ],
+    "mms": [
+        {
+            "folder": "total",
+            "size": 300000,
+			"percentage" : 14
+        }
+    ],
+    "message": [
+        {
+            "folder": "email",
+            "size": 1000000,
+			"percentage" : 48
+        },
+        {
+            "folder": "sms",
+            "size": 700000,
+			"percentage" : 33
+        },
+        {
+            "folder": "mms",
+            "size": 300000,
+			"percentage" : 14
+        },
+        {
+            "folder": "total",
+            "size": 2000000,
+			"percentage" : 95
+        }
+    ],
+    "total": [
+        {
+            "folder": "total",
+            "size": 2097152,
+			"percentage" : 100
+        }
+    ],
+    "remaining": [
+        {
+            "folder": "remaining",
+            "size": 97152,
+			"percentage" : 5
+        }
+    ] 
+}

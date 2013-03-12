@@ -1,0 +1,10 @@
+{
+	"isp":[
+		"google",
+		"yahoo",
+		"msn"
+	],
+	"inbox":"enabled",
+	"contacts":"enabled",
+	"calendar":"disabled"
+}

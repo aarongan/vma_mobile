@@ -1,0 +1,138 @@
+{
+	"firstName" : "Stacy",
+	"lastName" : "Doe",
+	"jobTitle" : "developer" ,
+	"company" : "verizon",
+	"verizonID" : "23232323",
+	"isICSUser" : "true",
+	"isInVerizonNetwork" : "true",
+	"isConnected" : "false",
+	"userImgUrl" : "../styles/images/ics/contacts/stacy.png",
+	"phoneNumbers" : [
+		{
+			"number" :  "234-123-1333", 
+			"type" : "H",
+			"isDefault":"false"
+		},
+		{
+			"number" :  "456-123-1333", 
+			"type" : "W",
+			"isDefault":"false"
+		},
+		{
+			"number" :  "123-123-1333", 
+			"type" : "M",
+			"isDefault":"true"
+		},
+		{
+			"number" :  "678-123-1333", 
+			"type" : "O",
+			"isDefault":"false"
+		}
+	],
+	"emailIds" : [
+		{
+			"type" : "H",
+			"email" :  "aa@bb.com",
+			"isDefault":"false"
+		},
+		{
+			"type" : "W",
+			"email" :  "bb@dds.com",
+			"isDefault":"false"
+		},
+		{
+			"other" : "O",
+			"email" :  "aa@bb.com",
+			"isDefault":"true"
+		}
+	],
+	"IMsList" : [
+		{
+			"type" : "AIM",
+			"imUserId" :  "bb@gmail.com"
+		},
+		{
+			"type" : "Yahoo",
+			"imUserId" :  "aa@yahoo.com"
+		},
+		{
+			"type" : "google",
+			"imUserId" :  "bb@gmail.com"
+		}
+	 ],
+	"websiteList" : [
+		{
+			"type" : "business",
+			"url" :  "www.yahoo.com"
+		},
+		{
+			"type" : "personal",
+			"url" :  "www.super.com"
+		}
+	 ],
+	 
+	 "addressList" :[
+		 {
+			"type" : "home",
+			"street" : " aadafdadsa", 
+			"city" : "warren", 
+			"state" : "nj", 
+			"zip" : "20001" 
+		},
+		{
+			"type" : "home",
+			"street" : " aadafdadsa", 
+			"city" : "warren", 
+			"state" : "nj", 
+			"zip" : "20001" 
+		},
+		{
+			"type" : "home",
+			"street" : " aadafdadsa", 
+			"city" : "warren", 
+			"state" : "nj", 
+			"zip" : "20001" 
+		}
+	],	
+	"networkList" : [
+		{
+			"name" : "Facebook",
+			 "url" : " sss.com/dsds",
+			"imgUrl" : "www.ics.com/network/facebook.jpeg"
+		},
+		{
+			"name" : "twitter",
+			 "url" : "sss.com/dsds",
+			"imgUrl" : "www.ics.com/network/facebook.jpeg"
+		},
+		{
+			"name" : "someBlog",
+			 "url" : " sss.com/dsds",
+			"imgUrl" : "www.ics.com/network/facebook.jpeg"
+		}
+	 ],
+	 "notesList" : [
+	 	{
+	 		"month"	: "03",
+	 		"day"	: "23",
+	 		"year"	: "2009",
+	 		"notes"	: "alsdfjlasfjlkasdfjldksfjlsdafjlsdafjldaskfj",
+	 		otherFields:[
+	 			{
+	 				"field1":"value1",
+	 				"field2":"value2",
+	 				"field3":"value3",
+	 				"field4":"value4"
+	 			}
+	 		]
+	 	}
+	 ],
+	 "otherFields" : [
+	 	{
+	 		"label1"	: "label1",
+	 		"label2"	: "label2"
+	 	}
+	 ]
+}
+

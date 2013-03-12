@@ -1,0 +1,23 @@
+.addPanel{
+	margin-bottom:10px;
+}
+
+.addPanel .addHeader{
+	font-weight:bold;
+	margin-bottom:8px;
+}
+
+.addPanel .addPanelContent{
+	padding-bottom: 8px !important;
+}
+
+.dj_ie6 .addPanel .addPanelContent,
+.dj_ie7 .addPanel .addPanelContent{
+	padding:0px;
+}
+
+.addPanel .newMessageRuler{
+	margin-left:1px;
+	margin-top:10px;
+	width:217px;
+}

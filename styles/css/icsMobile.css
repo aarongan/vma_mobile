@@ -1,0 +1,875 @@
+.pl .gb {
+  	background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 100%;	
+    min-width: 40%;
+}
+.mobile body #icsMobile-main{
+	font-family: Sans-serif;
+}
+.textCutOff {	
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+#icsMobile-loadingContainer{
+	background-color: #E9E9E9;
+	/*opacity: 0.75;
+	filter: alpha(opacity=80);*/
+	width: 100%;
+	height: 100%;
+}
+#icsMobile-mainContainer .landingView .mblScrollableViewContainer{
+	height: 100%;
+	top: 44px !important;
+}
+#icsMobile-mainContainer .landingView {
+	position: relative;
+}
+
+#icsMobile-mainContainer .landingView .mblHeading{
+ 	background-color: #EFEFEF;
+}
+
+#icsMobile-mainContainer .landingView .messagesView{
+
+}
+
+#icsMobile-mainContainer #mediaSlideView,
+#icsMobile-mainContainer #mediaListView{
+   background-color: #000000;
+}
+
+#icsMobile-mainContainer .messageLists{
+   border-right: 1px solid grey;
+   width: 280px;
+}
+#icsMobile-mainContainer .messageDetails{	
+   box-shadow: -5px 0px 5px #BABABA;
+}
+
+#icsMobile-mainContainer .messageLists .mblHeading,
+#icsMobile-mainContainer .messageDetails .mblHeading {
+	background-image: none;
+}
+
+.messageLists .mblHeading{
+   background-color: #EFEFEF;
+   height: 60px;
+   line-height: 65px;
+   text-align: left;
+}
+.messageDetails .mblHeading{
+	background-color: #FFFFFF;
+	height: 60px;
+    line-height: 65px;
+}
+.messageLists .mblHeading .label{
+	font-size: 18px;
+   	color: #333333;
+  	text-shadow: 1px 1px #d4d4d4;
+}
+
+.messageLists .mblHeading .label{
+   display: inline-block;
+   width: 160px;
+}
+
+.messageDetails .mblHeading .label{
+   display: inline-block;
+   width: 50%;
+}
+
+.messageLists .mblButton, .messageDetails .mblButton{
+	display: inline-block;
+   	margin: 0 0 0 10px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: #A9A9A9 0px 1px 3px;
+	border: none;
+	height: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 35px;
+	color: #696969;
+	background-image: none;
+	background: -webkit-gradient(linear, 0% 40%, 0% 100%, from(#FFFFFF), to(#EEEEEE));
+}
+
+.messageDetails .mblHeading .mblButton{
+   display: inline-block;
+   /*margin: 0 0 0 20%;*/
+}
+
+.messageLists.mblHeading .mblArrowButton,
+.messageDetails.mblHeading .mblArrowButton{
+   float: right;
+}
+.messageDetails .mblScrollableView{
+	background-color: white;
+}
+.messageLists .mblListItem img, .messageLists .mblListItem .textArea{
+	float: left;
+}
+.messageDetails .mblListItem img.Sent, .messageDetails .mblListItem img.Received{
+	width: 10%;
+	vertical-align: top;
+}
+.messageDetails .mblRoundRect{
+	background-color: #EFEFEF;
+	border: none;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: #A1A1A1 0px 1px 3px;
+}
+.messageDetailsItem .date{
+	font-size: 12px;
+	color: #777788;
+}
+.messageDetailsItem .text,  .messageDetailsItem .message .mblRoundRect{
+	font-size: 14px;
+}
+.messageDetailsItem .message .action .linkSpan{
+	display: inline-block;
+	float: left;
+}
+.messageDetailsItem .message .action .text{
+	clear: both;
+	padding-top: 10px;
+}
+.messageDetailsItem .message .slide{
+	padding: 7px;
+}
+#icsMobile-mainContainer .mblListItem .mblListItemAnchor{
+	padding: 10px 10px 10px 5px;
+}
+#icsMobile-mainContainer .mblListItem .mblListItemRightIcon{
+	display: none;
+}
+#icsMobile-mainContainer .mblListItem.messageListsItem {
+	background-color: #E0E0E0;
+	margin-bottom: 1px;
+	height: 95px;
+}
+#icsMobile-mainContainer .mblListItem.messageListsItem.selected {
+	background-color: #FFFFFF;
+}
+
+#icsMobile-mainContainer .mblListItem.messageListsItem.loading {
+	background: url("../images/ics/common/attachProcessing_20x20.gif") no-repeat scroll 80px center transparent;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	height: 50px;
+}
+#icsMobile-mainContainer .mblListItem.messageDetailsItem.loading {
+	background: url("../images/ics/common/attachProcessing_20x20.gif") no-repeat scroll 25% center transparent;
+	text-align: center;
+	height: 50px;
+}
+#icsMobile-mainContainer .mblListItem.messageListsItem:hover {
+	cursor: pointer;
+}
+
+#icsMobile-mainContainer .mblListItem.messageDetailsItem {
+	height: auto;
+	border-bottom: none;
+	margin: 0 0 0 2%;
+}
+
+#icsMobile-mainContainer .mblListItem.messageListsItem .textArea *,
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea *{
+	line-height: 20px;
+}
+/*#icsMobile-mainContainer .mblListItem.messageListItem.read {
+	background-color: #CCCCCC;
+}*/
+
+#icsMobile-mainContainer .mblListItem.messageListsItem .textArea{
+	display: inline-block;
+	width: 165px;
+	padding: 0 0 0 15px;
+	height: 100%; 
+}
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea.Sent{
+	display: inline-block;
+	padding: 0 15px 0 0;
+	width: 84%;
+	height: 100%;
+}
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea.Received{
+	display: inline-block;
+	padding: 0 0 0 15px;
+	width: 84%;
+	height: 100%;
+}
+
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea .message{
+	font-weight: normal;
+}
+
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea .message .mblIconItem img{ 
+	display: inline-block;
+    float: left;
+    height: 120px;
+	cursor: pointer;
+}
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea .message .dijitTooltipContainer{
+	background: none repeat scroll 0 0 #ECECEC;
+	border: medium none;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#icsMobile-mainContainer .mblListItem.messageDetailsItem .textArea .message .action{
+	height: 95%;
+	width: 95%;
+}
+
+#icsMobile-mainContainer .mblListItem.messageListsItem .textArea .date{
+	text-align: right;
+    font-weight: bold;
+	font-size: 12px;
+	color: #444444;
+	line-height: 12px;
+}
+
+#icsMobile-mainContainer .mblListItem.messageListsItem .textArea .threadLength{
+	display: inline-block;
+	color: #FFFFFF;
+	background-color: #990000;
+	border-radius: 20px;
+	padding: 0 8px;
+	margin: 6px 4px 1px 0;
+}
+
+#icsMobile-mainContainer .mblListItem.messageListsItem .textArea .name{
+	display: inline-block;
+	font-size: 14px;
+}
+
+#icsMobile-mainContainer .mblListItem.messageListsItem .textArea .subject{
+	font-weight: bold;
+	font-size: 12px;
+	color: #838383;
+	height: 42px;
+	word-wrap: true;
+	white-space: normal;
+}
+
+#mediaSlideView .mblSwapView .imageDiv,
+#mediaSlideView .mblSwapView .videoDiv,
+#mediaSlideView .mblSwapView .audioDiv{
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+}
+
+#mediaSlideView .mblHeading, 
+#mediaSlideView .mblSwapView .imageDiv .header,
+#mediaSlideView .mblSwapView .videoDiv .header,
+#mediaSlideView .mblSwapView .audioDiv .header{
+	position: absolute;
+	background-color: #000000;
+	opacity: 0.6;
+	width: 100%;
+}
+
+#mediaListView .mblHeading {
+	background-color: #000000;
+	width: 100%;
+	color: #FFFFFF;
+}
+#mediaListView .header {
+	background: none repeat scroll 0 0 lightBlue;
+    color: #000000;
+    font-weight: bold;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mediaListView .image, 
+#mediaListView .music,
+#mediaListView .video{
+	display: inline-block;
+    height: 10%;
+    width: 10%;
+}
+
+#mediaListView .image img, 
+#mediaListView .music img,
+#mediaListView .video img{
+	width: 100%;
+	height: 100%;
+}
+#mediaListViewContainer {
+	background-color: #000000;
+}
+#mediaListViewContainer .mblListItem {
+	cursor: pointer;
+	border: none;
+	padding: 5px;
+}
+#mediaSlideView .mblSwapView .header .top {
+	border-bottom: 1px solid #FFFFFF;
+	line-height: 200%;
+}
+
+#mediaSlideView .mblSwapView .header .bottom {
+	line-height: 200%;
+}
+
+#mediaSlideView .mblSwapView .top > div{
+	color: #FFFFFF;
+	font-weight: bold;
+    width: 33%;
+	display: inline-block;
+}
+
+#mediaSlideView .mblSwapView .bottom > div{
+	color: #FFFFFF;
+	font-size: 80%;
+	display: inline-block;
+}
+
+#mediaSlideView .mblSwapView .videoDiv video,
+#mediaSlideView .mblSwapView .audioDiv audio{
+	width: 85%;
+	height: 80%;
+}
+
+#mediaSlideView .mblSwapView div img{
+	width: auto;
+	height: 80%;
+}
+
+.inbox #icsMobile-mainContainer{
+	background-color: #FFFFCC;
+}
+.composer.email #icsMobile-mainContainer, .composer.email table.composeTbl{
+	background-color: #E5F5FA;
+}
+.composer.sms #icsMobile-mainContainer, .composer.sms table.composeTbl{
+	background-color: #F7F7D9;
+}
+.composer.mms #icsMobile-mainContainer, .composer.mms table.composeTbl{
+	background-color: #FFF0D9;
+}
+.mainContainerWrapper{
+	padding: 2px 6px 6px 6px;
+}
+.composerBody .pLbl{
+	margin: 0 10px 0 10px;
+}
+.composerBody .rightArrow{
+	color: red;
+	margin: 0 5px 0 5px;
+}
+.composerBody .spkNTxt{
+	margin-left:10px;
+}
+.dj_ie .composerBody .spkNTxt{
+	margin-bottom: 6px;
+}
+.composerBody .smsTxt{
+	margin-left:10px;
+}
+.dj_ie .composerBody .rightArrow{
+	margin-bottom:7px;
+}
+table.fTbl{
+	width:100%;
+}
+.composerBody .va_middle{
+	vertical-align: middle;
+}
+.composerBody .va_bottom{
+	vertical-align: bottom;
+}
+.composerBody .rb{
+	margin-left: 10px;
+}
+.icsMobile-inbox-composer .composer_msg{
+	color: red;
+	height: 15px;
+	font-weight: bold;
+}
+.icsMobile-inbox-composer .composer_msg .infoMsg {
+	color: #0066CC;
+}
+.xhrLoading .composer_msg .processIcon{
+ 	background-image: url("../images/ics/common/statusInfoLoading.gif");
+    height: 16px;
+    width: 32px;
+    margin-left:13px;
+}
+.w1{
+	width: 1%;
+}
+.w10{
+	width:10%;
+}
+.w15{
+	width: 15%;
+}
+.w19{
+	width: 19%;
+}
+.w20{
+	width: 20%;
+}
+.w25{
+	width: 25%;
+}
+.w40{
+	width: 40%;
+}
+.w60{
+	width: 60%;
+}
+.w70{
+	width: 70%;
+}
+.w100{
+	width: 100%;
+}
+td.w30{
+	width: 30%;
+}
+.w99{
+	width: 99%;
+}
+.w90{
+	width: 90%;
+}
+.w80{
+	width: 80%;
+}
+.attach{
+	background: url("../images/ics/InboxSprites.png") no-repeat scroll -235px -123px transparent;
+    height: 17px;
+    width: 7px;
+}
+#ICSCurtain {
+	width: 250px;
+	height: 100px;  
+	background-color: #FFFFFF;
+	/*background:#fff url('../images/ics/common/processing_big.gif') no-repeat center center;
+    opacity: 0.75;
+    filter: alpha(opacity=80);*/
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 2px dotted #C0C0C0;
+	border-radius: 10px;
+	text-align: center;
+}
+#ICSCurtain div{
+	display: inline-block;
+}
+#ICSCurtain img{
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-left: 25px;
+}
+#ICSCurtain div.label{
+	font-weight: bold;
+	line-height: 100px;
+	float: left;
+}
+
+#ICSCurtain .curtainInfo{
+	position:absolute;
+	font-size:16px;
+	font-weight:bold;
+	color:#696969;
+	left:470px;
+	top:155px;
+}
+#icsMobile-top {
+	background: transparent;
+	border: 0;
+	margin:10px 0;
+	margin-left: 5px;
+}
+#icsMobile-inbox-tabs-tabBody .folderNav, #icsMobile-inbox-listInfo-pagination,
+#icsMobile-inbox-actions, .viewerTop, .composerTop{
+	background-color: #FFFFFF;
+}
+
+#icsMobile-topTabs{
+	margin-bottom: -2px;
+}
+table.topTabsTbl{
+	width:60%;
+}
+#icsMobile-topTabs #inbox-module{
+	background:url(../images/ics/InboxSprites.png) transparent no-repeat -19px -13px;	
+	width: 29px;
+	height: 24px;
+	margin: 10px 0 0 0px;
+	opacity: 0.4;
+    filter: alpha(opacity=50);
+}
+.inbox #icsMobile-topTabs #inbox-module{
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+.top .newMessageIcon{
+    background: url(../images/ics/InboxSprites.png) no-repeat scroll 0 0;
+	height:35px;
+	width:35px;
+	opacity: 0.4;
+    filter: alpha(opacity=50);
+}
+.composer.email .top .newMessageIcon.email, .composer.sms .top .newMessageIcon.sms, .composer.mms .top .newMessageIcon.mms{
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+.newMessageIcon.email{
+	background-position: -450px -271px;
+}
+.newMessageIcon.sms{
+	background-position: -505px -271px;
+}
+.newMessageIcon.mms{
+ 	background-position: -560px -271px;
+}
+#icsMobile-topTabs .inboxTabLbl{
+	margin: 20px 0 0 0px;
+	font-weight:bold;
+	text-decoration: underline;
+	color: #0066CC;
+	cursor: pointer;
+}
+.inbox #icsMobile-topTabs .inboxTabLbl{
+	text-decoration: none;
+	cursor: default;
+}
+.inbox #icsMobile-topTabs .inboxTabLbl, .composer .composerLbl{
+	color: red;
+}
+.inbox td.ibxTd{
+	border: 1px solid #ECECEC;
+	border-bottom: 0;
+	-moz-border-radius: 5px 5px 0 0;
+}
+.composer table.composeTbl{
+	border: 1px solid #ECECEC;
+	border-bottom: 0;
+	-moz-border-radius: 5px 5px 0 0;
+}
+.inbox td.ibxTd{
+	background-color: #FFFFCC;
+}
+#icsMobile-inbox-tabs{
+	padding-top:10px;
+}
+#list-view {
+	border-color: #777788 #777788 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+	border-bottom: 1px solid;
+	border-top: 1px dotted #CCCCCC !important;
+}
+#viewer-view, #composer-view{
+   	border-bottom: 1px solid;
+    border-left: 1px solid #777788;
+    border-right: 1px solid #777788;
+    border-top: 1px dotted #CCCCCC !important;
+}
+#icsMobile-tagsContainer{
+	position: relative;
+	width:40px;
+}
+#icsMobile-tagsContainer .containerBody {
+	position: absolute;
+	top:111px;
+	left: 8px;
+}
+#icsMobile-tagsContainer .tags{
+	border: 1px solid red;
+}
+.tabsUl{
+	margin:0;
+	padding:0;
+}
+.tabsBody{
+	padding-left: 0px;
+}
+.tabsBody div.folderNav{
+	border-color: #777788 #777788 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    margin-top:-2px;
+    padding-bottom: 5px;
+}
+.tabsBody span.folderName,
+.tabsBody span.folderDivider {
+	margin-left: 5px;
+	margin-top: 7px;
+}
+.spanLink {
+	color: #0066CC;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.spanLink.active {
+	text-decoration: none;
+	color: #000000;
+}
+.spanLink.disabled {
+	cursor: default;
+}
+.dj_ie .spanLink.disabled {
+	font-weight:normal;
+}
+.tabsUl li{
+	list-style: none outside none;
+}
+.tabsUl li span{
+ 	background: none repeat scroll 0 0 #ECECEC;
+    border-color: #777788 #777788 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    padding: 8px 2em;
+    cursor: pointer;
+}
+
+.tabsUl li span.tabActive{
+   	background-color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    -moz-border-radius: 5px 5px 0px 0px;
+    padding-top:12px;
+    font-weight:bold;
+    cursor: default;
+	border-top: 1px solid;
+}
+.none-select {
+	-moz-user-select: none;
+	-webkit-user-select:none;
+}
+.listView-actions {
+	border-color: #777788 #777788 -moz-use-text-color;
+	border-bottom: 1px dotted;
+}
+.listView-actions .listViewerWrapper {
+	padding: 8px 0px 8px 5px;
+}
+.dj_ie .listView-actions .listViewerWrapper {
+	padding: 6px 0px 8px 1px;	
+}
+.listView-actions .spanLink {
+	margin: 0px 0px 0px 11px;
+}
+.dj_ie .listView-actions .checkAll {
+	margin-left: 3px;
+}
+.check_box {
+	background: url("../images/ics/InboxSprites.png") no-repeat scroll -612px -21px transparent;
+    height: 15px;
+    width: 15px;
+}
+.check_box.checked {
+	background-position: -629px -21px;
+}
+.listView-pagination .paginationWrapper{
+	padding: 8px 0px 8px 5px;
+}
+.listView-pagination .spanLink {
+	margin: 0px 0px 0px 5px;
+}
+.listView-pagination .pageInfo{
+	margin-left: 5px;
+}
+.listView-pagination .statusInfo {
+}
+.xhrLoading .listView-pagination .statusInfo, .xhrLoading .listView-pagination .pagination{
+	display:none;
+}
+.xhrLoading .listView-pagination .processIcon{
+ 	background-image: url("../images/ics/common/statusInfoLoading.gif");
+    height: 16px;
+    width: 32px;
+}
+.dj_ie .listView-pagination .loading .processIcon{
+    height: 15px;
+}
+.listView-pagination .spanLink.active{
+	cursor: default;
+}
+.listView-list .listWrapper {
+}
+.listView-list .check_box {
+	left: 5px;
+    position: absolute;
+    top: 12px;
+    z-index: 1000;
+}
+.listView-list .dateRow {
+	border-color: #D9D9D9;
+    border-style: none solid solid none;
+    border-width: 1px;
+    height: 15px;
+    background: none repeat scroll 0 0 #999999;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.listView-list .imgWrapper {
+	margin-top:7px;
+	margin: 7px 20px 0 0;
+}
+.listView-list img {
+	height: 26px;
+	width: 26px;
+}
+.listView-list img.threadIconFrame {
+	background: url("../images/ics/InboxSprites.png") no-repeat scroll -106px -232px transparent;
+    padding: 0 4px 4px 0;
+    height: 23px;
+    width: 23px;
+}
+.msgRow{
+	border-color: #D9D9D9;
+    border-style: none solid solid none;
+    border-width: 1px;
+    position: relative;
+}
+.msgRow.unread .bodyText td{
+	font-weight:bold;
+}
+.bodyText .emptyCell{
+	width:17px;
+}
+.msgRow .star{
+ 	left: 26px;
+    position: absolute;
+    top: 13px;
+}
+.msgRow.starred .star {
+ 	background: url("../images/ics/InboxSprites.png") no-repeat scroll -220px -126px transparent;
+    height: 13px;
+    width: 13px;
+}
+.msgRow .draftsInfo {
+	color: red;
+}
+.msgRow .bodyText {
+	margin: 0 0 0 55px;
+	height: 30px;
+	padding: 0 0 7px 0;
+	line-height: 16px;
+}
+.bodyText .attach{
+	margin-top:8px;
+}
+.msgRow.t1 .gutter {
+	background-color: #E5F5FA;
+}
+.msgRow.t2 .gutter {
+	background-color: #F7F7D9;
+}
+.msgRow.t3 .gutter {
+	background-color: #FFF0D9;
+}
+.msgRow .body {
+	background: none repeat scroll 0 0 #F0F0F0;
+    margin: 0 0 0 25px;
+    position: relative;
+    cursor:pointer;
+}
+.msgRow.unread .body{
+	background-color: #FFFFFF;
+}
+.msgRow .senderIcon {
+ 	left: 16px;
+    position: absolute;
+    top: 7px;
+}
+.msgRow .priorityIcon{
+	display:none;
+}
+.msgRow.high .priorityIcon {
+ 	background: url("../images/ics/inbox/msgListSprite.png") no-repeat scroll -157px -5px transparent;
+    height: 13px;
+    left: 40px;
+    position: absolute;
+    top: 13px;
+    width: 15px;
+    display:block;
+}
+.progress {
+  	background-image: url("../images/ics/common/statusInfoLoading.gif");
+    height: 20px;
+    width: 32px;
+}
+.viewerBack.spanLink, .composerBack.spanLink{
+	margin: 0 20px 0 10px;
+}
+.viewerBody .basicInfo .spanLink{
+	margin-right: 10px;
+}
+.viewerBody .basicInfo .viewerAttach a{
+	margin-left:10px;
+}
+.icsMobile-inbox-viewer .viewerWrapper, .icsMobile-inbox-composer .composerWrapper{
+	padding: 10px 0px 5px 15px;
+}
+.viewerBody .basicInfo {
+	border-top: 1px solid #ECECEC;
+	border-bottom: 1px solid #777788;
+}
+.viewerBody .headerInfo{
+	border-bottom: 1px solid #777788;
+}
+.viewerBody .headerInfo .draftTxt{
+	color: red;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.viewerBody .basicInfo.t1, .headerInfo.t1{
+	background-color: #E5F5FA;
+}
+.viewerBody .basicInfo.t2, .headerInfo.t2{
+	background-color: #F7F7D9;
+}
+.viewerBody .basicInfo.t3, .headerInfo.t3{
+	background-color: #FFF0D9;
+}
+.viewerBody .basicInfo.t2 .bodyWrapper{
+	padding: 10px;
+}
+.viewerBody .basicInfo.t3 .bodyWrapper{
+	padding: 10px;
+}
+.viewerTop, .composerTop{
+	border-bottom: 1px solid #777788;
+}
+.pl .viewerTop td, .pl .composerTop td{
+	vertical-align: middle;
+}
+a:focus{
+	outline: dotted thin;
+}
+.autoCompleteBody{
+	background-color: white;
+	border: 1px solid #777788;
+	text-align: left;
+    text-indent: 5px;
+	max-height: 200px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.autoCompleteBody .option{
+	cursor:pointer;
+}
+.autoCompleteBody .option.rowFocused{
+	background-color: #99EEDD;
+}

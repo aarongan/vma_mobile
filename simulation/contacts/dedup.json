@@ -1,0 +1,966 @@
+{
+	"statusCode": 0, 
+	"statusDesc": "Success", 
+	"count":2,
+	"items": [
+		{ 
+		"contactId": "1", 
+		"createdDate": "", 
+		"updatedDate": "", 
+		"firstName": "Mary", 
+		"lastName": "Smith", 
+		"photo": false, 
+		"prefModeOfComm": "", 
+		"company": "Verizon", 
+		"jobTitle": " Developer", 
+		"inNetworkFlag": false, 
+		"source": "", 
+		"buddyuserid": "", 
+		"connected": false, 
+		"version": "", 
+		"middleName": "", 
+		"nickName": "", 
+		"relationship": "", 
+		"gender": "", 
+		"orgUnit": "", 
+		"namePrefix": "", 
+		"nameSuffix": "", 
+		"anniversary": "", 
+		"spouse": "", 
+		"children": "", 
+		"note": "", 
+		"profession": "", 
+		"assistant": "", 
+		"maritalStatus": "", 
+		"timeZone": "", 
+		"birthday": "", 
+		"starred": false, 
+		"ice": false, 
+		"groups": [], 
+		"mobileGroups": [], 
+		"phones": [
+			{ 
+				"number": "2125551111", 
+				"index": 1, 
+				"phoneType": "mobile", 
+				"carrier": "", 
+				"preference": "0" 
+			},
+			{ 
+				"number": "2125551111", 
+				"index": 1, 
+				"phoneType": "home", 
+				"carrier": "", 
+				"preference": "1" 
+			}
+			], 
+		"emails": [
+				{
+                    "emailType": "personal",
+                    "address": "tom_1908@icspoc.vzwcorp.com",
+                    "preference": "0"
+                },
+                {
+                    "emailType": "personal",
+                    "address": "tom_1908@yahoo.com",
+                    "preference": "0"
+                }
+			], 
+		"ims": [
+				{
+					"imType" : "aim",
+					"address" :  "bb@aol.com"
+				},
+				{
+					"imType" : "yahoo",
+					"address" :  "aa@yahoo.com"
+				},
+				{
+					"imType" : "google",
+					"address" :  "bb@gmail.com"
+				}
+				
+			], 
+		"webPages": [
+				{
+			        "webPageType":"business",
+			        "index":"1",
+			        "url":"www.verizonwireless.com"
+		    	}
+			], 
+		"addresses": [
+				{
+			        "addressType":"business",
+			        "index":"1",
+			        "poBox":"",
+			        "street":"30 Independence Blvd",
+			        "apartment":"",
+			        "city":"Warren",
+			        "state":"NJ",
+			        "zipCode":"07059",
+			        "country":"",
+			        "preference":"2"
+			    }
+			], 
+		"endPointAssoc": [], 
+		"dupeitems": [ 
+			{ "contactId": "", 
+				"createdDate":"August 25, 2009", 
+				"updatedDate": "August 24, 2009", 
+				"firstName": "Mary", 
+				"lastName": "Smith", 
+				"photo": false, 
+				"prefModeOfComm": "", 
+				"company": "", 
+				"jobTitle": "", 
+				"inNetworkFlag": false, 
+				"source": "google", 
+				"buddyuserid": "", 
+				"connected": false, 
+				"version": "",
+				"middleName": "", 
+				"nickName": "", 
+				"relationship": "", 
+				"gender": "", 
+				"orgUnit": "", 
+				"namePrefix": "", 
+				"nameSuffix": "", 
+				"anniversary": "", 
+				"spouse": "", 
+				"children": "", 
+				"note": "", 
+				"profession": "", 
+				"assistant": "", 
+				"maritalStatus": "", 
+				"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+				"birthday": "mbpim", 
+				"incaseofemergency": false, 
+				"favorite": false, 
+				"endpointname": "MightyBackup Online PIM", 
+				"groups": [], 
+				"mobileGroups": [], 
+				"phones": [
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+					},
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "home", 
+						"carrier": "", 
+						"preference": "1" 
+					}
+					], 
+				"emails": [
+						{
+		                    "emailType": "personal",
+		                    "address": "tom_1908@icspoc.vzwcorp.com",
+		                    "preference": "0"
+		                },
+		                {
+		                    "emailType": "personal",
+		                    "address": "tom_1908@yahoo.com",
+		                    "preference": "0"
+		                }
+					], 
+				"ims": [
+						{
+							"imType" : "aim",
+							"address" :  "bb@aol.com"
+						},
+						{
+							"imType" : "yahoo",
+							"address" :  "aa@yahoo.com"
+						},
+						{
+							"imType" : "google",
+							"address" :  "bb@gmail.com"
+						}
+						
+					], 
+				"webPages": [
+						{
+					        "webPageType":"business",
+					        "index":"1",
+					        "url":"www.verizonwireless.com"
+				    	}
+					], 
+				"addresses": [
+						{
+					        "addressType":"business",
+					        "index":"1",
+					        "poBox":"",
+					        "street":"30 Independence Blvd",
+					        "apartment":"",
+					        "city":"Warren",
+					        "state":"NJ",
+					        "zipCode":"07059",
+					        "country":"",
+					        "preference":"2"
+					    }
+					]
+			}, 
+			{ 
+			"contactId": "",
+			"createdDate":"August 25, 2009", 
+			"updatedDate": "August 24, 2009", 
+			"firstName": "Mary", "lastName": "Smith", 
+			"photo": false, 
+			"prefModeOfComm": "", 
+			"company": "", 
+			"jobTitle": "", 
+			"inNetworkFlag": false, 
+			"source": "yahoo", 
+			"buddyuserid": "", 
+			"connected": false, 
+			"version": "", 
+			"middleName": "", 
+			"nickName": "", 
+			"relationship": "", 
+			"gender": "", 
+			"orgUnit": "", 
+			"namePrefix": "", 
+			"nameSuffix": "", 
+			"anniversary": "", 
+			"spouse": "", 
+			"children": "", 
+			"note": "", 
+			"profession": "", 
+			"assistant": "", 
+			"maritalStatus": "", 
+			"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+			"birthday": "mbpim", 
+			"incaseofemergency": false, 
+			"favorite": false, 
+			"endpointname": "MightyBackup Online PIM", 
+			"groups": [], 
+			"mobileGroups": [], 
+			"phones": [
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+					},
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "home", 
+						"carrier": "", 
+						"preference": "1" 
+					}
+					], 
+				"emails": [
+						{
+		                    "emailType": "personal",
+		                    "address": "tom_1908@icspoc.vzwcorp.com",
+		                    "preference": "0"
+		                },
+		                {
+		                    "emailType": "personal",
+		                    "address": "tom_1908@yahoo.com",
+		                    "preference": "0"
+		                }
+					], 
+				"ims": [
+						{
+							"imType" : "aim",
+							"address" :  "bb@aol.com"
+						},
+						{
+							"imType" : "yahoo",
+							"address" :  "aa@yahoo.com"
+						},
+						{
+							"imType" : "google",
+							"address" :  "bb@gmail.com"
+						}
+						
+					], 
+				"webPages": [
+						{
+					        "webPageType":"business",
+					        "index":"1",
+					        "url":"www.verizonwireless.com"
+				    	}
+					], 
+				"addresses": [
+						{
+					        "addressType":"business",
+					        "index":"1",
+					        "poBox":"",
+					        "street":"30 Independence Blvd",
+					        "apartment":"",
+					        "city":"Warren",
+					        "state":"NJ",
+					        "zipCode":"07059",
+					        "country":"",
+					        "preference":"2"
+					    }
+					]
+			},
+			{ 
+			"contactId": "",
+			"createdDate":"August 25, 2009", 
+			"updatedDate": "August 24, 2009", 
+			"firstName": "Mary", "lastName": "Smith", 
+			"photo": false, 
+			"prefModeOfComm": "", 
+			"company": "", 
+			"jobTitle": "", 
+			"inNetworkFlag": false, 
+			"source": "aol", 
+			"buddyuserid": "", 
+			"connected": false, 
+			"version": "", 
+			"middleName": "", 
+			"nickName": "", 
+			"relationship": "", 
+			"gender": "", 
+			"orgUnit": "", 
+			"namePrefix": "", 
+			"nameSuffix": "", 
+			"anniversary": "", 
+			"spouse": "", 
+			"children": "", 
+			"note": "", 
+			"profession": "", 
+			"assistant": "", 
+			"maritalStatus": "", 
+			"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+			"birthday": "mbpim", 
+			"incaseofemergency": false, 
+			"favorite": false, 
+			"endpointname": "MightyBackup Online PIM", 
+			"groups": [], 
+			"mobileGroups": [], 
+			"phones": [
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+					},
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "home", 
+						"carrier": "", 
+						"preference": "1" 
+					}
+					], 
+				"emails": [
+						{
+		                    "emailType": "personal",
+		                    "address": "tom_1908@icspoc.vzwcorp.com",
+		                    "preference": "0"
+		                },
+		                {
+		                    "emailType": "personal",
+		                    "address": "tom_1908@yahoo.com",
+		                    "preference": "0"
+		                }
+					], 
+				"ims": [
+						{
+							"imType" : "aim",
+							"address" :  "bb@aol.com"
+						},
+						{
+							"imType" : "yahoo",
+							"address" :  "aa@yahoo.com"
+						},
+						{
+							"imType" : "google",
+							"address" :  "bb@gmail.com"
+						}
+						
+					], 
+				"webPages": [
+						{
+					        "webPageType":"business",
+					        "index":"1",
+					        "url":"www.verizonwireless.com"
+				    	}
+					], 
+				"addresses": [
+						{
+					        "addressType":"business",
+					        "index":"1",
+					        "poBox":"",
+					        "street":"30 Independence Blvd",
+					        "apartment":"",
+					        "city":"Warren",
+					        "state":"NJ",
+					        "zipCode":"07059",
+					        "country":"",
+					        "preference":"2"
+					    }
+					]
+			}
+			]
+			
+		},
+		{ 
+		"contactId": "2", 
+		"createdDate": "", 
+		"updatedDate": "", 
+		"firstName": "Mary 2", 
+		"lastName": "Smith 2", 
+		"photo": false, 
+		"prefModeOfComm": "", 
+		"company": "", 
+		"jobTitle": "", 
+		"inNetworkFlag": false, 
+		"source": "", 
+		"buddyuserid": "", 
+		"connected": false, 
+		"version": "", 
+		"middleName": "", 
+		"nickName": "", 
+		"relationship": "", 
+		"gender": "", 
+		"orgUnit": "", 
+		"namePrefix": "", 
+		"nameSuffix": "", 
+		"anniversary": "", 
+		"spouse": "", 
+		"children": "", 
+		"note": "", 
+		"profession": "", 
+		"assistant": "", 
+		"maritalStatus": "", 
+		"timeZone": "", 
+		"birthday": "", 
+		"starred": false, 
+		"ice": false, 
+		"groups": [], 
+		"mobileGroups": [], 
+		"phones": [
+			{ 
+				"number": "2125551111", 
+				"index": 1, 
+				"phoneType": "mobile", 
+				"carrier": "", 
+				"preference": "0" 
+			}
+			], 
+		"emails": [], 
+		"ims": [], 
+		"webPages": [], 
+		"addresses": [], 
+		"endPointAssoc": [], 
+		"dupeitems": [ 
+			{ "contactId": "", 
+				"createdDate":"August 25, 2009", 
+				"updatedDate": "August 24, 2009", 
+				"firstName": "Mary 2", 
+				"lastName": "Smith 2", 
+				"photo": false, 
+				"prefModeOfComm": "", 
+				"company": "", 
+				"jobTitle": "", 
+				"inNetworkFlag": false, 
+				"source": "google", 
+				"buddyuserid": "", 
+				"connected": false, 
+				"version": "",
+				"middleName": "", 
+				"nickName": "", 
+				"relationship": "", 
+				"gender": "", 
+				"orgUnit": "", 
+				"namePrefix": "", 
+				"nameSuffix": "", 
+				"anniversary": "", 
+				"spouse": "", 
+				"children": "", 
+				"note": "", 
+				"profession": "", 
+				"assistant": "", 
+				"maritalStatus": "", 
+				"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+				"birthday": "mbpim", 
+				"incaseofemergency": false, 
+				"favorite": false, 
+				"endpointname": "MightyBackup Online PIM", 
+				"groups": [], 
+				"mobileGroups": [], 
+				"phones": [
+					{ "number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+						}
+					], 
+				"emails": [], 
+				"ims": [], 
+				"webPages": [], 
+				"addresses": [] 
+			}, 
+			{ 
+			"contactId": "",
+			"createdDate":"August 25, 2009", 
+			"updatedDate": "August 24, 2009", 
+			"firstName": "Mary 2", 
+			"lastName": "Smith2", 
+			"photo": false, 
+			"prefModeOfComm": "", 
+			"company": "", 
+			"jobTitle": "", 
+			"inNetworkFlag": false, 
+			"source": "aol", 
+			"buddyuserid": "", 
+			"connected": false, 
+			"version": "", 
+			"middleName": "", 
+			"nickName": "", 
+			"relationship": "", 
+			"gender": "", 
+			"orgUnit": "", 
+			"namePrefix": "", 
+			"nameSuffix": "", 
+			"anniversary": "", 
+			"spouse": "", 
+			"children": "", 
+			"note": "", 
+			"profession": "", 
+			"assistant": "", 
+			"maritalStatus": "", 
+			"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+			"birthday": "mbpim", 
+			"incaseofemergency": false, 
+			"favorite": false, 
+			"endpointname": "MightyBackup Online PIM", 
+			"groups": [], 
+			"mobileGroups": [], 
+			"phones": [
+				{ "number": "2125551111", 
+					"index": 1, 
+					"phoneType": "mobile", 
+					"carrier": "", 
+					"preference": "0" 
+				}
+				], 
+			"emails": [], 
+			"ims": [], 
+			"webPages": [], 
+			"addresses": [] 
+			}]
+			
+		},
+		{ 
+		"contactId": "3", 
+		"createdDate": "", 
+		"updatedDate": "", 
+		"firstName": "Mary 3", 
+		"lastName": "Smith 3", 
+		"photo": false, 
+		"prefModeOfComm": "", 
+		"company": "Verizon", 
+		"jobTitle": " Developer", 
+		"inNetworkFlag": false, 
+		"source": "", 
+		"buddyuserid": "", 
+		"connected": false, 
+		"version": "", 
+		"middleName": "", 
+		"nickName": "", 
+		"relationship": "", 
+		"gender": "", 
+		"orgUnit": "", 
+		"namePrefix": "", 
+		"nameSuffix": "", 
+		"anniversary": "", 
+		"spouse": "", 
+		"children": "", 
+		"note": "", 
+		"profession": "", 
+		"assistant": "", 
+		"maritalStatus": "", 
+		"timeZone": "", 
+		"birthday": "", 
+		"starred": false, 
+		"ice": false, 
+		"groups": [], 
+		"mobileGroups": [], 
+		"phones": [
+			{ 
+				"number": "2125551111", 
+				"index": 1, 
+				"phoneType": "mobile", 
+				"carrier": "", 
+				"preference": "0" 
+			},
+			{ 
+				"number": "2125551111", 
+				"index": 1, 
+				"phoneType": "home", 
+				"carrier": "", 
+				"preference": "1" 
+			}
+			], 
+		"emails": [
+				{
+                    "emailType": "personal",
+                    "address": "tom_1908@icspoc.vzwcorp.com",
+                    "preference": "0"
+                },
+                {
+                    "emailType": "personal",
+                    "address": "tom_1908@yahoo.com",
+                    "preference": "0"
+                }
+			], 
+		"ims": [
+				{
+					"imType" : "aim",
+					"address" :  "bb@aol.com"
+				},
+				{
+					"imType" : "yahoo",
+					"address" :  "aa@yahoo.com"
+				},
+				{
+					"imType" : "google",
+					"address" :  "bb@gmail.com"
+				}
+				
+			], 
+		"webPages": [
+				{
+			        "webPageType":"business",
+			        "index":"1",
+			        "url":"www.verizonwireless.com"
+		    	}
+			], 
+		"addresses": [
+				{
+			        "addressType":"business",
+			        "index":"1",
+			        "poBox":"",
+			        "street":"30 Independence Blvd",
+			        "apartment":"",
+			        "city":"Warren",
+			        "state":"NJ",
+			        "zipCode":"07059",
+			        "country":"",
+			        "preference":"2"
+			    }
+			], 
+		"endPointAssoc": [], 
+		"dupeitems": [ 
+			{ "contactId": "", 
+				"createdDate":"August 25, 2009", 
+				"updatedDate": "August 24, 2009", 
+				"firstName": "Mary3", 
+				"lastName": "Smith3", 
+				"photo": false, 
+				"prefModeOfComm": "", 
+				"company": "", 
+				"jobTitle": "", 
+				"inNetworkFlag": false, 
+				"source": "aol", 
+				"buddyuserid": "", 
+				"connected": false, 
+				"version": "",
+				"middleName": "", 
+				"nickName": "", 
+				"relationship": "", 
+				"gender": "", 
+				"orgUnit": "", 
+				"namePrefix": "", 
+				"nameSuffix": "", 
+				"anniversary": "", 
+				"spouse": "", 
+				"children": "", 
+				"note": "", 
+				"profession": "", 
+				"assistant": "", 
+				"maritalStatus": "", 
+				"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+				"birthday": "mbpim", 
+				"incaseofemergency": false, 
+				"favorite": false, 
+				"endpointname": "MightyBackup Online PIM", 
+				"groups": [], 
+				"mobileGroups": [], 
+				"phones": [
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+					},
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "home", 
+						"carrier": "", 
+						"preference": "1" 
+					}
+					], 
+				"emails": [
+						{
+		                    "emailType": "personal",
+		                    "address": "tom_1908@icspoc.vzwcorp.com",
+		                    "preference": "0"
+		                },
+		                {
+		                    "emailType": "personal",
+		                    "address": "tom_1908@yahoo.com",
+		                    "preference": "0"
+		                }
+					], 
+				"ims": [
+						{
+							"imType" : "aim",
+							"address" :  "bb@aol.com"
+						},
+						{
+							"imType" : "yahoo",
+							"address" :  "aa@yahoo.com"
+						},
+						{
+							"imType" : "google",
+							"address" :  "bb@gmail.com"
+						}
+						
+					], 
+				"webPages": [
+						{
+					        "webPageType":"business",
+					        "index":"1",
+					        "url":"www.verizonwireless.com"
+				    	}
+					], 
+				"addresses": [
+						{
+					        "addressType":"business",
+					        "index":"1",
+					        "poBox":"",
+					        "street":"30 Independence Blvd",
+					        "apartment":"",
+					        "city":"Warren",
+					        "state":"NJ",
+					        "zipCode":"07059",
+					        "country":"",
+					        "preference":"2"
+					    }
+					]
+			}, 
+			{ 
+			"contactId": "",
+			"createdDate":"August 25, 2009", 
+			"updatedDate": "August 24, 2009", 
+			"firstName": "Mary3", 
+			"lastName": "Smith3", 
+			"photo": false, 
+			"prefModeOfComm": "", 
+			"company": "", 
+			"jobTitle": "", 
+			"inNetworkFlag": false, 
+			"source": "yahoo", 
+			"buddyuserid": "", 
+			"connected": false, 
+			"version": "", 
+			"middleName": "", 
+			"nickName": "", 
+			"relationship": "", 
+			"gender": "", 
+			"orgUnit": "", 
+			"namePrefix": "", 
+			"nameSuffix": "", 
+			"anniversary": "", 
+			"spouse": "", 
+			"children": "", 
+			"note": "", 
+			"profession": "", 
+			"assistant": "", 
+			"maritalStatus": "", 
+			"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+			"birthday": "mbpim", 
+			"incaseofemergency": false, 
+			"favorite": false, 
+			"endpointname": "MightyBackup Online PIM", 
+			"groups": [], 
+			"mobileGroups": [], 
+			"phones": [
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+					},
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "home", 
+						"carrier": "", 
+						"preference": "1" 
+					}
+					], 
+				"emails": [
+						{
+		                    "emailType": "personal",
+		                    "address": "tom_1908@icspoc.vzwcorp.com",
+		                    "preference": "0"
+		                },
+		                {
+		                    "emailType": "personal",
+		                    "address": "tom_1908@yahoo.com",
+		                    "preference": "0"
+		                }
+					], 
+				"ims": [
+						{
+							"imType" : "aim",
+							"address" :  "bb@aol.com"
+						},
+						{
+							"imType" : "yahoo",
+							"address" :  "aa@yahoo.com"
+						},
+						{
+							"imType" : "google",
+							"address" :  "bb@gmail.com"
+						}
+						
+					], 
+				"webPages": [
+						{
+					        "webPageType":"business",
+					        "index":"1",
+					        "url":"www.verizonwireless.com"
+				    	}
+					], 
+				"addresses": [
+						{
+					        "addressType":"business",
+					        "index":"1",
+					        "poBox":"",
+					        "street":"30 Independence Blvd",
+					        "apartment":"",
+					        "city":"Warren",
+					        "state":"NJ",
+					        "zipCode":"07059",
+					        "country":"",
+					        "preference":"2"
+					    }
+					]
+			},
+			{ 
+			"contactId": "",
+			"createdDate":"August 25, 2009", 
+			"updatedDate": "August 24, 2009", 
+			"firstName": "Mary3",
+			"lastName": "Smith3", 
+			"photo": false, 
+			"prefModeOfComm": "", 
+			"company": "", 
+			"jobTitle": "", 
+			"inNetworkFlag": false, 
+			"source": "google", 
+			"buddyuserid": "", 
+			"connected": false, 
+			"version": "", 
+			"middleName": "", 
+			"nickName": "", 
+			"relationship": "", 
+			"gender": "", 
+			"orgUnit": "", 
+			"namePrefix": "", 
+			"nameSuffix": "", 
+			"anniversary": "", 
+			"spouse": "", 
+			"children": "", 
+			"note": "", 
+			"profession": "", 
+			"assistant": "", 
+			"maritalStatus": "", 
+			"timeZone": "8326c64f01231000801a8dd353fa3bf6", 
+			"birthday": "mbpim", 
+			"incaseofemergency": false, 
+			"favorite": false, 
+			"endpointname": "MightyBackup Online PIM", 
+			"groups": [], 
+			"mobileGroups": [], 
+			"phones": [
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "mobile", 
+						"carrier": "", 
+						"preference": "0" 
+					},
+					{ 
+						"number": "2125551111", 
+						"index": 1, 
+						"phoneType": "home", 
+						"carrier": "", 
+						"preference": "1" 
+					}
+					], 
+				"emails": [
+						{
+		                    "emailType": "personal",
+		                    "address": "tom_1908@icspoc.vzwcorp.com",
+		                    "preference": "0"
+		                },
+		                {
+		                    "emailType": "personal",
+		                    "address": "tom_1908@yahoo.com",
+		                    "preference": "0"
+		                }
+					], 
+				"ims": [
+						{
+							"imType" : "aim",
+							"address" :  "bb@aol.com"
+						},
+						{
+							"imType" : "yahoo",
+							"address" :  "aa@yahoo.com"
+						},
+						{
+							"imType" : "google",
+							"address" :  "bb@gmail.com"
+						}
+						
+					], 
+				"webPages": [
+						{
+					        "webPageType":"business",
+					        "index":"1",
+					        "url":"www.verizonwireless.com"
+				    	}
+					], 
+				"addresses": [
+						{
+					        "addressType":"business",
+					        "index":"1",
+					        "poBox":"",
+					        "street":"30 Independence Blvd",
+					        "apartment":"",
+					        "city":"Warren",
+					        "state":"NJ",
+					        "zipCode":"07059",
+					        "country":"",
+					        "preference":"2"
+					    }
+					]
+			}
+			]
+			
+		}
+		] 
+} 

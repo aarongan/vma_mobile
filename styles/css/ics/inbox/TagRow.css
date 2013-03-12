@@ -1,0 +1,190 @@
+._basePanel .tagRow{
+	padding:5px 0 5px 10px;
+	-moz-user-select: none;
+	-webkit-user-select:none;
+}
+._basePanel.editing .tagRow{
+	-moz-user-select: text;
+	-webkit-user-select:text;
+}
+.tagRow .starred .starIcon {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat -220px -126px;
+}
+
+.tagRow .starTagIcon{
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat -220px -127px;
+	width: 14px;
+	height: 13px;
+	margin: 0 0 0 5px;
+}
+.tagRow .tagContent{
+	margin-left: 5px;
+	width: 140px;
+}
+.tagRow .starTag.tagContent{
+	margin: 0 0 0 8px;
+}
+/*******
+.tagRow .starIcon {
+    width: 15px;
+    height: 13px;
+	position: absolute;
+	top: 6px;
+	left: 3px;
+}
+*******/
+.tagRow .body {
+    margin: 0 0 0 6px;
+}
+
+.tagRow .starred .body {
+    margin: 0 0 0 20px;
+}
+.tagRow {
+	position: relative;
+	zoom: 1;
+	background-color:#ffffff;
+}
+.tagRow.hovered{
+	background-color: #F6F6F6;
+	cursor:pointer;
+}
+.tagRow.editing{
+	background-color: #F6F6F6;
+}
+
+.tagRow .inputFieldDiv,
+.tagRow .tagNameDiv {
+    padding: 6px 0;
+}
+
+.tagRowHover {
+    /*background: #E0E0E0;*/
+    background: #F6F6F6;
+    cursor: pointer;
+}
+
+.tagRow .rename {
+    background: #EBEBEB;
+}
+
+.tagBodyWrapper div.buttonDiv,
+.tagBodyWrapper div.menuDiv {
+	position: absolute;
+	top: 1px;
+	right: 2px;
+}
+
+.tagBodyWrapper div.buttonDiv{
+	float:right;
+	margin: 4px 3px 0 0;
+	text-align:right;
+}
+
+.tagRow.selected, .tagRow.dojoDndItemOver {
+    background: #F6F6F6;
+}
+.tagRow .inboxDropDown{
+	position:absolute;
+	top:2px;
+	right:2px;
+}
+.dj_ie .tagRow .inboxDropDown{
+	position:absolute;
+	top: 3px;
+	right:2px;
+}
+
+.dj_ie.dj_ie7 .tagRow .inboxDropDown{
+	top: -1px;
+}
+
+.tagRow .tagActionLinks{
+	position: absolute;
+	top:5px;
+	right:5px;
+	background-color: #F6F6F6;
+	z-index:10;
+}
+.tagRow .tagActionLinks .divider{
+	margin: 0 3px 0 3px;
+}
+.tagRow.highlighted {
+    background: #f3f3f3;
+}
+
+.tagRowLinks{
+	margin-top:5px;
+	margin-right:5px;
+	background-color:#F6F6F6;
+}
+.tagRow .tag, .tags .tag {
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat scroll -259px -271px;
+	height:11px;
+}
+.colorBG {
+	width:19px;
+}
+/***************
+.color0 {
+	background-color:#C73B0B;
+}
+.color1 {
+	background-color:#5E0F8B;
+}
+.color2 {
+	background-color:#505050;
+}
+.color3 {
+	background-color:#350608;
+}
+.color4 {
+	background-color:#B00000;
+}
+.color5 {
+	background-color:#FF7260;
+}
+.color6 {
+	background-color:#D8DE1A;
+}
+.color7 {
+	background-color:#B4BA22;
+}
+.color8 {
+	background-color:#E200E2;
+}
+.color9 {
+	background-color:#C6C6C6;
+}
+.color10 {
+	background-color:#222222;
+}
+.color11 {
+	background-color:#129793;
+}
+.color12 {
+	background-color:#00000B;
+}
+.color13 {
+	background-color:#00B000;
+}
+.color14 {
+	background-color:#8DB87C;
+}
+.color15 {
+	background-color:#b0b000;
+}
+.color16 {
+	background-color:#ED8A3F;
+}
+.color17 {
+	background-color:#616536;
+}
+.color18 {
+	background-color:#00E666;
+}
+.color19 {
+	background-color:#31B96E;
+}
+***********/
+

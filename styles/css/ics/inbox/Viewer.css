@@ -1,0 +1,724 @@
+.msgViewer.collapsed b{
+	font-weight:normal;
+}
+.msgViewer.collapsed .viewerROToolbar,
+.msgViewer.collapsed .emailBodyDiv, .msgViewer.collapsed .smsBodyDiv,
+.msgViewer.collapsed .mmsBodyDiv{
+	display:none;
+}
+.msgViewer .emailBodyDiv .attachments{
+	margin-top:10px;
+}
+/*
+.threadMsgViewer, .msgViewer {
+	margin-top:-20px;
+}
+.dj_ie7 .threadMsgViewer, .dj_ie7 .msgViewer {
+	margin-top:-15px;
+}*/
+.dj_ie7 .msgViewer .header{
+	position: static !important;
+}
+.msgViewer .header, .threadMsgViewer .header{
+	/* margin-bottom:5px; */
+	margin-top:6px;
+}
+.dj_ie .msgViewer .header, .threadMsgViewer .header{
+	display: inline-block;
+	position: relative;
+}
+.threadMsgViewer .threadContent, .msgViewer .msgContent {
+	overflow-y: auto !important;
+	border-top:1px solid #e9e9e9;
+	position: relative;
+}
+.threadMsgViewer .threadContent,
+.msgViewer .msgContent {
+	max-height:550px; 
+}
+.msgViewer .msgContent .viewOldMsg{
+    font-weight: bold;
+}
+.threadContent .threadViewer.unread{
+	font-weight: bold; 
+}
+.threadContent .threadViewer.email.dijitHover,
+.threadContent .msgViewer.collapsed:hover{
+	background-color:#E0E0E0;
+}
+/*********
+.msgViewer .header .dijitInline, .threadMsgViewer .header .dijitInline{
+	vertical-align:top;
+}
+*********/
+.msgViewer .header .starDiv, .threadMsgViewer .header .starDiv{
+	width:15px;
+}
+.msgViewer .header .tagDiv, .threadMsgViewer .header .tagDiv{
+	width:20px;
+}
+.dj_ie .msgViewer .header .tagDiv, .threadMsgViewer .header .tagDiv{
+	padding: 0 2px 0 0;
+}
+
+.msgViewer .starIcon, .threadMsgViewer .starIcon {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat -220px -126px;
+    width: 15px;
+    height: 16px;
+}
+
+.msgViewer .tagIcon, .threadMsgViewer .tagIcon{
+    background: url(../../../images/ics/InboxSprites.png) no-repeat transparent -125px -23px;
+	width:20px;
+	height:16px;
+}
+
+.msgViewer .warningImg, .threadMsgViewer .warningImg{
+	background: url(../../../images/ics/inbox/noaction.png) no-repeat transparent 0px 4px;
+	width:32px;
+	height:36px;
+	margin: 5px 7px 0px 10px;
+}
+.msgViewer .subjectH, .threadMsgViewer .subjectH{
+	width:744px;
+	line-height: 28px;
+	padding: 0 10px;
+    text-align: center;
+}
+
+.msgViewer .addContactsDropDown{
+	border: 1px solid #CDCDCD;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	height: 51px;
+	width: 146px;
+	left: 308px;
+	top: 70px;
+	position: absolute;
+	z-index: 2;
+}
+.msgViewer .addContactsDropDown .newContact,
+.msgViewer .addContactsDropDown .existingContact{
+	height: 50%;
+	font-weight: bold;
+	line-height: 24px;
+	padding-left: 8px;
+}
+.msgViewer .addContactsDropDown .newContact:hover,
+.msgViewer .addContactsDropDown .existingContact:hover{
+	background-color: #B00000;
+	color: #FFFFFF;
+}
+.msgViewer .subjectH .addContacts{
+	margin: 0 auto;
+	cursor: pointer;
+	width: 140px;
+	line-height: 28px;
+}
+
+/****
+.msgViewer .subjectH h2, .threadMsgViewer .subjectH h2{
+	margin-left:10px;
+}
+****/
+.msgViewer .tags, .threadMsgViewer .tags{
+	width:335px;
+	max-height:34px;
+	overflow-y:auto;
+	overflow-x:hidden;   /* ---- For IE7 ---- */
+	text-align:justify;
+}
+.dj_ie .msgViewer .tags, .dj_ie .threadMsgViewer .tags{
+	width:345px;
+}
+
+.threadMsgViewer .prevNext, .msgViewer .prevNext{
+	margin:0 5px 0 0;
+}
+.threadMsgViewer .iconWrapper, .msgViewer .iconWrapper{
+	clear:both;
+/*	height:25px;*/
+	width:100%;
+	margin-bottom:3px;
+	text-align:center;
+}
+.msgViewer .nextBtn, .threadMsgViewer .nextBtn{
+    width: 20px;
+    height: 20px;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -467px -18px;
+	cursor:pointer;
+}
+/***
+.dj_ie7 .msgViewer .nextBtn, .dj_ie7 .threadMsgViewer .nextBtn{
+	margin-left:3px;
+}
+***/
+.msgViewer .prevBtn, .threadMsgViewer .prevBtn{
+    width: 20px;
+    height: 20px;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -432px -18px;
+	cursor:pointer;
+}
+.msgViewer .nextBtn.inactive, .threadMsgViewer .nextBtn.inactive,
+.msgViewer .prevBtn.inactive, .threadMsgViewer .prevBtn.inactive{
+	opacity:0.4;
+	cursor:auto;
+	filter: alpha(opacity=40);
+}
+
+.msgViewer.collapsed .replyTo{
+	display:none;
+}
+.basicInfo .sensitivity{
+	font-weight:bold;
+	color: red;
+	margin-right:3px;
+}
+.msgViewer.collapsed .timeDiv{	
+    right: 38px;  
+}
+.dj_ie7 .msgViewer.collapsed .timeDiv{	
+    right: 41px;  
+}
+.msgViewer.collapsed .attach{	
+    right: 250px;  
+}
+.msgViewer.collapsed .headerMsgNode,
+.msgViewer.collapsed .timeDiv,
+.msgViewer.collapsed .attach{
+	position: absolute;
+    top: 10px;
+}
+.msgViewer.expandable .contentWrapper.clickable{
+	cursor:pointer;
+}
+/***********
+.msgViewer.email.expanded .contentDiv {
+	background: transparent url('../../../images/ics/inbox/editor/lightBlueGrad1x40.png') repeat-x;
+}
+.msgViewer.mms.expanded .contentDiv {
+	background: transparent url('../../../images/ics/inbox/editor/lightOrangeGrad1x40.png') repeat-x;
+}
+.msgViewer.sms.expanded .contentDiv {
+	background: transparent url('../../../images/ics/inbox/editor/lightOliveGrad1x40.png') repeat-x;
+}
+***********/
+.msgViewer .contentDiv{
+	/*border: 1px solid #e0e0e0;*/
+	position: relative;
+}
+.msgViewer .contentDiv .blockMsg{
+	background-color: #e0e0e0;
+	height:50px;
+}
+.msgViewer.expanded .contentWrapper .headerContent{
+	padding-top: 5px;
+	position:relative;
+	height: 75px;
+}
+.msgViewer .contentDiv .contentWrapper{
+	margin:15px 10px 0px 17px;
+}
+.msgViewer.collapsed .contentDiv .contentWrapper{
+	margin:0 15px;
+}
+.msgViewer .contentDiv .mmsWrapper{
+	margin: 0 10px 10px 10px;
+}
+.dj_ie .msgViewer .contentDiv .mmsWrapper{
+	margin-top:-10px;
+}
+.msgViewer .profileImg, .threadMsgViewer .profileImg {
+	margin:4px 20px 1px 5px;
+}
+.msgViewer .profileImg img, .threadMsgViewer .profileImg img {
+    height: 40px;
+    width: 40px;
+}
+.threadMsgViewer .minimized .profileImg img, .threadMsgViewer .draftsHeader .profileImg img{
+	height:0px;
+	width:0px;
+}
+.threadMsgViewer .minimized .basicInfo{
+	display:none;
+}
+
+.threadMsgViewer .contracted .profileImg img, .msgViewer.expandable.collapsed img {
+    height: 25px;
+    width: 25px;
+}
+.dj_ie .msgViewer .basicInfo ._isps{
+	margin-bottom:-5px;
+}
+
+.msgViewer .basicInfo ._isps{
+	background: url(../../../images/ics/InboxSprites.png) no-repeat transparent;
+	height:14px;
+    width:17px;
+}
+.msgViewer .basicInfo ._isps.MSN {
+	background-position: -100px -93px;     
+}
+.msgViewer .basicInfo ._isps.AOL {
+    background-position: -60px -93px;
+}
+.msgViewer .basicInfo ._isps.GOOGLE {
+    background-position: -20px -93px;
+}
+.msgViewer .basicInfo ._isps.YAHOO {
+    background-position: -140px -93px;
+}
+.msgViewer .basicInfo ._isps.POP3 {
+	background-position: -358px -90px;    
+	width: 26px;
+}
+
+/*.msgViewer .basicInfo ._isps.OUTLOOK {
+	background-position: -218px -90px;
+}
+.msgViewer .basicInfo ._isps.THUNDERBIRD {
+	background-position: -258px -90px;    
+}
+.msgViewer .basicInfo ._isps.ICS {
+	background-position: -336px -90px;
+}*/
+
+.msgViewer .basicInfo ._isps.orderNum{
+	background-position: -593px -23px;
+	height: 13px;
+	width: 13px;
+	font-family: fantasy Grande;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	line-height: 10px;
+	margin-left: -4px;
+}
+
+.msgViewer.expanded .basicInfo{
+	width:380px;
+}
+.msgViewer.expanded .basicInfo .headerMsgNode{
+	white-space: nowrap;
+	overflow: hidden;
+}
+.msgViewer.expanded .basicInfo .recipientsNode{
+	margin-left: -3px;
+}
+.dj_ie .msgViewer.expanded .basicInfo .recipientsNode{
+	margin-left: 0px;
+}
+.basicInfo .seeDetailsWidth{
+	width: 70px;
+}
+.basicInfo .seeDetailsNode .linkSpan{
+	color: #000000;
+    cursor: default;
+}
+.msgViewer .contentDiv .detailsDiv .detailsInfo{
+	margin: 10px 10px 17px;
+}
+.msgViewer .detailsInfo .label{
+	font-weight:bold;
+	width:80px;
+}
+.msgViewer .detailsInfo .dijitInline{
+	vertical-align: top;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.msgViewer .detailsInfo .to, .msgViewer .detailsInfo .cc, .msgViewer .detailsInfo .attached,
+.msgViewer .detailsInfo .bcc, .msgViewer .detailsInfo .subject,
+.msgViewer .detailsInfo .mailBy, .msgViewer .detailsInfo .date{
+	display:none;
+}
+.msgViewer .detailsInfo.to .to, .msgViewer .detailsInfo.cc .cc, .msgViewer .detailsInfo.attached .attached,
+.msgViewer .detailsInfo.bcc .bcc, .msgViewer .detailsInfo.subject .subject,
+.msgViewer .detailsInfo.mailBy .mailBy, .msgViewer .detailsInfo.date .date{
+	display:block;
+}
+.msgViewer .bodyContent{
+	margin-top:10px;
+	word-wrap: break-word;
+}
+.msgViewer .msgBottomDiv{
+	margin-top:7px;
+}
+.msgViewer .msgBottomDiv .replyLink{
+	width:50px;
+}
+.msgViewer .msgBottomDiv .replyAllLink{
+	width:80px;
+}
+.msgViewer .msgBottomDiv .forwardLink{
+	width:50px;
+}
+.msgViewer.sms .msgBottomDiv{
+	margin-top:25px;
+}
+.msgViewer .msgBottomDiv .msgTextarea{
+    	width:690px;
+        height:70px;
+	overflow: hidden;
+	margin:10px 0px 35px 0px;
+	border:1px solid #7f9db9;
+}
+.msgViewer .smsBodyDiv .msgBottomDiv .msgTextarea{
+	width:700px;
+}
+.composerContainerDiv .icsComposer .composeNav{
+	height: 40px;
+	margin-top:15px;
+}
+.sms .composerContainerDiv .icsComposer .composeNav{
+	height: 60px;
+	padding-top:16px;
+	margin-top:0;
+}
+.msgViewer .composerContainerDiv{
+	margin-top:20px;
+}
+/*
+.msgViewer .icsComposer form{
+	border-top:1px solid #CDCDCD;
+}
+*/
+.msgViewer .composerTab .tabLink{
+	margin-left:10px;
+}
+.msgViewer .detailsDiv{
+	border-bottom: 1px solid #e0e0e0;
+}
+.msgViewer.mms .mmsBodyDiv .attachments{
+	margin-top:20px;
+}
+.msgViewer.mms .mmsBodyDiv .bodySection{
+	margin-left:95px;
+	width:510px;
+}
+.msgViewer.mms.slide .mmsBodyDiv .bodySection{
+	margin-left:0;
+	width:510px;
+}
+.msgViewer.mms .mmsBodyDiv .qtPlayer{
+	margin-top:10px;
+}
+.msgViewer.mms .mmsBodyDiv .msgCaption{
+	margin-top:10px;
+}
+.msgViewer.sms .smsBodyDiv .dijitTooltipConnector,
+.msgViewer.mms .mmsBodyDiv .dijitTooltipConnector{
+	position:absolute !important;
+	top:72px !important;
+	left:35px !important;
+}
+.threadContent .msgViewer.sms .smsBodyDiv .dijitTooltipConnector,
+.threadContent .msgViewer.mms .mmsBodyDiv .dijitTooltipConnector{
+	position: relative;
+	top:-91.5px;
+}
+.dj_ie .msgViewer.sms .smsBodyDiv .dijitTooltipConnector,
+.dj_ie .msgViewer.mms .mmsBodyDiv .dijitTooltipConnector{
+	top:80px !important;	
+}
+.dj_ie.dj_ie7 .msgViewer.sms .smsBodyDiv .dijitTooltipConnector{
+	top:72px !important;	
+}
+.dj_ie.dj_ie7 .msgViewer.mms .mmsBodyDiv .dijitTooltipConnector {
+	top:62px !important;
+}
+.dj_ie7 .msgViewer.sms .smsBodyDiv .dijitTooltipBelow,
+.dj_ie7 .msgViewer.mms .mmsBodyDiv .dijitTooltipBelow{
+	padding:0px;
+}
+.msgViewer.sms .smsBodyDiv .dijitTooltipBelow,
+.msgViewer.mms .mmsBodyDiv .dijitTooltipBelow{
+	padding-top:3px;
+}
+.msgViewer .attachments .attachBody{
+	margin-top: 10px;
+}
+.msgViewer .mmsBodyDiv img{
+	max-width:510px;
+}
+.msgViewer .attachments .picture .imgDiv{
+	max-width: 128px;
+	min-height: 43px;
+	min-width: 40px;
+}
+.msgViewer .attachments .picture .default img{
+	margin-bottom: 7px;
+}
+.dj_ie7 .msgViewer .attachments .picture .default img{
+	margin-bottom: 10px;
+}
+.msgViewer .attachments .video,
+.msgViewer .attachments .music{
+	height:50px;
+}
+.msgViewer .attachments .video img,
+.msgViewer .attachments .music img,
+.msgViewer .attachments .picture .error img{
+	width: 40px;
+	height: 40px;
+}
+.msgViewer .attachments .other{
+	height:46px;
+}
+/*.msgViewer ._attachmentsDiv{
+	margin-top:10px;
+}*/
+.msgViewer ._attachmentsDiv .imgDiv{
+	margin-right:12px; 
+}
+.msgViewer ._attachmentsDiv img{
+	max-width:128px;
+	height: 128px;
+}
+.msgViewer ._attachmentsDiv .dijitInline{
+	vertical-align:top;
+}
+
+.msgViewer.mms .chatParty{
+	border:	1px solid #E0E0E0;
+	background-color: #F1F1F1;
+	font-weight: bold;
+	padding: 5px 0;
+	text-align:	center;	
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipContents{
+	word-wrap:break-word;
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipContainer{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px #cccccc;	
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=150, Color='#cccccc')";
+}
+
+.dj_ie7 .msgViewer.mms .prevMessageContainer .dijitTooltipContainer{	
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=150, Color='#cccccc');
+}
+
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipLeft .dijitTooltipConnector{
+	background: url("../../../images/ics/common/tooltip/tooltipConnectorRight.png") no-repeat scroll left top transparent;
+	height: 16px;
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipRight .dijitTooltipConnector{
+	background: url("../../../images/ics/common/tooltip/tooltipConnectorLeft.png") no-repeat scroll left top transparent;
+	height: 16px;
+	left: 1px;
+}
+
+.msgViewer.mms .prevMessageContainer {
+	position: relative;
+	overflow: auto;
+	/*max-height: 700px;*/
+}
+
+.msgViewer.mms .prevMessageContainer .messageDiv{
+	min-height: 55px;
+	position: relative;
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog{
+	position: relative;
+	margin: 0 auto 5px;
+	width: 555px;
+}
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog.dijitTooltipRight{
+	padding-left: 14px;	
+}	
+.msgViewer.mms .prevMessageContainer .msgDiv{
+	width: 80%;	
+}
+
+.msgViewer.mms .prevMessageContainer .received .msgDiv{
+	padding-left: 5px;
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog .slide{
+	margin-bottom: 10px;
+}
+
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog .imgDiv{
+	vertical-align: top;
+	width: 20%; 
+	height: 100px; 
+	margin: 0 20px 10px 0;
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog .actionDiv{
+	width: 75%
+}
+
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog .textDiv,
+.msgViewer.mms .prevMessageContainer .dijitTooltipDialog .saveDiv{
+	width: 100%;
+}
+/**
+.msgViewer.mms .prevMessageContainer .received .msgDiv{
+	width: 60%;
+}
+**/
+.msgViewer.mms .prevMessageContainer .sent .msgDiv{
+	/*width: 60%;
+	margin: 0 15px 0 175px;*/
+	margin: 0 8px 4px 0;
+}
+
+.msgViewer.mms .prevMessageContainer .sent .imgDiv{
+	margin: 5px 9px 5px 0;
+}
+
+.msgViewer.mms .prevMessageContainer  .imgDiv.sent, 
+.msgViewer.mms .prevMessageContainer  .imgDiv.received {
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+}
+
+.msgViewer.mms .prevMessageContainer  .imgDiv.sent img,
+.msgViewer.mms .prevMessageContainer  .imgDiv.received img {
+	width: 100%;
+	height: 100%;
+}
+
+.msgViewer.mms .prevMessageContainer .date{
+	margin: 0 auto;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.msgViewer.mms .prevMessageContainer .sent .date{
+	color: #66CD00;	
+	text-align: left;
+	padding-left: 6px;
+}
+
+.msgViewer.mms .prevMessageContainer .received .date{
+	color: #FF7F24;	
+	text-align: left;
+	padding-left: 10px;
+}
+.msgViewer.mms .prevMessageContainer .dijitTooltipContainer{
+	min-height: 18px;
+}
+.msgViewer.mms .prevMessageContainer .dijitTooltipRight .dijitTooltipConnector{
+	top: 5px !important;
+}
+ 
+.msgViewer.mms .prevMessageContainer .dijitTooltipLeft .dijitTooltipConnector{
+	top: 3px !important;
+}
+
+
+/*
+	Thread
+*/
+
+.threadViewer, .msgViewer{
+	border-bottom: 1px solid #e0e0e0;
+}
+.threadContent .msgViewer.email.expanded{
+	border:3px solid #cdcdcd;
+	margin-top:0px;
+}
+.threadViewer.email.draftOpen{
+	background-color:#7f9db9;
+}
+.threadViewer .headerMessage{
+	font-weight:bold;
+}
+.threadViewer .headerDrafts{
+	color: red;
+	font-weight:normal;
+}
+.threadViewer .draftsIndicator{
+	margin-left:5px;
+	width:39px;
+}
+.threadViewer .contentWrapper{
+	margin: 0px 15px;
+}
+.threadViewer .contentWrapper .basicInfo{
+	width: 660px;
+	height: 22px;
+}
+.threadViewer.contracted{
+	/* background-color:#efefef; */
+	cursor:pointer;
+}
+.threadViewer.minimized{
+	background-color:#F1F1F1;
+	cursor:pointer;
+	height:10px;
+}
+.threadViewer.contracted .timeDiv{
+	margin-left:0;
+}
+/****
+.msgViewer .vMMSaved {
+    background: url("../../../images/ics/InboxSprites.png") no-repeat scroll -19px -563px transparent;
+    height: 24px;
+    margin: 0 0 0 3px;
+    width: 55px;
+	vertical-align: bottom;
+	cursor: not-allowed;
+}
+****/
+.msgViewer .viewerActionIcon {
+	background: url("../../../../styles/images/ics/BUAPSprites.png") no-repeat -380px -238px transparent;
+    display: inline-block;
+    height: 27px;
+    text-decoration: none;
+    width: 35px;
+}
+.dj_ie .viewerActionIcon {
+	height: 28px;
+}
+.dj_ie .msgViewer .inboxDropDown{
+	margin-top: 1px;
+}
+.dj_ie7 .msgViewer .inboxDropDown{
+	margin-top: -2px;
+}
+.dj_ie7 .msgViewer .viewerActionIcon {
+	margin-bottom: -1px;
+}
+.msgViewer .inboxDropDown,
+.msgViewer .icsROButton {
+	float:left;
+}
+.msgViewer .headerContent .viewerActionIcon {
+	margin-bottom: 21px;
+}
+.dj_ie7 .msgViewer .headerContent .viewerActionIcon {
+	margin-bottom: 17px;
+}
+/*  
+.msgViewer .viewerActionIcon {
+	background: url("../../../../styles/images/ics/BUAPSprites.png") no-repeat -380px -238px transparent;
+    display: inline-block;
+    height: 29px;
+    text-decoration: none;
+	margin-bottom: 20px;
+    width: 35px;
+}
+.dj_ie7 .msgViewer .viewActionsDropDown {
+	margin-bottom:14px;
+}*/
+/***
+.msgViewer .viewActionsDropDown{
+	margin-bottom:20px !important;
+}
+***/

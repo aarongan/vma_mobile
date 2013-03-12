@@ -1,0 +1,21 @@
+{
+	"items": [
+		{
+			"id" : 7001,
+			"type" : "cellPhone"
+		},
+		{
+			"id" : 7002,
+			"type" : "yahoo"		
+		},
+		{
+			"id" : 7003,
+			"type" : "google"		
+		},
+		{
+			"id" :7004,
+			"type" : "aol"
+		}
+		
+	]
+}

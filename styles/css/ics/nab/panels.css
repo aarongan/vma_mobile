@@ -1,0 +1,598 @@
+/****
+#mainBC .panels {
+	width: 243px;
+	height: auto !important; 
+	overflow: none;
+}
+#mainBC #nabRightPanel.panels {
+	left: 0px !important;
+	top: 0px !important;
+}
+******/
+.menuActionIcon {
+    height: 0px;
+    width: 0px;
+    background: none;
+}
+
+/* Sync Panel Style */
+.panels .syncPanel{
+ 	margin: 0px 0px 7px 0px
+}
+
+.panels .syncPanel.baDisabled{
+	background-color: #EEEEEE;
+}
+
+.panels .syncPanel .syncDisabled {
+	text-align:center;
+	width:38px;
+	padding-left:2px !important;
+}
+
+.panels .basePanel.baDisabled,
+.panels .webGroupsPanel.baDisabled,
+.panels .mobileGroupsPanel.baDisabled,
+._basePanel.webGroupsPanel .middle .bodyDiv.baDisabled,
+._basePanel.mobileGroupsPanel .middle .bodyDiv.baDisabled{
+	background-color: #EEEEEE;
+}
+
+.dj_ie7 .panels .webGroupsPanel .dijitArrowButtonInner{
+	margin-left:30px;
+	margin-top:-14px;
+}
+
+.dj_ie7 .panels .mobileGroupsPanel .dijitArrowButtonInner{
+	margin-left:30px;
+	margin-top:-14px;
+}
+
+.dj_ie7 .panels .syncPanel .buttons {
+}
+
+.dj_ff3 .panels .syncPanel .buttons{
+	padding-top:4px;
+}
+
+.dj_ie7 .panels .webGroupsPanel .inputDiv{
+	margin-bottom:0px;
+}
+
+.dj_ie7 .panels .mobileGroupsPanel .inputDiv{
+	margin-bottom:0px;
+}
+
+.dj_ie7 .panels .webGroupsPanel .opButtonDiv{
+	margin-bottom:1px;
+}
+
+.dj_ie7 .panels .mobileGroupsPanel .opButtonDiv{
+	margin-bottom:1px;
+}
+
+.panels .syncPanel .progressingIcon{
+	background:transparent url(../../../images/ics/common/progressBar.gif) no-repeat scroll 0 0;
+	height:23px;
+	width:166px;
+}
+
+.panels .middle.syncPanelContent{
+	height:12px;
+	padding:1px 9px 17px 1px !important;
+}
+
+.panels .endPoints{
+	width:120px;
+	position: absolute; 
+	left: 0px; 
+	width:100px; 
+	height:20px; 
+}
+
+.panels .endPointsSyncing{
+	width:220px;
+	margin-left:10px;
+}
+
+.dj_ff3 .panels .endPoints{
+	margin-top:4px;
+}
+
+.dj_ie7 .panels .endPoints{
+}
+
+/* Add Contact Style */
+
+.addPanel .addContactText{
+	width:216px;
+	color:#000000;
+}
+
+.addPanel .addContactHint{
+	width:216px;
+	color:#999999;
+}
+.addPanel .addICSUserIcon{
+	background-image: url(../../../images/ics/nab/icons/ics_member.png);
+}
+
+.addPanel .addPanelButton{
+	width:204px;
+	text-align:center;
+}
+
+/* Mobile Groups Panel Style*/
+
+.mobileGroupsPanel._basePanel .middle{
+    margin-top: 5px;/*20px;*/
+}
+.mobileGroupsPanel._basePanel .header {
+    margin-top: 5px;
+}
+.basePanel .addGroupDiv{
+	height:25px;
+}
+
+.basePanel .opDiv.addGroupActive{
+	background-color:#D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	height:30px;
+}
+
+.basePanel .opDiv .inputFieldDiv{
+	margin-top:5px;
+	margin-left:5px;
+	width:160px;
+}
+
+.basePanel .opDiv .buttonDiv{
+	margin-top:5px;
+}
+
+.panels .webGroupsImage{
+	background: transparent url('../../../images/ics/nab/form/formSmSprite.png') no-repeat;
+	width:23px;
+	margin-right:5px;
+	background-position: -143px;
+}
+
+.panels .mobileGroupsImage{
+	background: transparent url('../../../images/ics/nab/form/formSmSprite.png') no-repeat;
+	width:20px;
+	margin-right:5px;
+	background-position: -165px;
+	display: none !important;
+}
+
+.panels .mailingListsImage{
+	background:transparent url(../../../images/ics/nab/icons/mailing_lists.png) no-repeat scroll 0 0;
+	width:20px;
+	margin-right:5px;
+}
+
+.panels .panelsTitle{
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.filterList .linkSpan {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}  
+
+.linkSpan {  
+    cursor: pointer;
+    color: #0066CC;  
+}
+
+.linkMouseOver{
+	color: #0066CC !important;
+	cursor: pointer !important;
+	text-decoration: underline !important;
+}
+
+.panels .importContacts{
+	padding: 0 0 0px 4px;
+}
+
+.panels .getPinLink{
+	margin-left:4px;
+}
+.panels .noGetPin .getPinLink, .panels .noGetPin .getPinDivider{
+	display:none;
+}
+.panels .helpDiv{
+	padding: 0 0 0px 4px;
+	width: 30px;
+}
+
+.panels .settingsDiv{
+	padding: 16px 0 0 16px;
+}
+
+.panels .syncHelpTip{
+	width:250px;
+}
+
+.helpTip .tooltipDiv, .addPanel .tooltipDiv, .webGroupsPanel .tooltipDiv, .mobileGroupsPanel .tooltipDiv{
+	text-align:left;
+	margin-left:5px;
+	margin-bottom: 6px;
+}
+
+.helpTip .tooltipDiv .header, .addPanel .tooltipDiv .header, .webGroupsPanel .tooltipDiv .header, .mobileGroupsPanel .tooltipDiv .header{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.helpTip .tooltipDiv .body, .addPanel .tooltipDiv .body, .webGroupsPanel .tooltipDiv .body, .mobileGroupsPanel .tooltipDiv .body{
+	width:240px;
+	font-size:11px;
+}
+
+.helpTip .tooltipDiv .button , .addPanel .tooltipDiv .button, .webGroupsPanel .tooltipDiv .button, .mobileGroupsPanel .tooltipDiv .button{
+	float:right;
+	margin-top:5px;
+}
+
+.basePanel.webGroupsPanel.maxReached .linkDiv,
+.basePanel.webGroupsDD.maxReached .linkDiv{
+	display:none;
+}
+
+.basePanel.webGroupsPanel.baDisabled .linkDiv,
+.basePanel.webGroupsDD.baDisabled .linkDiv {
+	display:none;
+}
+.basePanel.mobileGroupsPanel.maxReached .linkDiv,
+.basePanel.mobileGroupsDD.maxReached .linkDiv{
+	display:none;
+}
+
+.basePanel.mobileGroupsPanel.baDisabled .linkDiv,
+.basePanel.mobileGroupsDD.baDisabled .linkDiv {
+	display:none;
+}
+
+.webGroupsPanel .panelsTitle{
+	margin-right: 0px;
+}
+
+.mobileGroupsPanel .panelsTitle{
+	margin-right: 0px;
+}
+.basePanel.webGroupsPanel .footerLinkDiv,
+.basePanel.mobileGroupsPanel .footerLinkDiv{
+	padding-top:5px;
+	border-bottom: 5px solid #EDEDED;
+}
+
+.basePanel.webGroupsPanel .addGroupDiv,
+.basePanel.mobileGroupsPanel .addGroupDiv{
+	border-bottom: 1px solid #EDEDED;
+}
+
+.basePanel.webGroupsPanel .message,
+.basePanel.mobileGroupsPanel .message{
+	text-indent:5px;
+	padding-top:5px;	
+}
+
+.panels .basePanel.basePanel .message{
+	text-indent:5px;
+	padding-top:5px;	
+}
+
+.dj_ie .panels .basePanel .basePanelHeaderDiv .actionArrow {
+	position:relative;
+	top: 5px;
+}
+
+.nabRightPane .basePanel.expanded .actionArrow{
+	background-position: 0 0;
+}
+.nabRightPane .basePanel .actionArrow{
+	height:11px;
+	width:11px;
+	cursor:pointer;
+	background:transparent url(../../../images/ics/common/buttonArrowsSprite.png) no-repeat scroll -13px 0;
+	opacity:0.3;
+	filter: alpha(opacity=30);
+}
+
+.dialogWidth250px{
+	width: 250px;
+} 
+
+.dialogWidth300px{
+	width: 300px;
+} 
+
+.dialogWidth350px{
+	width: 350px;
+}
+
+.dialogWidth450px{
+	width: 450px;
+}
+
+.dialogWidth720px{
+	width: 780px;
+}
+
+.panels .syncPanel .isp{
+	background:transparent url(../../../images/ics/common/isp/endpoints.png) top left no-repeat;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+
+.panels .syncPanel .isp.syncml{
+	background-position: -160px;
+	margin-right:3px; 
+}
+
+.panels .syncPanel .isp.msn  {
+	background-position: -80px;
+	margin-right:3px;
+}
+
+.panels .syncPanel .isp.google  {
+	background-position: 0px;
+	margin-right:3px;
+}
+
+.panels .syncPanel .isp.yahoo  {
+	background-position: -120px;
+	margin-right:3px;
+}
+
+.panels .syncPanel .isp.aol  {
+	background-position: -40px;
+	margin-right:3px;
+}
+
+.panels .syncPanel .isp.syncmlArrows{
+	background-position: -160px;
+}
+
+.panels .syncPanel .isp.msnArrows  {
+	background-position: -80px;
+}
+
+.panels .syncPanel .isp.googleArrows  {
+	background-position: 0px;
+}
+
+.panels .syncPanel .isp.yahooArrows  {
+	background-position: -120px;
+}
+
+.panels .syncPanel .isp.aolArrows  {
+	background-position: -40px;
+}
+
+.panels .syncPanel .add {
+	margin-right:3px;
+	margin-left:3px;
+}
+
+.panels .syncPanel .allEndPoints{
+	overflow: hidden; 
+	position: relative; 
+	height:24px; 
+	width: 90px;
+}
+
+.dj_ff3 .panels .syncPanel .allEndPoints{
+	margin-bottom:5px;
+}
+
+.dj_ie7 .panels .syncPanel .allEndPoints{
+	top:5px;
+}
+
+.dj_ie .panels .syncPanel .bothButtons,
+.dj_webkit .panels .syncPanel .bothButtons,
+.dj_ff3 .panels .syncPanel .bothButtons{
+	margin-bottom:5px;
+	margin-left:20px;
+	border-left: 1px dashed grey;
+}
+
+.dj_ie7 .panels .syncPanel .bothButtons{
+	margin-bottom:6px;
+	margin-left:20px;
+	border-left: 1px dashed grey;
+}
+
+.panels .syncPanel .syncMain{
+	margin-left:8px;
+}
+
+.dj_ie7 .panels .syncPanel .syncMain{
+	margin-top:2px;
+}
+
+.dj_webkit .panels .syncPanel .syncMain,
+.dj_ie .panels .syncPanel .syncMain{
+	margin-top:3px;
+}
+
+.dj_ie7 .panels .syncPanel .addNode {
+}
+
+.dj_ff3 .panels .syncPanel .addNode{
+	padding-top:4px;
+}.dj_ie7 .wrapperNode.connectButtonDiv,
+.dj_ie7 .wrapperNode.connectButtonDiv{
+	float:left;
+	margin-left:20px;
+}
+
+.panels .addPanel .tooltipDiv .toolTipImage,
+.panels .basePanel .tooltipDiv .toolTipImage{
+	background:transparent url(../../../images/ics/tooltip.gif) no-repeat scroll 0 0;
+	width:13px;
+}
+
+/*Related to groups dropdowns*/
+.mobileGroupsDD{
+	width:215px;
+	background-color: #ffffff;
+	z-index:100;
+	text-align:left;
+}
+
+.mobileGroupsDD.baDisabled{
+	background-color: #EEEEEE;
+}
+
+.mobileGroupsDD .title{
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+.dj_ie7 .mobileGroupsDD .opDiv.opActive .opButtonDiv .button{
+margin-left:5px;
+margin-top:5px;
+}
+
+.dj_ie7 .webGroupsDD .opDiv.opActive .opButtonDiv .button{
+margin-left:5px;
+margin-top:5px;
+}
+
+
+.mobileGroupsDD .groupsImage{
+	/*background:transparent url(../../../images/ics/nab/icons/mobile_groups.png) no-repeat scroll 0 0;*/
+	background:url("../../../images/ics/nab/form/formSmSprite.png") no-repeat scroll -165px 50% transparent;
+	width:22px;
+	margin-right:5px;
+}
+
+.basePanel.mobileGroupsDD .opDiv .inputFieldDiv{
+	margin-top:5px;
+	margin-left:5px;
+	width:140px;
+}
+
+
+
+.webGroupsDD{
+	width:215px;
+	background-color: #ffffff;
+	z-index:100;
+	text-align:left;
+}
+
+.webGroupsDD.baDisabled{
+	background-color: #EEEEEE;
+}
+
+.webGroupsDD .title{
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.webGroupsDD .groupsImage{
+	/*background:transparent url(../../../images/ics/nab/icons/web_groups.png) no-repeat scroll 0 0;*/
+	background:url("../../../images/ics/nab/form/formSmSprite.png") no-repeat scroll -144px 50% transparent;
+	width:22px;
+	margin-right:5px;
+}
+
+.basePanel.webGroupsDD .opDiv .inputFieldDiv{
+	margin-top:5px;
+	margin-left:5px;
+	width:140px;
+}
+
+.groupPopupItem {
+	visibility: visible !important;
+	margin-top:5px;	
+}
+
+.dj_ie7 .groupPopupItem{
+	margin-top:0px;
+}
+/*Groups Panel related*/
+._basePanel.webGroupsPanel .middle .bodyDiv,
+._basePanel.mobileGroupsPanel .middle .bodyDiv{
+	height: 110px !important;
+	overflow-y: scroll;
+	padding-left: 7px;
+}
+._basePanel.webGroupsPanel .actionArrow{
+	margin-left: 110px;
+}
+._basePanel.mobileGroupsPanel{
+	padding-top:10px;
+}
+._basePanel.mobileGroupsPanel .actionArrow{
+	margin-left:-3px; /*30px;*/
+	margin-top: 5px;
+}
+._basePanel.mobileGroupsPanel .plusSpan {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+._basePanel.mobileGroupsPanel .linkSpan {
+    color: black;
+    font-weight: bold;
+}
+._basePanel.mobileGroupsPanel .headerDiv{
+	/* border-left:1px solid #D1D1D1;
+	border-right:1px solid #D1D1D1; */
+	margin: 0px 15px 0px !important;
+	height:24px;
+}
+._basePanel.webGroupsPanel .tooltipImg,
+._basePanel.mobileGroupsPanel .tooltipImg{
+	background:transparent url(../../../images/ics/tooltip.gif) no-repeat scroll 0 0;
+	width:13px;
+	height:12px;
+	display: none !important;
+}
+
+._basePanel.webGroupsDD .newDiv input,
+._basePanel.mobileGroupsDD .newDiv input{
+	width:130px;
+}
+
+._basePanel.webGroupsDD .newDiv,
+._basePanel.mobileGroupsDD .newDiv{
+	width: 190px;
+}
+
+/* Rounded Panel error message styling*/
+.message .dojoxGridError{
+	background-repeat: no-repeat;
+	vertical-align: top; 
+	width: 5px; display: inline-block; 
+	height: 10px; padding-left: 20px; padding-right: 0px;
+}
+
+.message .roundedErrormessage{
+	text-indent:0px;display: inline-block; width: 190px;
+}
+
+.nabImport .fileSelectMsg .drop_zone {
+ 	-moz-border-radius: 5px 5px 5px 5px;
+    border: 2px dashed #BBBBBB;
+    color: #BBBBBB;
+    padding: 20px;
+    margin: 10px 5px  20px 5px;
+    text-align: center;
+}
+.nabImport .imprtDndZoneMsg {
+	color: red;
+}

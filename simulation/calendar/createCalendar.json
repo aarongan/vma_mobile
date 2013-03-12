@@ -1,0 +1,31 @@
+{
+    items: [
+			{ 
+			    "statusCode":"0",
+			   	"message": "success",
+			  	"Operation":"Add",
+				"calendarID":"124589",
+				"name":"me",
+			   	"color": "#99555",
+			  	"automaticAddEvent":"true",
+				"timeType"	:  "Busy",
+				"reminderType": "textalert",
+				"reminderPhoneNumber": [{"phoneNum":"732-908-2345"},{"phoneNum":"999-999-9999"}],
+				"emailIds": [{"emailId":"henry@yahoo.com"},{"emailId":"jackson@hotmail.com"}],
+				"reminderStartTime": "15mins",
+				"allEveryOne":"true",
+				"sharePeople":[ 
+						{
+							"emailId":"john.smith@gmail.com", 
+							"fullName":"john smith",
+							"shareType":"partial"
+						},
+						{
+							"emailId":"kelley.smith@gmail.com", 
+						 	"fullName":"lorry smith",
+						  	"shareType":"full"
+						 }
+				]
+			}
+   	]
+ }

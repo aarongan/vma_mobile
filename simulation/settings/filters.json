@@ -1,0 +1,109 @@
+{
+	"numItems": 5,
+	"items": [
+		{
+		"filterId":"1",
+		"name": "Filter 1",
+		"priority": 1,
+		"enabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"filterId":"2",
+		"name": "Filter 2",
+		"priority": 2,
+		"enabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"filterId":"3",
+		"name": "Filter 3",
+		"priority": 3,
+		"enabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"filterId":"4",
+		"name": "Filter 4",
+		"priority": 4,
+		"enabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"filterId":"5",
+		"name": "Filter 5",
+		"priority": 5,
+		"enabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		}
+		]
+}

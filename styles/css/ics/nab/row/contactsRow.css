@@ -1,0 +1,465 @@
+.contactsRow {
+    border-color: #d9d9d9;
+    border-style: none none solid none;
+    border-width: 1px;
+}
+.dj_ie .contactsItem {
+    border-bottom:1px solid #d9d9d9;
+}
+
+.contactsRow .body {
+    background: #fff;
+    position: relative;
+	zoom: 1;
+    height: 50px;
+	overflow: hidden;
+	display: block;
+}
+
+.dj_gecko .contactsRow .body {
+	padding-bottom:1px;
+}
+
+.contactsItem {
+	/*border-left:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;*/
+	width:100%;
+	height:100%;
+}
+
+.contactsRow.vspSelected .body {
+	background-color: #ebebeb;
+}
+
+.contactsRow.rowHover .body {
+	background-color: #d9d9d9 !important;
+}
+
+.contactsRow img {
+    height: 38px;
+    left: 30px;
+    position: absolute;
+    top: 7px;
+    width: 38px;
+}
+
+.contactsRow .summary {
+    margin: 0 0 0 90px;
+    padding:8px 0px; /*5px 0; Modified as per PSD*/
+    line-height: 15px;
+    width: 260px;
+	height: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.contactsRow .groups {
+    margin-left: 225px;
+    margin-top: 12px;
+    position: absolute;
+    vertical-align: top;
+    width: 25px;
+}
+
+.contactsRow .name{
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 18px;
+    position: absolute;
+    width: 125px;
+}
+
+.contactsRow .phone{
+    margin-left: 430px;
+    margin-top: 18px;
+    position: absolute;
+    width: 100px;
+}
+.contactsRow .emailAddress{
+    margin-left: 430px;/*550px; Added for BUA Plus Dev*/
+    margin-top: 27px;
+    position: absolute;
+    width: 175px;
+} 
+.contactsRow .phoneAndEmail{
+	margin-top: 8px !important;
+}
+.contactsRow .phoneAndEmailIcon{
+	padding-top: 16px !important;
+}
+.contactsRow .emailOnly{
+	margin-top: 18px !important;
+}
+.contactsRow .name span {
+	font-weight: normal;
+	margin-left: 6px;
+}
+
+.contactsRow .group {
+    width: 185px;
+	vertical-align: top;
+}
+
+.contactsRow .date {
+    /*margin: 6px 0 0 0; Modified as per PSD*/
+    margin:9px 0;
+    width: 80px;
+    color: #999999;
+	vertical-align: top;
+	font-family:arial;
+	font-size:11px;
+	margin-left: 650px;
+}
+.contactsRow .orgName {
+    margin-left: 265px;
+    margin-top: 18px;
+    position: absolute;
+    width: 125px;
+}
+.contactsRow .groupsIcon  {
+	background:url("../../../../images/ics/nab/form/formSmSprite.png") no-repeat scroll -143px 50% transparent;
+	width:22px;
+	height:15px;
+	margin-right:4px;
+	vertical-align:top;
+
+}
+.contactsRow .mobileGroupsIcon  {
+    background: url("../../../../images/ics/nab/icons/groups.png") no-repeat scroll 50% 50% transparent;
+    height: 21px;
+    margin-right: 3px;
+    margin-top: 6px;
+    vertical-align: top;
+    width: 22px;
+}
+.contactsRow .groupsList  {
+	width: 150px;
+	height: 27px;	
+	font-size: 11px;
+}
+.contactsRow .mobileGroupsList  {
+	width: 150px;
+	height: 27px;
+	font-size: 11px;
+	margin-top:4px;	
+}
+
+.contactsRow .starIcon{
+	background:url("../../../../images/ics/nab/form/formSmSprite.png") no-repeat scroll -226px 50% transparent;
+	width:15px;
+	height:15px;
+}
+.contactsRow .mbSyncIcon{
+	background:url("../../../../images/ics/nab/form/formSmSprite.png") no-repeat scroll -240px 50% transparent;
+	width:20px;
+	height:15px;	
+}
+.contactsRow .icsROToolbar{
+	z-index: 5;
+}
+.contactsRow .icsROToolbar,
+.contactsRow .icsROButton.select {
+    position: absolute;
+    right: 15px;
+    top: 10px;/*100px;-- Changed as per PSD*/
+}
+
+.contactsRow .icsROButton.select {
+    right: 7px;/*35px; -- Changed as per PSD*/
+    visibility: hidden;
+}
+
+.rowHover .icsROButton.select,
+.vspSelected .icsROButton.select {
+    visibility: visible;
+	cursor: pointer;
+}
+.contactsRow .statusVIcon, .contactsRow .statusIIcon {
+    margin-left: 550px;
+    padding-top: 35px;
+    position: absolute;
+}
+
+/* V - Innetwork , I - Ics & C - Connected */
+.contactsRow .statusIcon {display: none; }
+.contactsRow .statusVIcon,
+.contactsRow .statusIIcon{
+	background: url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat transparent;
+	height:15px;
+	width:20px;
+	background-position: -185px;
+}
+
+.contactsRow .statusCIcon {
+   height:15px;
+	width:40px;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+    background-position: -185px;
+}
+
+.contactsRow .emptyIcon { display: none;}
+
+.groupsBtnIcon{
+	background:url(../../../../../styles/images/ics/nab/buttons/groups_black.png);
+	background-repeat: no-repeat;
+	width:30px;
+	height:30px;
+}
+
+.webGroupsBtnIcon{
+	background:url(../../../../../styles/images/ics/nab/buttons/rolloverDropdowns.png);
+	background-repeat: no-repeat;
+	width:35px;
+	height:35px;
+	margin-top:-2px;
+	margin-left:-2px;	
+}
+.mobileGroupsBtnIcon{
+	background:url(../../../../../styles/images/ics/nab/buttons/rolloverDropdowns.png);
+	background-repeat: no-repeat;
+	width:35px;
+	height:35px;
+	background-position: 0px -70px;
+	margin-top:-2px;
+	margin-left:-2px;	
+}
+
+.connectToDlg{
+	text-align:left;
+	padding-left:55px;
+	padding-top:3px;/*6px; -- Changed as per PSD*/
+	padding-bottom:3px;
+	height:90px;
+	font-weight:bold;
+}
+.connectToDlgDivs{
+	/*padding : 3px;/*4px; -- Changed as per PSD*/
+	padding: 5px 0 5px 19px;
+	height: 24px;
+}
+.connectToDlgDivs:hover {
+   background: none repeat scroll 0 0 #f6f6f6;
+}
+.contactsEndPoint  {
+	background:transparent url(../../../../images/ics/common/isp/endpoints.png) top left no-repeat;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+
+.contactsEndPoint.MSN  {
+	background-position: -100px;
+}
+
+.contactsEndPoint.GOOGLE {
+	background-position: -20px;
+}
+
+.contactsEndPoint.YAHOO {
+	background-position: -140px;
+}
+
+.contactsEndPoint.AOL  {
+	background-position: -60px;
+}
+
+.contactsEndPoint.SYNCML {
+	display:none;
+}
+.contactsEndPoint.OUTLOOK {
+	background-position:  -220px;
+}
+
+.contactsEndPoint.THUNDERBIRD {
+	background-position:  -260px;
+}
+
+.sendContactToIcon  {
+	width: 21px;
+	height: 21px;
+	/*background: transparent  url(../../../../images/ics/nab/icons/sendContactTo.png) no-repeat;*/
+	background: url(../../../../images/ics/InboxSprites.png) no-repeat;
+	text-align: center;
+	margin-left:4px;
+}
+.sendContactToIcon.emailIcon{
+	background-position: -458px -278px;	
+}
+.sendContactToIcon.phoneIcon{
+	background-position: -568px -278px;	
+}
+
+.sendContactToEmail{
+	width: 84px;
+	text-align: left !important;
+	margin-left: 6px;
+	padding: 6px !important;
+}
+.sendContactToPhone{
+	margin-left: 6px;
+	padding: 6px !important;
+}
+
+.autoEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	-moz-user-select: text;
+	width: 100%;
+}
+.dijitToolbar.contactsMsgToolbar,
+.dijitToolbar.contactsMsgToolbar .dijitButton, 
+.dijitToolbar.contactsMsgToolbar .dijitToggleButton, 
+.dijitToolbar.contactsMsgToolbar .dijitDropDownButton, 
+.dijitToolbar.contactsMsgToolbar .dijitComboButton .dijitButtonContents, 
+.dijitToolbar.contactsMsgToolbar .dijitComboButton .dijitDownArrowButton {
+	margin:0;
+	padding:0;
+	text-indent:0;
+	border:none;
+	background:none;
+	padding:0;
+}
+
+.dijitToolbar.contactsMsgToolbar .dijitButtonHover,
+.dijitToolbar.contactsMsgToolbar .dijitButtonHover .dijitButtonNode,
+.dijitToolbar.contactsMsgToolbar .dijitButtonNodeHover,
+.dijitToolbar.contactsMsgToolbar .dijitToggleButtonHover .dijitButtonNode,
+.dijitToolbar.contactsMsgToolbar .dijitDropDownButtonHover .dijitButtonNode,
+.dijitToolbar.contactsMsgToolbar .dijitComboButtonHover .dijitButtonContents,
+.dijitToolbar.contactsMsgToolbar .dijitComboButtonDownArrowHover .dijitDownArrowButton {
+	margin:0;
+	padding:0;
+	text-indent:0;
+	border:none;
+	background:none;
+	padding:0;
+}
+
+.dijitToolbar.contactsMsgToolbar .dijitButtonContents {
+	height:35px;
+	width:35px;
+}
+
+.contactsRow .textHighlight{
+    background: yellow;
+}
+.vspSelected .selectionBox.select {
+   background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:0px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:25px;
+}
+
+ .selectionBox.select {
+   	background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:-79px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+    margin: -5px 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:25px;
+}
+
+/* Following css is used for dropdown email/SMS/MMS numbers in requests tab*/
+.contactsMsgToolbar  {
+	width: 35px;
+	height: 35px;
+	background: transparent  url(../../../../../styles/images/ics/nab/buttons/rolloverDropdowns.png) no-repeat;
+	text-align: center;
+}
+.contactsMsgToolbar .emailMessage {
+	background-position: -35px 0px;
+	display:block;
+	padding-top:0px;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+.contactsMsgToolbar .textMessage {
+	background-position: -35px -35px;
+	display:block;
+	padding-top:0px;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+.contactsMsgToolbar .videoMessage {
+	background-position: -35px -70px;
+	display:block;
+	padding-top:0px;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+
+
+/* Following css is used for dropdown email & phone numbers in requests tab*/
+.newMsgDiv {
+	background-color: #ffffff;
+	width: 350px;
+}
+
+.newMsgDiv .bodyDiv {
+	height: 100%;
+}
+
+.newMsgDiv .bodyDiv .buttons {
+	padding-top: 3px;
+}
+
+.newMsgDiv .bodyDiv .buttons .dijitButtonNode {
+	border: 0px #ffffff solid;
+	background: none;
+}
+
+.newMsgDiv .textDiv {
+	text-align: left;
+}
+
+.newMsgDiv .textDiv .email {
+	margin-left: 25px;
+}
+
+.newMsgDiv .textDiv .text {
+	margin-left: 25px;
+}
+
+.newMsgDiv .textDiv .mms {
+	margin-left: 15px;
+}
+.newMsgDiv .emailSmall {
+	width: 15px;
+	height: 13px;
+	background: url(../../../../images/ics/inbox/msgListSprite.png);
+	background-repeat: no-repeat;
+	background-position: -19px -8px;
+	padding-left:1px;
+}
+
+.newMsgDiv .smsSmall {
+	width: 15px;
+	height: 13px;
+	background: url(../../../../images/ics/inbox/msgListSprite.png);
+	background-repeat: no-repeat;
+	background-position: -72px -8px;
+	padding-left:1px;
+}
+
+.newMsgDiv .mmsSmall {
+	width: 15px;
+	height: 13px;
+	background: url(../../../../images/ics/inbox/msgListSprite.png);
+	background-repeat: no-repeat;
+	background-position: -126px -5px;
+	padding-left:1px;
+}
+.newMsgDiv .text {cursor:pointer;}
+.newMsgDiv .text:hover {background-color:#f5f5f5}

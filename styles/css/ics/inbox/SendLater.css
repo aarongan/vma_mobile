@@ -1,0 +1,37 @@
+.sendLater {
+    width: 700px; /* 500px, defect 2736 */
+	margin-left: 15px;
+}
+
+.sendLater .addresses {
+	float: left;
+	width: 50%;
+}
+
+.sendLater .priority {
+	float: right;
+	width: 50%;
+	padding-top:10px;
+}
+
+.sendLater .footer {
+	color:#666666;
+}
+
+.sendLater .save {
+    float: right;
+	margin: 10px;
+}
+
+.sendLater .dijitDateTextBox {
+	width: 120px;
+}
+
+.sendLater div.row {
+	padding: 10px 0 10px 0;
+}
+/*dojoxDropDownSelect*//*@Migration*/
+.sendLater .dijitSelect .dijitButtonContents {
+	width: 85px;
+	height: 17px;
+}

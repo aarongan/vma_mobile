@@ -1,0 +1,53 @@
+.TokenizedTextBox {
+    width: 15em;
+    border: 1px solid black;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: text;
+	min-height: 18px;
+	height: auto;
+	position: relative;
+}
+
+.dj_ie6 .TokenizedTextBox {
+    vertical-align: auto;
+}
+
+.TokenizedTextBox input {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+	width: 180px;
+}
+
+.TokenizedTextBoxFocused {
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.TokenizedTextBoxReadOnly, .TokenizedTextBoxDisabled {
+    color: #EEE;
+}
+
+.tundra .TokenizedTextBox {
+    background-color: #FFF;
+    background-image: url('../../../../../scripts/dojotoolkit/dijit/themes/tundra/images/validationInputBg.png');
+    background-repeat: repeat-x;
+    background-position: top left;
+    border: 1px solid #B3B3B3;
+    margin: 0 0.1em;
+    line-height: normal;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.dj_ie6 .tundra .TokenizedTextBox {
+    background-image: url('../../../../../scripts/dojotoolkit/dijit/themes/tundra/images/validationInputBg.gif');
+	height: 18px;
+	overflow: visible;
+}
+
+.tundra .TokenizedTextBoxFocused {
+    border-color: #406b9b;
+}

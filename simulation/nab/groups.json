@@ -1,0 +1,68 @@
+{
+"items":
+[
+	{
+		"id": 2,
+		"name": "Friends",
+		"groupType": "web",
+		"count" : 7,
+		"operationType" :""
+	},
+	{
+		"id": 3,
+		"name": "School",
+		"groupType": "web",
+		"count" : 13,
+		"operationType" :""
+	},
+	{
+		"id": 4,
+		"name": "College",
+		"groupType": "web",
+		"count" : 24,
+		"operationType" :""
+	},
+	{
+		"id": 5,
+		"name": "Home",
+		"groupType": "web",
+		"count" : 100,
+		"operationType" :""
+	},
+	{
+		"id": "145",
+		"name": "Friends11",
+		"groupType": "web",
+		"count" : 7,
+		"operationType" :""
+	},
+	{
+		"id": 7,
+		"name": "School11",
+		"groupType": "web",
+		"count" : 13,
+		"operationType" :""
+	},
+	{
+		"id": 8,
+		"name": "College11",
+		"groupType": "web",
+		"count" : 24,
+		"operationType" :""
+	},
+	{
+		"id": 9,
+		"name": "Home11",
+		"groupType": "web",
+		"count" : 100,
+		"operationType" :""
+	},
+	{
+		"id": 10,
+		"name": "personal",
+		"groupType": "web",
+		"count" : 5,
+		"operationType" :""
+	}		
+]
+}

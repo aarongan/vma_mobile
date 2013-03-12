@@ -1,0 +1,19 @@
+{
+	"messageList": [
+		{
+			"sender": "Sarah Gray <sarahgray@verizon.net>",
+			"timestamp": "Sunday, 2009/03/08 at 11:30PM",
+			"message": "This <b>message</b> also a rich text message. -- ONE"
+		},
+		{
+			"sender": "John Doe <sarahgray@verizon.net>",
+			"timestamp": "Sunday, 2009/03/08 at 11:30PM",
+			"message": "This <b>message</b> also a rich text message. -- TWO"
+		},
+		{
+			"sender": "Irene Neiz <sarahgray@verizon.net>",
+			"timestamp": "Sunday, 2009/03/08 at 11:30PM",
+			"message": "This <b>message</b> also a rich text message. -- THREE"
+		}
+	]
+}

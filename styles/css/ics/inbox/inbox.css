@@ -1,0 +1,1812 @@
+@import url('MessageRow.css');
+@import url('rightPanels.css');
+@import url('ConnectionRow.css');
+@import url('TagRow.css');
+@import url('NotificationRow.css');
+@import url('nav.css');
+@import url('Composer.css');
+@import url('Search.css');
+@import url('Recipient.css');
+@import url('SendLater.css');
+@import url('SpellCheck.css');
+@import url('Editor.css');
+@import url('Toaster.css');
+@import url('NotifyRow.css');
+@import url('contacts.css');
+@import url('DropDowns.css');
+@import url('Viewer.css');
+@import url('smileys.css');
+/* Inbox Styles */
+.tagSpan {
+    font-size: 10px;
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -248px -123px transparent;
+    padding: 0px 5px 2px 13px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.starredSpan {
+    font-size: 10px;
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -248px -123px transparent;
+    padding: 0px 5px 2px 13px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.starredDiv {
+    float: left;
+    font-size: 10px;
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -248px -123px transparent;
+    padding: 0px 5px 2px 13px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.composerStarredDiv {
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -248px -123px transparent;
+	height: 16px;
+	width: 16px;
+	position: relative;
+}
+.standardTag {
+    background: url(../../../images/ics/InboxSprites.png) no-repeat transparent -126px -23px;
+    padding: 0 0 0 25px;
+}
+
+.composeEmailLabel {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subjectSpan {
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.threadHeaderSubject {
+    width: 150px;
+    display: inline;
+    position: relative;
+    top: -25px;
+    padding-left: 49px;
+}
+
+.threadHeaderTimestamp {
+    width: 550px;
+}
+
+.threadHeaderAttachmentIcon {
+    width: 50px;
+    display: inline;
+    position: relative;
+    top: -25px;
+    left: 75px;
+    padding-left: 25px;
+}
+
+.threadHeaderReceivedDate {
+    width: 150px;
+    display: inline;
+    position: relative;
+    top: -25px;
+    left: 70px;
+    padding-left: 0px;
+}
+
+.messageSpan {
+    color: #666;
+    white-space: nowrap;
+}
+
+.senderName {
+    padding-left: 7px;
+}
+
+.progressBarNodeClass {
+    margin-left: 25px;
+    width: 100px;
+}
+
+.vcfImageClass {
+    width: 25px;
+    height: 25px;
+}
+
+.dojoxFloatingPaneContent .messageSentDiv {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+.dojoxGridScrollbox.inboxScrollbox{
+	height:1400px; /* 1037 1410*/
+}
+/*
+ .tundra .gridToolbar { position: absolute; top: 0; height: 48px; background: none !important; border-bottom: 0px transparent; width: 680px; text-align: right; }
+ */
+.dijitEditorIconPlay {
+    background: url(../../../images/ics/inbox/play.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconReply {
+    background: url(../../../images/ics/inbox/reply.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconForward {
+    background: url(../../../images/ics/inbox/forward.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconStar {
+    background: url(../../../images/ics/inbox/star.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconUnstar {
+    background: url(../../../images/ics/inbox/unstar.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconTags {
+    background: url(../../../images/ics/inbox/tag.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconTrash {
+    background: url(../../../images/ics/inbox/trash.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconActions {
+    background: url(../../../images/ics/inbox/actions.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconMark {
+    background: url(../../../images/ics/inbox/mark.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.dijitEditorIconUnmark {
+    background: url(../../../images/ics/inbox/unmark.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+
+.msgViewer .actionButtons > span, 
+.icsComposer .composeNav .ieMmsBtnNode > span,
+.msgViewer .actionButtons > a,
+.icsComposer .composeNav .ieMmsBtnNode > a{
+	background-image: url(../../../images/ics/InboxSprites.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 37px;
+    height: 49px;
+	margin-right: 3px;
+}
+
+/***********
+.icsToolbarIconReply {
+    background-position: -18px -270px;
+}
+.icsToolbarIconReply:hover{
+	background-position: -18px -324px;
+	cursor: pointer;
+}
+
+.icsToolbarIconReply .reply, .icsToolbarIconTag .tag{
+	background:none;
+}
+.icsToolbarIconReply .icsROButton.reply:hover,
+.icsToolbarIconReplyAll.icsROButton:hover,
+.icsToolbarIconTag .icsROButton:hover{
+	border:none;
+}
+.icsToolbarIconReplyAll.icsROButton{
+	margin:0px;
+}
+
+.icsToolbarIconReplyAll {
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -70px -270px;
+    text-align: center;
+    width: 37px;
+    height: 49px;
+	margin-right: 3px;
+}
+.icsToolbarIconReplyAll:hover{
+	cursor:pointer;
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -70px -324px;
+    text-align: center;
+    width: 37px;
+    height: 49px;
+	margin-right: 3px;
+}
+
+.icsToolbarIconResend {
+    background-position: -960px -271px;
+}
+.icsToolbarIconResend:hover{
+	cursor:pointer;
+	background-position: -960px -320px;
+}
+
+.icsToolbarIconForward {
+    background-position: -124px -270px;
+}
+.icsToolbarIconForward:hover{
+	cursor:pointer;
+	background-position: -125px -324px;
+}
+.icsToolbarIconStar {
+    background-position: -179px -270px;
+}
+.starredMsg .icsToolbarIconStar{
+	  background-position: -394px -325px;
+	  background-repeat: no-repeat;
+}
+
+.icsToolbarIconStar:hover{
+	cursor:pointer;
+	background-position: -180px -324px;
+}
+
+.icsToolbarIconTag {
+	background-position: -234px -270px;
+}
+.icsToolbarIconTag:hover{
+	cursor:pointer;
+	background-position: -234px -324px;
+}
+
+.icsToolbarIconDelete {
+    background-position: -288px -270px;
+}
+.icsToolbarIconDelete:hover{
+	cursor:pointer;
+	background-position: -288px -324px;
+}
+*********************/
+/*
+ * BC icsToolbarIconActions:hover doesn't work, using .dijitButtonNode button:hover instead
+ */
+.msgViewer .actionButtons .dijitButtonNode button,
+.contactCard .actionsIcon .dijitButtonNode button{
+	background: white url(../../../images/ics/InboxSprites.png) no-repeat scroll -341px -271px;
+    text-align: center;
+    width: 37px;
+    height: 49px;
+}
+.msgViewer .actionButtons .dijitButtonNode button:hover,
+.contactCard .actionsIcon .dijitButtonNode button:hover{
+	background: white url(../../../images/ics/InboxSprites.png) no-repeat scroll -341px -324px;
+    text-align: center;
+    width: 37px;
+    height: 49px;
+}
+
+
+.tundra .dateDelimiterRow {
+    background-color: #efefef;
+    text-align: center;
+    padding: 5px;
+    width: 730px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.inlineToolbar {
+    background: none !important;
+    border-bottom: 0px !important;
+    text-align: right;
+}
+
+.inlineToolbar .dijitArrowButtonInner {
+    display: none;
+}
+
+.inlineToolbar .dijitButtonHover {
+    border: 1px solid transparent !important;
+    background: none !important;
+}
+
+.inlineToolbar .dijitDropDownButtonHover {
+    border: 1px solid transparent !important;
+    background: none !important;
+}
+
+.test {
+    border: 1px solid red !important;
+}
+
+/* Styles used by widgets */
+.msgViewer .container {
+    border: 1px solid #ccc;
+    clear: both;
+}
+
+.msgViewer .emailContainer {
+    padding: 1px 10px 35px 9px;
+}
+
+.dj_ie7 .msgViewer .emailContainer{
+ padding: 10px 10px 35px 9px;
+}
+
+.msgViewer .titlebar {
+    padding: 0 0 5px 10px;
+    margin-top: 8px;
+    height: 55px;
+}
+
+.msgViewer .titlebar h2 {
+    float: left;
+    font-size: 120%;
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 55px;
+    overflow: auto;
+}
+
+.msgViewer .profileImage {
+	margin:0px;
+}
+
+.msgViewer .profileImage img {
+    height: 50px;
+    width: 50px;
+}
+
+.msgViewer .headerMetaContent {
+/*
+    float: left;
+    line-height: 140%;
+    margin-bottom: 10px;
+	width:45%;
+*/
+	display:block;
+}
+.threadViewer .msgViewer .standardHeader{
+	width:365px;
+}
+.msgViewer .standardHeader {
+	margin-top:4px;
+	width:395px;
+}
+.dj_ie7 .threadViewer .msgViewer .standardHeader{
+	width:388px;
+}
+.dj_ie7 .msgViewer .standardHeader{
+	width:398px;
+}
+.msgViewer .standardHeader .attach{
+	margin-left:2px;
+}
+.msgViewer .standardHeader .replyTo{
+	margin-left:8px;
+	margin-top:1px;
+}
+.msgViewer .standardHeader .receivedTime{
+	padding-left:7px;
+	margin-top:2px;
+}
+.msgViewer .actionButtons{
+	position:absolute;
+	left:485px;
+	top:18px;
+}
+.msgViewer.mms .actionButtons{
+	position: static;
+}
+
+.dj_ie7 .msgViewer .actionButtons{
+	position:absolute;
+	right:5px;
+	top:18px;
+}
+.dj_ie7 .msgViewer.mms .actionButtons{
+	position: static;
+}
+.dj_ie7 .msgViewer .actionButtons .dijitDropDownButton{
+	margin-bottom:17px;
+}
+.msgViewer .actionButtons .dijitButtonNode{
+	border:none;
+	padding:0px;
+}
+
+.msgViewer .actionButtons .dijitButtonNode button .dijitArrowButtonInner{
+	display:none;
+}
+.msgViewer .actionButtons .dijitDropDownButton{
+	margin:0;
+}
+.msgViewer .headerLabel {
+    float: left;
+    width: 50px;
+    font-weight: bold;
+}
+
+.msgViewer .headerField {
+    float: left;
+    margin-left:10px;
+}
+
+.msgViewer .blockImageMessage {
+    background: transparent url(../../../images/ics/inbox/noaction.png) no-repeat scroll 5px 5px;
+    clear: both;
+    border: 1px solid #ccc;
+    padding: 7px 7px 7px 45px;
+    display: none;
+}
+
+.msgViewer .contentContainer {
+    clear: both;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 5px 10px 0;
+}
+
+.msgViewer .titleCenter {
+    text-align: center;
+}
+
+.taglistHolder {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -270px -124px;
+    padding: 0 0 0 22px;
+    width: 225px;
+    height: 55px;
+    overflow: auto;
+	position: relative;
+	left: 25px;
+}
+
+.taglistHolder > span {
+	background-color: #ffffff;
+}
+
+.tags .tagNode{
+	float: left;
+	margin-left: 10px;
+	max-width: 95px; /* ---- For IE8 Extra white space problem ---- */
+}
+
+.tags .tagName {
+   	max-width: 78px;
+	float: left;
+	line-height: 17px;
+}
+
+.dj_ie7 .tags .tagName {
+	width: 55px;
+	text-align: right;
+}
+
+.tinyClose {
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -296px -124px ;
+	height: 17px;
+	width: 16px;
+	cursor: pointer;
+}
+
+.composerBottom .attachmentDiv,
+.msgViewer .attachmentDiv {
+    clear: both;
+    padding: 15px 5px 5px 0;
+}
+.uploaderDisplay {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.composerBottom .attachmentImg,
+.msgViewer .attachmentImg {
+    float: left;
+    margin-right: 10px;
+	max-width:400px;
+}
+
+.msgViewer .bottom {
+    clear: both;
+    padding: 15px 10px 10px 10px;
+}
+.msgViewer .threadHeaderContainer {
+    clear: both;
+    border-bottom: 1px solid #ccc;
+}
+
+.msgViewer .minimizedThreadHeaderContainer {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    height: 15px;
+    cursor: pointer
+}
+
+.msgViewer .threadHeaderRow {
+    background: #efefef;
+    padding: 4px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.msgViewer .unreadThreadHeaderRow {
+    background: #efefef;
+    padding: 4px;
+    height: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.msgViewer .threadProfilePic {
+    height: 44px;
+    width: 44px; /*margin: 0px 10px 0px 6px; display: inline; */
+}
+
+.msgViewer .threadSender {
+    position: relative;
+    top: -30px;
+    left: 5px;
+    display: inline;
+}
+
+.msgViewer .threadTimestamp {
+    float: right;
+    margin: 12px;
+    position: relative;
+    top: 18px;
+}
+
+.msgViewer .quoteContainer {
+    padding: 4px 0 0 4px;
+}
+
+.msgViewer .quoteMessage {
+    border-left: 1px solid #ccc;
+    padding: 4px 0 0 4px;
+}
+
+.msgViewer .quoteMessageLink {
+    padding: 4px;
+    display: inline;
+}
+
+.previewImage .transDiv {
+    background-color: #efefef;
+    border: 1px solid #d9d9d9;
+    text-align: left;
+    height: 24px;
+    width: 100%;
+    padding: 3px;
+}
+
+.previewImage .saveButton {
+    position: relative;
+    top: -15px;
+    cursor: pointer;
+    float: right;
+}
+
+.previewImage .imageDetails {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.previewImage .viewImageClass {
+    float: right;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+/* Settings Styles */
+/*
+.settings .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-weight: bold;
+}
+
+.settings .nav ul li {
+    margin: 0;
+    padding: 2px 0 2px 0;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.settings .nav .level1 {
+    padding-left: 27px;
+}
+
+.settings .nav .level2 {
+    padding-left: 60px;
+}
+
+.settings .nav ul li a {
+    margin-left: 7px;
+}
+
+.settings .nav li.active {
+    background: transparent url(../../../images/ics/settings/settings_nav_active_bg.png) no-repeat 0 2px;
+    color: #fff;
+}
+*/
+.settings h1 {
+    height: 30px;
+}
+
+.settings h3 {
+    margin: 6px 0 10px 0 !important;
+}
+
+.settings .dottedContainer {
+    margin-top: 20px;
+    border-top: 1px dotted #ccc;
+    padding: 0 0 5px 3px;
+}
+
+.settings .addNewLink {
+    float: left;
+    clear: both;
+}
+
+.settings .titlePaneContainer {
+    margin: 0 0 10px 0;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneTitle {
+    background: none;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    padding: 2px 4px;
+    height: 25px;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneTitle div {
+    line-height: 25px;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneTextNode {
+    color: #0066cc;
+    outline: none;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneFocused .dijitTitlePaneTextNode {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneContentOuter {
+    border-width: 1px 1px 0 1px;
+}
+
+.settings .titlePaneContainer .titlePaneOdd {
+    background: #ebebeb;
+}
+
+.settings .titlePaneContainer .titlePaneEven {
+    background: #f5f5f5;
+}
+
+.settings .containerHeader {
+    background: #a9a9a9;
+    color: #fff;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 4px;
+}
+
+.settings .titlePaneContainer .signatureName {
+    float: left;
+    width: 420px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.settings .titlePaneContainer .filterName {
+    float: left;
+    width: 480px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.settings .titlePaneContainer .isDefault {
+    float: left;
+    width: 70px;
+    text-align: center;
+}
+
+.pl .dividers .button, .pl .dividers .linkSpan {
+    border-right: 1px solid #999999;
+    padding: 0 4px;
+    margin: 0;
+}
+
+.pl .dividers .button.last, .pl .dividers .linkSpan.last {
+    border-right: none;
+}
+
+.icsBusy * {
+    cursor: progress;
+}
+
+.confirmationBox {
+    height: 100px;
+}
+
+.confirmationBox .contentBody {
+    padding-bottom: 20px;
+    text-indent: 10px;
+}
+
+.confirmationBox .linkSpan {
+    float: right;
+    margin-top: 5px;
+}
+
+.contactCard, .nonContactCard {
+    width: 340px;
+   /*
+    position: absolute;
+    left: -50px;
+    z-index: 100;
+    */
+    background-color: #ffffff;
+    text-align: left;
+	border:1px solid #ccc;
+	padding:8px 10px 20px 10px;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.dj_ie7 .contactCard, .nonContactCard,
+.dj_ie8 .contactCard, .nonContactCard {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=8);
+}
+.contactCard .loadingMessage, .nonContactCard .loadingMessage,
+.contactCard.loading .bottomDiv, .nonContactCard.loading .bottomDiv{
+	display:none;
+}
+.contactCard.loading .loadingMessage{
+	display:block;
+}
+.contactCard.storeNotReady .loadingMessage, .nonContactCard.storeNotReady .loadingMessage{
+	display:block;
+	margin-top:5px;
+	margin-left:5px;
+}
+.contactCard.storeNotReady .actionButtons, .nonContactCard.storeNotReady{
+	display:none;
+}
+.dj_ie7 .contactCard, .dj_ie7 .nonContactCard{
+	overflow-x:hidden;
+}
+.contactCard .dijitDropDownButton, .nonContactCard .dijitDropDownButton{
+	margin:0px;
+}
+.contactCard .dijitArrowButtonInner, .nonContactCard .dijitArrowButtonInner{
+	display:none;
+} 
+
+.contactCard .dijitButtonNode, .contactCard .dijitButton, .nonContactCard .dijitButtonNode, .nonContactCard .dijitButton {
+    border: 0px #ffffff solid;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+.dj_ie .contactCardActionsBtn{
+	margin-left:5px;
+	margin-right:3px;
+}
+.dj_ie7 .contactCardActionsBtn{
+	vertical-align: top;
+	margin-top:-2px;
+}
+.contactCard .contactImgDiv, .nonContactCard .contactImgDiv {
+    float: right;
+}
+
+.contactCard .contactImgDiv img, .nonContactCard .contactImgDiv img {
+    height: 76px;
+    width: 76px;
+}
+
+.contactCard .mainInfo, .nonContactCard .mainInfo {
+    float: left;
+}
+
+.contactCard .displayName, .nonContactCard .displayName {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.contactCard .companyName, .nonContactCard .companyName {
+    padding-bottom: 2px;
+    font-size: 12px;
+    color: #d1d1d1;
+}
+
+.contactCard .middle, .nonContactCard .middle {
+    height: 328px;
+}
+
+.contactCard .middle .topDiv {
+    height: 100px;
+    border-bottom: 1px dashed #D1D1D1;
+    margin-bottom: 4px;
+}
+
+.nonContactCard .middle .topDiv {
+    border: 0px;
+}
+
+.contactCard .middle .middleDiv {
+    height: 85px;
+    border-bottom: 1px dashed #D1D1D1;
+}
+
+.nonContactCard .middle .middleDiv {
+    height: 192px;
+}
+
+.contactCard .groupsDiv {
+    border-bottom: 1px dashed #D1D1D1;
+    height: 46px;
+}
+
+.nonContactCard .groupsDiv {
+    height: 46px;
+}
+
+.contactCard .nonContact .middle .middleDiv {
+    border: 0px;
+}
+
+.contactCard .middle .bottomDiv, .nonContactCard .middle .bottomDiv {
+    height: 50px;
+}
+
+.contactCard .middle .bottomDiv .endPointsDiv,
+.nonContactCard .middle .bottomDiv .endPointsDiv {
+    height: 50px;
+}
+
+.contactCard .middle .endPointsDiv .endPoints {
+    float: left;
+    margin-top: 5px;
+}
+
+.contactCard .middle .endPointsDiv .endPointIcon {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll 0 0;
+    height: 18px;
+    margin-right: 5px;
+    width: 18px;
+}
+
+.contactCard .middle .endPointsDiv .GOOGLE {
+    background-position: -20px -93px;
+}
+.contactCard .middle .endPointsDiv .YAHOO {
+    background-position: -140px -93px;
+}
+.contactCard .middle .endPointsDiv .MSN {
+    background-position: -100px -93px; 
+}
+.contactCard .middle .endPointsDiv .AOL {
+	background-position: -60px -93px; 
+}
+.contactCard .middle .endPointsDiv .POP3 {
+	background-position: -358px -90px; 
+	width: 26px;   
+}
+
+.contactCard .middle .endPointsDiv .updatedDate {
+    float: right;
+    color: #d1d1d1;
+    margin-top: 5px;
+}
+
+.contactCard .phones, .contactCard .otherContacts, .nonContactCard .phones {
+    text-indent: 0px;
+}
+
+.contactCard .phones div, .contactCard .otherContacts div {
+    margin-top: 3px;
+}
+
+.contactCard .middle .groupsDiv div {
+    text-indent: 25px;
+    margin-top: 3px;
+}
+
+.contactCard .middle .groupsDiv .groups {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -445px -125px; 
+	padding-left: 24px;
+}
+
+.contactCard .middle .groupsDiv .mobileGroups {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -390px -125px; 
+	padding-left: 24px;
+}
+
+.contactCard .homeIcon, .contactCard .personalEmailIcon, .contactCard .personalAddressIcon, .nonContactCard .personalEmailIcon,
+.contactCard .homeAddressIcon{
+    background: url(../../../images/ics/InboxSprites.png) -374px -127px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width:16px;
+    margin-right:2px;
+}
+
+.contactCard .mobileIcon {
+    background: url(../../../images/ics/InboxSprites.png) -356px -126px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.contactCard .otherEmailIcon{
+    background: url(../../../images/ics/InboxSprites.png) -649px -123px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right:2px;
+}
+
+.contactCard .businessIcon, .contactCard .businessAddressIcon, .contactCard .businessEmailIcon {
+	background:url(../../../images/ics/InboxSprites.png) no-repeat scroll -613px -124px;
+	height:16px;
+	width:16px;
+	margin-right:2px;
+}
+
+.contactCard .IMIcon {
+    background: url(../../../images/ics/InboxSprites.png) -667px -124px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right:2px;
+}
+.contactCard .webpageIcon {
+    background: url(../../../images/ics/InboxSprites.png) -685px -124px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right:2px;
+}
+
+.contactCard .contactIcon, .nonContactCard .contactIcon {
+    background: url(../../../images/ics/InboxSprites.png) no-repeat;
+    width: 35px;
+    height: 50px;
+}
+
+.contactCard .editIcon {
+    background-position: -610px -267px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.contactCard .editIcon:hover {
+    background-position: -610px -317px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.dj_ie7 .contactCard .editIcon{
+	margin-right:5px;
+}
+
+.contactCard .viewIcon {
+    background-position: -651px -267px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.contactCard .viewIcon:hover {
+    background-position: -651px -317px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.dj_ie7 .contactCard .viewIcon{
+	margin-right:5px;
+}
+
+.contactCard .newIcon{
+    background-position: -701px -267px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.contactCard .newIcon:hover{
+    background-position: -701px -317px;
+	cursor:pointer;
+	margin-right:6px;
+}
+
+.nonContactCard .newIcon {
+    background-position: -701px -267px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.nonContactCard .newIcon:hover {
+    background-position: -701px -317px;
+	cursor:pointer;
+	margin-right:6px;
+}
+
+.dj_ie .nonContactCard .newIcon{
+	margin-right:5px;
+}
+
+.contactCard .groupIcon {
+    background-position: -742px -268px;
+	margin-bottom: -22px;
+	margin-right:6px;
+}
+.contactCard .groupIcon:hover {
+    background-position: -742px -318px;
+	margin-bottom: -22px;
+	margin-right:6px;
+}
+
+.dj_ie .contactCard .groupIcon {
+    margin-top: 0px;
+}
+.dj_ie .contactCard .groupIcon:hover {
+    margin-top: 0px;
+}
+
+.contactCard .deleteIcon {
+    background-position: -783px -267px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.contactCard .deleteIcon:hover {
+    background-position: -783px -317px;
+	cursor:pointer;
+	margin-right:6px;
+}
+
+.contactCard .actionsIcon {
+    background-position: -833px -267px;
+	cursor:pointer;
+	margin-right:6px;
+}
+
+.contactCard .actionsIcon:hover {
+    background-position: -833px -317px;
+	cursor:pointer;
+	margin-right:6px;
+}
+.contactCard .actionsIcon .dijitButtonNode button,
+.contactCard .actionsIcon .dijitButtonNode button:hover{
+	margin-top: 4px;
+}
+
+.contactCard .saveIcon, .nonContactCard .saveIcon {
+    background-position: -876px -267px;
+    cursor:pointer;
+}
+.contactCard .saveIcon:hover, .nonContactCard .saveIcon:hover {
+    background-position: -876px -317px;
+}
+
+.dj_ff3 .priority_popup {
+    position: absolute;
+    top: 18px !important;
+    left: -167px !important;
+}
+
+.dj_ie7 .priority_popup{
+    left: -17px !important;
+}
+
+.priority_popup.dijitMenuTable {
+    width: 162px;
+}
+
+.priority_popup.dijitMenuTable .priorityItem{
+	display:block;
+}
+
+.sortLableWrapper.sortByLabel {
+    left:570px;
+	margin-right:5px;
+	position:absolute;
+	top:6px;
+	z-index:20;
+}
+.dj_ie7 .sortLableWrapper.sortByLabel {
+	left: 575px;
+}
+._disabledAddContact{
+	cursor:not-allowed !important;
+	background-color: #e9e9e9;
+}
+.attachmentFileIcon{
+	background-image: url('../../../images/ics/inbox/fileTypeSprite-8bit.png');
+	height:36px;
+	width:40px;
+}
+.attachmentFileIcon.aac{
+	background-position: -1263px 0px;
+}
+.attachmentFileIcon.m4a{
+	background-position: -1222px 0px;
+}
+.attachmentFileIcon.midi{
+	background-position: -1179px 0px;
+}
+.attachmentFileIcon.mp3{
+	background-position: -1135px 0px;
+}
+.attachmentFileIcon.music{
+	background-position: -981px 0px;
+}
+.attachmentFileIcon.ringBack{
+	background-position: -1058px 0px;
+}
+.attachmentFileIcon.ringTone{
+	background-position: -1021px 0px;
+}
+.attachmentFileIcon.soundFile{
+	background-position: -280px 0px;
+}
+.attachmentFileIcon.wave{
+	background-position: -940px 0px;
+}
+.attachmentFileIcon.playList{
+	background-position: -856px 0px;
+	height:39px;
+}
+.attachmentFileIcon.xls{
+	background-position: -902px 0px;
+}
+.attachmentFileIcon.generic{
+	background-position: -817px 0px;
+}
+.attachmentFileIcon.html{
+	background-position: -779px 0px;
+}
+.attachmentFileIcon.pdf{
+	background-position: -735px 0px;
+}
+.attachmentFileIcon.txt{
+	background-position: -697px 0px;
+}
+.attachmentFileIcon.ppt{
+	background-position: -656px 0px;
+}
+.attachmentFileIcon.rtf{
+	background-position: -614px 0px;
+}
+.attachmentFileIcon.doc{
+	background-position: -572px 0px;
+}
+.attachmentFileIcon.acdb{
+	background-position: -527px 0px;
+	width:42px;
+}
+.attachmentFileIcon.zip{
+	background-position: -486px 0px;
+}
+.attachmentFileIcon.gif{
+	background-position: -442px 0px;
+}
+.attachmentFileIcon.jpg{
+	background-position: -402px 0px;
+}
+.attachmentFileIcon.photo{
+	background-position: -364px 0px;
+	width:39px;
+}
+.attachmentFileIcon.png{
+	background-position: -325px 0px;
+}
+.attachmentFileIcon.tiff{
+	background-position: -283px 0px;
+}
+.attachmentFileIcon.3gp{
+	background-position: -239px 0px;
+}
+.attachmentFileIcon.avi{
+	background-position: -197px 0px;
+}
+.attachmentFileIcon.flash{
+	background-position: -156px 0px;
+}
+.attachmentFileIcon.mpeg2{
+	background-position: -115px 0px;
+}
+.attachmentFileIcon.mpeg2v{
+	background-position: -1418px 0px;
+}
+.attachmentFileIcon.mov{
+	background-position: -74px 0px;
+}
+.attachmentFileIcon.movVideo{
+	background-position: -1377px 0px;
+}
+.attachmentFileIcon.ram{
+	background-position: 0px 0px;
+}
+.attachmentFileIcon.ramVideo{
+	background-position: -1303px 0px;
+}
+.attachmentFileIcon.video{
+	background-position: -1340x 0px;
+}
+#ics-app-inbox-viewer-back {
+	width: 80px !important;
+}
+.inboxBackDiv{
+	padding: 10px 0 0 10px;	
+}
+.inboxBackDiv .goBackIcon{
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -198px -22px;
+	width:15px;
+	height:15px;
+	margin: 3px 5px 0 0;
+	cursor:pointer;
+}
+.inboxBackDiv .linkSpan{
+	margin-top:2px;
+}
+.inboxStorageNotifier{
+    position: absolute;
+    z-index: 3;
+    top: 10px; 
+    left: 730px;
+}
+/*.dj_ie7 .inboxStorageNotifier{
+	top:-32px;
+}*/
+
+.inboxStorageNotifier .storageProgBarInfo{
+	position: relative;
+}
+.inboxStorageNotifier .inboxSizeLimit{
+	font-weight: bold;
+	width: 44px;
+	text-align: right;
+}
+
+.inboxStorageNotifier .storageProgBarInfo .progBarInfoImg{
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat scroll;
+}
+.inboxStorageNotifier .storageProgBarInfo .progBarInfoImg.Green{
+	background-position: -16px -284px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.inboxStorageNotifier .storageProgBarInfo .progBarInfoImg.Blue{
+	background-position: -16px -320px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.inboxStorageNotifier .storageProgBarInfo .progBarInfoImg.Yellow{
+	background-position: -16px -302px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.inboxStorageNotifier .storageProgBarInfo .progBarInfoImg.Red{
+	background-position: -16px -267px;
+	height: 14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.inboxStorageNotifier .storageProgBarInfo .progBarInfoImg.Grey{
+	background-position: -16px -341px;
+	width: 200px;
+	height: 14px;
+}
+
+.dj_ie7 .inboxStorageNotifier .storageProgBarInfo .progBarInfoImg.Grey{
+	background-position: -16px -339px;
+	width: 200px;
+	height: 14px;
+}
+
+.inboxStorageNotifier .storageInfoContent{
+	font-weight: 600;
+	width: 195px;
+}
+.inboxStorageNotifier .storageDetails{
+	height:15px;
+	cursor: pointer;
+	color: #0066CC;
+	font-weight:bold;
+	
+}
+
+.inboxStorageNotifier .storageProgBar{
+	height: 24px;
+	width: 212px;
+	margin-top:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg{
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg > span{
+	margin: 3px 0 0 0;
+}
+.dj_ie .inboxStorageNotifier .storageProgBar progBarImg.midGreen,
+.dj_ie .inboxStorageNotifier .storageProgBar progBarImg.midYellow,
+.dj_ie .inboxStorageNotifier .storageProgBar progBarImg.midRed{
+	margin-top: 2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.leftGrey{
+	background-position: -145px -202px;
+	height:20px;
+	width:4px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.rightGrey{
+	background-position: -328px -202px;
+	height:20px;
+	width:4px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.midGrey{
+	background:transparent url(../../../images/ics/inbox/meterBar_grey_small_1px.png) repeat-x scroll;
+	height:20px;
+	width:204px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.leftGreen{
+	background-position: -146px -225px;
+	height:14px;
+	width:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.rightGreen{
+	background-position: -152px -225px;
+	height:14px;
+	width:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.midGreen{
+	background:transparent url(../../../images/ics/inbox/meterBar_green_small_1px.png) repeat-x scroll;
+	height:14px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.leftYellow{
+	background-position: -158px -225px;
+	height:14px;
+	width:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.rightYellow{
+	background-position: -164px -225px;
+	height:14px;
+	width:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.midYellow{
+	background:transparent url(../../../images/ics/inbox/meterBar_yellow_small_1px.png) repeat-x scroll;
+	height:14px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.leftRed{
+	background-position: -170px -225px;
+	height:14px;
+	width:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.rightRed{
+	background-position: -176px -225px;
+	height:14px;
+	width:2px;
+}
+.inboxStorageNotifier .storageProgBar .progBarImg.midRed{
+	background:transparent url(../../../images/ics/inbox/meterBar_red_small_1px.png) repeat-x scroll;
+	height:14px;
+}
+.dj_ie7 .inboxStorageNotifier .tooltipIcon{
+	margin-bottom:2px;
+}
+
+
+.icsDialog .storageDetails{
+	margin: 0 0 0 10px;
+}
+
+.icsDialog .storageDetails .headerWrapper{
+	margin: 0 0 10px 0;
+	height: 35px;
+	padding-top: 3px;
+}
+
+.icsDialog .storageDetails .headerWrapper label{
+	float: left;
+	line-height: 25px;
+}
+
+.icsDialog .storageDetails .headerWrapper div{
+	float: left;
+	padding-left: 10px;
+}
+
+.icsDialog .storageDetails .headerWrapper .dijitButtonText{
+	width: 144px;
+	text-align: left;
+}
+
+.icsDialog .storageDetails .contentWrapper .meterBar{
+	margin:	0 0 15px 40px;
+}
+
+.icsDialog .storageDetails .contentWrapper .summaryImg{
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+}
+
+.icsDialog .storageDetails .headerWrapper .mediaTab{
+	width: 46px;
+}
+
+.icsDialog .storageDetails .contentWrapper .musicDiv .summaryImg.musicImg {
+	background-position: -181px -225px;
+	margin: 0 5px 0 0;
+}
+.icsDialog .storageDetails .contentWrapper .categoryText {
+	text-decoration: underline;
+	color: blue;
+	width: 170px;
+}
+/*
+.icsDialog .storageDetails .contentWrapper .musicDiv .musicText {
+	text-decoration: underline;
+	color: blue;
+	width: 200px;
+}
+.icsDialog .storageDetails .contentWrapper .pictureDiv .pictureText {
+	text-decoration: underline;
+	color: blue;
+	width: 200px;
+}
+.icsDialog .storageDetails .contentWrapper .documentDiv .documentText {
+	text-decoration: underline;
+	color: blue;
+	width: 200px;
+}
+.icsDialog .storageDetails .contentWrapper .emailDiv .emailText {
+	text-decoration: underline;
+	color: blue;
+	width: 200px;
+}
+.icsDialog .storageDetails .contentWrapper .textDiv .textText {
+	text-decoration: underline;
+	color: blue;
+	width: 200px;
+}
+.icsDialog .storageDetails .contentWrapper .videoDiv .videoText {
+	text-decoration: underline;
+	color: blue;
+	width: 200px;
+}
+*/
+.icsDialog .storageDetails .contentWrapper .pictureDiv .summaryImg.pictureImg {
+	background-position: -195px -225px;
+	margin: 0 5px 0 0;
+}
+.icsDialog .storageDetails .contentWrapper .videoDiv .summaryImg.videoImg {
+	background-position: -207px -225px;
+	margin: 0 5px 0 0;
+}
+
+.icsDialog .storageDetails .contentWrapper .documentDiv .summaryImg.documentImg {
+	background-position: -231px -225px;
+	margin: 0 5px 0 0;
+}
+/*.icsDialog .storageDetails .contentWrapper .spamDiv .summaryImg.spamImg {
+	background-position: -219px -225px;
+	margin: 0 5px 0 0;
+}
+.icsDialog .storageDetails .contentWrapper .spamDiv .spamText {
+	text-decoration: underline;
+	color: blue;
+	width: 80px;
+}*/
+
+.icsDialog .storageDetails .contentWrapper .emailDiv .summaryImg.emailImg {
+	background-position: -231px -225px;
+	margin: 0 5px 0 0;
+}
+/*.icsDialog .storageDetails .contentWrapper .smsDiv .summaryImg.smsImg {
+	background-position: -195px -225px;
+	margin: 0 5px 0 0;
+}
+.icsDialog .storageDetails .contentWrapper .smsDiv .smsText {
+	text-decoration: underline;
+	color: blue;
+	width: 120px;
+}*/
+.icsDialog .storageDetails .contentWrapper .textDiv .summaryImg.textImg {
+	background-position: -219px -225px;
+	margin: 0 5px 0 0;
+}
+
+
+.icsDialog .storageDetails .contentWrapper .progBarImg{
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll;
+	width: 4px;
+	height: 40px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg > span{
+	margin: 4px 0 0 0
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.leftGrey {
+	background-position: -703px -144px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midGrey {
+	background: transparent url(../../../images/ics/inbox/meterBar_grey_large_1px.png) repeat-x scroll;
+	height: 40px;
+	width: 228px;
+	overflow: hidden;
+}
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightGrey {
+	background-position: -712px -144px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.lefttotal {
+	background-position: -719px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midtotal {
+	background: transparent url(../../../images/ics/inbox/meterBar_green_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.righttotal {
+	background-position: -727px -145px;
+	height: 32px;
+}
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.leftmusic {
+	background-position: -732px -146px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midmusic {
+	background: transparent url(../../../images/ics/inbox/meterBar_yellow_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightmusic {
+	background-position: -740px -146px;
+	height: 32px;
+}
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.leftpicture {
+	background-position: -744px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midpicture {
+	background: transparent url(../../../images/ics/inbox/meterBar_lightblue_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightpicture {
+	background-position: -752px -145px;
+	height: 32px;
+}
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.leftvideo {
+	background-position: -756px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midvideo{
+	background: transparent url(../../../images/ics/inbox/meterBar_lightgreen_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightvideo {
+	background-position: -764px -145px;
+	height: 32px;
+}
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.leftdocument {
+	background-position: -769px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.middocument {
+	background: transparent url(../../../images/ics/inbox/meterBar_blue_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightdocument {
+	background-position: -778px -145px;
+	height: 32px;
+}
+
+/*.icsDialog .storageDetails .contentWrapper .progBarImg.leftspam {
+	background-position: -782px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midspam {
+	background: transparent url(../../../images/ics/inbox/meterBar_orange_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightspam {
+	background-position: -790px -145px;
+	height: 32px;
+}*/
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.leftemail {
+	background-position: -769px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midemail {
+	background: transparent url(../../../images/ics/inbox/meterBar_blue_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightemail {
+	background-position: -778px -145px;
+	height: 32px;
+}
+
+/*.icsDialog .storageDetails .contentWrapper .progBarImg.leftsms {
+	background-position: -744px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midsms {
+	background: transparent url(../../../images/ics/inbox/meterBar_lightblue_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.rightsms {
+	background-position: -752px -145px;
+	height: 32px;
+}*/
+
+.icsDialog .storageDetails .contentWrapper .progBarImg.lefttext {
+	background-position: -782px -145px;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.midtext {
+	background: transparent url(../../../images/ics/inbox/meterBar_orange_large_1px.png) repeat-x scroll;
+	height: 32px;
+}
+.icsDialog .storageDetails .contentWrapper .progBarImg.righttext {
+	background-position: -790px -145px;
+	height: 32px;
+}
+
+.icsDialog .storageDetails .contentWrapper .totalText,
+.icsDialog .storageDetails .contentWrapper .remainingText{
+	display: inline-block;
+	width: 187px;
+}
+
+.icsDialog .storageDetails .contentWrapper .totalDiv,
+.icsDialog .storageDetails .contentWrapper .remainDiv{
+	margin:	12px 0 0 40px;
+}
+.icsDialog .storageDetails .contentWrapper .upgradeDiv{
+	margin: 10px 0px 0px 39px;
+}
+.dj_ie .icsDialog .storageDetails .contentWrapper .remainDiv{
+	margin-bottom: 0;
+}
+
+.icsDialog .storageDetails .contentWrapper .musicDiv,
+.icsDialog .storageDetails .contentWrapper .pictureDiv,
+.icsDialog .storageDetails .contentWrapper .videoDiv,
+.icsDialog .storageDetails .contentWrapper .documentDiv,
+.icsDialog .storageDetails .contentWrapper .emailDiv,
+.icsDialog .storageDetails .contentWrapper .textDiv{
+	margin:	0 0 5px 40px;
+}
+/******
+._basePanel .myTagIcon{
+	width:25px;
+}
+.dj_ie ._basePanel .myTagIcon{
+	margin-bottom:2px;
+}
+******/
+.dj_ie ._basePanel.tagPanel .tooltipImg {
+	margin-top:0px;
+	margin-bottom:1px;
+}
+._basePanel.tagPanel .middle .bodyDiv{
+	height:106px !important;
+	overflow-y:scroll;
+}
+/**
+._basePanel.tagPanel .actionArrow{
+	margin-left:105px;
+}
+**/
+._basePanel.tagPanel .renameDiv{
+	padding: 4px 0 4px 5px;
+}
+.dndTagIcon {
+	width: 22px;
+	height: 17px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -198px -123px;
+	margin-right:4px;
+}
+.dndStarIcon{
+	background:url("../../../../styles/images/ics/inbox/msgListSprite.png") no-repeat scroll -202px -5px transparent;
+	height:15px;
+	width:14px;
+	margin-right:2px;
+}
+.mmsFilerUploader .drop_zone {
+ 	-moz-border-radius: 5px 5px 5px 5px;
+    border: 2px dashed #FF9900;
+    color: #BBBBBB;
+    padding: 20px;
+    margin-top:10px;
+    text-align: center;
+}
+.mmsFilerUploader .mmsProgress {
+	-moz-border-radius: 5px 5px 5px 5px;
+	height:32px;
+	margin-top:10px;
+	background: url("../../../images/ics/inbox/meterBar_orange_large_1px.png") repeat-x scroll 0 0 transparent
+}
+.noEmailEndpointsStaticPage{
+	height:100%;
+	width:780px;
+	position: absolute;
+	top:54px;
+	left:202px;
+	z-index:100;
+	background-color:#FFFFFF;
+}
+.f1AcctNotFoundStaticPage{
+	height:100%;
+	width:780px;
+	position: absolute;
+	top:0px;
+	left:202px;
+	z-index:100;
+	background-color:#FFFFFF;
+}
+.noMediaStorageStaticPage{
+	height:100%;
+	width:780px;
+	position: absolute;
+	top:54px;
+	left:202px;
+	z-index:100;
+	background-color:#FFFFFF;
+}

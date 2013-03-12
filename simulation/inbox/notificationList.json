@@ -1,0 +1,12 @@
+{
+	"items": [
+		{
+			"messageType" : "text",
+			"total" : 3
+		},
+		{
+			"messageType" : "pictureVideo",
+			"total" : 1
+		}
+	]
+}

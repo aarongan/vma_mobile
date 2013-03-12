@@ -1,0 +1,186 @@
+/*@Migration*/
+/*.dojoxDropDownSelect*/
+.pl .dijitSelect .dijitArrowButton {
+	vertical-align: middle;
+	border-left: none;
+}
+
+#overflow_dropdown {
+	height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #f7f7f7;
+	border: 1px solid #7eabcd;
+}
+
+
+
+/*
+**----------------------------------------------------------------------------
+**  DropDownSelect
+**----------------------------------------------------------------------------
+/* Mirror dijitDropDownButton as far as padding/spacing goes */
+/*.dojoxDropDownSelect*/
+.dijitSelect {
+	margin: 0.2em;
+}
+/*.dojoxDropDownSelect*/
+.dijitSelect .dijitButtonNode {
+	text-align: left;
+}
+/*.dojoxDropDownSelect*/
+.dijitRtl .dijitSelect .dijitButtonNode {
+	text-align: right;
+}
+/*.dojoxDropDownSelect*/
+.dijitToolbar .dijitSelect {
+	margin: 0;
+}
+/*.dojoxDropDownSelect*/
+.dj_webkit .dijitToolbar .dijitSelect {
+	padding-left: 0.3em;
+}
+/*dojoxDropDownSelectDisabled*/
+.dijit_a11y .dijitSelectDisabled .dijitButtonNode {
+	border-style: outset!important;
+	border-width: medium!important;
+	border-color: #999 !important;
+	color:#999 !important;
+}
+/*.dojoxDropDownSelect*/
+.dijitSelect .dijitButtonContents {
+	padding: 0px;
+	border-right: none;
+/*
+	background: transparent none;
+*/
+}
+/*dojoxDropDownSelectFixedWidth*/
+.dijitSelectFixedWidth .dijitButtonContents {
+	width: 100%;
+}
+/*.dojoxDropDownSelect*/
+.dijitSelect .dijitArrowButton {
+	width: 16px;
+}
+
+/* Fix the baseline of our label (for multi-size font elements) */
+/*dojoxDropDownSelectLabel*/
+.dijitSelectLabel *
+{
+	vertical-align: baseline;
+}
+
+/* Styling for the currently-selected option (rich text can mess this up) */
+/*dojoxDropDownSelectSelectedOption*/
+.dijitSelectSelectedOption * {
+	font-weight: bold;
+}
+
+/* Fix the styling of the dropdown menu to be more combobox-like */
+/*dojoxDropDownSelectMenu*/
+.dijitSelectMenu {
+	border-width: 1px;
+}
+
+/* Style the different areas of the button to look like a "real" dropdown */
+/*.dojoxDropDownSelect*/
+.dijitSelect .dijitButtonContents {
+	white-space: nowrap;
+}
+
+/*
+**----------------------------------------------------------------------------
+**  Tundra stylings
+**----------------------------------------------------------------------------
+*/
+/* Cursor States */
+/*dojoxDropDownSelectDisabled*/
+.tundra .dijitSelectDisabled * {
+    cursor: not-allowed !important;
+}
+/*dojoxDropDownSelectReadOnly*/
+.tundra .dijitSelectReadOnly * {
+    cursor: default !important;
+}
+/*dojoxDropDownSelect*/
+.tundra .dijitSelect .dijitButtonNode {
+	padding: 0px;
+}
+
+/* Make unselected content portion "look" more like a text box and less like a button */
+/*.dojoxDropDownSelect*/
+.tundra .dijitSelect .dijitButtonContents {
+	padding-top: 1px;
+	 border-color: #d5d5d5 #bdbdbd #bdbdbd #d5d5d5;
+}
+/*
+.tundra .dojoxDropDownSelectHover .dijitButtonContents,
+.tundra .dojoxDropDownSelectActive .dijitButtonContents,
+.tundra .dojoxDropDownSelectOpened .dijitButtonContents,
+.tundra .dojoxDropDownSelectDisabled .dijitButtonContents,
+.tundra .dojoxDropDownSelectReadOnly .dijitButtonContents{
+	background: transparent none;
+}
+*/
+/*.dojoxDropDownSelect*/
+.dj_ie .tundra .dijitSelect .dijitButtonContents {
+	padding-top: 0px;
+}
+
+/* Mirror DropDownButton */
+/*dojoxDropDownSelectDisabled*/
+.tundra .dijitSelectDisabled .dijitButtonNode {
+    border-color: #d5d5d5 #bdbdbd #bdbdbd #d5d5d5;
+    background:#e4e4e4 url("../../../../scripts/dojotoolkit/dijit/themes/tundra/images/buttonDisabled.png") top repeat-x;
+}
+.tundra .dijitSelect .dijitButtonNode{
+	border-color: #d5d5d5 #bdbdbd #bdbdbd #d5d5d5;
+    background:#e4e4e4 url("../../../../scripts/dojotoolkit/dijit/themes/tundra/images/buttonEnabled.png") top repeat-x;
+}
+/*dojoxDropDownSelectDisabled*/
+.dj_ie .tundra .dijitSelectDisabled  .dijitButtonNode * {
+	filter: gray() alpha(opacity=50); 
+}
+/*.dojoxDropDownSelectHover*/
+.tundra .dijitSelectHover .dijitButtonNode {
+    border-color:#a5beda;
+    border-bottom-color:#5c7590;
+    border-right-color:#5c7590;
+    color:#243C5F;
+/*
+    background:#fcfdff url("../../../dijit/themes/tundra/images/buttonHover.png") repeat-x bottom;
+*/
+}
+/*
+	dojoxDropDownSelectActive
+	dojoxDropDownSelectOpened
+*/
+
+.tundra .dijitSelectActive .dijitButtonNode,
+.tundra .dijitSelectOpened .dijitButtonNode {
+    border-color:#366dba;
+    background: #ededed url("../../../../scripts/dojotoolkit/dijit/themes/tundra/images/buttonActive.png") bottom repeat-x;
+}
+
+/* Make the menu look more combobox-like */
+/*dojoxDropDownSelectMenu*/
+.tundra .dijitSelectMenu td {
+	padding: 0em;
+}
+/*dojoxDropDownSelectMenu*/
+.tundra .dijitSelectMenu .dijitMenuItemIcon {
+	margin: 0.1em 0.2em;
+	display: none;
+}
+/*dojoxDropDownSelectMenu*/
+.tundra .dijitSelectMenu .dijitMenuItemLabel,
+.tundra .dijitSelectMenu .dijitMenuArrowCell {
+	padding: 0.1em 0.2em;
+}
+
+.dj_ie .dijitPopup .dijitSelectMenu{
+	text-align: left !important;
+}
+
+

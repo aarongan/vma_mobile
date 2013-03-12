@@ -1,0 +1,283 @@
+/* not sure where else to put this */
+.smileyCellHighlight img {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    cursor: default;
+    border: 1px solid #666666;
+    outline: 1px solid #dedede;
+}
+
+/*
+ * this removes the arrow from the DropDown Buttons
+ */
+.pl .icsComposer .dijitToolbar .dijitDropDownButton .dijitArrowButtonInner {
+    display: none;
+}
+
+/*
+ * this fixes some dropDown menu issues
+ */
+body.pl .dijitMenuItem td {
+    line-height: normal;
+}
+
+/*
+ * all the css for our custom icons
+ */
+.pl .icsComposer .dijitEditorIcon {
+    background-image: url(../../../images/ics/InboxSprites.png);
+    width: 25px;
+    height: 18px;
+}
+
+.pl .icsComposer .dijitToolbar .dijitHover span,
+.pl .icsComposer .dijitToolbar .dijitChecked span {
+    background-color: #6b6b6b;
+    border-color: #666666;
+	color:white;
+}
+
+.pl .icsComposer .dijitEditorIconBold {
+    background-position: -34px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconBold,
+.pl .icsComposer .dijitHover .dijitEditorIconBold {
+    background-position: -34px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconItalic {
+    background-position: -60px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconItalic,
+.pl .icsComposer .dijitHover .dijitEditorIconItalic {
+    background-position: -60px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconUnderline {
+    background-position: -86px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconUnderline,
+.pl .icsComposer .dijitHover .dijitEditorIconUnderline {
+    background-position: -86px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconFontName {
+    background-position: -112px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconFontName,
+.pl .icsComposer .dijitHover .dijitEditorIconFontName {
+    background-position: -112px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconFontSize {
+    background-position: -138px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconFontSize,
+.pl .icsComposer .dijitHover .dijitEditorIconFontSize {
+    background-position: -138px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconForeColor {
+    background-position: -166px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconForeColor,
+.pl .icsComposer .dijitHover .dijitEditorIconForeColor {
+    background-position: -166px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconHiliteColor {
+    background-position: -192px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconHiliteColor,
+.pl .icsComposer .dijitHover .dijitEditorIconHiliteColor {
+    background-position: -192px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconSmiley {
+    background-position: -218px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconSmiley,
+.pl .icsComposer .dijitHover .dijitEditorIconSmiley {
+    background-position: -218px -516px;
+    width: 18px;
+}
+
+.pl .icsComposer .dijitEditorIconInsertImage {
+    background-position: -245px -486px;
+    width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconInsertImage,
+.pl .icsComposer .dijitHover .dijitEditorIconInsertImage {
+    background-position: -245px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconCreateLink {
+    background-position: -272px -486px;
+	width: 18px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconCreateLink,
+.pl .icsComposer .dijitHover .dijitEditorIconCreateLink {
+    background-position: -272px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconInsertOrderedList {
+    background-position: -294px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconInsertOrderedList,
+.pl .icsComposer .dijitHover .dijitEditorIconInsertOrderedList {
+    background-position: -294px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconInsertUnorderedList {
+    background-position: -320px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconInsertUnorderedList,
+.pl .icsComposer .dijitHover .dijitEditorIconInsertUnorderedList {
+    background-position: -320px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconOutdent {
+    background-position: -347px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconOutdent,
+.pl .icsComposer .dijitHover .dijitEditorIconOutdent {
+    background-position: -347px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconIndent {
+    background-position: -375px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconIndent,
+.pl .icsComposer .dijitHover .dijitEditorIconIndent {
+    background-position: -375px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconQuote {
+    background-position: -404px -486px;
+	width:20px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconQuote,
+.pl .icsComposer .dijitHover .dijitEditorIconQuote {
+    background-position: -404px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconJustifyLeft {
+    background-position: -427px -486px
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconJustifyLeft,
+.pl .icsComposer .dijitHover .dijitEditorIconJustifyLeft {
+    background-position: -427px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconJustifyCenter {
+    background-position: -455px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconJustifyCenter,
+.pl .icsComposer .dijitHover .dijitEditorIconJustifyCenter {
+    background-position: -455px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconJustifyRight {
+    background-position: -482px -486px
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconJustifyRight,
+.pl .icsComposer .dijitHover .dijitEditorIconJustifyRight {
+    background-position: -482px -516px
+}
+
+.pl .icsComposer .dijitEditorIconRemoveFormat {
+    background-position: -509px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconRemoveFormat,
+.pl .icsComposer .dijitHover .dijitEditorIconRemoveFormat {
+    background-position: -509px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconSignature {
+    background-position: -540px -486px;
+	width: 20px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconSignature,
+.pl .icsComposer .dijitHover .dijitEditorIconSignature {
+    background-position: -540px -516px;
+}
+
+.pl .icsComposer .dijitEditorIconSpellChek {
+    background-position: -567px -486px;
+}
+.pl .icsComposer .dijitChecked .dijitEditorIconSpellChek,
+.pl .icsComposer .dijitHover .dijitEditorIconSpellChek {
+    background-position: -567px -516px;
+}
+
+/*
+ * toolbar styling
+ */
+/***
+.pl .icsComposer .dijitToolbar div {
+    height: auto;
+}
+***/
+.pl .icsComposer .RichTextEditable {
+    border: 1px solid #BFBFBF;
+    padding: 4px;
+    margin: 10px 2px;
+}
+.pl .icsComposer .RichTextEditable.email {
+    border: 2px solid #BFF2F2;
+    padding: 4px;
+	/*width:758px;*/
+    margin: 10px 2px;
+}
+
+.pl .icsComposer .dijitToolbar {
+    background: #F6F6F6;
+    border: none;
+    margin: 15px 2px 4px 2px;
+	padding: 5px;
+}
+.pl .icsComposer .dijitToolbar span {
+	color:#6b6b6b;
+	vertical-align: middle;
+}
+.pl .icsComposer.sigEditForm .dijitToolbar {
+    margin: 13px 2px -5px;
+}
+.pl div.dijitToolbar div.middle {
+    padding: 0 4px;
+}
+
+.pl .icsComposer .sigNameSpan {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pl .icsComposer .sigCancelSpan {
+    position: relative;
+    left: 10px;
+}
+
+/*
+ * this is closer to what the visuals call for but it doesn't
+ * look good (icons aren't transparent and white bleeds through)
+ * so it's commented out.
+ */
+/*
+ .pl .dijitToolbar .dijitButtonChecked,
+ .pl .dijitToolbar .dijitToggleButtonChecked {
+ background-color: #666666;
+ border: none;
+ }
+ */

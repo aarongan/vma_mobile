@@ -1,0 +1,471 @@
+/* Start -- BUA Plus Provisioning related css */
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.dj_ie7 .modal_content{
+	width:auto !important;
+}
+
+.provisioningContainer{
+	height: 580px !important;
+	text-align:left;
+	border:0px !important;
+}
+.provisioningContainer .welcomePage{
+	border:0px !important;
+}
+.provisioningContainer .welcomePage .welcomeImage{
+	background:url("../../../images/ics/Welcome_Image.png") no-repeat transparent;
+	width:450px;
+	height:277px;
+}
+.provisioningContainer .welcomePage .buttonsDiv{
+	margin-top:45px;
+	float:right;
+}
+.provisioningContainer .noLinkSpan,
+.backUpPhoneMsgDiv  .noLinkSpan{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0066CC;
+    font-weight:bold;
+}
+.provisioningContainer .uploadMediatt{
+    background: url("../../../images/vzwrga/random/question.gif") no-repeat scroll right top transparent;
+    float: right;
+    height: 14px;
+    margin-right: 357px;
+    margin-top: 3px;
+    width: 14px;
+}
+.dj_ie .provisioningContainer .uploadMediatt{
+    margin-top: -14px !important;
+}
+.dj_ie .provisioningContainer .lowerDiv{
+	margin-top: 12px !important;
+}
+
+.provisioningContainer .welcomePage .welcomeHeader{
+	/*font-size:24px;
+	margin:25px 25px 10px;*/
+	color: #CC0000;
+	font: 24px/45px arial,sans-serif;
+    margin: 25px 0 0 25px;*margin-top:0px;
+    text-indent: 30px;
+    width: 300px;
+}
+.provisioningContainer .welcomePage .headerImg{
+	background:url("../../../images/ics/InboxSprites.png") no-repeat transparent;
+	background-position: -552px -314px;width:50px;height:50px;
+	margin:25px 25px 10px;
+}
+.provisioningContainer .displayNone{
+	display: none !important;
+}
+.provisioningContainer .displayBlock{
+	display: block !important;
+}
+
+.provisioningContainer .buttonDisable{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	cursor:default !important;
+}
+.provisioningContainer .buttonEnable{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+.icsDialogModal .buttonDisable{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	cursor:default !important;
+}
+.icsDialogModal .buttonEnable{
+	opacity:1;
+	filter:alpha(opacity=100);
+	cursor:pointer !important;
+}
+.provisioningContainer .providerParentDiv a:hover.disabled {
+	text-decoration:none;
+	-moz-opacity:.50;
+	filter:alpha(opacity=50);
+	opacity:.50;
+	cursor:default;
+	color: black;
+}
+.provisioningContainer .contentDisplayPane{
+	width:100%;
+	height:100%;
+	border:0px !important;
+}
+.provisioningContainer .contentDisplayPane .contentDisplayHeader{
+	font-size:24px;
+	margin:25px 25px 10px;
+	color: #CC0000;
+	border-bottom:1px solid #CCCCCC;
+	width: 90%;/*930px;*/
+}
+.provisioningContainer .contentDisplayPane .providersDisplayDiv{
+	margin:10px 25px 10px;
+	width:25%;
+}
+.provisioningContainer .contentDisplayPane .contentDisplayDiv{
+	margin:10px 0px 5px 25px;
+	width:69%;
+	height:65%;
+}
+.provisioningContainer .contentDisplayPane .buttonsDisplayDiv{
+	float:right;
+	margin-right:25px;
+}
+/*.provisioningContainer .contentDisplayPane .welcomeImage{
+	background:url("/icsWeb/styles/css/ics/provisioning/Storage_Meter.png") no-repeat transparent;
+	width:134px;
+	height:223px;
+	margin:10px 0px;
+}*/
+.provisioningContainer .contentDisplayPane .contentsDiv{
+	height:90%;
+	width: 73%;/*650px;*/
+	overflow:auto;
+}
+.provisioningContainer .contentDisplayPane .storageDiv{
+	width:20%;
+	margin: 0px 25px 0 0;
+}
+.provisioningContainer .contentDisplayPane .storageDiv span{
+	font-weight:bold;
+	display:block;
+	width:140px;
+}
+.provisioningContainer .contentDisplayBlock{
+	background-color: #EBEBEB;/*#F2F2F2;*/
+    height: 160px;
+    margin-right: 15px;margin-bottom: 15px;
+    text-align: left;
+    width: 214px;
+}
+.provisioningContainer .contentDisplayBlock .contentDisplayHeading{
+	border-bottom:1px solid #CCCCCC;
+	/*width:130px;*/
+	font-weight:bold;
+	margin:0px 10px;
+	padding-top:10px;
+	
+}
+.provisioningContainer .contentDisplayBlock .removeBtn{
+	margin: 15px 0 0;
+}
+.provisioningContainer .contentDisplayBlock .contentTypeDiv {
+	height:70px;
+	margin:5px 5px;
+}
+/*.provisioningContainer .contentDisplayBlock .contentTypeDiv .typeDiv{
+	height:70px;
+	width:190px;
+}*/
+.provisioningContainer .contentDisplayBlock .contentTypeDiv /*.typeDiv*/ .innerTypeSpan{
+	margin:3px;
+	display:inline-block;
+	margin:5px;
+	width:92px;
+}
+.provisioningContainer .contentDisplayBlock .contentTypeDiv .storageError{
+	background:url("../../../images/vzwrga/icons/exclamation.gif") no-repeat transparent;
+	height:50px;
+	margin:5px;
+}
+.provisioningContainer .contentDisplayBlock .contentTypeDiv .quotaDiv{
+	font-weight:bold;
+	/*margin:3px;*/
+	margin:15px 3px 3px;
+}
+
+.provisioningContainer .displayIcons{
+	background: url("../../../images/ics/InboxSprites.png") no-repeat transparent;
+	height:40px;
+    width:45px;
+}
+.provisioningContainer .smallPhoneImage{
+	width:45px;
+	*height:74px;
+	margin:-26px 0px 0px 0px;
+}
+.displayIcons.onlinestorage {
+	background-position: -890px -202px; /*-715px -200px;*/ 
+	width:35px;
+}
+
+.displayIcons.GMAIL, 
+.displayIcons.Google,
+.displayIcons.GOOGLE {
+	/*background-position: -850px -195px; -715px -200px;*/ 
+	background-position: -921px -206px;
+}
+
+.displayIcons.yahoo, 
+.displayIcons.Yahoo,
+.displayIcons.YAHOO {
+	background-position: -578px -204px;
+}
+.displayIcons.AOL,
+.displayIcons.aol {
+    background-position: -625px -206px;
+}	
+.displayIcons.MSN,
+.displayIcons.msn {
+	background-position: -805px -205px; /*-673px -200px;*/
+}
+.displayIcons.SYNCML {
+	background-position: -759px -200px;
+}
+.displayIcons.uploadedfiles,
+.displayIcons.Media {
+    background-position: -467px -320px;
+}
+.displayIcons.orderNum{
+	display:inline-block;
+   	background-position: -593px -23px;
+	width: 13px !important;
+	height: 14px !important;;
+	font-family: fantasy Grande;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	line-height: 10px;
+	margin: 7px 0 0 27px;				
+}
+.provisioningContainer .addEmailPanel{
+	margin-top:10px;
+}
+.addEmailPanel .emailInputDiv{
+	margin-top:15px;margin-bottom: 10px;
+}
+.addEmailPanel .emailInputTxt{
+	margin:5px 0px 5px 5px;
+}
+.addEmailPanel .errorMsg{
+	margin: 5px;
+	color: red;
+	background: url("../../../images/ics/provision/error_alert.gif") no-repeat transparent;
+	background-color:#FFCCCC;
+	border: 1px solid red;
+	display:none;
+}
+/*Storage meter related css. Needs to be moved to an appropriate location*/
+.storageMeter{
+   height:220px; 
+   width: 130px;
+ }
+  
+.storageMeter .calibrationParentDiv{
+  height:220px; 
+  float: left;
+  width: 50px;
+}
+
+.storageMeter .meterParentDiv{
+  height:200px; 
+  width: 55px; 
+  border-style:solid; 
+  border-width:1px; 
+  border-color: #A4A4A4;
+  float: right;
+}
+  
+.storageMeter .calibrationParentDiv .calibrationDiv{
+  /*height:50px; 
+  width: 90px;*/
+  margin-bottom: 24px;
+}
+
+.storageMeter .calibrationParentDiv .calibrationSpan{
+  display: block; 
+  /*text-align: right;*/ 
+  font-size : 9pt;
+  color: #848484;
+  /*width: 90px;*/
+  margin-bottom: 24px;
+}
+
+.storageMeter .meterParentDiv .meterEmptyDiv{
+  height:50px; 
+  width: 55px;
+  background-color: #F2F2F2;
+}
+
+.storageMeter .meterParentDiv .meterFilledDiv{
+  height:150px; 
+  width: 55px; 
+  background-image: url("../../../images/ics/provision/storageMeterGradient.png");
+}
+/* Provider css. Needs to be moved to an appropriate location*/
+
+.provisioningContainer .providerImgDiv{
+  /*width: 25px;*/
+  float: left; 
+  margin-right:10px;
+}
+ 
+	
+.provisioningContainer .providerParentDiv{
+	margin-top: 10px;
+	width: 200px;
+}
+.provisioningContainer .providerLinkSpan{
+	color: #0066CC; 
+	cursor: pointer;
+}
+.provisioningContainer .providerTooltip{
+	/*background-image: url("../../../images/ics/provision/infoTooltip.png");
+	height: 11px;
+   	margin-left: 5px;
+   	margin-right: 50px;
+   	margin-top: 3px;
+   	width: 11px;
+	*/
+	background: url("../../../images/vzwrga/random/question.gif") no-repeat scroll right top transparent;
+   	float: right;
+   	height: 25px;
+    margin-right: 50px;
+    width: 14px;
+}
+.dj_ie .provisioningContainer .providerTooltip{
+	margin-top: 0px;
+   	position: relative;
+   	bottom: 12px;
+}
+.providerParentDiv .clearDiv{
+	clear: both;
+}
+
+/* Start -- Provisioning Modals Dialog related css */
+.icsDialogModal .backUpPhone{
+	width:550px !important;
+	height: auto !important;
+}
+.backUpPhoneDiv .backUpPhoneImgDiv{
+	float: left; display: inline; width: 80px;
+	margin-left:-40px; margin-top:-35px;
+}
+.backUpPhoneDiv .backUpPhoneMsgDiv{
+	float: right; width: 350px; display: inline;
+}
+/* End -- Provisioning Modal Dialogs related css */
+
+/* End -- BUA Plus Provisioning related css */
+
+
+
+
+/*.processingMessageDiv{display:none;}
+	.processing .bodyDiv{display:none;}
+	.processing .processingMessageDiv{display:block;}	
+	.processing #buttonsBlock{
+		display:none;
+	}
+	.processing #mainDiv{
+		display:none;
+	}
+	.processing #helpDiv{
+		display:none;
+	}
+	.processing #pageHeaderDiv{
+		display:none;
+	}
+	.processing #leftDiv	
+	{
+		display:none;
+	}		 
+	.icsinline  {	
+		display:inline-block;			/* webkit and FF3 */
+		/*#zoom: 1; /* set hasLayout:true to mimic inline-block */
+		/*#display:inline; /* don't use .dj_ie since that increases the priority */
+		/*border:0;
+		padding:0;
+		vertical-align:middle;
+		#vertical-align: auto;	/* makes TextBox,Button line up w/native counterparts on IE6 */
+	}
+	
+	/*.endpoints{
+		background: url("../../../images/ics/InboxSprites.png") no-repeat transparent;
+		height:40px;
+	    width:45px;
+	}
+	.endpoints.Google {
+		background-position: -850px -195px; /*-715px -200px;*/ 
+	/*}
+	.endpoints.Yahoo {
+		/*width:40px !important;*/
+	   /* background-position: -578px -200px;
+	}
+	.endpoints.AOL {
+	    background-position: -625px -200px;
+	}	
+	.endpoints.MSN {
+		background-position: -805px -200px; /*-673px -200px;*/
+	}
+	/*.endpoints.SYNCML {
+		background-position: -759px -200px;
+	}
+	.endpoints.orderNum{
+    	background-position: -593px -23px;
+		width: 13px !important;
+		height: 14px !important;;
+		font-family: fantasy Grande;
+		font-size: 11px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+		line-height: 10px;
+		margin-left: -15px;/*-4px;*/
+		/**margin-top:-23px;/*-17px;*/				
+	/*}
+	
+	.newsyncpoint {
+		background:url("../../../images/ics/InboxSprites.png") no-repeat transparent;
+		height:40px;
+	    width:40px;		 
+	}
+	.newsyncpoint.Googleaddnew {
+		background-position: -340px -203px;   
+	}
+	.newsyncpoint.Yahooaddnew {
+		background-position: -425px -203px;  
+	}
+	.newsyncpoint.AOLaddnew {
+		background-position: -380px -203px;   
+	}
+	.newsyncpoint.MSNaddnew {
+		background-position: -470px -203px;     
+	}
+	.newsyncpoint.pointOrder1 {
+		background-position: -515px -195px; 
+		width:25px;
+	}
+	.newsyncpoint.pointOrder2 {
+		background-position: -548px -195px;
+		width:25px;
+	}
+	
+	.pl .button span.light_gray {
+		background:url("../../../images/ics/provision/light_gray_left.png");
+		/*background-position: -478px -319px;width:10px;*/
+		/*padding:0 0 0 5px;
+	}
+	.pl .button span.light_gray span {
+		background:url("../../../images/ics/provision/light_gray_right.png");
+		/*background-position: -488px -319px;width:40px;*/
+		/*padding:0 5px 0 0px;
+		height:33px;
+	}
+	.pl .button span.light_gray span span{
+		background:url("../../../images/ics/provision/light_gray_1px.png");
+		color:#000;font-size:12px;/*width:77px;*/
+	/*}*/

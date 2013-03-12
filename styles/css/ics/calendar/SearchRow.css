@@ -1,0 +1,313 @@
+/* overriding some dijit stuff  - might be better to do with an id*/
+.tundra .dijitBorderContainer-child{
+	border: none;
+}
+
+.searchRow {
+	position: relative;
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+
+.searchRow .gutter{height:100px;}
+
+.searchRow .gutter .body{height:100px;}
+
+.searchRow.vspSelected .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .body {
+	background: #fff;
+	margin: 0 0 0 0px;
+	position: relative;
+}
+.searchRow .body .dijitToolbar {
+  	position: absolute;
+	top: 20px;
+	right: 40px;
+}
+
+.searchRow .gutter .body .statusBar {
+	position:absolute;
+	right:550px;
+	top:35px;
+}
+
+.searchRow .body .statusDetail {
+	display:none;
+}
+
+.searchRow .body .searchNameBold {
+	font-weight:bold;
+	margin-top:5px;
+}
+
+.searchRow .body .marginSixPx {
+	margin-top:6px;
+}
+.searchRow .body .eventDetailsWidth {
+	width:220px;
+}
+
+.searchRow .body .eventNoteWidth {
+	width:180px;
+	margin-top:5px;
+}
+
+.searchRow .body .eventTitleWidth {
+	width:100px;
+	margin-left:10px;
+}
+/* toolbar buttons */
+.searchRow .toolbar {
+	width: 35px;
+	height: 35px;
+	background: url(../../../images/ics/calendar/toolbar/eventCardIconsSprite.png) no-repeat;
+	text-align: center;
+}
+
+.searchRow .toolbar.edit {
+	background-position: 0px;
+}
+.searchRow .toolbar.details {
+	background-position: -41px;
+}
+.searchRow .toolbar.forward {
+	background-position: -82px;
+}
+.searchRow .toolbar.delete {
+	background-position: -123px;
+}
+.searchRow .toolbar.actions {
+	background-position: -165px;
+}
+
+.searchRowHover .body .statusDetail {
+	display:block;
+	font-weight: bold;
+	position:absolute;
+	right:88px;
+	top:-25px;
+}
+.searchRow .body .dijitButtonNode {
+	background:#FFFFFF !important;
+  	border-style:none !important;
+  	border-width:0px !important;
+  	padding:0 !important;
+}
+
+.searchRow .dijitButtonNode {
+	background:#FFFFFF !important;
+  	border-style:none !important;
+  	border-width:0px !important;
+  	padding:0 !important;
+}
+
+.searchRowHover .gutter .dijitButtonNode {
+	background:#EBEBEB !important;
+  	border-style:none !important;
+  	border-width:0px !important;
+  	padding:0 !important;
+}
+
+
+.searchRow .body .priorityField{display:none}
+
+
+
+.searchRow.searchRowHover .body .priorityField {
+	display:block;
+	background-color: #666666;
+	color: #ffffff;
+	position:absolute;
+	right:295px;
+	top:22px;
+	height:30px;
+	width:140px;
+}
+
+.searchRow.searchRowHover .body .taggingPanel{background-color:#ffffff;}
+
+.searchRow .body .priorityField .button{position:absolute;right:8px;top:5px;}
+
+
+
+
+.searchRow .body .priorityField .inputField{width:25px;padding-left:2px;margin-top:5px;}
+
+.searchRow .body .priorityField .text{float:left;margin: 6px 5px 0px 4px;font-weight:bold;}
+/*
+.taskRowHover .body .priorityField 
+{
+	display:block;
+	position:absolute;
+	right:88px;
+	top:-25px;
+}
+*/
+
+
+.searchRow .dijitSliderImageHandleH {
+	display:none;
+}
+
+.searchRowHover .dijitSliderImageHandleH {
+	display:block !important;
+}
+
+.searchRow img {
+	height: 20px;
+	width: 20px;
+}
+.senderIcon {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.searchBodyText {
+	margin: 0 0 0 190px;
+	/*height: 60px;*/
+	padding: 10px 0;
+	line-height: 20px;
+}
+.unread .searchBodyText .sender, .unread .searchBodyText .subject, 
+.unread .size, .unread .msgDate {
+	font-weight: bold;
+}
+.searchBodyText .title {
+	font-weight: bold;
+}
+.searchBodyText .tags {
+	font-size: 10px;
+	color: #999999;
+}
+.searchBodyText .tagIcon {
+	width: 22px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -180px;
+}
+.searchBodyText .star {
+	width: 15px;
+	height: 15px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -202px;
+}
+.searchRow .searchDate, .searchRow .attach {
+	position: absolute;
+	top: 30px;
+}
+.searchRow .size {
+	position: absolute;
+	top: 10px;
+}
+.searchRow .searchDate, .searchRow .size {
+	right: 10px;
+}
+.searchRow .attach {
+	width: 7px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -217px;
+	right: 120px;
+}
+.dj_ie6 .searchRow .attach, .dj_ie6 .searchRow .size, .dj_ie6 .searchRow .msgDate {
+	padding-right: 15px;
+}
+
+.searchRow .floatLeft{
+	float:left;
+}
+.searchRow .floatLeftWithmargin20{
+	float:left;
+	margin-left:20px;
+}
+
+.searchRow .floatLeftWithmargin10{
+	float:left;
+	margin-left:10px;
+}
+
+.searchRow .floatLeftWithmargin40{
+	float:left;
+	margin-left:40px;
+}
+
+
+/* msgType specific css */
+.delimiter .body {
+	background: #999999;
+	font: bold 12px arial;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+/* hover  and select state */
+.searchRowHover .gutter .body{
+	background-color : #EBEBEB;
+}
+
+.searchRowHover .searchTagRow .gutter, .searchRowHover .searchTagRow .body{background-color:#ffffff;}
+
+.vspSelected .dijitEditorIconUndo { background-position: -504px; }
+
+.searchRow .searchStripe {
+}
+
+.searchRow .Marigold .gutter{background-color:#FFCC00;}
+.searchRow .Marigold .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Marigold .gutter .body, .searchRow.vspSelected .Marigold .gutter .body {background-color:#EBEBEB;}
+
+.searchRow .Orange .gutter{background-color:#FF9900}
+.searchRow .Orange .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Orange .gutter .body, .searchRow.vspSelected .Orange .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Magenta .gutter{background-color:#CC0066}
+.searchRow .Magenta .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Magenta .gutter .body, .searchRow.vspSelected .Magenta .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Blue .gutter{background-color:#0099CC}
+.searchRow .Blue .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Blue .gutter .body, .searchRow.vspSelected .Blue .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Olive .gutter{background-color:#CCCC00}
+.searchRow .Olive .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Olive .gutter .body, .searchRow.vspSelected .Olive .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Teal .gutter{background-color:#00CCCC}
+.searchRow .Teal .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Teal .gutter .body, .searchRow.vspSelected .Teal .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Purple .gutter{background-color:#964EC4}
+.searchRow .Purple .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Purple .gutter .body, .searchRow.vspSelected .Purple .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Navy .gutter{background-color:#0000A9}
+.searchRow .Navy .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Navy .gutter .body, .searchRow.vspSelected .Navy .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Evergreen .gutter{background-color:#306C4E}
+.searchRow .Evergreen .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Evergreen .gutter .body, .searchRow.vspSelected .Evergreen .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Red .gutter{background-color:#C50000}
+.searchRow .Red .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Red .gutter .body, .searchRow.vspSelected .Red .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Beige .gutter{background-color:#C09E89}
+.searchRow .Beige .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Beige .gutter .body, .searchRow.vspSelected .Beige .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Brown .gutter{background-color:#6B2E08}
+.searchRow .Brown .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Brown .gutter .body, .searchRow.vspSelected .Brown .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Yellow .gutter{background-color:#FFF000}
+.searchRow .Yellow .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Yellow .gutter .body, .searchRow.vspSelected .Yellow .gutter .body{background-color:#EBEBEB;}
+
+.searchRow .Pink .gutter{background-color:#FF8DC8}
+.searchRow .Pink .gutter .body{background-color:#ffffff;}
+.searchRow.searchRowHover .Pink .gutter .body, .searchRow.vspSelected .Pink .gutter .body{background-color:#EBEBEB;}

@@ -1,0 +1,634 @@
+/* overriding some dijit stuff  - might be better to do with an id*/
+/*
+.tundra .dijitBorderContainer-child{
+	border: none;
+}
+.dj_ie7 .msgRow {
+	margin-right: 17px; 
+	width:714px;
+}
+.dj_ie7 .msgDelimRow {
+	width:715px;
+} */
+.msgRow {
+	position: relative;
+	border-color: #d9d9d9;
+	border-style: none none solid none;
+	border-width: 1px;
+}
+/*  .msgDelimRow{
+	border: 1px solid #d9d9d9;
+}  */
+.msgRow .draftsInfo{
+	color:red;
+}
+.msgRow .body {
+	background: #fff;
+	margin: 0 0 0 26px;
+	position: relative;
+}
+
+.notifyRow .unread .body { 
+	background-color: #EBF7FF;
+	border: 1px solid #A4D9FD;
+	margin: 0px;  
+}
+
+.msgRow .body .dijitToolbar {
+  	position: absolute;
+	top: 15px;
+	right: 50px;
+	background:none;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.msgRow .body .dijitToolbar * {
+	padding:0;
+	margin:0;
+	border:none;
+}
+.msgRow img {
+	height: 30px; /* 60 */
+	width: 30px;
+}
+
+.notifyRow .unread img { 
+	height: 38px; 
+	width: 38px;  
+}
+
+.msgRow img.threadIconFrame{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -863px -110px;
+	width:26px; /* 30 56 */
+	height:26px;
+	padding:0 4px 4px 0;
+}
+
+
+/*override the .dojoDndItemOver style if type is vvm or call_log*/
+.msgRow.dojoDndItemOver .vvm, .msgRow.dojoDndItemOver .call_log{cursor:default;}
+
+.senderIcon {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+
+.notifyRow .unread .senderIcon {
+	top: 8px;
+	left: 71px;
+}
+
+.msgBodyText {
+	margin: 0 0 0 50px;
+	height: 30px;
+	padding: 5px 0;
+	line-height: 20px;
+	display: inline-block;
+	width: 580px;
+}
+.msgBodyText .msgSenderSubject{
+	/* width: 390px; */
+}
+.msgBodyText .sender{
+	position: absolute;
+    top: 8px;
+	left: 50px;
+	width: 110px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.notifyRow .unread .msgBodyText .sender{ 
+    top: 3px;
+	left: 63px;  
+}
+
+
+
+.msgBodyText .isSCShared {
+	background:url("../../../images/ics/InboxSprites.png") no-repeat scroll -761px -122px transparent;
+	height:18px;
+	width:21px;
+}
+.msgBodyText .isBuddy {
+	background:url("../../../images/ics/InboxSprites.png") no-repeat scroll -781px -122px transparent;
+	height:18px;
+	width:21px;
+}
+.unread .msgBodyText .sender, .unread .msgBodyText .subject, 
+.unread .size, .unread .msgDate {
+	font-weight: bold;
+}
+.msgBodyText .subject {
+	position: absolute;
+	left: 170px;
+	color: #999999;
+	top: 8px;
+}
+
+.notifyRow .unread .msgBodyText .subject {	
+	left: 125px;
+	width: 320px;  
+}
+
+.msgBodyText .msgStarTags {
+	position: absolute;
+    top: 8px;
+	left: 475px;
+	width: 150px;
+}
+.msgBodyText .tags {
+	font-size: 10px;
+	color: #999999;
+	height: 20px;
+}
+.dj_ie7 .msgBodyText .msgStarTags .tags {
+	margin-top:6px;
+} 
+/****
+.msgBodyText .tagIcon {
+	width: 22px;
+	height: 17px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -198px -123px;
+	margin-right:2px;
+}
+
+.dj_ie .msgBodyText .tagIcon{
+	margin-right: 5px;
+}
+****/
+.msgBodyText .star {
+	width: 15px;
+	height: 20px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -220px -122px;
+}
+
+/*.ispNode ._isps.ICS {
+	margin-left:10px;
+    background-position: -336px -90px;
+}
+.ispNode ._isps.OUTLOOK {
+	margin-left:10px;
+	background-position: -218px -90px;
+}
+.ispNode ._isps.THUNDERBIRD {
+	background-position: -258px -90px;    
+    margin-left:10px;
+}*/
+.ispNode ._isps{
+	background: url(../../../images/ics/InboxSprites.png) no-repeat transparent;
+	height:14px;
+    width:17px;
+}
+
+.ispNode ._isps.GOOGLE {
+    margin-left:10px;
+    background-position: -20px -93px;
+}
+.ispNode ._isps.YAHOO {
+    margin-left:10px;
+    background-position: -140px -93px;
+}
+.ispNode ._isps.AOL {
+    margin-left:10px;
+    background-position: -60px -93px;
+}
+
+.ispNode ._isps.MSN {
+	background-position: -100px -93px;    
+    margin-left:10px;
+}
+
+.ispNode ._isps.POP3 {
+	background-position: -358px -93px;    
+    margin-left:10px;
+	width: 26px;
+}
+
+.ispNode ._isps.orderNum{
+	background-position: -593px -23px;
+	height: 14px;
+	width: 13px;
+	font-family: fantasy Grande;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	line-height: 10px;
+	margin-left: -4px;
+}
+
+.dj_ie6 .msgBodyText .star {
+	background-position: -202px;
+}
+
+.msgRow .attach, .msgRow .attachBlankNode {
+	position: absolute;
+	top: 14px;
+}
+.msgRow .msgDate{
+	position: absolute;
+	top: 14px;
+}
+.msgRow .size {
+	position: absolute;
+	top: 8px;
+}
+.msgRow .msgDate, .msgRow .size, .msgRow .ispNode {
+	right: 10px;
+}
+.msgRow .ispNode {
+	position: absolute;
+	top: 45px;
+}
+.msgRow .ispNode .deliveryStatus{
+	color: #ff0000;
+}
+
+.attach {
+	width: 7px;
+	height: 18px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -235px -122px;
+}
+.msgRow .attach, .msgRow .attachBlankNode {
+	right: 120px;
+}
+.dj_ie6 .msgRow .attach, .dj_ie6 .msgRow .size, .dj_ie6 .msgRow .msgDate {
+	padding-right: 15px;
+}
+/* TODO: remove this class after checking who is using it */
+.paperClip {
+	width: 7px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat -217px;
+}
+/* msgType specific css */
+.msgDelimRow .delimiter .body {
+	/* background: #F4F4F5; 
+	font: bold 12px arial;  */
+	text-align: center;
+	padding-top: 7px;
+}
+
+/* hover  and select state */
+/* 
+.rowHover .email, .rowHover .email .body, 
+.vspSelected .email .body,
+.email .gutter, 
+.rowHover .music, .rowHover .music .body, 
+.vspSelected .music .body,
+.music .gutter{
+	background-color: #e5f5fa;
+}
+.rowHover .vvm, .rowHover .vvm .body, 
+.vspSelected .vvm .body,
+.vvm .gutter, 
+.rowHover .videos, .rowHover .videos .body, 
+.vspSelected .videos .body,
+.videos .gutter{
+	background-color: #f7d9eb;
+}
+.rowHover .sms, .rowHover .sms .body, 
+.vspSelected .sms .body,
+.sms .gutter, 
+.rowHover .documents, .rowHover .documents .body, 
+.vspSelected .documents .body,
+.documents .gutter{
+	background-color: #f7f7d9;
+}
+.rowHover .call_log, .rowHover .call_log .body, 
+.vspSelected .call_log .body,
+.call_log .gutter{
+	background-color: #bff2f2;
+}
+.rowHover .mms, .rowHover .mms .body, 
+.vspSelected .mms .body,
+.mms .gutter, 
+.rowHover .pictures, .rowHover .pictures .body, 
+.vspSelected .pictures .body,
+.pictures .gutter{
+	background-color: #fff0d9;
+}
+*/
+/* select all state*/
+/*  
+.selectedAll .email, .selectedAll .email .body, 
+.vspSelected .email .body,
+.email .gutter,
+.selectedAll .music, .selectedAll .music .body, 
+.vspSelected .music .body,
+.music .gutter{
+	background-color: #e5f5fa;
+}
+.selectedAll .vvm, .selectedAll .vvm .body, 
+.vspSelected .vvm .body,
+.vvm .gutter,
+.selectedAll .videos, .selectedAll .videos .body, 
+.vspSelected .videos .body,
+.videos .gutter{
+	background-color: #f7d9eb;
+}
+.selectedAll .sms, .selectedAll .sms .body, 
+.vspSelected .sms .body,
+.sms .gutter,
+.selectedAll .documents, .selectedAll .documents .body, 
+.vspSelected .documents .body,
+.documents .gutter{
+	background-color: #f7f7d9;
+}
+.selectedAll .call_log, .selectedAll .call_log .body, 
+.vspSelected .call_log .body,
+.call_log .gutter{
+	background-color: #bff2f2;
+}
+.selectedAll .mms, .selectedAll .mms .body, 
+.vspSelected .mms .body,
+.mms .gutter,
+.selectedAll .pictures, .selectedAll .pictures .body, 
+.vspSelected .pictures .body,
+.pictures .gutter{
+	background-color: #fff0d9;
+}
+*/
+
+/*when select all link click make select looks like unselected */
+
+.selectedAll .vspSelected .email, .selectedAll .vspSelected .email .body, 
+.selectedAll .vspSelected .email .gutter{
+	background-color: #ffffff;
+}
+.selectedAll .vspSelected .vvm, .selectedAll .vspSelected .vvm .body, 
+.selectedAll .vspSelected .vvm .gutter{
+	background-color: #ffffff;
+}
+.selectedAll .vspSelected .sms, .selectedAll .vspSelected .sms .body, 
+.selectedAll .vspSelected .sms .gutter{
+	background-color: #ffffff;
+}
+.selectedAll .vspSelected .call_log, .selectedAll .vspSelected .call_log .body, 
+.selectedAll .vspSelected .call_log .gutter{
+	background-color: #ffffff;
+}
+.selectedAll .vspSelected .mms, .selectedAll .vspSelected .mms .body, 
+.selectedAll .vspSelected .mms .gutter{
+	background-color: #ffffff;
+}
+
+
+/*when select all link click and mouse hover the row*/
+.selectedAll .vspSelected.rowHover .email, .selectedAll .vspSelected.rowHover .email .body,
+.selectedAll .vspSelected.rowHover .email .gutter{
+	background-color: #e5f5fa;
+}
+.selectedAll .vspSelected.rowHover .vvm, .selectedAll .vspSelected.rowHover .vvm .body, 
+.selectedAll .vspSelected.rowHover .vvm .gutter{
+	background-color: #f7d9eb;
+}
+.selectedAll .vspSelected.rowHover .sms, .selectedAll .vspSelected.rowHover .sms .body, 
+.selectedAll .vspSelected.rowHover .sms .gutter{
+	background-color: #f7f7d9;
+}
+.selectedAll .vspSelected.rowHover .call_log, .selectedAll .vspSelected.rowHover .call_log .body, 
+.selectedAll .vspSelected.rowHover .call_log .gutter{
+	background-color: #bff2f2;
+}
+.selectedAll .vspSelected.rowHover .mms, .selectedAll .vspSelected.rowHover .mms .body, 
+.selectedAll .vspSelected.rowHover .mms .gutter{
+	background-color: #fff0d9;
+}
+
+.vspSelected .dijitEditorIconUndo { background-position: -504px; }
+
+.msgRow .priorityIcon{
+	position: absolute;
+	left: 74px;
+	/*_left: 76px;*/
+	top: 25px;
+	width: 15px;
+	height: 13px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -9999px -5px;
+}
+
+.high .priorityIcon{
+	background-position: -157px -5px;
+}
+.msgRow .msgIcon {
+	width: 15px;
+	height: 13px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat;
+	position: absolute;
+	left: 3px;
+	/* IE HACK!!! */
+	/*_left: -16px;*/
+	top: 5px;  /* 25 */
+}
+
+.notifyRow .unread .msgIcon { 
+	left: 12px;
+	top: 6px;  
+}
+
+.msgRow .msgCheck_one {
+	margin-top:15px
+}
+
+.email .msgIcon {
+	background-position: -18px -126px;
+}
+.email.unread .msgIcon {
+	background-position: -37px -126px; 
+}
+.vvm .msgIcon {
+	background-position: -55px -126px;
+}
+.sms .msgIcon {
+	background-position: -90px -126px;
+}
+.mms .msgIcon {
+	background-position: -144px -126px;
+}
+.call_log .msgIcon {
+	background-position: -127px -126px;
+}
+
+.msgRow .toolbar,
+.msgGridRow .toolbar {
+	width: 15px; 
+	height: 25px; 
+	background: url(../../../images/ics/InboxSprites.png) no-repeat;
+	text-align: center;
+}
+
+.actionButton.replyAll{
+	width: 38px;
+	height: 38px;
+	background: url(../../../../styles/images/ics/inbox/toolbarSprite.png) no-repeat;
+	text-align: center;
+	background-position: -643px;
+}
+.replyAllBtn{margin:0px;}
+.replyAllBtn .dijitButtonNode{
+	border:none;
+	padding:0px;
+	background:none;
+	background-color: transparent;
+}
+
+.msgRow .icsROToolbar,
+.msgRow .icsROButton.select {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+
+
+.msgRow .icsROButton.select {
+    right: 35px;
+    visibility: hidden;
+}
+
+.rowHover .icsROButton.select,
+.vspSelected .icsROButton.select {
+    visibility: visible;
+}
+
+
+
+.msgRow .toolbar.tag {
+	background-position: -157px;
+}
+.msgRow .toolbar.actions {
+	background-position: -235px;
+}
+.msgRow .toolbar.star {
+	background-position: -117px;
+}
+.msgRow .toolbar.close {
+	background-position: 0px;
+}
+.msgRow .toolbar.reply {
+	background-position: -38px;
+}
+.msgRow .toolbar.replyAll {
+	background-position: -38px;
+}
+.msgRow .toolbar.forward {
+	background-position: -78px;
+}
+.msgRow .toolbar.trash {
+	background-position: -197px;
+}
+.msgRow .toolbar.play {
+	background-position: 0px;
+}
+.msgRow .toolbar.pause {
+	background-position: 0px;
+}
+.msgRow .toolbar.check {
+	background-position: -275px;
+	margin-left:15px;
+}
+.msgRow .toolbar.undelete {
+	background-position: -363px;
+}
+.msgRow .toolbar.permDelete {
+	background-position: -197px;
+}
+.msgRow .toolbar.newMsg {
+	background-position: -445px;
+}
+
+
+.msgRow .checkSelect,
+.msgGridRow .checkSelect{
+	background-position: -612px -21px;
+	position:absolute;
+	top:12px; 
+	left:10px;  /*12*/
+	z-index:1000;
+	height:15px;
+	cursor:pointer;
+}
+
+
+.msgRow.vspSelected .checkSelect {
+	background-position: -629px -21px; 
+	left:10px; 
+	cursor:default;
+}
+
+.dj_ie6 .msgRow.vspSelected .checkSelect {
+	background-position: -629px -21px; 
+	left:12px; 
+}
+
+.selectedAll .msgRow .checkSelect {
+	background-position: -629px -21px; 
+	left:10px; 
+}
+
+.dj_ie6 .selectedAll .msgRow .checkSelect {
+	background-position: -320px; 
+	left:12px; 
+}
+
+.selectedAll .msgRow.vspSelected .checkSelect {
+	background-position: -612px -21px;
+}
+/*
+ * quick time player section style 
+ */
+.msgRow .vvmPlayer{z-index:100; position:absolute;left:100px;;top:20px;background-color:#625D5D;width:210px;height:40px;}
+
+.msgRow .vvmPlayer .closeDiv{border-left:1px solid #625D5D;border-right:1px solid #625D5D;}
+
+.msgRow .vvmPlayer .middle{height:10px;}
+
+.dj_ie6 .msgRow .vvmPlayer .middle{padding: 5px 5px 15px 5px;border-left:1px solid #625D5D;border-right:1px solid #625D5D;}
+
+.msgRow .vvmPlayer .floatingClose{
+	background:transparent url(../../../images/ics/calendar/tabClose.png) no-repeat scroll center center;
+	width:10px;float:right;margin-right:5px;margin-bottom:4px;
+}
+
+.playerWrapper{padding-top:10px}
+/*
+ * style for add new message button dropdown
+ */
+.contactsListPanel{
+	vertical-align:middle;width:200px;margin-bottom:10px;
+	background:#ffffff;text-align:left;text-indent:20px;line-height: 2.3em;}
+
+.contactsListPanel .contactsBody{width:200px;height:160px;overflow-x: auto;overflow-y: auto;margin:0px;padding:0px !important;}
+
+.contactsListPanel .contactsBody .contactIcon{
+	width: 15px;
+	height: 13px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	position: relative;
+	left: -12px;
+	/* IE HACK!!! */
+	/*_left: -16px;*/
+	top: -2px;
+	margin-right:-4px;
+}
+
+.contactsListPanel .contactsBody .email .contactIcon{height:30px;background-position: -19px -5px;}
+
+.contactsListPanel .contactsBody .sms .contactIcon{height:30px;background-position: -72px -5px;}
+
+.contactsListPanel .contactsBody .mms .contactIcon{height:30px;background-position: -126px -5px;}
+
+.contactsListPanel .contactsBody .email:hover{background-color: #d1d1d1;cursor:pointer;}
+
+.contactsListPanel .contactsBody .sms:hover{background-color: #d1d1d1;cursor:pointer;}
+
+.contactsListPanel .contactsBody .mms:hover{background-color: #d1d1d1;cursor:pointer;}
+
+/* divider is at -300px; */
+.msgBodyText .searchStringHL {
+  background-color:yellow;
+}

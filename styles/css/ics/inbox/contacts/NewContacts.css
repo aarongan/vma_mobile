@@ -1,0 +1,27 @@
+.composerNewContacts {
+	height: 1055px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative; /* http://snook.ca/s/775 */
+}
+
+.composerNewContacts p {
+	font-weight: bold;
+}
+
+.composerNewContacts .add2Contacts {
+	background:url("../../../../../styles/images/ics/inbox/add2Contacts.png") repeat-x scroll 0 0 transparent;
+	border-top:1px solid #CCCCCC !important;
+	height:35px !important;
+	padding:15px 0 0 10px;
+}
+
+
+.composerNewContacts .wrapper {
+	border: 1px solid #d9d9d9;
+	padding: 8px;
+}
+
+.composerNewContacts .buttons .icsButton {
+	margin: 0 15px 0 0;
+}

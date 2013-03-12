@@ -1,0 +1,107 @@
+{
+    "statusCode":0,
+    "statusDesc":"Done",
+    "numRows":5,
+    "numDummyRows":4,
+    "contentToken":"AB0MCIDTGxlL9NJ0k0lMvIjv_Kk0ldUKbxSGeHjTeIb7KV6YTuqWPk9Xc9Y0hk-tgNkN4Y5N2qFwULiiLdKwStS5_6sOe6_d9jrB7lDlr1Ue4OP0QpRhGblv18SUjfowFxmf-_2x341c_ePUP0jejyv6QNpJnQuELFGu9b1LSmmFsSehu3QLd49fC-jbm902-zteOPWDgQpFoAKzp9VuTFcbQ-KulWd267kmUUA44r8JLBazkLYqkwB4eDEDNEd01g~~",
+    "items":[{
+            "fileId":"",
+            "filename":"",
+            "type":"dummy",
+            "fileSize":"",
+            "fileExt":"",
+            "uploadDateShortTxt":"March 30th, 2011 Wednesday",
+            "uploadDate":"",
+            "filePreviewIcon":"",
+            "fileUrl":""
+        },
+        {
+            "fileId":"96d3aebce88bb273423b800f3b3f355c7d65c626a6d43eb5c5f6c62557a86e87",
+            "filename":"GLTE.jpg",
+            "type":"Picture",
+            "fileSize":"13933K",
+            "fileExt":"jpg",
+            "uploadDateShortTxt":"Wed ,15:03 PM",
+            "uploadDate":"Wed Mar 30 15:03:44 EDT 2011",
+            "filePreviewIcon":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=GLTE.jpg",
+            "fileUrl":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=GLTE.jpg"
+        },
+        {
+            "fileId":"6c3444791027b2489e845ebb15c5495d05beeb01c96d9c58707ff77396f2a47c",
+            "filename":"apps_icon.jpg",
+            "type":"Picture",
+            "fileSize":"4324K",
+            "fileExt":"jpg",
+            "uploadDateShortTxt":"Wed ,14:59 PM",
+            "uploadDate":"Wed Mar 30 14:59:32 EDT 2011",
+            "filePreviewIcon":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=apps_icon.jpg",
+            "fileUrl":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=apps_icon.jpg"
+        },
+        {
+            "fileId":"",
+            "filename":"",
+            "type":"dummy",
+            "fileSize":"",
+            "fileExt":"",
+            "uploadDateShortTxt":"June 20th, 2011 Monday",
+            "uploadDate":"",
+            "filePreviewIcon":"",
+            "fileUrl":""
+        },
+        {
+            "fileId":"7b2fb1333744cd7c2fe3f87b9326bc33c1847b26c9480b829f161492f30f97b6",
+            "filename":"IMAGE$90A47F383E9605D.gif",
+            "type":"Picture",
+            "fileSize":"449208K",
+            "fileExt":"gif",
+            "uploadDateShortTxt":"Mon ,19:08 PM",
+            "uploadDate":"Mon Jun 20 19:08:27 EDT 2011",
+            "filePreviewIcon":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=IMAGE$90A47F383E9605D.gif",
+            "fileUrl":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=IMAGE$90A47F383E9605D.gif"
+        },
+        {
+            "fileId":"",
+            "filename":"",
+            "type":"dummy",
+            "fileSize":"",
+            "fileExt":"",
+            "uploadDateShortTxt":"May 17th, 2010 Monday",
+            "uploadDate":"",
+            "filePreviewIcon":"",
+            "fileUrl":""
+        },
+        {
+            "fileId":"1d8f75ab07d63aed243478052ad134ac2c698fe23df7459008528d86fd41a383",
+            "filename":"sample_3GPP2.3g2",
+            "type":"Video",
+            "fileSize":"28561K",
+            "fileExt":"3g2",
+            "uploadDateShortTxt":"Mon ,18:58 PM",
+            "uploadDate":"Mon May 17 18:58:22 EDT 2010",
+            "filePreviewIcon":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=sample_3GPP2.3g2",
+            "fileUrl":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=sample_3GPP2.3g2"
+        },
+        {
+            "fileId":"",
+            "filename":"",
+            "type":"dummy",
+            "fileSize":"",
+            "fileExt":"",
+            "uploadDateShortTxt":"April 14th, 2010 Wednesday",
+            "uploadDate":"",
+            "filePreviewIcon":"",
+            "fileUrl":""
+        },
+        {
+            "fileId":"41e01e89cbdd891e0cb5e267d782135a5c7c8043999bdff8dc4f11f23c198e3f",
+            "filename":"wav file lessthan 30sec.wav",
+            "type":"",
+            "fileSize":"352890K",
+            "fileExt":"wav",
+            "uploadDateShortTxt":"Wed ,19:12 PM",
+            "uploadDate":"Wed Apr 14 19:12:41 EDT 2010",
+            "filePreviewIcon":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=wav file lessthan 30sec.wav",
+            "fileUrl":"/vmm/downloadFromVMM.action?request.VMMFields%5B0%5D=wav file lessthan 30sec.wav"
+        }
+    ]
+}

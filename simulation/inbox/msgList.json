@@ -1,0 +1,1761 @@
+{
+    "numRows": 1500,
+    "all" : {
+    	"All": 24,
+	    "email": 8,
+	    "sms": 2,
+	    "mms": 3,
+	    "vvm": 6,
+	    "call_log": 1
+    },
+    "unread" : {
+    	"All": 24,
+    	"email": 8,
+    	"sms": 2,
+    	"mms": 3,
+   	 	"vvm": 6,
+    	"call_log": 1
+    },
+	"status": 0,
+	"statusDesc":"",
+    "items": [
+		{
+			"type": 6,
+			"subject": "Today, March 8, 2009"
+		},
+        {
+            "messageId": 2,
+            "folderName": "INBOX",
+            "type": 1,
+			"from":[
+					{
+						"name": "M Raja",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],	            
+            "subject": "Test",
+            "receivedDateShortTxt": "Tue, 17:14 PM",
+            "receivedDateDetailedTxt": "Tue, 17:14 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+			"isThread": true,
+            "size": 34560,
+            "priority": 0,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Apr 28 17:14:45 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": true,
+            "inNetwork": true,
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 3,
+            "folderName": "INBOX",
+            "type": 2,
+			"from":[
+					{
+						"name": "M Raja2",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],
+            "subject": "Test123",
+            "receivedDateShortTxt": "Tue, 17:17 PM",
+            "receivedDateDetailedTxt": "Tue, 17:17 PM (1 month ago)",
+			"senderIcon": "",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue Apr 28 17:17:59 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 4,
+            "folderName": "INBOX",
+            "type": 1,
+			"from":[
+					{
+						"name": "M Raja3",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],	            
+            "subject": "Test123",
+            "receivedDateShortTxt": "Tue, 17:29 PM",
+            "receivedDateDetailedTxt": "Tue, 17:29 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/4.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": true,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue Apr 28 17:29:47 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 5,
+            "folderName": "INBOX",
+            "type": 2,
+			"from":[
+					{
+						"name": "M Raja4",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],	            
+            "subject": "Deferred-Delivery -- by 2 minutes",
+            "receivedDateShortTxt": "Tue, 18:16 PM",
+            "receivedDateDetailedTxt": "Tue, 18:16 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue Apr 28 18:16:50 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": true,
+            "inNetwork": true,
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 6,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":1,
+			"from":[
+					{
+						"name": "M Raja5",
+						"emailAddress": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com"
+					}
+			],	            
+            "subject": "Deferred-Delivery -- by 10 minutes",
+            "receivedDateShortTxt": "Tue, 18:19 PM",
+            "receivedDateDetailedTxt": "Tue, 18:19 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Apr 28 18:19:33 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 7,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test",
+            "receivedDateShortTxt": "Tue, 17:19 PM",
+            "receivedDateDetailedTxt": "Tue, 17:19 PM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/9.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue May 05 17:19:40 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 8,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test",
+            "receivedDateShortTxt": "Wed, 11:47 AM",
+            "receivedDateDetailedTxt": "Wed, 11:47 AM (1 month ago)",
+			"senderIcon": "../simulation/inbox/profileImages/6.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Wed May 06 11:47:12 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                }
+            ]
+        },
+        {
+            "messageId": 9,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":2,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test email",
+            "receivedDateShortTxt": "Tue, 10:16 AM",
+            "receivedDateDetailedTxt": "Tue, 10:16 AM (21 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/5.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue May 19 10:16:06 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "Friends"
+                }
+            ]
+        },
+        {
+            "messageId": 11,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test sms",
+            "receivedDateShortTxt": "Tue, 13:29 PM",
+            "receivedDateDetailedTxt": "Tue, 13:29 PM (20 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/8.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue May 19 13:29:14 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "Friends"
+                },
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 5,
+                    "name": "BranchBurg"
+                },
+                {
+                    "id": 6,
+                    "name": "Subba"
+                }
+            ]
+        },
+        {
+            "messageId": 12,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "Postmaster &lt;postmaster@nj.vzwcorp.com&gt;",
+            "subject": "Delivery Notification: Delivery has failed",
+            "receivedDateShortTxt": "Tue, 13:29 PM",
+            "receivedDateDetailedTxt": "Tue, 13:29 PM (20 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 2,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue May 19 13:29:15 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "Friends"
+                },
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                }
+            ]
+        },
+        {
+            "messageId": 13,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "&quot;Malepati, Subbaraja&quot; &lt;Subbaraja.Malepati@VerizonWireless.com&gt;",
+            "subject": "test",
+            "receivedDateShortTxt": "Tue, 14:31 PM",
+            "receivedDateDetailedTxt": "Tue, 14:31 PM (20 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 188,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue May 19 14:31:25 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "Friends"
+                },
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 14,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test sms",
+            "receivedDateShortTxt": "Tue, 17:41 PM",
+            "receivedDateDetailedTxt": "Tue, 17:41 PM (20 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue May 19 17:41:13 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 2,
+                    "name": "Friends"
+                },
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 15,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "Postmaster &lt;postmaster@nj.vzwcorp.com&gt;",
+            "subject": "Delivery Notification: Delivery has failed",
+            "receivedDateShortTxt": "Tue, 17:41 PM",
+            "receivedDateDetailedTxt": "Tue, 17:41 PM (20 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/4.png",
+            "attachment": true,
+            "size": 2,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue May 19 17:41:15 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 16,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "&quot;Malepati, Subbaraja&quot; &lt;Subbaraja.Malepati@VerizonWireless.com&gt;",
+            "subject": "test1",
+            "receivedDateShortTxt": "Tue, 17:48 PM",
+            "receivedDateDetailedTxt": "Tue, 17:48 PM (20 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/3.png",
+            "attachment": true,
+            "size": 279,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Tue May 19 17:48:20 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 17,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test sms",
+            "receivedDateShortTxt": "Thu, 11:53 AM",
+            "receivedDateDetailedTxt": "Thu, 11:53 AM (19 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Thu May 21 11:53:18 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 18,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "Postmaster &lt;postmaster@nj.vzwcorp.com&gt;",
+            "subject": "Delivery Notification: Delivery has failed",
+            "receivedDateShortTxt": "Thu, 11:53 AM",
+            "receivedDateDetailedTxt": "Thu, 11:53 AM (19 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/9.png",
+            "attachment": true,
+            "size": 2,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Thu May 21 11:53:18 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 21,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test sms",
+            "receivedDateShortTxt": "Thu, 12:06 PM",
+            "receivedDateDetailedTxt": "Thu, 12:06 PM (19 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/2.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Thu May 21 12:06:31 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 24,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":3,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test sms",
+            "receivedDateShortTxt": "Thu, 12:12 PM",
+            "receivedDateDetailedTxt": "Thu, 12:12 PM (19 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/8.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Thu May 21 12:12:25 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 26,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "d",
+            "receivedDateShortTxt": "Thu, 15:35 PM",
+            "receivedDateDetailedTxt": "Thu, 15:35 PM (18 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Thu May 21 15:35:17 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 27,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test sms",
+            "receivedDateShortTxt": "Thu, 15:37 PM",
+            "receivedDateDetailedTxt": "Thu, 15:37 PM (18 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Thu May 21 15:37:56 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 3,
+                    "name": "Classmates"
+                },
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 31,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "Subbaraja &lt;subba@nj.vzwcorp.com&gt;",
+            "subject": "test attachment",
+            "receivedDateShortTxt": "Thu, 22:22 PM",
+            "receivedDateDetailedTxt": "Thu, 22:22 PM (18 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/8.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Thu May 21 22:22:51 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 43,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "",
+            "receivedDateShortTxt": "Fri, 15:03 PM",
+            "receivedDateDetailedTxt": "Fri, 15:03 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/6.png",
+            "attachment": true,
+            "size": 278,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Fri May 29 15:03:14 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 44,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 15:26 PM",
+            "receivedDateDetailedTxt": "Fri, 15:26 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/9.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Fri May 29 15:26:12 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 45,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 15:27 PM",
+            "receivedDateDetailedTxt": "Fri, 15:27 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Fri May 29 15:27:09 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 47,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:33 PM",
+            "receivedDateDetailedTxt": "Fri, 16:33 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:33:30 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 48,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:37 PM",
+            "receivedDateDetailedTxt": "Fri, 16:37 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/5.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Fri May 29 16:37:07 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 49,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":5,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:38 PM",
+            "receivedDateDetailedTxt": "Fri, 16:38 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:38:25 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 50,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:43 PM",
+            "receivedDateDetailedTxt": "Fri, 16:43 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/2.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:43:25 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 51,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:46 PM",
+            "receivedDateDetailedTxt": "Fri, 16:46 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/8.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:46:42 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+		{
+			"type": 6,
+			"subject": "Today, March 8, 2009"
+		},
+        {
+            "messageId": 52,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:48 PM",
+            "receivedDateDetailedTxt": "Fri, 16:48 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/4.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:48:47 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 53,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:50 PM",
+            "receivedDateDetailedTxt": "Fri, 16:50 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/3.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:50:00 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 54,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:51 PM",
+            "receivedDateDetailedTxt": "Fri, 16:51 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/3.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:51:07 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 55,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:52 PM",
+            "receivedDateDetailedTxt": "Fri, 16:52 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/6.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:52:25 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                }
+            ]
+        },
+        {
+            "messageId": 56,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:53 PM",
+            "receivedDateDetailedTxt": "Fri, 16:53 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/9.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:53:42 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                {
+                    "id": 4,
+                    "name": "ICS"
+                },
+                {
+                    "id": 7,
+                    "name": "Sankara"
+                }
+            ]
+        },
+        {
+            "messageId": 57,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:54 PM",
+            "receivedDateDetailedTxt": "Fri, 16:54 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:54:32 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 58,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:57 PM",
+            "receivedDateDetailedTxt": "Fri, 16:57 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:57:12 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 59,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 16:59 PM",
+            "receivedDateDetailedTxt": "Fri, 16:59 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Fri May 29 16:59:13 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 60,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "MarkSpam Notification from VZW",
+            "receivedDateShortTxt": "Fri, 18:42 PM",
+            "receivedDateDetailedTxt": "Fri, 18:42 PM (10 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/5.png",
+            "attachment": true,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "receivedDate": "Fri May 29 18:42:27 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 61,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 16:27 PM",
+            "receivedDateDetailedTxt": "Mon, 16:27 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/2.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 01 16:27:48 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 62,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":6,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 16:28 PM",
+            "receivedDateDetailedTxt": "Mon, 16:28 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/3.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 01 16:28:54 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 63,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 16:32 PM",
+            "receivedDateDetailedTxt": "Mon, 16:32 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 01 16:32:09 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 64,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 16:33 PM",
+            "receivedDateDetailedTxt": "Mon, 16:33 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/8.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 01 16:33:29 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 65,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 16:35 PM",
+            "receivedDateDetailedTxt": "Mon, 16:35 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/6.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 01 16:35:23 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+		{
+			"type": 6,
+			"subject": "Today, March 8, 2009"
+		},
+        {
+            "messageId": 66,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 16:36 PM",
+            "receivedDateDetailedTxt": "Mon, 16:36 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/4.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 01 16:36:32 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 67,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "&quot;test123&quot;",
+            "receivedDateShortTxt": "Tue, 10:15 AM",
+            "receivedDateDetailedTxt": "Tue, 10:15 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:15:26 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 68,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "&quot;test123&quot;",
+            "receivedDateShortTxt": "Tue, 10:16 AM",
+            "receivedDateDetailedTxt": "Tue, 10:16 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:16:10 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 69,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Tue, 10:16 AM",
+            "receivedDateDetailedTxt": "Tue, 10:16 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/6.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:16:57 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 70,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Tue, 10:19 AM",
+            "receivedDateDetailedTxt": "Tue, 10:19 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/9.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:19:24 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 71,
+            "folderName": "INBOX",
+            "type": 3,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "&quot;test123&quot;",
+            "receivedDateShortTxt": "Tue, 10:19 AM",
+            "receivedDateDetailedTxt": "Tue, 10:19 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:19:42 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 72,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "&quot;test123&quot;",
+            "receivedDateShortTxt": "Tue, 10:29 AM",
+            "receivedDateDetailedTxt": "Tue, 10:29 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:29:14 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 73,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":7,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 10:37 AM",
+            "receivedDateDetailedTxt": "Tue, 10:37 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/3.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:37:34 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 74,
+            "folderName": "INBOX",
+            "type": 5,
+            "sourceMessageUID":8,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 10:38 AM",
+            "receivedDateDetailedTxt": "Tue, 10:38 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/2.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 10:38:07 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 75,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 11:22 AM",
+            "receivedDateDetailedTxt": "Tue, 11:22 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 11:22:52 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 76,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 11:23 AM",
+            "receivedDateDetailedTxt": "Tue, 11:23 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/4.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 11:23:57 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 77,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "&quot;test123&quot;",
+            "receivedDateShortTxt": "Tue, 11:34 AM",
+            "receivedDateDetailedTxt": "Tue, 11:34 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/8.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 11:34:31 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 78,
+            "folderName": "INBOX",
+            "type": 4,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 11:36 AM",
+            "receivedDateDetailedTxt": "Tue, 11:36 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 11:36:23 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 79,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 11:36 AM",
+            "receivedDateDetailedTxt": "Tue, 11:36 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/7.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 11:36:31 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 80,
+            "folderName": "INBOX",
+            "type": 2,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 11:41 AM",
+            "receivedDateDetailedTxt": "Tue, 11:41 AM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/6.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 11:41:14 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 81,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 12:14 PM",
+            "receivedDateDetailedTxt": "Tue, 12:14 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/9.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 12:14:47 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 82,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 12:17 PM",
+            "receivedDateDetailedTxt": "Tue, 12:17 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 12:17:24 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 83,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0mals3@WNJ10002LDVSCJR.nj.vzwcorp.com",
+            "subject": "test123",
+            "receivedDateShortTxt": "Tue, 12:17 PM",
+            "receivedDateDetailedTxt": "Tue, 12:17 PM (7 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Tue Jun 02 12:17:43 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 84,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0yadsa@WNJ79027LDVSAAM.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 11:45 AM",
+            "receivedDateDetailedTxt": "Mon, 11:45 AM (1 day ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 08 11:45:48 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 85,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0yadsa@WNJ79027LDVSAAM.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 14:43 PM",
+            "receivedDateDetailedTxt": "Mon, 14:43 PM (21 hour ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 08 14:43:53 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 86,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0yadsa@WNJ79027LDVSAAM.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 14:44 PM",
+            "receivedDateDetailedTxt": "Mon, 14:44 PM (21 hour ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 08 14:44:59 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 87,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0yadsa@WNJ79027LDVSAAM.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 14:53 PM",
+            "receivedDateDetailedTxt": "Mon, 14:53 PM (21 hour ago)",
+			"senderIcon": "../simulation/inbox/profileImages/10.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 08 14:53:47 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 88,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0yadsa@WNJ79027LDVSAAM.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 14:56 PM",
+            "receivedDateDetailedTxt": "Mon, 14:56 PM (21 hour ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 08 14:56:24 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        },
+        {
+            "messageId": 89,
+            "folderName": "INBOX",
+            "type": 1,
+            "from": "c0yadsa@WNJ79027LDVSAAM.nj.vzwcorp.com",
+            "subject": "send now Test",
+            "receivedDateShortTxt": "Mon, 14:57 PM",
+            "receivedDateDetailedTxt": "Mon, 14:57 PM (21 hour ago)",
+			"senderIcon": "../simulation/inbox/profileImages/1.png",
+            "attachment": true,
+            "size": 276,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "receivedDate": "Mon Jun 08 14:57:16 EDT 2009",
+            "msgSource": "VZW",
+            "isStarred": "",
+            "inNetwork": "",
+            "tags": [
+                
+            ]
+        }
+    ]
+}

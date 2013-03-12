@@ -1,0 +1,36 @@
+{
+    items: [
+				{ 
+					"eventID":"12568",
+				   	"id":"caltest@icspoc.vzwcorp.com",
+				  	"title": "newsdsdfwf",
+					"categoryType": "lunch",
+					"categoryTypeId": "3456",
+					"eventStart":"06/29/2009 05:00 PM",
+					"eventEnd":"06/30/2009 06:00 PM",
+					"place": "Mary Jones HousePlace",
+					"message":"Going to dalls for vacation",
+					"allDayEvent": "true",
+					"recurrence": "Never",
+					"setEventType": "public",
+					"weather": [{"zipcode":"12345","HighTemp":"30","LowTemp":"15","PicURL":""}],
+					"note": "Jojn  the party",
+				    "myDetailsArray": [{
+				    	"tagId":"345",
+				    	"statusType":"busy",
+				    	"reminderType":"textalert",
+						"reminderPhoneNumber":"12345",
+						"reminderTime":"15mins"
+					}],
+				    "attendees": [{
+				    	"fullName":"john smith",   
+				    	"emailId":"sjohn@gmail.com",
+				    	"acceptType":"accepted" 
+				    }],
+				    "smsList":[{
+				    	"fullName":"johnsmith",
+				    	"phone":"732-983-1333"
+				    }]				
+				}
+   	]
+ }

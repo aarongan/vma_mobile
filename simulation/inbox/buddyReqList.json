@@ -1,0 +1,50 @@
+{
+	"numRows": 9,
+	"items": [
+		{
+			"buddyId" : 1000,
+			"buddyName" : "Susan",
+			"buddyIcon": "../styles/images/ics/calendar/susan.png"
+		},
+		{
+			"buddyId" : 1001,
+			"buddyName" : "Wally",
+			"buddyIcon": "../styles/images/ics/calendar/wally.png"
+		},
+		{
+			"buddyId" : 1002,
+			"buddyName" : "Tim",
+			"buddyIcon": "../styles/images/ics/calendar/starks.png"
+		},
+		{
+			"buddyId" : 1003,
+			"buddyName" : "Jake",
+			"buddyIcon": "../styles/images/ics/calendar/jake.png"
+		},
+		{
+			"buddyId" : 1004,
+			"buddyName" : "York",
+			"buddyIcon": "../styles/images/ics/calendar/york.png"
+		},
+		{
+			"buddyId" : 1005,
+			"buddyName" : "Wally",
+			"buddyIcon": "../styles/images/ics/calendar/wally.png"
+		},
+		{
+			"buddyId" : 1006,
+			"buddyName" : "Tim",
+			"buddyIcon": "../styles/images/ics/calendar/starks.png"
+		},
+		{
+			"buddyId" : 1007,
+			"buddyName" : "Jake",
+			"buddyIcon": "../styles/images/ics/calendar/jake.png"
+		},
+		{
+			"buddyId" : 1008,
+			"buddyName" : "York",
+			"buddyIcon": "../styles/images/ics/calendar/york.png"
+		}
+	]
+}

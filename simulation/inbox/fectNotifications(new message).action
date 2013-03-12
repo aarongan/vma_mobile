@@ -1,0 +1,6 @@
+
+
+
+
+
+{"getContactsTime":0,"getMessageTime":0,"numRows":0,"numDummyRows":0,"all":{"All":0,"email":0,"sms":0,"mms":0,"vvm":0,"call_log":0},"unread":{"All":0,"email":0,"sms":0,"mms":0,"vvm":0,"call_log":0},"undelivered":{"smsRowNums":0,"mmsRowNums":0,"isShow":false,"smsItems":[],"mmsItems":[]},"statusCode":0,"statusDesc":"Done","items":[{"messageId":0,"folderName":"","type":1,"isThread":false,"threadLength":0,"draftLength":0,"deliveryStatusCode":0,"from":[{"name":"","emailAddress":"&#034;Cao, Eric&#034; &lt;Eric.Cao@verizonwireless.com&gt;"}],"to":[],"cc":[],"subject":"test threading","receivedDateShortTxt":"","receivedDate":"","contactId":"","attachment":false,"size":0,"priority":0,"answered":false,"draft":false,"read":false,"sourceSystem":"Google","sourceMessageId":"<4ed3f2c0.2409ec0a.5223.0759SMTPIN_ADDED@mx.google.com>","sourceMessageFolder":"UnifiedInbox","sourceMessageUID":"28058","isStarred":false,"inNetwork":false,"isBuddy":false,"ics":"","sensitivity":"","orderNum":0,"tags":[]}],"passwordChangeNotifications":[],"flags":{"showSyncPod":false,"errorMessage":""},"tags":[],"nabNotifications":[],"tagExceedNotifications":{"tagErrorMessage":""}}

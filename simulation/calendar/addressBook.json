@@ -1,0 +1,20 @@
+{
+    items: [
+			{ 
+			    "firstName":"Me",
+			   	"lastName": "Mike",
+			   	"imageURL":"../styles/images/ics/calendar/ambrose.gif",			  	
+			},
+			{ 
+			    "firstName":"Wally",
+			   	"lastName": "Juhu",
+			   	"imageURL":"../styles/images/ics/calendar/ambrose.gif",			  	
+			},
+			{ 
+			    "firstName":"9d3ca586-add6-48aa-a54c-190295be786d",
+			    "lastName": "",
+			   "imageURL":"../styles/images/ics/calendar/ambrose.gif",			  	
+			}
+
+   	]
+ }

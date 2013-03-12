@@ -1,0 +1,496 @@
+
+@import url('nav.css');
+@import url('vmmRow.css');
+/* vmm Styles */
+.renameVMMFile {
+	padding: 10px 15px;
+}
+.renameVMMFile .renameVMMDiv{
+	padding: 5px 0 10px;
+}
+.renameVMMFile .errDiv{
+	font-size: 10px;
+	color: red;
+	margin: 2px;
+}
+/* hide starred row for now, may change later*/
+#vmm-right-panel-my-tags_expandDiv .bodyDiv #_starred_1000{
+	display: none;
+}
+/* vmm list view header */
+#ics-app-vmm-searchList-vmmList .vmmListTopHeader{
+	width: 99%;
+}
+.vmmFileFolderNav{
+	height: 20px;
+    	padding: 7px 0 0;
+	text-align: center;
+	color: #0066CC;
+	background-color: #EBF7FF;
+	font: bold 12px arial;
+    	border: 1px solid #A4D9FD;
+}
+.vmmFileFolderNav .__noColor{
+	color: #000000;
+}
+.vmmFileFolderNav .__handCursor{
+	cursor: pointer;
+}
+#ics-app-vmm-searchList-vmmList .vmmListHeader{
+	background-color: #FFFFFF;
+	width: 99%;
+	border-color: #D9D9D9;
+    	border-style: none none solid none;
+    	border-width: 1px;
+}
+#vmmListMusicHeader, #vmmListNonMusicHeader{ 
+	font-weight: bold;
+	padding: 10px 0px;
+}
+#vmmListMusicHeader .t_play{
+	padding-left: 35px;
+	width: 30px;
+}
+#vmmListMusicHeader .t_fName{
+	width: 150px;
+	text-align: center;
+}
+.dj_ie7 #vmmListMusicHeader .t_fName{
+	width: 158px; 
+}
+#vmmListMusicHeader .t_artist{
+	width: 90px;
+	text-align: center;
+}
+#vmmListMusicHeader .t_album{
+	width: 90px;
+	text-align: center;
+}
+#vmmListMusicHeader .t_genre{
+	width: 75px;
+	text-align: center;
+}
+#vmmListMusicHeader .t_year,
+#vmmListMusicHeader .t_time{
+	width: 58px;
+	text-align: center;
+}
+#vmmListMusicHeader .t_size{
+	text-align: center;
+	width: 80px;
+}
+.dj_ie7 #vmmListMusicHeader .t_year,
+.dj_ie7 #vmmListMusicHeader .t_time{
+	width: 55px; 
+}
+.dj_ie7 #vmmListMusicHeader .t_size{
+	width: 70px; 
+}
+#vmmListMusicHeader .t_upload{
+	width: 78px;
+	text-align: center;
+}
+#vmmListNonMusicHeader .t_view{
+	width: 110px;
+	margin-left: 47px;
+}
+#vmmListNonMusicHeader .t_fName{
+	width: 265px;
+	text-align: left;
+}
+#vmmListNonMusicHeader .t_extension{
+	width: 130px;
+	text-align: left;
+}
+.dj_ie7 #vmmListNonMusicHeader .t_fName {
+	width: 273px;
+}
+#vmmListNonMusicHeader .t_size{
+	width: 85px;
+	text-align: left;
+}
+#vmmListNonMusicHeader .t_upload{
+	width: 80px;
+	text-align: center;
+}
+.msgSearch .linkMenuWrapper {
+	float:left; 
+	width: 145px;
+}
+.msgSearch .vmmMenuWrapper{
+	float:right; 
+	margin-top:5px;
+} 
+/* Start -- Styles related to Share photos -- Social Networking*/
+.shareDlg{
+	text-align:left;
+	padding-left:64px;
+	padding-top:12px;/*6px; -- Changed as per PSD*/
+	height:121px;
+	font-weight:bold;
+}
+.shareDlg .dijitButtonNode button{
+	width: 158px;
+}
+.shareDlg .connectToDlgDivs{
+	padding: 0;
+	height: 35px;
+}
+.sharePhotoIcon  {
+	float:left;
+	width: 24px;
+	height: 24px;
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat;
+	/*text-align: center;
+	margin-left:4px;*/
+}
+.sharePhotoIcon.facebookIcon{
+	background-position: -342px -296px;
+}
+.sharePhotoIcon.twitterIcon{
+	background-position: -308px -327px;
+}
+.sharePhotoIcon.youtubeIcon{
+	background-position: -307px -296px;
+}
+.sharePhoto{
+	/*margin-left: 6px;*/
+	padding-left: 12px;
+	float:left;
+	line-height: 24px;
+	width: 120px;
+	text-align: left;
+	cursor: pointer;
+}
+.addCaptionDiv{
+	height:350px;
+	overflow:auto;
+}
+.addCaptionDiv .captionInput{
+	background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    display:block;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.addCaptionDiv .empty{
+	color:#A4ABB2;
+}
+.addCaptionDiv .shareImg{
+	width:350px;
+	height: 250px;
+}
+/* End -- Styles related to Share photos -- Social Networking*/
+
+.attachMedia_widget .confirmPane {
+	width: 985px !important;
+	height: 538px !important;
+}
+
+.attachMedia{
+	padding: 0 40px 18px;
+	border-bottom: 1px solid #D5D5D5;
+}
+.attachMedia .headerWrapper
+{
+	height:55px;
+}
+.attachMedia .viewBy{
+	font-weight: bold;
+	line-height: 55px;
+	padding-right: 5px;
+}
+.attachMedia .listView, .attachMedia .iconView,
+.attachMedia .listView:hover, .attachMedia .iconView:hover{
+	/*margin: 15px;*/
+	width:23px;
+	height:26px;
+	float:right;
+	margin:15px 0 0 4px;
+}
+
+.attachMedia .iconView{
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent -376px -294px;	
+}
+
+.attachMedia .listView{
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent -407px -294px;
+}
+
+.attachMedia .listView:hover,
+.attachMedia .iconView:hover{
+	cursor: pointer;
+}
+
+.attachMedia .listView:hover{
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent -407px -322px;
+}
+
+.attachMedia .iconView:hover{
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent -376px -322px;
+}
+
+.attachMedia .fileSystem{
+	border: 1px solid #82868f;
+    height: 400px;
+    width: 235px;
+	clear:both;
+}
+.attachMedia .fileSystem .root{
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent -386px -268px;
+	width: 16px;
+	height: 15px;
+	margin: 3px 0 0 5px;
+}
+.attachMedia .fileSystem .root div, .attachMedia .fileSystem .folder div{
+	width: 100px;	
+	line-height: 17px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.attachMedia .fileSystem .root div{
+	line-height: 15px;
+}
+.attachMedia .fileSystem .folder{
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent -434px -268px;
+	width: 15px;
+	height: 17px;
+	margin: 3px 0 0 15px;
+}
+.attachMedia .fileList{
+	height: 400px;
+	width: 660px;
+	margin: 0 0 0 5px;
+	clear:both;
+}
+.attachMedia .label{
+	font-weight: bold;
+}
+.attachMedia .headerWrapper .label{
+	float:left;
+	line-height:55px;
+}
+.attachMedia .label.large{
+	font-size: 14px;
+	line-height: 30px;
+}
+.attachMedia .label.buttonrga{
+	margin-top:3px;
+}
+.attachMedia .type, .attachMedia .size{
+	border-right: 1px solid #e8e7ec;	
+	height: 100%;
+	padding-left: 5px;
+}
+.attachMedia .name{
+	height: 100%;
+	padding-left: 5px;
+}
+.attachMedia .row .name, .attachMedia .row .type, .attachMedia .row .size{
+	border-right: 1px solid #ebf3fe;
+}
+.attachMedia .row .name{
+    width: 33%;	
+}
+.attachMedia .header .name
+{
+	width: 32.15%;
+}
+.attachMedia .row .type{
+	width: 23%;
+}
+.attachMedia .header .type{
+	width: 22.6%;
+}
+.dj_ie .attachMedia .header .type{
+	width: 22.5%;
+}
+.attachMedia .size{
+	text-align: right;
+	padding-right: 5px;
+}
+.attachMedia .header .size{
+	width: 16.6%;
+}
+.attachMedia .row .size{	
+    width: 17%;
+}
+.attachMedia .modified{
+	padding-left: 5px;
+}
+.attachMedia .header .modified{
+	width: 24.5%;
+}
+.attachMedia .selectAction,
+.attachMedia .attachAction{
+    height: 30px;
+	width: 662px;
+}
+.attachMedia .selectAction .dijitInline,
+.attachMedia .attachAction .dijitInline{
+	height: 30px;
+	padding-left: 4px;
+}
+
+.attachMedia .selectAction .dijitInline.label,
+.attachMedia .attachAction .dijitInline.label{
+	float:left;
+}
+
+.attachMedia .selectWindow{
+	border: 1px solid #82868f;
+    height: 198.5px;
+	width: 660px;
+	
+}
+.attachMedia .selectWindow .header,
+.attachMedia .attachWindow .header{
+	border: 1px solid #d5d5d5;	
+    height: 20px;
+}
+.attachMedia .selectWindow .header div,
+.attachMedia .attachWindow .header div{
+	height: 100%;
+	background:transparent url(../../../images/ics/common/aw_header_1px.png) repeat-x;
+}
+.attachMedia .selectWindow .itemList{
+	height: 176px;
+	overflow-y: scroll;
+}
+.attachMedia .selectWindow .itemList.iconWindow{
+	height: 198px;
+}
+.attachMedia .attachWindow .itemList{
+	height: 115px;
+	overflow-y: scroll;
+}
+.dj_ie7 .attachMedia .attachWindow .itemList{
+	height: 116px;
+}
+.attachMedia .attachWindow .itemList.iconWindow{
+	height: 137px;
+}
+.dj_ie7  .attachMedia .attachWindow .itemList.iconWindow{
+	height: 138px;
+}
+.attachMedia .selectWindow .itemList .fakeViewPort,
+.attachMedia .attachWindow .itemList .fakeViewPort{
+	position: absolute;
+	width: 100%;
+}
+
+.attachMedia .selectWindow .itemList .row,
+.attachMedia .attachWindow .itemList .row{
+	height: 20px;
+}
+.attachMedia .selectWindow .itemList .col,
+.attachMedia .attachWindow .itemList .col{
+	height: 90px;
+	width: 88px;
+	padding: 14px 14px 0px;
+	margin: 9px 0 0 9px;
+	text-align: center;
+}
+.attachMedia .selectWindow .itemList .col .iconImg,
+.attachMedia .attachWindow .itemList .col .iconImg{
+	height: 60px;
+	width: 60px;
+}
+.attachMedia .selectWindow .itemList .col .label,
+.attachMedia .attachWindow .itemList .col .label{
+	overflow: hidden;
+	white-space: nowrap;	
+}
+.attachMedia .selectWindow .itemList .row .name:hover,
+.attachMedia .attachWindow .itemList .row .name:hover{
+	cursor: pointer;
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat; 
+	background-position:-538px -292px;
+	width: 212px;	
+	height: 100%;
+}
+.attachMedia .selectWindow .itemList .row.select .name,
+.attachMedia .attachWindow .itemList .row.select .name{
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat;
+	background-position:-538px -271px;
+	width: 212px;	
+	height: 100%;
+}
+.attachMedia .selectWindow .itemList .col:hover,
+.attachMedia .attachWindow .itemList .col:hover{
+	cursor: pointer;
+	background-color: #F6F6F6; 
+}
+.attachMedia .selectWindow .itemList .col.select,
+.attachMedia .attachWindow .itemList .col.select{
+	background-color: #E9E9E9; 
+}
+
+.attachMedia .attachWindow{
+	border: 1px solid #82868f;
+    height: 138px;
+	width: 660px;
+}
+/*End -- Styles related to Share photos*/
+.dj_ie7 .vmmDownloadDialog,
+.dj_ie7 .vmmDownloadDialog .modal_content{
+	width: 290px;
+}
+.dj_ie7 .vmmRenameFileDialog .modal_content{
+	width: 325px;
+}
+.dj_ie7 .vmmTagsDialog .modal_content{
+	width: 400px;
+}
+.vmmDownloadPane{
+    padding: 20px 0 0 18px;
+    width: 270px;
+}
+#vmmMainContainer .picEditDiv{
+	position:absolute;
+	top:50px;
+}
+.vmmTagsPanel{
+    padding: 10px;
+}
+.vmmTagsPanelAdd{
+    /* height: 60px; */
+	padding-bottom: 10px;
+}
+.vmmTagsPanel .addTagsDiv{
+    padding: 1px 1px 5px 0;
+}
+.vmmTagsPanel .errDiv{
+	font-size: 10px;
+	color: red;
+	padding: 2px;
+}
+.vmmTagsPanelList{
+    border: 1px solid #D9D9D9;
+    height: 100px;
+    padding: 5px;
+	overflow: auto;	
+}
+/* Fix for overflow issue happens in IE7 */
+.dj_ie7 .vmmTagsPanelList{
+	position: relative; 
+}
+.vmmTagsRowRemove{
+	font-size: 10px;
+}
+.vmmTagsPanel .tagsInputDiv{
+    padding: 1px 1px 5px 0;
+}
+.vmmTagsPanel .tagsInputField{
+    margin-right: 10px;
+}
+.dojoxGridScrollbox.vmmGridScrollbox{
+	height:1405px; 
+}
+.dojoxGridScrollbox.vmmListScrollbox,
+.all .dojoxGridScrollbox.vmmGridScrollbox{
+	height:1370px; 
+}
+.all .dojoxGridScrollbox.vmmListScrollbox{
+	height:1340px; 
+}

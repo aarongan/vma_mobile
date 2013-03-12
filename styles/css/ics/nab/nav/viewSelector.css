@@ -1,0 +1,162 @@
+/* styling for buttons to switch between coverflow and list view */
+.contactsControllers {
+    position: absolute;
+    z-index: 3;
+    top: 93px; /*51px;*/
+    right: 10px;
+    left:  865px; /*868px; Added for BUA Plus*/
+}
+
+.helpTip .viewsHelpTip {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.helpTip .viewsHelpTip .header {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.helpTip .viewsHelpTip .body {
+    width: 240px;
+    font-size: 11px;
+}
+
+.listViewButton, .gridViewButton,
+.cvButton, .listButton {
+	height: 23px;
+    width: 26px;
+	cursor: pointer;
+}
+.cvButton,
+.listButton {
+    background-image: url('../../../../images/ics/nab/viewIcons.png');
+}
+
+.listViewButton,
+.gridViewButton {
+	background-image: url('../../../../images/ics/BUAPSprites.png');
+}
+
+.listViewButton {	
+    background-position: -406px -296px;	
+}
+
+.listViewButton:hover {	
+    background-position: -406px -324px;
+}
+
+.gridViewButton {
+	background-position: -376px -296px;	
+}
+
+.gridViewButton:hover {
+	background-position: -376px -324px;
+}
+
+.listButton {
+    /*background-position: 0px -15px;*/
+    background-position: -29px -31px;
+}
+
+.cvButton {
+    /*background-position: 0px 1px;*/
+    background-position: 0 -7px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.listButton:hover {
+	/*background-position: -27px -15px;*/
+	background-position: -29px -7px;
+}
+.cvButton:hover {
+    /*background-position: -27px 1px;*/
+    background-position: 0 -31px;
+}
+
+.coverFlowBorders{
+	/*border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;*/
+	border-top:0px none !important;
+	/*border-left: 1px solid #CCCCCC;*/
+}.noFlashMessage{
+	text-align: center;
+   	height: 435px;
+    padding-top: 200px;
+    font-size: 15px;
+}
+.noFlashMessage .getFlashMessage{
+    font-size: 16px;
+    font-weight: bold;
+   	margin-top: 10px;
+   	color: #0066CC;
+}
+
+/*Header related css*/
+.headerPane .baHeaderDiv{
+	height:38px;
+}
+
+.headerPane .header{
+}
+
+.headerPane .userInfo{
+	font-weight:bold;
+	margin-right:5px;
+	margin-top:12px;
+}
+
+.dj_ie7 .headerPane .userInfo{
+	margin-top:-10px;
+}
+
+.drgAndDrpOuterDivBgd {
+  background-color:#EBEBEB !important;
+ }
+ 
+.drgAndDrpLeft{
+  float:left;  
+  margin-top:6px;
+  margin-left:8px;  
+  width:120px;
+  text-align:left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow:ellipsis;
+ }
+ 
+.drgAndDrpRight {
+  float:right;
+  margin-left:25px;
+  background-color:#EBEBEB !important;
+  margin-right:5px;  
+ }
+ 
+ .drgAndDrpMain {
+ 	width:200px;height:30px; 
+ 	background-color:#EBEBEB !important;
+}
+.cardContainer{
+	top: /*100px*/ 141px !important;
+	/*width: 732px !important;*/
+	width: 765px !important;;
+}
+.cardContainer .cardContainerBorders{
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+/*****
+.listContainer {top: 100px !important; }
+*****/
+.tundra .dijitBorderContainer.cardContainer { 
+	padding:0px;
+}
+.dj_ie .contactsControllers .viewByText{
+	vertical-align: 5px;
+}
+.contactsControllers .viewByText.searching{
+	color: #FFFFFF;
+}

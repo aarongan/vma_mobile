@@ -1,0 +1,230 @@
+.pl .dijitDialog.icsDialog.addressBook {
+	width: 753px;
+}
+
+.pl .dijitDialog.icsDialog.addressBook .dijitDialogTitle {
+    width: 93%;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+.aBookListPane{
+	width:765px;
+	height: 447px;
+}
+
+.aBookListPane .infoDiv{
+	margin-top:10px;
+	width: 70%;
+}
+.aBookListPane .exclaim{
+	background: transparent url("../../../../images/ics/InboxSprites.png") no-repeat scroll -249px -19px;
+	width: 20px;
+	height:19px;
+	margin: 0 2px 0 0;
+	vertical-align: top;
+}
+
+.aBookListPane .infoDiv .label{
+	width: 90%;
+}
+
+.aBookListPane .aBookList{
+	width:460px;
+	margin: 3px 0 0 8px;
+	float:left;
+}
+
+
+.aBookListPane .aBookList .sort{
+	margin-left: 134px;
+}
+
+/*.dj_ie .aBookListPane .aBookList .sort{
+	margin-left: 110px;
+}*/
+
+.aBookListPane .rightList{
+	width:260px;
+}
+
+
+.aBookListPane .filterByGroup .dijitButtonText{
+	width:114px;
+	text-align:left;
+	height:13px;
+}
+
+.dj_ie7 .aBookListPane .dijitInline.right  {
+	width: 272px;
+	float:right;
+}
+
+
+.aBookListPane .sortBy.dijitDropDownButton,
+.aBookListPane .filterByGroup.dijitDropDownButton{
+	margin-bottom:0;
+}
+.aBookListPane .sortBy .dijitButtonContents.dijitButtonNode{
+	background:url("../../../../images/ics/InboxSprites.png") no-repeat scroll -180px -52px #FFFFFF;
+	border:none;
+	padding: 4px 3px 3px 2px;
+}
+.aBookListPane .filterByGroup .dijitButtonNode{
+	background:url("../../../../images/ics/InboxSprites.png") no-repeat scroll -306px -54px #FFFFFF;
+	border:none;
+	padding: 2px 3px 5px 2px;
+}
+.dj_ie.dj_ie7 .aBookListPane .filterByGroup .dijitButtonNode{
+	padding: 0px 12px 2px 2px;
+}
+.aBookListPane .sortBy .dijitDownArrowButton.dijitButtonNode{
+	display:none;
+}
+.aBookListPane .sortBy .dijitArrowButtonInner,
+.aBookListPane .filterByGroup .dijitArrowButtonInner{
+	background:none;
+}
+.aBookListPane .sortBy .dijitButtonText{
+	width:103px;
+	text-align:left;
+	height:17px;
+}
+.aBookListPane .sortBy .dijitSelectLabel{
+	margin-top:1px;
+}
+
+/*.dj_ie .aBookListPane .sort{
+	margin-bottom:5px;
+}
+
+.dj_ie7 .aBookListPane .sortBy{
+	margin-bottom:0;
+}*/
+.aBookGroupsDD{
+	overflow:auto;
+	background-color:white;
+	z-index:100;
+	border:1px solid #7EABCD;
+}
+.aBookGroupsDD .groupsDropDown div{
+	text-align:left;
+	text-indent: 5px;
+	height:18px;
+	vertical-align:middle;
+}
+.aBookGroupsDD .groupsDropDown div:hover{
+	background-color: #e0e0e0;
+	cursor:pointer;
+}
+.aBookListPane .header{
+	height:45px;
+	border:1px solid #e0e0e0;
+	margin-left:2px;
+	margin-top:8px;
+	background: transparent url('../../../../images/vzw/content_containers/png/gradient.png') repeat-x scroll bottom left;
+}
+.aBookListPane .checkBoxes{
+	margin: 5px 0 0 10px;
+	width:110px;
+}
+.aBookListPane .allCheckBox{
+	width:100px;
+	margin-left:10px;
+}
+.aBookListPane .toCheckBox,
+.aBookListPane .ccCheckBox,
+.aBookListPane .bccCheckBox{
+	margin-right:12px;
+}
+.dj_ie7 .aBookListPane .toCheckBox,
+.dj_ie7 .aBookListPane .ccCheckBox{
+	margin-right:14px;
+}
+.dj_ie7 .aBookListPane .bccCheckBox{
+	margin-right:0px;
+}
+.aBookListPane .aBookRow .bccCheckBox,
+.aBookListPane .aBookRow .toCheckBox,
+.aBookListPane .aBookRow .ccCheckBox{
+	margin: 0 15px 0 0;
+}
+.aBookListPane .listWrapper{
+	overflow:auto;
+	height:350px;
+}
+.aBookListPane .listBody{
+	margin-left:2px;
+	/*overflow:auto;*/
+	border:1px solid #e0e0e0;
+}
+.aBookListPane .aBookRow{
+	height:40px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.aBookListPane .aBookRow .dijitCheckBox{
+	margin-top:7px;
+}
+.dj_ie .aBookListPane .aBookRow .dijitCheckBox,
+.dj_ie .aBookListPane .aBookRow .personalInfo,
+.dj_ie .aBookListPane .aBookRow .addressValue{
+	margin-bottom: 10px;
+}
+.aBookListPane .personalInfo{
+	width:130px;
+}
+
+.aBookListPane .addressValue{
+	width: 130px;
+}
+.aBookListPane img{
+	height:30px;
+	margin-top:5px;
+	margin-right:10px;
+	width:30px;
+}
+.aBookListPane .displayName{
+	font-weight:bold;
+}
+.aBookListPane .radios{
+	margin-bottom:-12px;
+}
+
+.aBookListPane .right label{
+	display:block;
+	padding:4px 0 0;
+	font-weight:bold;
+}
+.aBookListPane .right.dijitInline{
+	vertical-align:top;
+	height: 100%;
+	padding-right:13px;
+}
+.aBookListPane .right .to .TokenizedTextBox{
+	height:166px;
+}
+
+.aBookListPane .right .cc .TokenizedTextBox, .aBookListPane .right .bcc .TokenizedTextBox {
+	height:82px;
+}  
+
+/*.dj_ie .aBookListPane .right .cc .TokenizedTextBox, .dj_ie .aBookListPane .right .bcc .TokenizedTextBox {
+	height:82px;
+} */
+
+.aBookListPane .right .TokenizedTextBox{
+	overflow-x:hidden;
+	overflow-y:auto;
+	white-space:normal;
+	width:267px;
+}
+.aBookListPane .controls{
+	float:right;
+	width: 113px;
+	padding-top:21px;
+}
+
+
+.aBookListPane .controls .linkSpan{
+	margin-right: 10px;
+}

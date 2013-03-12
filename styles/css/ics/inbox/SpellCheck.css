@@ -1,0 +1,31 @@
+.spellCheck label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+	padding: 0 4px 0 0;
+	vertical-align: top;
+}
+.spellCheck .dijitTextBox {
+	width: 148px;
+	margin: 0;
+}
+.spellCheck select {
+	width: 150px;
+}
+.spellCheck p.busyImage {
+	width: 150px;
+}
+.spellCheck .success  div{
+	margin: 6px 0;
+}
+
+.pl .spellCheck .done {
+	text-align: right;
+}
+.spellCheck .actions {
+	vertical-align: top;
+}
+.spellCheck .actions .button {
+	margin: 4px;
+}

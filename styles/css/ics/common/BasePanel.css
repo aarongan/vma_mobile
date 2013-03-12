@@ -1,0 +1,210 @@
+.basePanel{margin-bottom:10px;}
+
+.basePanel .basePanelContent{
+	padding:1px 0!important;
+}
+
+.basePanel .basePanelHeaderDiv{
+	height:24px;
+	text-indent:5px;
+}
+.basePanel.expanded .basePanelHeaderDiv{
+	border-bottom:1px solid #D1D1D1;
+}
+.basePanel .basePanelHeaderDiv .headerDiv{
+	width:200px;
+	margin-top:2px;
+}
+.basePanel .basePanelBodyDiv{
+	border-bottom:1px solid #D1D1D1;
+	height:170px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+}
+
+.basePanel .opDiv.opActive{
+	background-color:#D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	height:30px;
+}
+
+.basePanel .opDiv.opActive input{
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.dj_ie6 .opDiv.opActive input{
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.basePanel .opDiv.opActive .button{
+	margin-top:5px;
+	margin-left:10px;
+}
+
+.basePanel .basePanelFooterDiv{
+	height:25px;
+}
+
+.basePanel .footerLinkDiv{
+	padding-top:5px;
+}
+
+.basePanel .footerLinkDiv .linkDiv{
+	color:#0066CC;
+	margin-left:8px;
+}
+
+.panel_grey_ruler{
+	background:transparent url(../../../images/ics/inbox/img_rule_1x1.gif) repeat-x scroll 0 0;
+	clear:both;
+	height:10px;
+}
+
+.basePanel .tooltipImg{
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -106px -24px;
+	height: 14px;
+	width: 20px;
+	cursor: pointer;
+}
+
+.basePanel .actionArrow{
+	height:11px;
+	width:11px;
+	cursor:pointer;
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -162px -27px;
+	opacity:0.3;
+	filter: alpha(opacity=30);
+}
+.dj_ie .basePanel .actionArrow{
+	margin-bottom:10px;
+}
+/*new _BasePanel style*/
+._basePanel{
+	width:199px;
+	margin-bottom:10px;
+}
+._basePanel .middle{
+	position:relative;
+	height:140px;
+	border-bottom: 1px solid #CDCDCD !important;
+}
+._basePanel.tagPanel .tooltipImg{
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -109px -25px;
+	height:11px;
+	width:13px;
+	margin: 1px 0 0 -3px;
+}
+._basePanel .headerDiv{
+	/* border-left:1px solid #D1D1D1;
+	border-right:1px solid #D1D1D1; */
+	margin: 16px 15px 0px;
+	height:24px;
+}
+/***
+._basePanel .middle{
+	border-top:1px solid #D1D1D1;
+	padding: 0 !important;
+}
+***/
+._basePanel .middle .bodyDiv{
+	position:relative;
+	overflow-x:hidden;
+}
+._basePanel .footerDiv {
+	border-top:1px solid #D1D1D1;
+	padding: 5px 0 5px 7px;	
+}
+._basePanel.tagPanel .middle .footerDiv {
+	height: 30px;
+	padding: 0;	
+}
+._basePanel.tagPanel .middle .footerDiv .plusSpan{
+	padding: 7px 0 0 10px;	
+}
+._basePanel.tagPanel .middle .footerDiv .linkSpan{
+	padding: 7px 3px 0 0;
+}
+._basePanel .plusSpan{
+	color:#0066CC;
+	font-weight:bold;
+	margin-right:3px;
+	font-size: 14px;
+}
+._basePanel .header{
+	margin-right:5px;
+}
+._basePanel.tagPanel .headerDiv .header{
+	margin-left: 2px;
+}
+._basePanel .actionArrow{
+	height:15px;
+	width:15px;
+	cursor:pointer;
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat scroll -20px -40px;
+	/** opacity:0.3;
+	filter: alpha(opacity=30); **/
+}
+._basePanel.expanded .actionArrow{
+	 background-position: -35px -40px;
+}
+._basePanel .renameDiv{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index:20;
+	width:214px;
+	background-color: #F6F6F6;
+	padding: 4px 0 4px 5px;
+}
+.dj_ie.dj_ie7 ._basePanel .renameDiv{
+	padding: 2px 0 4px 3px;
+}
+
+._basePanel .newDiv{
+	position: absolute;
+	bottom: 26px;
+	left:0;
+	z-index:20;
+	width:195px;
+	background-color: #F6F6F6;
+	padding: 4px 0 4px 5px;
+}
+._basePanel .newDiv .button, ._basePanel .renameDiv .button{
+	margin-left:3px;
+	margin-top: -1px;
+}
+.dj_ie ._basePanel .newDiv .button, .dj_ie ._basePanel .renameDiv .button{
+	position:absolute;
+	margin-top:0;
+}
+._basePanel .newDiv input {
+	width:134px;
+}
+
+._basePanel .renameDiv input {
+	width:122px;
+}
+
+.dj_ie ._basePanel .renameDiv input {
+	width:119px;
+}
+
+#ics_widget_inbox_navpanels_TagPanel_0_expandDiv .newDiv{
+	width:194px;
+}
+
+#ics_widget_inbox_navpanels_TagPanel_0_expandDiv .newDiv input{
+	width:130px;
+}
+
+/********
+._basePanel.tagPanel .headerDiv .myTagIcon {
+	background: transparent url("../../../images/ics/InboxSprites.png") no-repeat scroll -198px -126px;
+	height: 13px;
+	width: 22px;	
+	margin-right: 10px;
+}
+*******/

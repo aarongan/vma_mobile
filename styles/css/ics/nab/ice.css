@@ -1,0 +1,46 @@
+.editIce {
+	width: 220px; /* 250px; */ 
+}
+.editIce label {
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.editIce .row {
+	margin: 0 0 8px;
+}
+
+.editIce .TokenizedTextBox {
+	vertical-align: top;
+	padding: 1px 0;
+	min-height: 24px;
+}
+
+.dj_ie7 .editIce .TokenizedTextBox {
+	padding:0;
+	padding-bottom:1px;
+}
+
+.editIce .aBook {
+	background:url(../../../images/ics/nab/icons/address_book_large.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+.iceSelectPane .rightPane .tokenizer .TokenizedTextBox {
+	height:25px;
+	min-height:24px;
+}
+
+.iceSelectPane .rightPane .tokenizer {
+	padding-bottom:360px;
+}
+
+.iceSelectPane .filters .groups .dijitButtonNode{
+	padding:0;
+}

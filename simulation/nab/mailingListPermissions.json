@@ -1,0 +1,77 @@
+{
+	"statusCode":0,
+	"statusDesc":"Success",
+ 	"items":[		
+			{
+				"contactId":"6eb23ed1-0121-1000-804f-1111",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "James",
+				"company":"Verizon Wireless",
+				"viewFlag" : true,
+				"editFlag" : true,				
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			},
+			{
+				"contactId":"6eb23ed1-0121-1000-804f-111sfsaf",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "Smith",
+				"company":"Verizon Wireless",
+				"viewFlag" : false,
+				"editFlag" : true,				
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			},
+			{
+				"contactId":"6eb23ed1-0121-1000-804f-11sfasfasf",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "Smith",
+				"company":"Verizon Wireless",
+				"viewFlag" : true,
+				"editFlag" : true,					
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			},
+			{
+				"contactId":"6eb23ed1-0121-1000-804f-1sfsadfa",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "Smith",
+				"company":"Verizon Wireless",
+				"viewFlag" : true,
+				"editFlag" : false,					
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			},
+			{
+				"contactId":"6eb23ed1-0121-1000-804fsdfsdfasd",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "Smith",
+				"company":"Verizon Wireless",
+				"viewFlag" : true,
+				"editFlag" : true,				
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			},
+			{
+				"contactId":"6eb23ed1-0121-1000-804sdfasfasfadfa",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "Smith",
+				"company":"Verizon Wireless",
+				"viewFlag" : false,
+				"editFlag" : true,				
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			},
+			{
+				"contactId":"6eb23ed1-0121-1000-80sdfsfsfasaadaf",
+				"buddyuserid":"",
+				"firstName" : "Alex",
+				"lastName" : "Smith",
+				"company":"Verizon Wireless",
+				"viewFlag" : true,
+				"editFlag" : false,					
+				"picUrl" : "../simulation/contacts/gridImages/mary.png"
+			}
+			
+		]
+}

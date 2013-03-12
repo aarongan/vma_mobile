@@ -1,0 +1,154 @@
+{
+    "statusCode": 0,
+    "statusDesc": "Success",
+    "errorCode": 34530,
+    "title": "",
+    "contactId": "b6d98163012710008bb29b4b9754c6fb",
+    "version": "1",
+    "createdDate": "Feb 5, 2010",
+    "updatedDate": "Mar 1, 2010",
+    "firstName": "sankara",
+    "lastName": "yadavalli",
+    "photo": true,
+    "prefModeOfComm": "",
+    "orgName": "rwrtwrtw",
+    "jobTitle": "",
+    "inNetworkFlag": true,
+    "source": "ics.portal",
+    "buddyuserid": "8fe83469-681f-4c9d-b688-6f4e482a28cc",
+    "buddyStatus": "buddy",
+    "connected": true,
+    "starred": true,
+    "ice": false,
+    "ics": true,
+    "userId": "8fe83469-681f-4c9d-b688-6f4e482a28cc",
+    "handset": false,
+    "middleName": "",
+    "nickName": "",
+    "relationship": "",
+    "gender": "",
+    "orgUnit": "",
+    "namePrefix": "",
+    "nameSuffix": "",
+    "anniversary": "",
+    "spouse": "",
+    "children": "",
+    "note": "",
+    "profession": "",
+    "assistant": "",
+    "maritalStatus": "",
+    "timeZone": "",
+    "birthday": "",
+    "avatarId": "",
+    "avatarName": "",
+	"groups": [
+	    {
+		"id": "77e24271012610008c6b7687d464f7cd",
+		"name": "*&amp;amp;",
+		"version": "10"
+	    },
+	    {
+		"id": "efcd78ff01261000a57966f13f3dc008",
+		"name": "asdfasdf_qoiwert",
+		"version": "2"
+	    },
+	    {
+		"id": "c7d4715a01261000be757687d464f7cd",
+		"name": "asdfasdf_qoiwert",
+		"version": "3"
+	    },
+	    {
+		"id": "aec9735a0126100085d602e01dc05636",
+		"name": "aqsed",
+		"version": "3"
+	    },
+	    {
+		"id": "c7d4715a01261000be767687d464f7cd",
+		"name": "asdf-sdfgsdfg",
+		"version": "5"
+	    },
+	    {
+		"id": "efcd78ff01261000a58866f13f3dc008",
+		"name": "aqsed",
+		"version": "2"
+	    }
+	],
+	"mobileGroups": [
+	    {
+		"id": "3746c88201271000ffe08edd5dd64e42",
+		"name": "wert",
+		"version": "3"
+	    },
+	    {
+		"id": "aec9735a01261000816b02e01dc05636",
+		"name": "23!@",
+		"version": "11"
+	    },
+	    {
+		"id": "1001",
+		"name": "mbSync",
+		"version": ""
+	    }
+	],
+    "phones": {
+        "mobile": [
+            {
+                "number": "24262464",
+                "index": 1
+            }
+        ],
+        "home": [
+            {
+                "number": "(702)419-5104",
+                "index": 1
+            }
+        ],
+        "business": [
+            {
+                "number": "123123123",
+                "index": 1
+            }
+        ]
+    },
+    "addresses": {
+        "home": [
+            {
+                "index": 1,
+                "poBox": "",
+                "street": "",
+                "apartment": "",
+                "city": "",
+                "state": "AL",
+                "zipCode": "",
+                "country": ""
+            }
+        ]
+    },
+    "emails": {
+        "personal": [
+            {
+                "index": 1,
+                "address": "sankara_ics_dev@icspocvzwcorp.com",
+                "preference": "2"
+            }
+        ]
+    },
+    "webpages": {
+        
+    },
+	"ims": [
+	    {
+		"imType": "aim",
+		"address": "aolid",
+		"preference": "0"
+	    },
+	    {
+		"imType": "yahoo",
+		"address": "yahooid",
+		"preference": "0"
+	    }
+	],    
+   "endPointAssoc": [
+        
+    ]
+}

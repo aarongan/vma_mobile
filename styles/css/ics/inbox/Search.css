@@ -1,0 +1,273 @@
+/*Search and Action Menu*/
+.msgSearch {
+		height:35px !important;
+	/* background: transparent url('../../../images/ics/inbox/search_35.png') repeat-x;	 */
+}
+.dj_ie .msgSearch {margin-right: 0px;}
+
+/* .msgSearch.searching {
+	border-top:2px solid #CDCDCD !important;
+	background: transparent url('../../../images/ics/inbox/search_dark35.png') repeat-x;
+} */
+
+.dj_ie ._searchOptions .dijitMenuTable{
+	width:124px !important;
+}
+
+.msgSearch .searchForm{background-color:#ffffff;padding: 0 0 0 1px;border: 1px solid #ccc;height:20px;width:160px;}
+
+.msgSearch.searching .searchStatus{color: #B00000; margin-top:10px;}
+
+.msgSearch .searchWrapper{
+	float:right; 
+	margin-top:2px;
+}
+.dj_ie .dj_ie7 .msgSearch .searchWrapper .searchContainer .searchButton{
+	margin-top:-1px;
+}
+.dj_ie .msgSearch .searchWrapper .searchContainer .searchButton{
+	margin-top:0;
+}
+
+.msgSearch .optionsWrapper{
+	float:right; 
+	margin-top:3px;
+	width:125px; 
+	display: none;
+}
+.dj_ie7 .msgSearch .optionsWrapper{
+	margin-top:3px;
+}
+
+.msgSearch .optionsWrapper .dijitButtonText {
+	text-align:left;
+	width:100px;
+}
+#ics-app-vmm-searchList-navAction .msgSearch .optionsWrapper{
+	visibility:hidden;
+	float:right; 
+	margin-top:3px;
+	width:125px; 
+}
+#ics-app-inbox-searchList-navAction .msgSearch .statusWrapper{
+	float:right; 
+	margin-right: 130px;
+}
+#ics-app-vmm-searchList-navAction .msgSearch .statusWrapper{
+	float:right; 
+	/*margin-right: 15px;*/
+}
+.msgSearch .linkWrapper {
+	float:left; 
+	margin-top:7px;  
+	margin-left:1px;
+}
+.msgSearch .emptyTrashLink{
+	float:left;
+	margin: 10px 5px 0px 5px;
+}
+.dj_ie7 .msgSearch .emptyTrashLink{
+	/*margin-left: 50px;*/
+	margin-top: 12px;
+}
+.msgSearch .emptyTrashLink .linkSpan {
+	font-weight:bold;
+}
+.msgSearch .emptyTrashLink .linkDivider{
+	margin-right:8px;
+	color: #D1D1D1;
+}
+.msgSearch .linkWrapper .checkSelectAll {
+	background:url("../../../images/ics/InboxSprites.png") no-repeat scroll -612px -16px transparent;
+	width: 15px; 
+	height: 25px; 
+}
+.msgSearch .linkWrapper .checkSelectNone {
+	background:url("../../../images/ics/InboxSprites.png") no-repeat scroll -629px -16px transparent;
+	width: 15px; 
+	height: 25px; 
+}
+
+.msgSearch.searching .linkWrapper .linkSpan {font-weight:bold;text-decoration: underline;cursor:pointer;color:#ffffff}
+
+.msgSearch .menuWrapper{
+	float:left; 
+	margin-left:5px;
+	margin-top:5px;
+	margin-right:2px;
+} 
+.dj_ie7 .msgSearch .menuWrapper{
+	margin-right:7px;
+	margin-top:7px;  
+}
+/****
+.msgSearch .menuWrapper .ddActionIcon{
+	width: 90px; 
+	height: 25px; 
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -392px -90px; 
+}
+
+.msgSearch .menuWrapper .inboxDropDown.dijitDropDownButtonHover .ddActionIcon,
+.msgSearch .menuWrapper .inboxDropDown.dijitDropDownButtonFocused.dijitDropDownButtonHover .ddActionIcon{
+	background-position: -488px -90px;	
+}
+.msgSearch .menuWrapper .inboxDropDown.dijitDropDownButtonFocused.shownDD .ddActionIcon{
+	background-position: -584px -90px;	
+}
+****/
+.advSearchActionMenu{float:right;}
+
+#advSearchActionMenu .actionIcon,
+.msgSearch .menuWrapper .actionIcon {
+	height: 15px;
+	width: 15px;
+	background:url("../../../images/ics/calendar/calAction.png") no-repeat center top;
+}
+.dj_ie .msgSearch .menuWrapper button {
+	height:17px;
+	width:44px;
+}
+
+.msgSearch .searchStatus{color: #000000;margin-top:10px;}
+
+.msgSearch .searchStatus .searchInfo{/*float:left;*/float:right;margin-right:5px;width:55px;text-align:right;}
+
+.msgSearch .searchStatus .searchInfo .l{
+	text-decoration:underline;
+}
+
+.msgSearch .searchStatus .cancelBtn{/*float:left;*/float:right;cursor:pointer;margin-right:5px;}
+
+.msgSearch .searchStatus .cancelBtn{
+	height: 15px;
+	width: 15px;
+	background:url(../../../images/ics/InboxSprites.png) no-repeat -320px -125px;
+}
+
+.msgSearch .searchStatus .statusInfo{/*float:left;*/float:right;width:80px;}
+.msgSearch .searchStatus .statusInfoLoading{
+	background-image: url(../../../images/ics/common/statusInfoLoading.gif);
+	background-repeat: no-repeat;
+	/*background-image: url("../../../images/ics/common/attachProcessing_20x20.gif");*/
+	/*height: 20px;*/
+	height: 32px;
+	width: 70px;
+    margin: -8px 0 0 10px;
+}
+/*dojoxDropDownSelect*/
+
+.msgSearch .optionsSelect .dijitButtonContents.dijitButtonNode{
+	background:url(../../../images/ics/InboxSprites.png) repeat-x scroll -180px -52px;
+	border:none;
+	width:113px;
+	padding: 5px 1px 4px 3px;
+	font-size: 11px;
+}
+
+.msgSearch .optionsSelect .dijitButtonNode.dijitArrowButton.dijitDownArrowButton{
+	display:none;
+}
+.msgSearch .optionsSelect .dijitArrowButtonInner{
+	background:none;
+}
+
+/*Advnaced Seach*/
+.advancedSearch {
+	height:287px;
+	/* background-color:#333333; */
+	/* color:#ffffff;  */
+}
+
+.advancedSearch .header {
+	height:25px;
+	/* background-color:#666666 */
+	/*	background: transparent url('../../../images/ics/inbox/advSearchH25.png') repeat-x;	 */
+}
+
+.advancedSearch .header .title{font-weight:bold;float:left;margin:5px 240px 0px 5px;}
+
+.advancedSearch .header .resultCount{float:left; margin-top:5px;}
+
+.advancedSearch .searchBody{margin:10px;height:210px;border-bottom:1px solid #000000}
+
+.advancedSearch .searchBody .label{margin-right:5px;}
+/*dojoxDropDownSelect*/
+.advancedSearch .searchBody .typeWrapper .dijitSelect .dijitButtonContents {
+	width: 160px !important; 
+	text-align: left !important;  
+	border-width: 1px 0 1px 1px;
+}
+
+/*dojoxDropDownSelect*/
+.advancedSearch .searchBody .folderWrapper .dijitSelect .dijitButtonContents {
+	width: 80px !important;
+	text-align: left !important;
+	border-width: 1px 0 1px 1px;
+}
+/*dojoxDropDownSelect*/
+.advancedSearch .searchBody .criterion .dijitSelect .dijitButtonContents { width: 120px !important; text-align: left !important;  border-width: 1px 0 1px 1px;}
+
+.advancedSearch .searchBody .criterion .input {height:15px;width:180px;position:relative;top:2px;}
+
+.dj_ie7 .advancedSearch .searchBody .criterion .input {height:15px;width:180px;position:relative;top:2px;}
+
+.advancedSearch .searchBody .criterion .cancelImg {
+	cursor:pointer;
+	margin-left:5px;
+	background:url(../../../images/ics/InboxSprites.png) no-repeat -320px -125px;
+	height:15px;
+	width:15px;
+}
+
+.dj_ie7 .advancedSearch .searchBody .criterion .cancelImg {cursor:pointer;margin-left:5px;position:relative;top:0px;}
+
+.dj_ie7 .advancedSearch .searchBody .criterion .date {position:relative;top:2px;}
+
+.advancedSearch .searchBody .matchOptions {padding-top:10px;}
+
+.advancedSearch .searchBody .criteriaWrapper {height:140px;overflow-x: none;overflow-y: auto;}
+
+.dj_ie7 .advancedSearch .searchBody .criteriaWrapper {height:140px;overflow-x: none;overflow-y: auto;position:relative;}
+
+.advancedSearch .searchBody .addNewLink {text-decoration: underline;cursor:pointer;color:blue;}
+
+.advancedSearch .searchBody .criteria {padding-top:10px;}
+
+.advancedSearch .searchBody .criteria .date,
+.advancedSearch .searchBody .criteria .input,
+.advancedSearch .searchBody .criteria .hideInput,
+.advancedSearch .searchBody .criteria .addTag,
+.advancedSearch .searchBody .criteria .priority,
+.advancedSearch .searchBody .criteria .emailSource{display:none}
+
+.advancedSearch .addTag .advSearchTag .dijitButtonText{
+	width:156px;
+	text-align:left;
+}
+.advancedSearch .addTag .advSearchTag .dijitButtonNode{
+	padding:0;
+}
+
+.advancedSearch .searchBody .criteria.inputText .input,
+.advancedSearch .searchBody .criteria.inputDate .date,
+.advancedSearch .searchBody .criteria.addTag .addTag,
+.advancedSearch .searchBody .criteria.priority .priority,
+.advancedSearch .searchBody .criteria.emailSource .emailSource{display:inline-block;zoom:1;*display:inline;}
+
+.advancedSearch .searchBottom .cancelLink{
+	float:right;
+	font-weight:bold;
+	text-decoration: underline;
+	cursor:pointer;
+	margin: 5px 10px 0 0; 
+	color:#0066CC;
+}
+
+.advancedSearch .searchBottom .buttonWrapper{float:right;margin-right:10px;}
+
+.advSearchContentPane{position:relative;top:-5px;}
+
+.dj_ie7 .msgSearch .searchNavText {
+	margin-bottom:5px;
+	margin-left:5px;
+}

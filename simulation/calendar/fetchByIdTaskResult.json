@@ -1,0 +1,37 @@
+
+{"statusCode":0,"statusDesc":"TASK: Fetch by ID is successful",
+"myTask":[
+		{
+			"taskId":"000000000000000000000000000000004a5685b3000035340000011f000013ac",
+			"summary":"Create Todo AUG 25 summary",
+			"description":"Create Todo AUG 25 Description",
+			"dtStart":"07/06/2009",
+			"dueDate":"08/27/2009",
+			"priority":5,
+			"percentage":40,
+			"taskSetting":"Public",
+			"showOnMyCalendar":"on",
+			"starred":"true",
+			"tags":[
+						{
+							"tagId":500,
+							"tagName":"",
+							"tagURL":""
+						},
+						{
+							"tagId":600,
+							"tagName":"",
+							"tagURL":""
+						}
+					],
+			"emailReminder":{
+						"value" : "off",
+						"option" : "1"
+					},
+			"textReminder":{
+								"value" : "on",
+								"option" : "1"
+							}
+		}
+	]
+}

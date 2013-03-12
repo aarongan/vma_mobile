@@ -1,0 +1,471 @@
+{
+    "statusCode": 0,
+    "statusDesc": "Success",
+    "items": [
+        {
+            "firstName": "",
+            "lastName": "",
+            "contactId": "1160",
+            "version": "",
+            "company": "",
+            "jobTitle": "",
+            "photo": false,
+            "createdDate": "",
+            "updatedDate": "",
+            "defaultEmail": "",
+            "defaultPhone": "",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                
+            ],
+            "searchPhones": [
+                
+            ],
+            "searchEmails": [
+                
+            ],
+            "emails": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "G",
+            "groupId": "1160",
+            "displayName": "shashi web1",
+            "groupType": "web"
+        },
+        {
+            "firstName": "Dave",
+            "lastName": "Lee",
+            "contactId": "6e0dc64f-0123-1000-801a-a4c9bfde9849",
+            "version": "3",
+            "company": "",
+            "jobTitle": "",
+            "photo": false,
+            "createdDate": "August 25, 2009",
+            "updatedDate": "August 25, 2009",
+            "defaultEmail": "",
+            "defaultPhone": "222-222-2222",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                {
+                    "number": "222-222-2222",
+                    "phoneType": "mobile",
+                    "carrier": "",
+                    "preference": "0"
+                },
+                {
+                    "number": "111-111-1111",
+                    "phoneType": "mobile",
+                    "carrier": "",
+                    "preference": "0"
+                },
+                {
+                    "number": "222-111-1111",
+                    "phoneType": "home",
+                    "carrier": "",
+                    "preference": "0"
+                },
+                {
+                    "number": "908-607-8419",
+                    "phoneType": "business",
+                    "carrier": "",
+                    "preference": "0"
+                }
+            ],
+            "searchPhones": [
+                "2222222222",
+                "1111111111",
+                "2221111111",
+                "9086078419"
+            ],
+            "searchEmails": [
+                
+            ],
+            "emails": [
+                "tim.lin@vzw.com"
+            ],
+            "groups": [
+                {
+                    "id": "1160",
+                    "name": "shashi web1",
+                    "version": "2"
+                }
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "C",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        },
+        {
+            "firstName": "David",
+            "lastName": "Lee",
+            "contactId": "b8e18953-0123-1000-8053-8e4b9b580666",
+            "version": "2",
+            "company": "",
+            "jobTitle": "",
+            "photo": true,
+            "createdDate": "August 26, 2009",
+            "updatedDate": "August 26, 2009",
+            "defaultEmail": "tom_1908@icspoc.vzwcorp.com",
+            "defaultPhone": "",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                
+            ],
+            "searchPhones": [
+                
+            ],
+            "searchEmails": [
+                "tom_1908@icspoc.vzwcorp.com"
+            ],
+            "emails": [
+                {
+                    "emailType": "personal",
+                    "address": "tom_1908@icspoc.vzwcorp.com",
+                    "preference": "0"
+                }
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "C",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        },
+        {
+            "firstName": "Eric",
+            "lastName": "Cao",
+            "contactId": "b8e18953-0123-1000-8054-8e4b9b580666",
+            "version": "3",
+            "company": "",
+            "jobTitle": "",
+            "photo": true,
+            "createdDate": "August 26, 2009",
+            "updatedDate": "August 26, 2009",
+            "defaultEmail": "eric.cao@verizonwireless.com",
+            "defaultPhone": "eric.cao@verizonwireless.com",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                {
+                    "number": "eric.cao@verizonwireless.com",
+                    "phoneType": "mobile",
+                    "carrier": "",
+                    "preference": "0"
+                }
+            ],
+            "searchPhones": [
+                "9999999999"
+            ],
+            "searchEmails": [
+                "eric.cao@verizonwireless.com"
+            ],
+            "emails": [
+                {
+                    "emailType": "personal",
+                    "address": "eric.cao@verizonwireless.com",
+                    "preference": "0"
+                }
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "C",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        },
+        {
+            "firstName": "Sankara",
+            "lastName": "Yadavalli",
+            "contactId": "b8e18953-0123-1000-8055-8e4b9b580666",
+            "version": "2",
+            "company": "",
+            "jobTitle": "",
+            "photo": true,
+            "createdDate": "August 26, 2009",
+            "updatedDate": "August 26, 2009",
+            "defaultEmail": "ysankar@icspoc.vzwcorp.com",
+            "defaultPhone": "",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                
+            ],
+            "searchPhones": [
+                
+            ],
+            "searchEmails": [
+                "ysankar@icspoc.vzwcorp.com"
+            ],
+            "emails": [
+                {
+                    "emailType": "personal",
+                    "address": "ysankar@icspoc.vzwcorp.com",
+                    "preference": "0"
+                }
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "C",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "contactId": "1159",
+            "version": "",
+            "company": "",
+            "jobTitle": "",
+            "photo": false,
+            "createdDate": "",
+            "updatedDate": "",
+            "defaultEmail": "",
+            "defaultPhone": "",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                
+            ],
+            "searchPhones": [
+                
+            ],
+            "searchEmails": [
+                
+            ],
+            "emails": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "G",
+            "groupId": "1159",
+            "displayName": "shashi Mbl",
+            "groupType": "mobile"
+        },
+        {
+            "firstName": "Vinod",
+            "lastName": "Khan",
+            "contactId": "6e0dc64f-0123-1000-8019-a4c9bfde9849",
+            "version": "3",
+            "company": "Verizon Wireless",
+            "jobTitle": "SME",
+            "photo": false,
+            "createdDate": "August 25, 2009",
+            "updatedDate": "August 25, 2009",
+            "defaultEmail": "",
+            "defaultPhone": "222-222-2222",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                {
+                    "number": "222-222-2222",
+                    "phoneType": "mobile",
+                    "carrier": "",
+                    "preference": "0"
+                },
+                {
+                    "number": "111-111-1111",
+                    "phoneType": "mobile",
+                    "carrier": "",
+                    "preference": "0"
+                },
+                {
+                    "number": "222-111-1111",
+                    "phoneType": "home",
+                    "carrier": "",
+                    "preference": "0"
+                }
+            ],
+            "searchPhones": [
+                "2222222222",
+                "1111111111",
+                "2221111111"
+            ],
+            "searchEmails": [
+                "tim.lin@vzw.com"
+            ],
+            "emails": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                {
+                    "id": "1159",
+                    "name": "shashi Mbl",
+                    "version": "2"
+                }
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "C",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "contactId": "r0",
+            "version": "",
+            "company": "",
+            "jobTitle": "",
+            "photo": false,
+            "createdDate": "",
+            "updatedDate": "",
+            "defaultEmail": "",
+            "defaultPhone": "",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                
+            ],
+            "searchPhones": [
+                
+            ],
+            "searchEmails": [
+                "Sankara.Yadavalli@verizonwireless.com"
+            ],
+            "emails": [
+                {
+                    "emailType": "",
+                    "address": "Sankara.Yadavalli@verizonwireless.com",
+                    "preference": ""
+                }
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "R",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "contactId": "r1",
+            "version": "",
+            "company": "",
+            "jobTitle": "",
+            "photo": false,
+            "createdDate": "",
+            "updatedDate": "",
+            "defaultEmail": "",
+            "defaultPhone": "",
+            "inNetworkFlag": false,
+            "connected": false,
+            "starred": false,
+            "ice": false,
+            "buddyuserid": "",
+            "phones": [
+                
+            ],
+            "searchPhones": [
+                
+            ],
+            "searchEmails": [
+                "Sankara.Yadavalli@Keane.com"
+            ],
+            "emails": [
+                {
+                    "emailType": "",
+                    "address": "Sankara.Yadavalli@Keane.com",
+                    "preference": ""
+                }
+            ],
+            "groups": [
+                
+            ],
+            "mobileGroups": [
+                
+            ],
+            "endPointAssoc": [
+                
+            ],
+            "contactType": "R",
+            "groupId": "",
+            "displayName": "",
+            "groupType": ""
+        }
+    ]
+} 

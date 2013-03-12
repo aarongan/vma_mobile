@@ -1,0 +1,160 @@
+/*Tasks Filter Styles*/
+
+.tasksFilter{border:1px solid #D9D9D9 !important;height:70px;width:734px;}
+
+.tasksFilter div.top{height:35px;border-bottom:1px dashed #d1d1d1}
+
+.tasksFilter div.bottom{height:35px;background-color:#EBEBEB}
+
+.tasksFilter .top .topBody{margin-left:6px;float:left;margin-top:7px;}
+
+.tasksFilter .top .inactiveLink, .taskEditFilter .center .inactiveLink{font-weight:bold;}
+
+.tasksFilter .top .activeLink, .taskEditFilter .center .activeLink{font-weight:bold;text-decoration: underline;cursor:pointer;color:#0066CC}
+
+.tasksFilter .top .divider, .taskEditFilter .center .divider{border-left:solid 1px #d1d1d1}
+
+.tasksFilter .top .currentLink, .taskEditFilter .center .currentLink{margin-right:8px;}
+
+.tasksFilter .top .trashLink{margin-left:6px;}
+
+.tasksFilter .top .statusChkbox{vertical-align: middle;margin-left:325px;}
+
+.taskEditFilter .center .statusChkbox{vertical-align: middle;margin-left:420px;}
+
+.tasksFilter .top .chkboxLbl, .taskEditFilter .center .chkboxLbl{margin-left:5px;margin-right:8px;}
+
+.tasksFilter .top .sortBy{margin-left:6px;margin-right:8px;}
+
+.tasksFilter .bottom .bottomBody{line-height:2.7em; margin-left:8px; padding-top:4px;height:30px;}
+
+.tasksFilter .bottom .bottomBody .searchField{float:left; margin-right:5px; margin-top:3px;}
+
+.tasksFilter .bottom .bottomBody .searchField .hintField{color:#d1d1d1}
+
+.tasksFilter .bottom .bottomBody .searchButton{margin-top:3px;float:left;}
+
+.tasksFilter .bottom .bottomBody .bottomRight{
+		font-weight:bold;float:left;
+		margin-left:370px;line-height:2em;
+		margin-right:8px;
+}
+
+.tasksFilter .bottom .bottomBody .bottomRight2{
+		font-weight:bold;float:left;
+		margin-left:370px;line-height:2em;
+		margin-right:8px;
+}
+
+.tasksFilter .bottom .bottomBody .bottomRight2.inactive, .tasksFilter .bottom .bottomBody .bottomRight.inactive {display:none;}
+
+.tasksFilter .bottom .bottomBody .dropDownButton{float:left;}
+
+
+.taskEditFilter {border:1px solid #d1d1d1 !important;height:35px;}
+
+.taskEditFilter .center{margin-left:6px;float:left;margin-top:7px;}
+
+.taskEditFilter .center .trashLink{margin-left:6px;}
+
+.taskEditFilter .center .dropDownButton .dijitDropDownButton{position:absolute;right:5px;top:3px;}
+
+.taskEditor .top{height:50px;}
+
+.taskEditor .top .topContent{margin:5px;}
+
+.taskEditor .top .topContent .arrow{font-weight:bold;margin-right:3px;}
+
+.taskEditor .top .topContent .link{font-weight:bold;text-decoration: underline;cursor:pointer;color:#0066CC}
+
+.taskEditor .top .topContent .line1{margin-bottom:8px;}
+
+.taskEditor .bottom{border:1px solid #d1d1d1;height:410px;}
+
+.taskEditor .bottom .bottomContent{margin:10px;}
+
+.taskEditor .bottom .bottomContent .header{height:40px;}
+
+.taskEditor .bottom .bottomContent .header .left{float:left;}
+
+.taskEditor .bottom .bottomContent .header .right{float:right;margin-right:5px;}
+
+.taskEditor .bottom .bottomContent .header .right .starImg {margin-right:5px;}
+
+.taskEditor .bottom .bottomContent .header .right .starImg:hover {cursor:pointer;}	
+
+.taskEditor .bottom .bottomContent .header .right .tagImg:hover{cursor:pointer;}
+
+
+.taskEditor .bottom .bottomContent .header .star{
+	width: 15px;
+	height: 15px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -202px 215%;
+}
+
+
+
+.taskEditor .bottom .bottomContent .header .tagIcon {
+	margin-right:5px;
+	width: 22px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -180px 400%;
+}
+
+.taskEditor .bottom .bottomContent .body {height:320px;}
+
+.taskEditor .bottom .bottomContent .body .left{float:left;}
+
+.taskEditor .bottom .bottomContent .body .right{float:left;border-top:1px dashed #d1d1d1;margin-left:10px;width:300px;}
+
+.taskEditor .bottom .bottomContent .body .right .title{font-size:14px;font-weight:bold;margin-top:5px;margin-bottom:15px;}
+
+.taskEditor .bottom .bottomContent .body .right .label{font-weight:bold;margin-bottom:5px;margin-top:10px;}
+
+.taskEditor .bottom .bottomContent .body .right .settingMenu{width:180px;}
+
+.taskEditor .bottom .bottomContent .body .right .option{padding-top:5px;padding-left:5px;}
+
+.taskEditor .bottom .bottomContent .body .right .hidden{display:none;}
+
+.taskEditor .bottom .bottomContent .body .right .email{margin-left:10px;}
+
+.taskEditor .bottom .bottomContent .body .right .text{margin-left:23px;}
+
+.taskEditor .bottom .bottomContent .body .right .showCalMenu{width:180px;}
+
+.taskEditor .bottom .bottomContent .footer {height:50px;}
+
+.taskEditor .bottom .bottomContent .footer .footerContent {margin-top:10px}
+
+.taskEditor .bottom .bottomContent .footer .footerContent .cancelLink
+{
+	font-weight:bold;text-decoration: underline;cursor:pointer;color:#0066CC;
+	float:left;margin-top:5px;margin-left:10px;
+}
+
+.taskEditor .bottom .bottomContent .taskTitleField {width:220px;margin-right:15px;}
+
+.newTaskButton{width:200px;text-align:center}
+
+.taskTag {
+	margin-right:5px;
+	height:5px;padding:0 20px 0 0;background:transparent url(../../../../styles/images/ics/inbox/tinyClose.png) no-repeat right;overflow:hidden;
+}
+
+.hideStatus .taskRow .gutter .body .statusBar, .hideStatus .trashTaskRow .gutter .body .statusBar {
+	display:none;
+}
+
+/*Tasks list Styles */
+
+.taskToolbarEdit{background:url(../../../images/ics/calendar/toolbar/eventedit.png); background-repeat:no-repeat; height:28px; text-align:center; width:28px; }
+.taskToolbarStar{background:url(../../../images/ics/calendar/toolbar/star.png); background-repeat:no-repeat; height:30px; text-align:center; width:30px; }
+.taskToolbarTag{background:url(../../../images/ics/calendar/toolbar/tag.png); background-repeat:no-repeat; height:30px; text-align:center; width:30px; }
+.taskToolbarTrash{background:url(../../../images/ics/calendar/toolbar/trash.png); background-repeat:no-repeat; height:30px; text-align:center; width:30px; }
+.taskToolbarActions{background:url(../../../images/ics/calendar/toolbar/actions.png); background-repeat:no-repeat; height:30px; text-align:center; width:30px; }
+
+
+

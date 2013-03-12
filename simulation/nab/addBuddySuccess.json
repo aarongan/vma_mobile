@@ -1,0 +1,13 @@
+{
+    "statusCode": 0,
+    "statusDesc": "Success",
+    "errorCode": 0,
+    "title": "",
+    "buddy": [
+        {
+            "buddyuserId": "5a35ce6d-a432-48e6-b3d7-3994793aaa7d",
+            "status": "invited",
+            "contactId": "0de074070126100080597f65f8306aa8"
+        }
+    ]
+}

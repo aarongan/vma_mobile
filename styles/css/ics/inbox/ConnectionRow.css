@@ -1,0 +1,51 @@
+.connectionRow{
+	border:none;
+	/*
+	position: relative;	
+	*/
+	height:36px;
+	cursor:pointer;
+}
+.connectionRow .connectionName{
+	width: 70%;
+	white-space: nowrap;
+}
+
+.dj_ie .connectionRow .connectionName{
+	margin-bottom:10px;
+}
+.connectionRow:hover{
+	background-color:#e9e9e9;
+}
+.connectionRow img {
+	height: 30px;
+	width: 30px;
+	margin: 3px 5px 0 4px;
+}
+.requesterIcon {
+	top: 5px;
+	left: 7px;
+	_left: -38px;
+	position: absolute;
+}
+.connectionRow .body {
+	margin: 0 0 0 45px;
+}
+.connectionBodyText{
+	height: 3em;
+}
+.rowHover .connectionNameRow {background : #A0A0A0;}
+
+.connectionNameDiv{
+	padding: 1em 0 1em 0;
+}
+
+.inboxRP .basePanel.expandable .buddyReq_bodyDiv {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.inboxRP .basePanel.expandable .buddyReq_bodyDiv .connectionRow{
+	height: auto;
+}
+

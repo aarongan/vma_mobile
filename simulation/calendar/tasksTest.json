@@ -1,0 +1,31 @@
+{
+	"numRows": 10,
+	"items": [
+		{
+			"id":"123456",
+			"calendarColor":"#FF8040",
+			"taskId" : 199,
+			"summary" : "CPA exam CPA exam CPA exam CPA exam CPA exam CPA exam CPA exam CPA exam CPA exam",
+			"percentage" : "12",
+			"dueDate" : "",
+			"statusType" : "busy",
+			"priority" : 5,
+			"createdDate": "Mon Jun 28 17:14:45 EDT 2009",
+			"description" : "Prepare for CPA Exam",
+			"taskSetting" : "public",
+			"tags" : [
+						{
+							"tagId": 2,
+                    		"tagName": "me"
+                    	}
+                    ],
+            "isStarred": true,
+            "noOfPeople" : 1,
+            "showOnMyCalendar":"on",
+			"emailReminder":{
+								"value" : "on",
+								"option" : "1"
+							}            
+		}
+	]
+}

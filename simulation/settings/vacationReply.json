@@ -1,0 +1,36 @@
+{
+	"numItems": 5,
+	"items": [
+		{
+			"replyId": "1",
+			"title": "Reply 1",
+			"content": "Here is the <b>HTML</b> content of the Reply 1.",
+			"isDefault": true
+		},
+		{
+			"replyId": "2",
+			"title": "Reply 2",
+			"content": "Here is the <b>HTML</b> content of the Reply 2.",
+			"isDefault": false
+		},
+		{
+			"replyId": "3",
+			"title": "Reply 3",
+			"content": "Here is the <b>HTML</b> content of the Reply 3.",
+			"isDefault": false
+		},
+		{
+			"replyId": "4",
+			"title": "Reply 4",
+			"content": "Here is the <b>HTML</b> content of the Reply 4.",
+			"isDefault": false
+		},
+		{
+			"replyId": "5",
+			"title": "Reply 5",
+			"content": "Here is the <b>HTML</b> content of the Reply 5.",
+			"isDefault": false
+		}
+
+	]
+}

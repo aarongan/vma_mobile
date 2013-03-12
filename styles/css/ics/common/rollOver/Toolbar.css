@@ -1,0 +1,21 @@
+.dijitLeft.icsROToolbar, .dijitLeft.viewerROToolbar {
+	background: transparent url('../../../../images/ics/common/rollOver/toolbarL.png') no-repeat;
+	padding-left: 5px;
+}
+.icsROToolbar .dijitStretch, .dijitStretch.viewerROToolbar {
+	background: transparent url('../../../../images/ics/common/rollOver/toolbar1.png') repeat-x;
+	zoom: 1;
+	vertical-align: top;
+}
+.icsROToolbar.replyToolbar .dijitStretch {
+	background: transparent url('../../../../images/ics/common/rollOver/replyAll_1px.png') repeat-x;
+}
+.icsROToolbar .dijitRight, .dijitRight.viewerROToolbar {
+	background: transparent url('../../../../images/ics/common/rollOver/toolbarR.png') top right no-repeat;
+	padding-right: 5px;
+}
+.gridView.dijitLeft.icsROToolbar {
+    position: relative;
+    top: -70px;
+	left: 10px;
+}

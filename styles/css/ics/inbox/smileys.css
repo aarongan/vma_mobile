@@ -1,0 +1,24 @@
+.smileyPaletteImg {
+	background-image: url('../../../images/ics/inbox/smileys.png');
+	height: 20px;
+	width: 20px;
+}
+.smileyPaletteImg.smiley{background-position: -3px 0px;} 
+.smileyPaletteImg.sad{background-position: -23px 0px;}
+.smileyPaletteImg.wink{background-position: -43px 0px;}
+.smileyPaletteImg.tongue{background-position: -63px 0px;}
+.smileyPaletteImg.shocked{background-position: -3px -20px;}
+.smileyPaletteImg.kiss{background-position: -23px -20px;}
+.smileyPaletteImg.angry{background-position: -43px -20px;}
+.smileyPaletteImg.cool{background-position: -63px -20px;}
+.smileyPaletteImg.indifferent{background-position: -3px -40px;}
+.smileyPaletteImg.drunk{background-position: -23px -40px;}
+.smileyPaletteImg.embarassed{background-position: -43px -40px;}
+.smileyPaletteImg.angel{background-position: -63px -40px;}
+.smileyPaletteImg.confused{background-position: -2px -60px;}
+.smileyPaletteImg.crying{background-position: -23px -60px;}
+.smileyPaletteImg.silent{background-position: -43px -60px;}
+.smileyPaletteImg.laughing{background-position: -63px -60px;}
+.smileyPaletteImg.ironic{background-position: -3px -80px;}
+.smileyPaletteImg.skeptic{background-position: -23px -80px;}
+.smileyPaletteImg.devil{background-position: -43px -80px;}

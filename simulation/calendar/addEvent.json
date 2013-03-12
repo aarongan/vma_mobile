@@ -1,0 +1,20 @@
+{
+   items: [
+         {
+          "calendarID":"6666",
+		  "eventID": "1234444",
+		  "allday":"false",
+		  "repeated":"false",
+		  "startDate":"04/01/2009",
+		  "startTime":"12:00",
+		  "startAMPM":"PM",
+		  "calcolor":"orange",
+		  "endDate":"04/01/2009",
+		  "eventTitle":"Lunch with ICS Team",
+		  "endTime":"12:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Rahway, NJ"
+         }
+     ]
+ }

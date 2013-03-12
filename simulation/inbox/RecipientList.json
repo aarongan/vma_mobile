@@ -1,0 +1,38 @@
+{
+	'identifier': 'email',
+	'items': [
+		{
+			'icon': '../../../../../../simulation/contacts/profileImages/testman.png',
+			'name': 'The Name of the Recipient goes here',
+			'company': 'The 2nd line of text goes here',
+			'email': 'email1@this.line.please',
+			'to': true
+		},
+		{
+			'icon': '../../../../../../simulation/contacts/profileImages/1.png',
+			'name': 'The Name of the Recipient goes here',
+			'company': 'The 2nd line of text goes here',
+			'email': 'email2@this.line.please',
+			'cc': true
+		},
+		{
+			'icon': '../../../../../../simulation/contacts/profileImages/5.png',
+			'name': 'The Name of the Recipient goes here',
+			'company': 'The 2nd line of text goes here',
+			'email': 'email3@this.line.please',
+			'bcc': true
+		},
+		{
+			'icon': '../../../../../../simulation/contacts/profileImages/2.png',
+			'name': 'The Name of the Recipient goes here',
+			'company': 'The 2nd line of text goes here',
+			'email': 'email4@this.line.please'
+		},
+		{
+			'icon': '../../../../../../simulation/contacts/profileImages/testman.png',
+			'name': 'The Name of the Recipient goes here',
+			'company': 'The 2nd line of text goes here',
+			'email': 'email5@this.line.please'
+		}
+	]
+}

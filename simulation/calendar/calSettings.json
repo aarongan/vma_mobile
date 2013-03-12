@@ -1,0 +1,52 @@
+{
+"items":
+[{
+	"calList": [
+		{
+			"name": "Me",
+			"id" : "me"
+		},
+		{
+			"name": "Sally",
+			"id" : "sally"
+		}
+		],
+	"emailIds" : [
+		{
+			"email": "joan.smith@verizon.net",
+			"id": "123"
+		},
+		{
+			"email": "joan.smith@gmail.com",
+			"id": "236"
+		}
+	],
+	"textNos" : [
+		{
+			"number": "830-345-4323",
+			"id": "23"
+		},
+		{
+			"number" : "234-234-5323",
+			"id": "34"
+		}
+	],
+	"formValue": {
+			"defltCal":"me",
+			"dayBegin" : "5:00",
+			"pastDays" : "3",
+			"futrDays" : "30",
+			"inviType" : "email",
+			"inviEml": "123",
+			"evtType" : "emailText",
+			"evtEml": "236",
+			"evtText" : "23",
+			"canlType" : "email",
+			"canlEml": "236",
+			"replType" : "text",
+			"replText" : "34"
+			}
+}
+
+]
+}

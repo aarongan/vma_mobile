@@ -1,0 +1,73 @@
+.tagDD .mytags_bodyDiv, .sigDD .sig_bodyDiv{
+	text-align:left;
+}
+.sigDD.basePanel,
+.tagDD._basePanel{
+	text-align:left;
+	background-color: #fff;
+    border: 1px solid #cdcdcd;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.dj_ie7 .sigDD.basePanel,
+.dj_ie8 .sigDD.basePanel,
+.dj_ie7 .tagDD._basePanel,
+.dj_ie8 .tagDD._basePanel {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=4);
+}
+.tagDD._basePanel .headerDiv{
+	margin:5px 8px 0;
+}
+.tagDD.advTag .top, .tagDD.advTag .headerDiv{
+	display:none;
+}
+.tagDD.advTag._basePanel{
+	width: 187px;
+}
+.tagDD.advTag._basePanel .newDiv input{
+	width:100px;
+}
+.tagDD.advTag._basePanel .newDiv{
+	width: 163px;
+}
+.sigDD .sig_bodyDiv{
+    border-bottom: #d1d1d1 solid 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/****
+.sigDD .sigTop{
+	height:0px !important;
+	border-top: 1px solid #d1d1d1;
+}
+****/
+.sigDD .sig_footerDiv {
+	height:25px;
+}
+.sigDD .signatureRow{
+	text-indent: 10px;
+	height:20px;
+	margin-top:2px;
+	cursor:pointer;
+}
+.sigDD .signatureRow.sigHover{
+	background-color: #F6F6F6;
+}
+.icsROToolbar.replyToolbar .dijitRight {
+	background: none;
+	padding-right: 0px;
+}
+.dijitLeft.icsROToolbar.replyToolbar {
+	background: none;
+	padding-left: 0px;
+}
+.tagItemPopup {
+	visibility: visible !important;
+	margin-top:5px;	
+}
+
+.dj_ie6 .tagItemPopup,
+.dj_ie7 .tagItemPopup{
+	margin-top:0px;
+}

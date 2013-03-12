@@ -1,0 +1,139 @@
+{
+	"statusDesc":"EVENT: Fetch events command was successfull",
+	"statusCode":0,
+	"operation":"fetch",
+	"events":[
+		{
+			"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac1",
+			"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+			"title":"This is for Mc Nair",
+			"eventType":"public","categoryType":{"id":"Tennis"
+			,"description":"Tennis","url":""},
+			"place":"Wimbledon",
+			"eventStart":"07/12/2009 09:00 AM",
+			"eventEnd":"07/12/2009 10:00 AM",
+			"message":"Go Tiger Woods Go!!!",
+			"organizer":"calendar.test@icspoc.vzwcorp.com",
+			"duration":"21:52",
+			"seeGuestList":"on",
+			"inviteOthers":"off",
+			"attendees":[
+				{
+					"userId":"Hiremath Shashidhar",
+					"statusType":"TENTATIVE",
+					"picURL":""
+				}
+			]
+		},
+		{
+			"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac5",
+			"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+			"title":"This is for Mc Nair",
+			"eventType":"public","categoryType":{"id":"Tennis"
+			,"description":"Tennis","url":""},
+			"place":"Wimbledon",
+			"eventStart":"07/12/2009 09:00 AM",
+			"eventEnd":"07/12/2009 10:00 AM",
+			"message":"Go Tiger Woods Go!!!",
+			"organizer":"calendar.test@icspoc.vzwcorp.com",
+			"duration":"21:52",
+			"seeGuestList":"on",
+			"inviteOthers":"off",
+			"attendees":[
+				{
+					"userId":"Hiremath Shashidhar",
+					"statusType":"TENTATIVE",
+					"picURL":""
+				}
+			]
+		},
+		{
+			"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac5",
+			"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+			"title":"This is for Mc Nair",
+			"eventType":"public","categoryType":{"id":"Tennis"
+			,"description":"Tennis","url":""},
+			"place":"Wimbledon",
+			"eventStart":"07/12/2009 09:30 AM",
+			"eventEnd":"07/12/2009 10:30 AM",
+			"message":"Go Tiger Woods Go!!!",
+			"organizer":"calendar.test@icspoc.vzwcorp.com",
+			"duration":"21:52",
+			"seeGuestList":"on",
+			"inviteOthers":"off",
+			"attendees":[
+				{
+					"userId":"Hiremath Shashidhar",
+					"statusType":"TENTATIVE",
+					"picURL":""
+				}
+			]
+		},
+		{
+			"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac6",
+			"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+			"title":"This is for Mc Nair",
+			"eventType":"public","categoryType":{"id":"Tennis"
+			,"description":"Tennis","url":""},
+			"place":"Wimbledon",
+			"eventStart":"07/12/2009 11:00 AM",
+			"eventEnd":"07/12/2009 01:00 PM",
+			"message":"Go Tiger Woods Go!!!",
+			"organizer":"calendar.test@icspoc.vzwcorp.com",
+			"duration":"21:52",
+			"seeGuestList":"on",
+			"inviteOthers":"off",
+			"attendees":[
+				{
+					"userId":"Hiremath Shashidhar",
+					"statusType":"TENTATIVE",
+					"picURL":""
+				}
+			]
+		},
+		{
+			"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac2",
+			"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+			"title":"This is for Mc Nair",
+			"eventType":"public","categoryType":{"id":"Tennis"
+			,"description":"Tennis","url":""},
+			"place":"Wimbledon",
+			"eventStart":"07/12/2009 06:00 AM",
+			"eventEnd":"07/12/2009 07:00 AM",
+			"message":"Go Tiger Woods Go!!!",
+			"organizer":"calendar.test@icspoc.vzwcorp.com",
+			"duration":"21:52",
+			"seeGuestList":"on",
+			"inviteOthers":"off",
+			"attendees":[
+					{
+						"userId":"Hiremath Shashidhar",
+						"statusType":"TENTATIVE",
+						"picURL":""
+					}
+			]
+		},
+		{
+			"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac8",
+			"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+			"title":"This is for Mc Nair",
+			"eventType":"public","categoryType":{"id":"Tennis"
+			,"description":"Tennis","url":""},
+			"place":"Wimbledon",
+			"eventStart":"07/12/2009 02:00 PM",
+			"eventEnd":"07/12/2009 04:00 PM",
+			"message":"Go Tiger Woods Go!!!",
+			"organizer":"calendar.test@icspoc.vzwcorp.com",
+			"duration":"21:52",
+			"seeGuestList":"on",
+			"inviteOthers":"off",
+			"attendees":[
+					{
+						"userId":"Hiremath Shashidhar",
+						"statusType":"TENTATIVE",
+						"picURL":""
+					}
+			]
+		}
+	]
+}

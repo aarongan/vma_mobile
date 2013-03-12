@@ -1,0 +1,500 @@
+.navController .tabLabel .trashTab,
+.navController .tabLabel .trashTab span {
+	background-image: url(../../../../images/ics/common/tab/all_bg.png);
+	vertical-align:top;
+}
+
+.navController .tabLabel span{
+	margin: 0 0 0 3px;
+	background: transparent no-repeat left center;
+	padding: 1px;
+}
+
+.navController .tabLabel span span{
+	background-position:right center;
+	margin-right:8px;
+}
+
+.navController .tabLabel span.trashTab span span{
+	background-image: url(../../../../images/ics/common/tab/all_1x16.png);
+}
+
+.navController .tabLabel span span span{
+	background:transparent repeat-x center center;
+	border: 0 none;
+	padding-left: 1px;
+	padding-right: 0px;
+	color:#000000;
+	font-size:12px;
+}
+
+.navController .topNav{
+	height:38px;
+	/*border-bottom:1px dashed #d1d1d1;*/
+	margin-right:5px;
+}
+
+.navController .bottomNav .sortLbl{
+	float: right;
+	margin-right:240px;
+	margin-top:8px;
+	/*position: relative;
+	left: 390px;*/
+}
+
+.navController .bottomNav .hideSelectLink .sortLbl{
+	float: right;
+	margin-right:240px;
+	margin-top:10px;
+	/*position: relative;
+	left: 418px;*/
+}
+
+.dj_ie .navController .bottomNav .sortLbl{
+	/*margin-bottom:5px;*/
+	margin-top:-20px;
+}
+
+.navController .bottomNav .sortMenu{
+	float: right;
+	margin-top:2px;
+	width:70px;
+	margin-right: -115px;
+	/*position: relative;
+	left: 390px;*/
+}
+
+.navController .bottomNav .hideSelectLink .sortMenu{
+	float: right;
+	margin-top:2px;
+	width:70px;
+	margin-right: -115px;
+	/*position: relative;
+	left: 418px;*/
+}
+
+.dj_ie .navController .bottomNav .sortMenu{
+	margin-top:-27px;
+	margin-left: 100px;
+
+}
+	
+.navController .bottomNav .sortMenu .dijitButtonNode{
+	width:92px;
+}
+
+.navController .bottomNav .sortMenu .dijitButtonText{
+	color:#000000;
+	width:60px;
+	text-align:left;
+}
+
+.navController .bottomNav .sortMenu .dijitDropDownButton{
+	margin-right:0px;
+}
+
+.navController .bottomNav .sortMenu .dijitDropDownButton .dijitArrowButtonInner {
+	height:10px;
+	width:8px;
+	left:7px;
+}
+.navController .bottomNav .sortMenu .dijitDropDownButton .dijitArrowButtonInner {
+	background:url("../../../../images/ics/common/dropDownButtonArrow.png") no-repeat scroll right center transparent;
+	height:10px;
+	margin-top:3px;
+	width:11px;
+}
+
+
+.navController .bottomNav{
+	/*background:url("../../../../images/ics/inbox/search_35.png") repeat-x scroll 0 0 transparent;*/
+	height:35px !important;
+	position:relative;
+	/*border-bottom: 1px solid #d1d1d1;*/	
+}
+
+.navController .bottomNav .searchDiv {
+	height:35px !important;
+	margin-left: 3px;/* Added for BUA Plus*/
+}
+
+.navController .topNav .searchContainer .searchForm{
+	background-color:#FFFFFF;
+}
+
+.navController .searching .bottomNav{
+	background:url("../../../../images/ics/inbox/search_dark35.png") repeat-x scroll 0 0 transparent;
+	margin-left: 9px;
+    width: 750px;
+}
+
+.dj_ie7 .navController .searching .bottomNav .closeIcon{
+	background-position: 0px 1px;
+}
+
+.navController .searching .bottomNav .closeIcon{
+	background:transparent url(../../../../images/ics/nab/buttons/close.png) no-repeat scroll 0 0;
+	height:15px;
+	width:18px;
+	cursor:pointer;
+	/*margin-top: 8px;*/
+}
+
+.navController .searching .bottomNav .selectAllText {
+    /*color: #000000;*/
+    margin-right: 5px;
+}
+
+.navController .bottomNav .selectAllText {
+    /*color: #FFFFFF;
+      margin-right: 5px;*/
+      width:70px;
+}
+
+.navController .topNav .seacher{
+	position:relative;
+	left: 410px; /*5px;*/
+	/*top:5px;*/
+}
+.dj_ie .navController .bottomNav .seacher{
+    left: 60px; 
+}
+.dj_ie .navController .bottomNav .seacher .searchInput{
+	position:relative;
+	left:5px;
+	top:2px;
+}
+
+.navController .bottomNav .status{
+	position:relative;
+	top:2px;
+	/*width:211px;  Changed as per PSD*/
+	/*width:190px;
+	left: 170px;*/ /*Newly Added*/
+}
+.dj_ie .navController .bottomNav .status{
+	/*top:-3px;*/
+}
+
+.navController .searching .bottomNav .status,
+.navController .searching .bottomNav .sortLbl{
+	color:#ffffff;
+	/* margin-left:45px; *//* Added as per PSD*/
+	/* width:145px; */
+}
+
+.navController .bottomNav .backDiv{
+	margin-left:10px;
+	margin-top:9px;
+}
+.navController .bottomNav .backIcon{
+	background:transparent url(../../../../images/vzw/buttons/gif/left.gif) no-repeat scroll 0 0;
+	width:15px;
+	margin-right:5px;
+}
+
+/*Modified as per PSD*/
+.navController .bottomNav .selectLinks{
+	font-weight:bold;
+	width:25px; /*70px;*/
+	position:relative;
+	top:2px;
+	text-align:right;
+	/*left:10px;*/
+}
+
+ .navController .bottomNav .selectLinks .selectAllBox {
+   	background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:-79px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:-7px;
+	left: 2px;
+}
+
+ .navController .bottomNav .selectLinks .unselectAllBox{
+   background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:0px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:-7px;
+	left: 2px;
+}
+
+ .navController .bottomNav .selectLinks .greyedUnselectAllBox{
+   background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:-31px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:-7px;
+	left: 2px;
+}
+
+
+
+.dj_ie .navController .bottomNav .selectLinks .selectAllBox {
+	top:-12px;
+	left: -15px;
+}
+
+
+.dj_ie .navController .bottomNav .selectLinks .unselectAllBox{
+	top:-12px;
+	left: -15px;
+}
+
+
+.dj_ie .navController .bottomNav .selectLinks .greyedUnselectAllBox{
+	top:-12px;
+	left: -15px;
+}
+
+.dj_ie .navController .bottomNav .selectLinks{
+	/*top:-3px;*/
+	left:16px;
+}
+
+.navController .searching .bottomNav .linkSpan {
+	color:#ffffff;
+}
+
+.navController .bottomNav .actions{
+	position:relative;
+	top: 2px;
+	left: 0px; /*8px;*/
+}
+.navController .bottomNav .hideSelectLink .actions {
+	left: 5px;
+    top: 2px;
+}
+.dj_ie .navController .bottomNav .hideSelectLink .actions {
+	left: 19px;
+	/*top: -3px;*/
+}
+.dj_ie .navController .bottomNav .actions {
+	left: 5px; /*23px;*/
+	/*top: -3px;*/
+}
+.navController .bottomNav .actions button span {
+	line-height:0;
+	padding:0;
+}
+.navController .bottomNav .actions .dijitButtonNode {
+	background:url("../../../../images/ics/common/dropDownButtonBg.png") repeat-x scroll left bottom #F4F4F4;
+	/*border-color:#B2B2B2;*/
+	border: none;
+}
+.navController .bottomNav .actions .dijitArrowButtonInner {
+    background: url("../../../../images/ics/InboxSprites.png") no-repeat scroll -18px -54px transparent;
+    height: 23px;
+    margin: 0;
+    width: 45px;
+}
+.navController .bottomNav .actions .dijitDropDownButton, 
+.navController .bottomNav .actions .dijitButtonNode, 
+.navController .bottomNav .actions .dijitButtonText {
+	margin:0;
+	padding:0;
+	width:0; /*Newly added*/
+}
+
+.navController .topNav .searchOptions{
+	/*margin-left: 10px; Commented for BUA Plus*/
+	/*width:250px;*/
+	position: relative;
+	/*top: 5px;*/
+	left: 410px; /*Newly Added*/   
+}
+.dj_ie .navController .topNav .searchOptions{
+	top:-5px;
+	left: 405px;
+}
+.navController .topNav .searchOptions .phonePanel .otherPhones .dijitSelect .dijitButtonContents {
+	width:120px;
+}
+.navController .topNav .searchOptions .dijitSelect .dijitButtonNode {
+	background:url("../../../../images/ics/common/dropDownButtonBg.png") repeat-x scroll left bottom #F4F4F4;
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+	padding:2px;
+	text-align:left;
+}
+
+
+.navController .topNav .searchOptions .dijitButtonText{
+	width:120px;/*90px; Changed as per PSD*/
+	text-align:left;
+}
+
+.navController .topNav .searchOptions .dijitButtonNode{
+	border-width:1px 0 1px 1px;
+}
+
+.navController .topNav .searchOptions .dijitArrowButton{
+	border-width:1px 1px 1px 0;
+	padding:5px 3px 3px;
+}
+.navController .topNav .searchOptions .dijitArrowButtonInner {
+	background:url("../../../../images/ics/common/dropDownButtonArrow.png") no-repeat scroll right center transparent;
+	height:7px;
+	width:11px;
+}
+.navController .filterList{
+	width:563px;
+	margin-left:4px;
+	margin-top:8px;
+}
+
+.dj_ie .navController .filterList {
+	margin-bottom:5px;
+	width:569px;
+}
+
+.navController .filterList .listItem{
+	margin-right:4.5px;
+	/*border-left:1px solid #D1D1D1;*/
+	font-weight:bold;
+}
+
+.navController .filterList .listItem.firstItem{
+	border:none;
+	margin-left:0px;
+}
+.navController .filterList .noContactsSpan {
+    color: #BBBBBB;
+}
+/* Changed as per PSD*/
+.navController .bottomNav .hideSelectLink .status{
+	left: 10px;
+    position: relative;
+	/*width:283px;*/
+	/*width: 215px;*/ /*265px;*/
+}
+.navController .searching .bottomNav .hideSelectLink .status{
+	width:172px !important; /*width:217px !important;*/
+}
+
+.dj_ie .navController .bottomNav .hideSelectLink .status{
+	/*width:288px;*/
+	/*width:215px;*/
+}
+
+.navController .bottomNav .hideSelectLink .selectLinks{
+	display:none !important;
+}
+
+.disclaimerNav{
+	text-align: center;
+}
+
+.disclaimerNav .disclaimer{
+	margin-top:5px;
+}
+.disclaimerNav .disclaimerClose{
+	margin-bottom:10px;
+}
+
+.disclaimerNav .closeText {
+	padding:0 17px 0 8px;
+	position:absolute;
+	line-height:10px;
+	color:#0066CC;
+	text-decoration:underline;
+	cursor: pointer;
+}
+.disclaimerNav .closeIcon {
+	background:transparent url(../../../../images/ics/nab/buttons/close.png) no-repeat top right;
+	padding:0 17px 0 8px;
+	line-height:15px;
+	cursor: pointer;
+	margin-top: 6px;
+	margin-right: 5px;
+	float: right;
+	height: 13px;
+	width:13px;
+}
+
+.dj_ie .disclaimerNav .closeIcon {
+	margin-top: -17px;
+}
+
+.dj_ie .disclaimerNav .disclaimerClose{
+	margin-bottom:12px;
+}
+
+/*Search Panel related css*/
+/*.searchPanel.Contacts {
+	height: 60px;
+}
+.hideDisclaimer .searchPanel.Contacts{
+	height:60px;
+}
+.hideDisclaimer .searchPanel.MyProfile{
+	height:80px;
+}
+.hideDisclaimer .searchPanel.Requests{
+	height:80px;
+}
+.hideDisclaimer .searchPanel.Trash{
+	height:60px;
+}
+.searchPanel.hideDisclaimer{
+	height:80px;
+}*/
+.printOptionsPane{
+	width:265px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+}
+.printOptionsPane .confirmButtons{
+	padding-top:0px;
+}
+.printOptionsPane .fixer{
+	height:5px;
+}
+
+
+.vspSelected .selectionBox.select {
+   background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:0px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:25px;
+}
+
+ .selectionBox.select {
+   	background:url(../../../../images/ics/nab/icons/checkmark.png);
+	background-position:-79px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 5px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:25px;
+}
+
+.navController .listFilterNode{
+    margin-top: 7px;
+    padding-left: 85px;
+    /* Added for BUA Plus*/
+    margin-left: 10px;
+    width: 660px;
+}

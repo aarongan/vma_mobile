@@ -1,0 +1,245 @@
+.icsROButton {
+	display: inline-block;
+	text-decoration: none;
+	height: 29px;
+	width: 35px;
+	color: white;
+	background: transparent url('../../../../images/ics/BUAPSprites.png') top left no-repeat;
+	margin: 0 1px;
+}
+/***
+.icsROButton:hover {
+	border: 1px #666666;
+	border-style: none solid;
+	margin: 0;
+}
+***/
+.groupIcon.icsROButton {
+	margin: 0 0;
+}
+/***
+.groupIcon.icsROButton:hover {
+	border: 0px white;
+}
+.dj_ie6 .icsROButton{
+	background-image: url('../../../../images/ics/common/rollOver/actions-ie.png');
+}
+***/
+.icsROButton.connect {
+	background-position: -203px -237px;
+}
+/****
+.icsROButton.connect:hover {
+	background-position: -280px -35px;
+}
+****/
+.icsROButton.trash, .icsROButton.permanentlyDelete {
+	background-position: -348px -237px;
+}
+/****
+.icsROButton.trash:hover, .icsROButton.permanentlyDelete:hover {
+	background-position: -315px -35px;
+}
+****/
+.icsROButton.permanentDelete {
+	background-position: -320px -262px;
+}
+
+/***
+.icsROButton.permanentDelete:hover {
+	background-position: -315px -35px;
+}
+***/
+.icsROButton.edit {
+	background-position: -428px -237px;
+}
+/***
+.icsROButton.edit:hover {
+	background-position: -420px -35px;
+}
+***/
+.icsROButton.groupsLists {
+	background-position: 0px 0px;
+}
+/***
+.icsROButton.groupsLists:hover {
+	background-position: -595px -35px;
+}
+***/
+/* TODO: should mobile groups have a different icon? */
+.icsROButton.mobileGroups {
+    background-position: -350px -263px;
+}
+/****
+.icsROButton.mobileGroups:hover {
+	background-position: -595px -35px;
+}
+****/
+.icsROButton.undelete {
+	background-position: -294px -262px;
+}
+/****
+.icsROButton.undelete:hover {
+	background-position: -630px -35px;
+}
+****/
+.icsROButton.new {
+	background-position: 0px 0px;
+}
+/***
+.icsROButton.new:hover {
+	background-position: -700px -35px;
+}
+***/
+.icsROButton.newMessage {
+    background-position: -516px -237px;
+}
+/***
+.icsROButton.newMessage:hover {
+	background-position: -700px -35px;
+}
+***/
+.icsROButton.printContact {
+	background-position: -487px -237px;
+}
+.icsROButton.actions {
+	background-position: -380px -237px;
+}
+/***
+.icsROButton.actions:hover {
+	background-position: -840px -35px;
+}
+***/
+.icsROButton.mobileSync {
+	background-position: 0px 0px;
+}
+/***
+.icsROButton.mobileSync:hover {
+	background-position: -945px -35px;
+}
+***/
+.icsROButton.mobileSync.on {
+	background-position: 0px 0px; /*-945px 0px;*/
+}
+/***
+.icsROButton.mobileSync.on:hover {
+	background-position: -1648px -48px; 
+}
+***/
+.icsROButton.select:hover,
+.vspSelected .icsROButton.select {
+	background-image: url('../../../../images/ics/common/rollOver/rollover_select.png');
+	background-position: -35px;
+	border: none;
+	height: 35px;
+	width: 35px;
+}
+.icsROButton.select,
+.vspSelected .icsROButton.select:hover {
+	background-image: url('../../../../images/ics/common/rollOver/rollover_select.png');
+	background-position: 0px;
+	margin: 0;
+	height: 35px;
+	width: 35px;
+}
+
+.dj_ie6 .icsROButton.select:hover,
+.dj_ie7 .vspSelected .icsROButton.select {
+	background-image: url('../../../../images/ics/common/rollOver/rollover_select.gif');
+}
+.dj_ie6 .icsROButton.select,
+.dj_ie7 .vspSelected .icsROButton.select:hover {
+	background-image: url('../../../../images/ics/common/rollOver/rollover_select.gif');
+}
+.icsROButton.reply, .icsROButton.resend, .icsROButton.send {
+	background-position: -234px -237px;
+}
+/***
+.icsROButton.reply:hover, .icsROButton.resend:hover, .icsROButton.send:hover {
+	background-position: -982px -35px;
+}
+***/
+.icsROButton.replyAll {		/* message list view reply all */
+	background-position: -203px -239px;
+}
+.icsROButton.icsToolbarIconReplyAll {	/* message viewer reply all */
+	background-position: -255px -309px;
+}
+.dj_ie7 .icsROButton.icsToolbarIconReplyAll {
+	margin-top:-3px;
+}
+/***
+.icsROButton.replyAll:hover {
+	background-position: -8px -237px;
+}
+***/
+.icsROButton.forward, .icsROButton.download{
+	background-position: -266px -237px;
+}
+/***
+.icsROButton.forward:hover, .icsROButton.download:hover{
+	background-position: -910px -35px;
+}
+***/
+.icsROButton.star{
+	background-position: -294px -237px; 
+}
+/***
+.icsROButton.star:hover{
+	background-position: -1086px -35px;
+}
+***/
+.icsROButton.tag{
+	background-position: -323px -237px; 
+}
+/***
+.icsROButton.tag:hover{
+	background-position: -1597px -35px;
+}
+***/
+.icsROButton.star.starred{
+	background-position: -296px -237px;
+}
+/***
+.icsROButton.star.starred:hover{
+	background-position: -1560px -37px;
+}
+***/
+/* TODO Use actions.png for requestsRow buttons */
+.icsROButton.accept,
+.icsROButton.accept:hover {
+	width: 35px;
+	height: 35px;
+	background: transparent  url(../../../../images/ics/nab/buttons/requestToolbarSprite.png) no-repeat;
+	background-position: 0px;
+	border:none;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 0 1px;
+}
+
+.icsROButton.decline,
+.icsROButton.decline:hover {
+	width: 35px;
+	height: 35px;
+	background: transparent  url(../../../../images/ics/nab/buttons/requestToolbarSprite.png) no-repeat;
+	background-position: -40px;
+	border:none;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 0 1px;
+}
+
+.icsROButton.viewReqContact,
+.icsROButton.viewReqContact:hover {
+	width: 35px;
+	height: 35px;
+	background: transparent  url(../../../../images/ics/nab/buttons/requestToolbarSprite.png) no-repeat;
+	background-position: -200px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 0 1px;
+}

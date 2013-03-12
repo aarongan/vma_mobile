@@ -1,0 +1,464 @@
+@import url('ICS_Tabs.css');
+@import url('Search.css');
+@import url('VirtualScrollPane.css');
+@import url('_BaseRow.css');
+@import url('FloatingItemBox.css');
+@import url('Dialog.css');
+@import url('Overlay.css');
+@import url('Button.css');
+@import url('ie.css');
+@import url('virtualList.css');
+
+/* these came from BA */
+
+@import url('tokenizer.css');
+@import url('Add.css');
+@import url('BasePanel.css');
+@import url('DropDownSelect.css');
+@import url('rollOver.css');
+@import url('ui.css');
+
+#globalNavId{
+	height: 106px;
+}
+
+#inboxRightPanel.panels, #vmmRightPanel.panels, #nabRightPanel.panels {
+	margin-top:297px;
+	border: 1px solid #CDCDCD !important;
+	height: 300px !important; 
+	left: 0px !important;
+}
+#nabRightPanel.panels {
+	height: 340px !important; 
+}
+/* Start -- CSS for Social networking right panel*/
+#vmmRightPanel.panels{
+	height: 460px !important;
+}
+#vmmRightPanel .socialNetwork{
+	border-bottom: 1px solid #CDCDCD !important;
+	padding-bottom: 3px;
+	height: 145px;
+	width: 199px;
+}
+#vmmRightPanel .headerSN{
+	font-weight:bold;
+	text-align:center;
+	line-height: 30px;
+	padding-bottom: 5px;
+}
+
+/* End -- CSS for Social networking right panel*/
+
+#nabRightPanel.dijitBorderContainer-dijitContentPane {
+	padding:0;
+}
+
+/* #inboxRightPanel .headerDiv, #vmmRightPanel .headerDiv, #nabRightPanel .headerDiv */
+#inboxRightPanel ._basePanel *, #vmmRightPanel ._basePanel *, #nabRightPanel ._basePanel * {
+	border: none;
+}
+
+#mainStack .commonBox{
+    z-index: 3;
+    border-left:1px solid #cdcdcd;
+	width: 199px;
+	padding:6px 0;
+	margin-left: -3px;
+}
+#mainStack .commonBox .commonBoxIcon{
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat scroll;
+	height:42px;
+	width:40px;
+}
+#mainStack .commonBox .commonBoxIcon:hover, #mainStack .commonBox .commonBoxChild:hover{
+   background-color: #f6f6f6;
+}
+#mainStack .commonBox .composeMessage{
+	background-position: -469px -37px;
+}
+#mainStack .commonBox .addContact{
+	background-position: -470px -37px;
+}
+#mainStack .commonBox .uploadMedia{
+	background-position: -506px -38px;
+}
+#mainStack .commonBox .addContact{
+	background-position: -430px -37px;
+}
+#mainStack .commonBox .commonBoxChild{
+	margin-left:35px;
+	padding:5px 0px 5px 10px;
+	width: 154px;
+	color:#444;
+	font-size:12px;
+	font-weight:bold;
+	line-height: 32px;
+	cursor: pointer;
+}
+#mainStack .bua_brand_label{
+    position: absolute;
+    z-index: 3;	
+    top: 13px;
+	left: -1px;
+	color: #B00000;
+    font-size:22px;
+	line-height:22px;
+}
+
+#mainStack .messageSentNotifier{
+	z-index: 3;
+	position: absolute;
+	top: 43px;
+	width: 983px;
+	height: 27px;	
+	background-color: #EBF7FF;
+    border: 1px solid #A4D9FD;
+}
+
+#mainStack .messageSentNotifier .notifText{
+	line-height: 27px;
+	text-align: center;
+	font-weight: bold;
+	color: #7D7D7D;
+}
+
+#mainStack .messageSentNotifier .saveLink{
+	color: #438DD8;
+	cursor: pointer;
+}
+
+#mainStack .messageSentNotifier .closeNotif{
+	background:transparent url(../../../images/ics/inbox/cancel.png) no-repeat scroll top left;
+	height: 15px;
+	width: 14px;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	right: 6px;
+}
+
+#mainStack .moduleStackAfterNotify{
+	margin-top: 44px;
+}
+#mainStack .mainTabAfterNotify{
+	margin-top: 45px;
+}
+
+#mainStack .syncIcon {
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat scroll -122px -34px;
+	height: 26px;
+	width: 22px;
+}
+
+#inboxTopTab .tabContentDelimit,
+#vmmTopTab .tabContentDelimit,
+#contactsTopTab_tablist .tabContentDelimit {
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat -20px -120px;	
+	height:5px;
+	width:750px;	
+	top:45px;
+	position:relative;
+}
+/* #contactsTopTab_tablist .tabContentTriangle, */
+#inboxTopTab .tabContentTriangle,
+#vmmTopTab .tabContentTriangle {
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat -662px -42px;	
+	height:15px;
+	width:20px;	
+	position:absolute;
+	top: -6px;
+    width: 20px;
+}
+
+#inboxTopTab_tablist .tabLabel.emails{
+	width: 98px;
+}
+
+#inboxTopTab .tabContentTriangle.emailTab {
+	left:40px;
+}
+#inboxTopTab .tabContentTriangle.textTab {
+	left:155px;
+}
+#vmmTopTab .tabContentTriangle.musicTab {
+	left:30px;
+}
+#vmmTopTab .tabContentTriangle.pictureTab {
+	left:100px;
+}
+#vmmTopTab .tabContentTriangle.videoTab {
+	left:174px;
+}
+#vmmTopTab .tabContentTriangle.documentTab {
+	left:253px;
+}
+#vmmTopTab .tabContentTriangle.myFilesTab {
+	left:339px;
+}
+.commonHeaderRow{
+	background-color: #EBF7FF; 
+    font: bold 12px arial;
+	border: 1px solid #A4D9FD; 
+	height: 30px;
+}
+.searchWrapper .dijitButtonNode {
+	padding: 0.05em;
+}
+
+#moduleStack .nabMainContainer .listContainer,
+#moduleStack .vmmMainContainer .vmmListStack,
+#moduleStack .inboxMainContainer .inboxMsgStack {
+	border-left:1px #ccc solid;
+	padding-left:6px;
+	left:200px !important;
+}
+
+.hintLabel {
+	position: relative;
+}
+
+.dj_ie8 .hintLabel {
+	position: absolute;
+}
+
+.hintLabel .blue{
+	background:transparent url(../../../images/ics/common/tooltip/hintlabel_1px.png) repeat-x;
+	padding: 0 12px;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+	color:white;
+	line-height:26px;
+}
+
+.hintLabel .right{
+	background-image:url("../../../images/ics/BUAPSprites.png");
+	background-position:-189px -237px;
+	width: 15px;
+	height: 26px;
+	float:left;
+}
+
+.hintLabel .left{
+	background-image:url("../../../images/ics/BUAPSprites.png");
+	background-position:-175px -237px;	
+	width: 4px;	
+	height: 26px;
+	float:left;
+}
+
+.dj_ie7 .staticWelcomeDialog, .dj_ie7 .staticWelcomeDialog .modal_content{
+	width: 517px;
+}
+
+.staticWelcome {
+	border-bottom: 1px solid #D5D5D5;
+	padding: 25px;
+	height: 85px;
+}
+
+.staticWelcome .BAPlusIcon{
+	float: left;
+	background-image:url("../../../images/ics/InboxSprites.png");
+	background-position:-553px -315px;	
+	width: 50px;	
+	height: 50px;
+	margin-top: 5px;
+}
+
+.staticWelcome .content{
+	float: left;
+}
+
+.staticWelcome .content ul{
+	margin-top: 10px;
+}
+
+.staticWelcome .content span{
+	padding-left: 27px;
+	font-weight: bold;
+}
+
+.staticContent .intro{
+	padding-top: 15px;
+	line-height: 17px;
+}
+
+.staticContent .header .title{
+	padding-top:25px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.staticContent{
+	margin:0 0 20px 20px;
+}
+.staticContent .header .buttonrga{
+	padding: 0px 10px 15px 0px;
+}
+.noMediaStorageStaticPage .intro{
+	width: 529px;
+	height: 78px;
+}
+.noMediaStorageStaticPage{
+	width:613px;
+}
+.staticContent .linkNode{
+	color: #438DD8;	
+	font-size: 14px;
+}
+
+.staticContent a:visited,
+.staticContent a{
+	color: #438DD8;	
+	cursor: pointer;
+}
+
+.staticContent .media .link{
+	font-weight: bold;
+	cursor: pointer; 
+}
+
+.staticContent .media .expanded{
+	width: 506px;
+	padding: 10px 0 20px 12px !important;
+}
+
+.staticContent .media .list{
+	padding: 12px 0 0;
+}
+
+.staticContent .dummyPhone{
+	background: url(../../../../styles/images/device/static_contacts_phone.png) no-repeat;
+	margin: 22px 0 0;
+	height: 170px;
+	width: 110px;
+	float: left;
+}
+
+.staticContent .contacts{
+	width: 420px; 
+	float: left;
+	padding-top: 20px;
+}
+
+
+.staticContent ul{
+	list-style-type: decimal; 
+	padding-top:0;
+	padding-left: 22px;
+	margin: 0px;
+}
+
+.staticContent li{
+	padding-bottom: 5px;
+}
+
+#ICSCurtain {
+	width: 985px; height: 1150px; margin: 0; padding: 0;
+	background:#fff url(../../../images/ics/common/processing_big.gif) no-repeat 320px 120px;
+    opacity: 0.75;
+    filter: alpha(opacity=80);
+    position: fixed;
+    z-index:999;	
+	font-size:16px;
+	font-weight:bold;
+	color:#696969;
+}
+#ICSCurtain .curtainInfo{
+	position:absolute;	
+	left:440px;
+	top:155px;
+}
+
+#ICSCurtain .ie7notes{
+	position:absolute;	
+	width: 700px;
+	top: 245px;
+	left: 150px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+#ICSCurtain .ie7icons{
+	position:absolute;	
+	width: 710px;
+	top: 320px;
+	left: 187px;
+}
+
+#ICSCurtain .ie7icons .icon{
+	float:left;
+	width: 85px;
+	height: 85px;
+	margin: 15px 35px;
+}
+
+#ICSCurtain .ie7icons .chrome{	
+	background:#fff url(../../../images/ics/BUAPSprites.png) no-repeat -903px -12px;	
+}
+
+#ICSCurtain .ie7icons .ffx{
+	background:#fff url(../../../images/ics/BUAPSprites.png) no-repeat -807px -12px;
+}
+
+#ICSCurtain .ie7icons .safari{
+	background:#fff url(../../../images/ics/BUAPSprites.png) no-repeat -765px -106px;
+}
+
+#ICSCurtain .ie7icons .ie{
+	background:#fff url(../../../images/ics/BUAPSprites.png) no-repeat -710px -11px;
+}
+
+
+#mainBC, #moduleStack, #mainStack .dijitContainer {
+	overflow:visible;
+}
+#mainBC .dijitBorderContainer-child{
+	border: none;
+}
+
+.dj_ie7 #mainBC .inboxMainContainer .inboxMsgStack,
+.dj_ie7 #mainBC .vmmMainContainer .vmmListStack{
+	width: 771px !important;
+}
+/*
+
+
+* :focus {
+	outline: 0;
+}
+
+.dj_ie #inboxRightPanel,
+.dj_ie #vmmRightPanel{
+	margin-top:-43px;
+}
+#nabRightPane {
+	margin-top:-42px;
+}
+img {
+	-moz-force-broken-image-icon: 1;
+}
+*/
+.icsRedAlert{
+	background:transparent url(../../../images/ics/common/error_alert.png) no-repeat scroll 0 0;
+	width:16px;
+	height:12px;
+}
+.icsAbout{
+	position:absolute;
+	cursor:pointer;
+	top:110px;
+	right:0px;
+	opacity:0.1;
+	filter: alpha(opacity = 10);
+}
+
+/* global footer */
+.pl div.gf_outside {clear:both;width:100%;text-align:center;border-top: 3px solid #EB0000;margin-top:5px;}
+.pl div.gf {width:985px;margin:0 auto;text-align:left;color:#999;}
+.pl div.gf span {color:#000;}
+.pl div.gf div.pad {padding:10px 10px 0 10px;}
+.pl div.gf div.pad div.partners {height:180px;}
+.pl div.gf div.pad div.partners div.pad {padding:30px 0 0 0;}

@@ -1,0 +1,505 @@
+.contactForm {
+    padding: 0px 10px;
+    text-align:left;
+    /*border: 1px solid #d1d1d1 !important;*/
+    border-top: 0px !important;
+    overflow-x: hidden;
+    height: 1016px;
+    overflow-y: auto;
+}
+
+.dj_ie7 .contactForm {
+    width: 710px;
+    overflow-x: hidden;
+    height: 1016px;
+    overflow-y: auto;
+}
+
+.contactForm .border {border-bottom: 1px dotted #C8C8C8;padding-bottom:10px;}
+
+.contactForm .saveButtonWrapper {
+	padding: 10px 0px; 
+	zoom:1;
+}
+.contactForm .saveButtonWrapper .saveButton {cursor:pointer;}
+.contactForm .saveButtonWrapper .cancelButton {margin:3px 0 0 10px;}
+
+.contactForm .formWrapper {}
+
+.contactForm .formWrapper .headerPanel {
+    width: 350px; padding:0px; overflow: hidden;margin-top:15px;
+}
+.contactForm .formWrapper .cardPanel {
+	float:right; width:300px; padding:0px; overflow: hidden;
+}
+.contactForm .formWrapper label {font-weight:bold;font-size:12px;}
+
+.contactForm .formWrapper .storeUpdateField {}
+.contactForm .formWrapper .inputTxt {border: 1px solid #b2b2b2;width:150px;height:18px;margin-top:2px;padding-top:2px;}
+
+.contactForm .formWrapper .namePanel {padding-top:5px;}
+.contactForm .formWrapper .photoPanel {}
+
+.contactForm .formWrapper .nameForm {float:left;width:150px;margin-right:10px;}
+
+.contactForm .linkSpan {
+    /*text-decoration: underline;*/
+    cursor: pointer;
+    color: #0066CC;
+}
+.contactForm .tooltipImg{
+    background: url("../../../../images/vzwrga/random/question.gif") no-repeat scroll right top transparent;
+    height: 15px;
+    margin-left: 3px;
+    width: 13px;
+}
+.emailRadioSpan {
+	padding-left:20px;
+	margin-left:10px;
+}
+
+/* To show the message when buddy connected with the warning image */
+.contactForm .msgTextSpan{
+	background:#F1FAFF url(../../../../images/ics/nab/form/infoMsg.png) no-repeat scroll 6px 4px;
+	border:2px solid #6F8FA8;
+	height:35px;
+	margin-top:9px;
+	margin-bottom:15px;
+	width:340px;
+}
+.contactForm .onConnectMsg{
+	margin-left:27px;
+}
+
+.contactForm h2 {font-size:14px;font-weight:bold;margin:10px 0 10px 0;}
+.contactForm .phonePanel h2, 
+.contactForm .emailPanel h2,
+.contactForm .addressPanel h2,
+.contactForm .messagingPanel h2,
+.contactForm .otherFormPanel h2
+ {font-size:14px;font-weight:bold;margin:6px 1px;/*10px 0 10px 0;*/}
+ 
+/*.dj_ie  .contactForm .phonePanel h2, 
+.dj_ie .contactForm .emailPanel h2,
+.dj_ie .contactForm .addressPanel h2,
+.dj_ie .contactForm .messagingPanel h2,
+.dj_ie .contactForm .otherFormPanel h2*/
+
+.contactForm .iconLabel {display:block;font-size:14px;font-weight:bold;margin:10px 0 1px 0;/*margin:10px 0 5px 0;*/}
+.dj_ie .contactForm .iconLabel {margin:12px 0 2px 0;}
+.contactForm .addNewLink {color:#0066CC;margin-bottom:5px;}
+.contactForm .divider {height: 20px;border-bottom: 1px dashed #C8C8C8;}
+
+.contactForm .formWrapper .phoneInputWrapper {height:26px;overflow:hidden;padding-left:4px;padding-bottom:3px;}
+.dj_ie .contactForm .formWrapper .phoneInputWrapper {padding-bottom:3px;}
+.contactForm .formWrapper .phoneInput {border: 1px solid #b2b2b2;width: 105px;height:20px;}
+.contactForm .formWrapper .emailInput {border: 1px solid #b2b2b2;width: 165px;height:20px;}
+
+.contactForm .formWrapper .deleteFieldIcon {width:15px;padding-left:2px;margin-right:8px;}
+
+.contactForm .webPagesPanel {float:right;width:300px;}
+
+.contactForm .stateDropDown {
+	width: 70px !important;
+	padding: 0 5px 0 5px;
+}
+
+.contactForm .addressPanel .stateSpan {
+	width: 70px !important;
+}
+
+.contactForm .addressPanel .stateSpan .dijitSelect {
+	padding-bottom: 5px;
+}
+
+.dj_ie .contactForm .addressPanel .stateSpan .dijitSelect {
+	margin-top: -5px;
+}
+
+.contactForm .addressPanel .stateDropDown .dijitButtonContents,
+.contactForm .addressPanel .stateSpan .dijitDropDownButton .dijitButtonContents {
+	width: 60px;
+	text-align:left;
+}
+.contactForm .addressPanel .stateDropDown .dijitButtonContents .dijitButtonText, 
+.contactForm .addressPanel .stateSpan .dijitDropDownButton .dijitButtonContents .dijitButtonText {
+	width: 30px;
+	text-align:left;
+}
+
+.contactForm .addressPanel .dijitDropDownButton .dijitButtonContents,
+.contactForm .emailPanel .dijitDropDownButton .dijitButtonContents {
+	text-align:left;
+}
+
+.contactForm .addressPanel .dijitDropDownButton .dijitButtonContents .dijitButtonText,
+.contactForm .emailPanel .dijitDropDownButton .dijitButtonContents .dijitButtonText {
+	width: 80px;
+	text-align:left;
+}
+
+.contactForm .addressPanel .stateLabel {
+	margin-left: 5px;
+	padding-left:80px;
+}
+.contactForm .addressPanel .zipLabel {
+	margin-left: 25px;
+}
+
+.contactForm .addressPanel .countryLabel {
+	margin-left: 20px;
+}
+
+.contactForm .messagingPanel .dijitButtonContents,
+.contactForm .messagingPanel .dijitDropDownButton .dijitButtonContents {
+	text-align:left;
+}
+
+.dj_ff3 .contactForm .groupPanel .dijitButtonNode {
+	height:16px;
+}
+.iceAutoCompleteDiv{height:30px;width:210px;}
+
+.iceSelectInputDiv{height:20px;width:195px;}
+
+.contactsFormhomeIcon{
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: 0px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormmobileIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -18px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormbusinessIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -36px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormpersonalIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -54px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormotherIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -72px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormImIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -90px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormWebsiteIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -108px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.contactsFormMobileSyncIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/nab/form/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -126px;
+	margin-left:-1px;
+	margin-right:4px;
+}
+
+.iceIcon{
+	background:url(../../../../images/ics/nab/icons/ice.png);
+	background-repeat: no-repeat;
+	width:20px;
+	height:20px;
+    margin-right:5px;
+}
+
+div.groupInput {
+  border: 1px solid #b2b2b2;
+  padding: 0px;
+  width: 250px;
+}
+div.groupInput div.cc {
+    float:left;background-color:#f6f6f6;margin:1px 0px 0px 5px;
+}
+div.groupInput div.cc .middle {
+    text-align:center;padding:0px 5px 0px 5px;color:#000000;
+}
+div.groupInput div.cc .name {
+    margin-right:10px;
+}
+div.groupInput div.cc .close {
+    color:#bbbbbb;font-weight:bold;cursor:pointer;
+}
+
+.widthDiv { width:150px; }
+
+.newFieldsPane {width:280px;} /*{width:330px;}*/
+.newFieldsPane.confirmPane .confirmButtons {margin-top: 8px;}
+
+.padding4px {padding-bottom:4px;}
+
+
+.dj_ie7 .dropDownText .ieMargin{
+	margin-left: 5px;
+}
+
+.groupPanel .TokenizedTextBox {
+	min-height:22px;
+	vertical-align:top;
+}
+.groupPanel .groupsDropDown {
+	width:60px;
+	vertical-align:top;
+	margin-left:-8px !important; 
+	margin-bottom:15px; 
+	margin-right: 5px;
+}
+.dj_ie .groupPanel .groupsDropDown {
+	margin-left: 0px !important;
+}
+.groupPanel .dijitDropDownButton,
+.groupPanel .dijitButtonNode {
+	margin:0;
+	padding:0;
+}
+
+.groupPanel .groupsTokenizer {width:282px;margin-top:2px;max-height:62px;overflow-y:auto;}
+
+.dj_ie7 .contactForm .otherFormPanel .notesLabel{
+	margin-top: -40px; 
+	padding-left:20px;
+}
+
+.dj_ie8 .contactForm .otherFormPanel .notesLabel{
+	margin-top: -40px; 
+	padding-left:20px;
+}
+.contactForm .otherFormPanel .notesLabel{
+	margin-top: -80px; 
+	padding-left:20px;
+}
+.contactForm .otherFormPanel .notICEText{
+	width: 150px; 
+	height: 20px;
+	padding-right:10px;
+}
+.contactForm .otherFormPanel .iceText{
+	width: 150px; 
+	height: 20px; 
+	padding-left: 25px;
+	padding-right:10px;
+}
+.contactForm .otherFormPanel .deleteIcon{
+	width:15px;
+	padding:0 8px 0 2px;
+}
+.contactForm .otherFormPanel .notesTextArea{
+	width:auto;
+	margin-top:0px;
+}
+.contactForm .otherFormPanel .textInput{
+	margin-top:0px;
+	width:150px;
+	height:18px;
+	padding-top:2px;
+}
+.contactForm .messagingPanel .imsDiv,
+.contactForm .webPagesPanel .webPagesDiv{
+	padding-top:3px;
+	margin-bottom:10px;
+}.plusSymbol{
+	font-weight:bold; font-size:14px;
+}
+.contactForm .textBox{
+	margin-top:0px;width:100px;/*95px;*/height:16px;
+}
+.contactForm .mobile, .contactForm .home, .contactForm .business {
+	padding-right:7px;
+}
+.contactForm .phonePanel .otherPhones .dijitSelect .dijitButtonContents { 
+	width:105px;/*130px;*/
+}
+
+.dj_ie .contactForm .phonePanel .dijitSelect,
+.dj_ie .contactForm .emailPanel .dijitSelect,
+.dj_ie .contactForm .messagingPanel .dijitSelect,
+.dj_ie .contactForm .webPagesPanel .dijitSelect { 
+	margin-top:-6px;
+}
+
+.contactForm .emailPanel .dijitSelect .dijitButtonContents,
+.contactForm .messagingPanel .dijitSelect .dijitButtonContents, 
+.contactForm .webPagesPanel .dijitSelect .dijitButtonContents{
+	width:100px;
+}
+
+.contactForm .addressPanel .addressType {
+	position: relative;
+	top: 12px;
+}
+
+.contactForm .addressPanel .addressType .dijitSelect .dijitButtonContents{ 
+	width:100px;
+}
+
+.contactForm .groupPanel .dijitDropDownButton .dijitButtonNode {
+	background: none;
+	border: none;
+}
+
+.contactForm .groupPanel .groups .dijitDropDownButton .dijitArrowButtonInner {
+	width: 51px;
+	height: 25px;
+	background: #F5F5F5 url("../../../../images/ics/nab/form/webGroup.png") no-repeat 0 0;
+}
+.contactForm .groupPanel .mobileGroups .dijitDropDownButton .dijitArrowButtonInner {
+	width: 51px;
+	height: 25px;
+	background: #F5F5F5 url("../../../../images/ics/nab/form/mobileGroup.png") no-repeat 0 0;
+}
+
+.contactForm .statusConnectedIcon {
+    height:15px;
+	width:40px;
+	background:url("../../../../images/ics/nab/form/formSmSprite.png");
+	background-repeat: no-repeat;/* Modified to display connected icon properly in IE7*/
+    background-position: -185px;
+}
+
+.contactForm .groupPanel .dijitDropDownButtonHover .dijitArrowButtonInner {
+	background-position: 0 0;
+}
+.contactForm .groupPanel .dijitDropDownButtonFocused .dijitArrowButtonInner {
+	background-position: 0 0;
+}
+
+.contactForm .groupPanel .dijitButtonText{
+	padding: 0;
+}
+
+.contactForm .groupPanel .tundra .dijitMenu,
+.contactForm .groupPanel .tundra .dijitMenuBar{
+	margin: 6px;
+}
+
+.dj_ie .contactForm .groupPanel .groupsTokenizer{
+	padding-bottom:1px;
+}
+
+.deleteImageSpan{
+ 	cursor:pointer;
+}
+
+.dj_ie7 .deleteImageSpan{
+	padding-bottom: 4px;
+}
+.contactForm .groupPanel .TokenEmptyLabelNode {
+	 color: #999999;
+	 padding-left: 4px;
+}
+
+.contactForm .groupPanel .TokenizedTextBox input{
+	padding-top: 5px;
+}
+
+.contactForm .dijitArrowButtonInner {
+	background:url("../../../../images/ics/common/dropDownButtonArrow.png") no-repeat scroll right center transparent;
+	height:7px;
+	width:11px;
+}
+
+.contactForm .dijitSelect .dijitButtonNode {
+	text-align: left;
+	background: #F4F4F4 url("../../../../images/ics/common/dropDownButtonBg.png") repeat-x bottom left;
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+	padding: 1px;	
+}
+
+.contactForm .dijitSelect .dijitButtonContents {
+	padding: 3px;
+	 border-color: #d5d5d5 #bdbdbd #bdbdbd #d5d5d5;
+}
+
+/* overwrite dropdown menu style in NAB */
+#overflowContacts_dropdown {
+	height:200px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color:#F7F7F7;
+	border:1px solid #7EABCD;	
+}
+#overflowContacts_dropdown.dijitPopup .dijitSelectMenu .dijitMenuItem {
+	WHITE-SPACE: nowrap;
+} 
+.dijitPopup .dijitSelectMenu .dijitMenuTable {
+	width: 100% !important;
+} 
+.contactForm .deleteFormImage {
+	background:url("../../../../images/ics/nab/form/delete.png") no-repeat;
+	cursor:pointer;
+	height:15px;
+	width:15px;
+	margin-right: 10px;
+	margin-left: 1px; /*3px;*/
+	padding-bottom: 4px;
+}
+.dj_ie .contactForm .deleteFormImage {
+	vertical-align:top;
+	position: relative;
+	top: 5px;
+	left: 3px;
+}
+
+.contactForm .deleteFormImage.blank {
+	background:none;
+	cursor:default;
+}
+
+.contactForm .emailPanel .defaultEmailDiv{
+	position: relative; left: 350px;
+}
+.contactForm .listFilterNode {
+    /*margin-top: 7px;
+    padding-left: 85px;*/
+    text-align: center;
+}
+.contactForm .PhotoPanel .syncHandsetNode{
+	margin-top: 10px;
+}

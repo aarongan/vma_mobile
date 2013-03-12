@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>ICS Application</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="apple-touch-icon" href="../styles/images/vzwIcon.png"/>
+        <!--link rel="stylesheet" href="../styles/css/dojoAll.css"-->
+        <link rel="stylesheet" href="../styles/css/icsMobile.css">
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojox/mobile/themes/iphone/iphone.css">
+        </link>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                background: #ffffff;
+                text-align: center;
+                font: normal 0.75em arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body class="tundra pl">
+        <div class="gh_outside"></div>
+        <div class="gb">
+            <div id="appWrapper">
+                <div id="icsMobile-main">									
+                    <div id="icsMobile-mainContainer"></div>
+					<div id="icsMobile-displayContainer"></div>
+					<div id="icsMobile-loadingContainer" show="true"></div>
+                </div>
+            </div>
+        </div>
+        <div class="gf_outside"></div>
+        <script type="text/javascript">           
+	        dojoConfig = {
+	            parseOnLoad: true,
+				//baseUrl: '/',
+	            packages: [{
+	                name: "icsMobile",
+	                location: "../../icsMobile"
+	            }, {
+	                name: "styles",
+	                location: "../../../styles"
+	            }]
+	        };
+        </script>
+		
+        <!--script type="text/javascript" src="../scripts/dojotoolkit/dojo/dojo.js"></script-->
+		<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/dojo.js"></script>
+		
+        <script type="text/javascript">    	
+			dojo.registerModulePath("dojo", "http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo");
+			dojo.registerModulePath("dijit", "http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dijit");
+			dojo.registerModulePath("dojox", "http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojox");
+
+            require(["dojo",
+			"dojox/mobile/parser", 
+			"dojox/mobile", 
+			"dojox/mobile/compat",
+			"dojox/mobile/FixedSplitter", 
+			"dojox/mobile/FixedSplitterPane",
+			"dojox/mobile/EdgeToEdgeDataList",
+			"dojox/mobile/Button",
+			"dojox/mobile/TabBar",
+			"dojox/mobile/ScrollableView",
+			"dojo/ready",
+			"icsMobile/widget/common/Button",
+			"icsMobile/core",
+			"icsMobile/config"], function(d, p, m, c, fs, fsp, eel, button, tabBar, sView, ready, button, core, config){
+					window.onorientationchange = detectIPadOrientation;   
+ 					function detectIPadOrientation () {   
+    					if ( orientation == 0 ) {  
+     						document.body.setAttribute("class","red");
+    					}  
+    					else if ( orientation == 90 ) {  
+     						document.body.setAttribute("class","blue");
+    					}  
+   						else if ( orientation == -90 ) {  
+     						document.body.setAttribute("class","black");
+    					}  
+    					else if ( orientation == 180 ) {  
+     						document.body.setAttribute("class","green"); 
+    					}  
+ 					}         
+				ready(function(){					
+					d.place(config.loadingIcon, config.ids.LOADING_ID);
+					core.init();
+				});
+			});
+        </script>
+    </body>
+</html>

@@ -1,0 +1,383 @@
+.nabPrint .printLayoutLabel {
+	display:inline-block; 
+	width:100px  ;	 
+}
+
+.nabPrint .printLayout {
+	display:inline-block; 
+	width:110px  ;
+	margin-top:0px;
+}
+
+.nabPrint .printCardLayout{
+	font-style: arial; 
+	width: 275px; 
+	height: 340px; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: gray; 
+	margin-top: 10px;
+}
+
+.nabPrint .printDetailsLayout{
+	float: left; 
+	border-style: solid;
+	font-family:sans-serif;
+	font-style: arial; 
+	font-size: 12px;
+	border-width: 1px;
+	border-color: gray; 
+	margin-top: 15px;
+}
+
+.nabPrint .detailsPrintLayout {
+	display:inline-block; 
+	width:110px;/*170px  ;*/
+	margin-top:0px;
+	white-space: nowrap;
+   text-overflow:ellipsis; /* for internet explorer */
+   -o-text-overflow:ellipsis;
+   overflow:hidden;
+   vertical-align:middle;
+}
+
+.nabPrint .printOtherValue {
+	display:inline-block; 
+	width:120px;/*170px  ;*/
+	margin-top:5px;
+	white-space: nowrap;
+ 	text-overflow:ellipsis; /* for internet explorer */
+  	-o-text-overflow:ellipsis;
+  	overflow:hidden;	
+}	
+.nabPrint .printOtherLabel {
+	/*width: 150px;*/
+	padding-bottom:5px;
+	width:110px; 
+	display:inline-block; 
+}
+.nabPrint .addressPrintLayout {
+	display:inline-block; 
+	width:160px  ;
+	vertical-align: top;
+}
+.nabPrint .iconSpacing {
+	padding-top:3px;
+}
+.nabPrint .phoneNumbersSpacing {
+	/*padding-bottom:4px;*/
+	margin: 10px 0px -1px -1px;/*5px;*/
+}
+.nabPrint .img {
+	float:right;
+	height:75px;
+	width:75px;
+	margin:0 10px;/*To adjust the position of image*/
+}
+
+.nabPrint .imgDetails {
+	margin:10px !important;/*To adjust the position of image*/
+}
+
+.nabPrint .addressPrintLayout1 {
+	display:inline-block; 
+	width:18px  ;
+	vertical-align: top;
+}
+
+.nabPrint .printLayoutSeparator {
+	margin:10px 10px 0;
+	border-top: 1px gray dashed;
+	/*padding-top: 10px;*/
+}
+
+.nabPrint .printLayoutPhoneSeparator {
+	margin:15px 10px 0px;;
+	border-top: 1px gray dashed;
+	width:250px;
+	/*padding-top: 10px;*/
+}
+.nabPrint .contactName {
+	/*color:#1D46A6;*/
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	margin:5px 0 3px 0;
+	white-space:nowrap;
+	padding-right:35px;
+	padding-left:10px;
+}
+.nabPrint .ellipsis {
+   white-space:nowrap;
+   text-overflow:ellipsis; /* for internet explorer */
+   -o-text-overflow:ellipsis;
+   overflow:hidden;
+   width:135px;/*200px;*/
+   display:block;
+   /*margin-top:0px;*/
+}
+
+.nabPrint .shortRows{
+	display:block;width:150px;margin:8px 0 2px 0;
+}
+
+.nabPrint .longRows{
+	display:block;width:230px;margin:0px 0 2px 0;
+}
+
+.nabPrint .jobTitle {
+	color:#666666;
+	display:block;
+	/*font-style:italic;*/
+	font-size:12px;
+	padding-left:10px;
+	margin:0 5px 8px 0;
+}
+
+.nabPrint .orgName {
+	color:#666666;
+	display:block;
+	/*font-style:italic;*/
+	font-size:12px;
+	margin:0 5px 30px 0;
+	padding-left:10px;
+}
+.nabPrint .printGroupDetails{
+	display:block;
+	vertical-align: top;
+	width: 160px;*width:142px;
+}
+.nabPrint .linkSpan {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0066CC;
+}
+
+.nabPrint .updatedDate{
+	float:right;display:block;font-size:11px;color:#999999;
+}
+
+.nabPrint .iceIcon{
+	background:url(../../../../styles/images/ics/nab/icons/ice.png);
+	background-repeat: no-repeat;
+	width:20px;
+	height:20px;
+	float:left;
+    margin-right:5px;
+}
+.nabPrint .mobile_syncIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:18px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+    background-position:-240px;
+}
+.nabPrint .starIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:20px;
+	float:left;
+    margin-right:5px;
+    background-position: -226px;
+}
+
+.nabPrint .vzwIcon{
+	display:none;
+}
+
+.nabPrint .vzwIcsIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -185px;
+	background-repeat: no-repeat;
+	width:20px;
+	height:20px;
+	float:left;
+    margin-right:5px;
+}
+
+.nabPrint .vzwIcsConnectedIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -185px;
+	background-repeat: no-repeat;
+	width:40px;
+	height:20px;
+	float:left;
+    margin-right:5px;
+}
+
+.nabPrint .cardIconLabel 
+{
+	display:block;
+	font-size:11px;
+	margin:5px 0 5px 0;
+	padding-left: 6px; 
+}
+.nabPrint .dividerLine
+{
+	width: 275px; 
+	border-bottom-style: dashed; 
+	border-width: 1px; 
+	border-color: gray; 
+	display:inline-block; 
+	margin-top: 2px;
+}
+
+.nabPrint .emptyIcon{
+	width:18px;/*15px;*/
+	height:11px;/*14px;*/
+    display:inline-block; 
+}
+
+.nabPrint .websitesDisplay{
+	padding-left:21px;
+	vertical-align: middle;
+	display:inline-block;
+	width: 190px;
+}
+
+.nabPrint .printFormHomeIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:11px;/*14px;*/
+    margin-right:5px;
+    float:left;
+    background-position: 0px;
+}	
+	
+.nabPrint .printFormMobileIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:11px;/*14px;*/
+    margin-right:5px;
+    float:left;
+    background-position: -18px;
+}
+
+.nabPrint .printFormBusinessIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:11px;/*14px;*/
+	float:left;
+    margin-right:5px;
+    background-position: -36px;
+}
+
+.nabPrint .printFormPersonalIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:11px;/*14px;*/
+    margin-right:5px;
+    float:left;
+	background-position: -54px;
+}
+
+.nabPrint .printFormOtherIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:11px;/*14px;*/
+	float:left;
+    margin-right:5px;
+    background-position: -72px;
+}
+
+.nabPrint .printFormImIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:11px;/*14px;*/
+	float:left;
+    margin-right:5px;
+    background-position: -90px;
+}
+
+.nabPrint .printFormWebsiteIcon{
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:12px;
+	float:left;
+    margin-right:5px;
+    background-position: -108px;
+}
+ 
+.nabPrint .printFormGroupsIcon{
+	 background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:1px;
+	height:11px;
+	float:left;
+    margin-right:5px;
+    background-position: -144px;
+    vertical-align: middle; margin-left: 3px; padding-left: 21px;
+}
+
+.nabPrint .printFormMobileGroupsIcon{
+	 background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:1px;
+	height:11px;
+	float:left;
+    margin-right:5px;
+    background-position: -165px;
+    vertical-align: middle; margin-left: 3px; padding-left: 21px;
+} 
+
+.nabPrint .printFormGoogleEndPoints  {
+	background:url(../../../images/ics/common/isp/endpoints.png);
+	background-repeat: no-repeat;
+	background-position: -20px;	
+	height: 20px;
+	width: 20px;
+}
+
+.nabPrint .printFormYahooEndPoints  {
+	background:url(../../../images/ics/common/isp/endpoints.png);
+	background-repeat: no-repeat;
+	background-position: -140px;	
+	height: 20px;
+	width: 20px;
+}
+
+.nabPrint .printFormAOLEndPoints  {
+	background:url(../../../images/ics/common/isp/endpoints.png);
+	background-repeat: no-repeat;
+	background-position: -60px;	
+	height: 20px;
+	width: 20px;
+}
+ 
+.nabPrint .printFormMSNEndPoints  {
+	background:url(../../../images/ics/common/isp/endpoints.png);
+	background-repeat: no-repeat;
+	background-position: -100px;	
+	height: 20px;
+	width: 20px;
+} 
+.nabPrint .printFormOUTLOOKEndPoints  {
+	background:url(../../../images/ics/common/isp/endpoints.png);
+	background-repeat: no-repeat;
+	background-position: -220px;	
+	height: 20px;
+	width: 20px;
+} 
+.nabPrint .printFormTBEndPoints  {
+	background:url(../../../images/ics/common/isp/endpoints.png);
+	background-repeat: no-repeat;
+	background-position: -260px;	
+	height: 23px;
+	width: 20px;
+}  
+ 
+ 
+ 
+ 
+ 
+ 

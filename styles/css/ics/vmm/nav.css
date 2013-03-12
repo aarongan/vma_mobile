@@ -1,0 +1,22 @@
+/*
+ * vmm navigation tabs
+ */
+#vmmTopTab_tablist .mediaMixerButton{
+    position: relative;
+    top: 1px;
+    left: 400px;
+}
+.dj_ie #vmmTopTab_tablist .mediaMixerButton{
+    top: 6px;
+}
+.dj_ie7 #vmmTopTab_tablist .mediaMixerButton{
+    top: 7px;
+}
+#vmmTopTab_tablist .mediaMixerButton span{
+    color: #666666;
+	line-height: 42px;
+	font-size: 12px;
+}
+.listViewButton.listSelected, .gridViewButton.gridSelected {
+	cursor: default;
+}

@@ -1,0 +1,36 @@
+{
+	numItems: 5,
+	items: [
+		{
+			signatureId: "1",
+			title: "Signature 1",
+			content: "Here is the <b>HTML</b> content of the Signature 1.",
+			isDefault: true
+		},
+		{
+			signatureId: "2",
+			title: "Signature 2",
+			content: "Here is the <b>HTML</b> content of the Signature 2.",
+			isDefault: false
+		},
+		{
+			signatureId: "3",
+			title: "Signature 3",
+			content: "Here is the <b>HTML</b> content of the Signature 3.",
+			isDefault: false
+		},
+		{
+			signatureId: "4",
+			title: "Signature 4",
+			content: "Here is the <b>HTML</b> content of the Signature 4.",
+			isDefault: false
+		},
+		{
+			signatureId: "5",
+			title: "Signature 5",
+			content: "Here is the <b>HTML</b> content of the Signature 5.",
+			isDefault: false
+		}
+
+	]
+}

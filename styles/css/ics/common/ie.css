@@ -1,0 +1,8 @@
+/*
+	this file contains some common styles for IE used for whole app
+*/
+/* remove redundant space for menu separator*/
+.dj_ie7 .dijitMenuSeparatorTop, .dj_ie7 .dijitMenuSeparatorBottom,
+.dj_ie6 .dijitMenuSeparatorTop, .dj_ie6 .dijitMenuSeparatorBottom  {
+	height:auto;
+}

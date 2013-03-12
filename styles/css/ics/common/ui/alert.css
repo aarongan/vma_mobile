@@ -1,0 +1,90 @@
+.pl div.icsError div.dijitDialogPaneContent{
+	border-top: 2px solid #FF0000;
+}
+
+.pl div.icsWarning div.dijitDialogPaneContent{
+	border-top: 2px solid #FFCC00;
+}
+
+.icsOverlay .icsUIMsg{
+	width: 450px;
+	margin: 0;
+}
+
+/*Changes made as per PSD*/
+.dj_ie7 .modal_content,
+.dj_ie7 .icsDialog{
+	width:435px;
+	
+}
+.dj_ie7 .icsDialogModal .modal_content{
+	width:auto;
+	
+}
+.icsDialog .icsUIMsg {
+	width: 410px !important;
+	height: auto !important;
+	padding:5px 10px 10px;
+}
+.icsDialogModal .icsUIMsg {
+	width: 450px !important;
+	height: auto !important;
+	/*padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;*/
+}
+
+.icsDialog.captureMediaDialog .icsUIMsg {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.icsDialog.captureMediaDialog .modal_content{
+	width:auto;
+}
+
+/* Added padding for Confirm Button as per PSD*/
+.icsDialog .confirmButtons{
+	padding:15px;
+	/*padding-right:7px;*/
+}
+/* 
+.confirmPane .confirmButtons{
+	padding:18px 17px 0;
+}
+*/
+.icsOverlay .icsPane,
+.icsDialog .icsPane {
+	width: 900px;
+	margin: 0;
+}
+/*
+.confirmPane .confirmButtons {
+	text-align: right;
+}
+.confirmPane .confirmButtonsImport {
+	float: right;
+}*/
+
+
+/*.confirmPane .confirmButtons{
+	margin-top: 5px;
+	padding-top:5px;
+	padding-right:10px;
+}*/
+
+.confirmPane .confirmButtons .icsButton,
+.modalPane .confirmButtons .icsButton {
+	margin-left: 8px;
+}
+
+.icsPromptError {
+	color: #FF0000;
+	background-color: #f9e9e9;
+	border: 1px solid #ff0000;
+	margin: 8px 0;
+	padding: 3px 3px 3px 35px;
+}
+.icsPrompt input {
+	float: right;
+}

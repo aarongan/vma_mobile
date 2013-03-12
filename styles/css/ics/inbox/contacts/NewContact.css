@@ -1,0 +1,151 @@
+.composerNewContact {
+	height: 140px;
+	width: 695px;
+	padding: 8px 0;
+	margin-top: 20px;
+	border-top: 1px dashed #d9d9d9;
+	position: relative;
+	overflow: none;
+}
+.composerNewContact label {
+	font-weight: bold;
+	margin-left: 3px;
+}
+.composerNewContact .name label {
+	display: block;
+}
+.composerNewContact.email .phone, .composerNewContact.sms .email {
+	display:none;
+}
+.composerNewContact .name,
+.composerNewContact .email,
+.composerNewContact .phone {
+	margin: 0 0 0 20px;
+	width: 400px;
+}
+
+.composerNewContact .name .dijitInline
+{
+	width: 14em;
+}
+
+.composerNewContact .email .dijitInline,
+.composerNewContact .phone .dijitInline
+{
+	width: 12em;
+}
+/*
+.composerNewContact .email .dijitInline .emailType,
+.composerNewContact .phone .dijitInline .phoneType{
+	width: 10em !important;
+	height: 22px;
+}
+*/
+.composerNewContact .email .dijitInline .emailType .dijitButtonText,
+.composerNewContact .phone .dijitInline .phoneType .dijitButtonText
+{
+	width: 9em;
+	text-align: left;
+	height: 20px;
+	
+}
+.composerNewContact .email .dijitInline .emailType .dijitButtonNode,
+.composerNewContact .phone .dijitInline .phoneType .dijitButtonNode
+{
+	background:url("../../../../images/ics/common/dropdown.png") no-repeat scroll 0 0 #FFFFFF;
+	border:none;
+	padding: 4px 3px 3px 2px;
+}
+.composerNewContact .email .dijitInline .emailType .dijitSelect .dijitButtonNode,
+.composerNewContact .phone .dijitInline .phoneType .dijitSelect .dijitButtonNode,
+.composerNewContact .email .dijitInline .emailType .dijitArrowButton,
+.composerNewContact .phone .dijitInline .phoneType .dijitArrowButton,
+.composerNewContact .email .dijitInline .emailType .dijitArrowButtonInner,
+.composerNewContact .phone .dijitInline .phoneType .dijitArrowButtonInner
+{
+	background:none;
+}
+.dj_ie .composerNewContact .email .dijitInline .emailType .dijitSelectLabel,
+.dj_ie .composerNewContact .phone .dijitInline .phoneType .dijitSelectLabel {
+	width: 9em;
+}
+
+.dj_ie .composerNewContact .email .dijitInline .dijitTextBox,
+.dj_ie .composerNewContact .phone .dijitInline .dijitTextBox {
+	margin-bottom: -0.2em;
+}
+.composerNewContact .email .dijitInline .dijitTextBox,
+.composerNewContact .phone .dijitInline .dijitTextBox {
+	height: 20px;
+}
+
+
+.composerNewContact .email .emailText .dijitTextBox {
+	width: 12em;
+	height: 20px;
+}
+
+.composerNewContact .name .dijitInline input {
+	width: 13em;
+	height: 20px;
+}
+
+.dj_ie .composerNewContact .email INPUT {
+	margin-bottom: 0.6em;
+}
+
+.composerNewContact .checkBox label {
+	margin: 0 0 0 5px;
+}
+.composerNewContact .photo {
+	float: right;
+	height: 130px;
+	width: 100px;
+	margin-right: 170px;
+	margin-top: 15px;
+}
+.composerNewContact .name,
+.composerNewContact .email,
+.composerNewContact .phone {
+	margin-bottom: 8px;
+}
+
+.contactsFormhomeIcon{
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/inbox/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: 0px;
+}
+
+.contactsFormmobileIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/inbox/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -18px;
+}
+
+.contactsFormbusinessIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/inbox/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -36px;
+}
+
+.contactsFormpersonalIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/inbox/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -54px;
+}
+
+.contactsFormotherIcon  {
+	width: 18px;
+	height: 14px;
+	background: transparent  url(../../../../images/ics/inbox/formSmSprite.png) no-repeat;
+	display: inline-block;
+	background-position: -72px;
+}

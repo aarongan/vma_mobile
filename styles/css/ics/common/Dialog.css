@@ -1,0 +1,590 @@
+.pl .dijitDialog {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+.pl .modal.abookDialog{
+	width: 765px;
+}
+
+.pl .dijitDialog.icsDialog.connectRequest{
+    width: 452px;
+}
+
+.pl .dijitDialog.icsDialog.connectRequest .dijitDialogTitle {
+    width: 88%;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+.pl .dijitDialog.icsDialog.connectRequest .dijitDialogCloseIcon {
+    width: 8%;
+}
+
+.pl .dijitDialogUnderlay {
+    background-color: #DFDFDF;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.tundra .icsOverlay.dijitDialog {
+	-webkit-border-radius: 8px;
+}
+/* 
+ * unfortunately we have to repeat all these rules from layout.css to make small 
+ * changes for IE to work 
+ */
+.pl .dijitDialog div.icsTitleBar {
+    padding: 0;
+    margin: 0;
+    font: bold 13px / 20px arial, sans-serif; /* Increased the TitleBar size as per PSD*/
+}
+.dj_ie .pl .dijitDialog div.icsTitleBar {/* Increased the TitleBar line height in IE as per PSD*/
+    line-height:20px;
+}
+
+.pl .dijitDialog div.rounded, 
+.pl .dijitDialog div.rounded span {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pl .dijitDialog div.rounded {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0 0 0 10px;
+}
+
+.pl .dijitDialog div.rounded span {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 0 10px 0 0;
+}
+
+.pl .dijitDialog div.rounded span span {
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-position: left top;
+    padding: 3px 0 3px 0;
+}
+
+.pl .dijitDialog div.gray_gif {
+    background-image: url(../../../images/vzw/headers/gif/gray_left.gif);
+}
+
+.pl .dijitDialog div.gray_gif span {
+    background-image: url(../../../images/vzw/headers/gif/gray_right.gif);
+}
+
+.pl .dijitDialog div.gray_gif span span {
+    background-image: url(../../../images/vzw/headers/gif/gray_1px.gif);
+    background-color: #ccc;
+    color: #000;
+}
+
+.pl .dijitDialog div.gray_gif span span span {
+    display: block;
+    background: transparent;
+    padding: 0;
+    font-size:13px;/* Increased the font size as per PSD*/
+}
+
+.pl .dijitDialog div.gray_gif a.close {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+	position: absolute;
+	right: 4px;
+}
+
+.pl .dijitDialog div.gray_gif a.close:visited {
+    color: #0066CC;
+}
+
+
+
+div.icsBottomCap {
+    padding-left: 10px;
+    background: url(../../../images/vzw/content_containers/png/bottom_left.png) transparent no-repeat left;
+}
+
+div.icsBottomCap div {
+    padding-right: 10px;
+    background: url(../../../images/vzw/content_containers/png/bottom_right.png) transparent no-repeat right;
+}
+
+div.icsBottomCap div div {
+    line-height: 10px;
+    background: url(../../../images/vzw/content_containers/png/bottom_1px.png) repeat-x;
+}
+
+div.icsTopCap {
+    padding-left: 10px;
+    background: url(../../../images/vzw/content_containers/png/top_left.png) transparent no-repeat left;
+}
+
+div.icsTopCap div {
+    padding-right: 10px;
+    background: url(../../../images/vzw/content_containers/png/top_right.png) transparent no-repeat right;
+}
+
+div.icsTopCap div div {
+    line-height: 10px;
+    background: url(../../../images/vzw/content_containers/png/top_1px.png) repeat-x;
+}
+.dj_ie7 .dijitDialog.showImageDialog .modal_content,
+.dj_ie7 .dijitDialog.showImageDialog{
+	width:auto;
+	
+}
+.dijitDialog.showImageDialog .title_bar/*.dijitDialogTitleBar*/{
+	display:none;
+}
+.dijitDialog.showImageDialog .modal_content/*.dijitDialogPaneContent*/{
+	padding:0px;
+	background:transparent;
+}
+.dijitDialog.showImageDialog .dialogImageDiv{
+	position:relative;
+	height:550px;
+	width:830px;
+	border: 3px solid #3b3b3b;
+}
+.dijitDialog.showImageDialog .dialogVideoDiv{
+	position:relative;
+	width:830px;
+	height:550px;
+	background-color: #000;
+}
+.dijitDialog.showImageDialog .imgViewerPrev{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -12px -355px scroll;
+	position: absolute;
+	width: 55px;
+	height: 390px;
+	top: 70px;
+	cursor: pointer;
+}
+.dijitDialog.showImageDialog .disable{
+	display: none !important;
+}
+.dijitDialog.showImageDialog .imgViewerPrev:hover{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -74px -355px scroll;
+}
+.dijitDialog.showImageDialog .imgViewerNext{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -128px -355px scroll;
+	position: absolute;
+	width: 55px;
+	height: 390px;
+	top: 70px;
+	right: 0px;
+	cursor: pointer;
+}
+.dijitDialog.showImageDialog .imgViewerNext:hover{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -190px -355px scroll;
+}
+.dijitDialog.showImageDialog .imgViewerToolbar{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -539px -326px scroll;
+	width:250px;
+	position:absolute;
+	height:45px;
+	top: 460px;
+	left: 290px;
+}
+.dijitDialog.showImageDialog .imgViewerToolbar div{
+	top: 5px;
+	width: 24px;
+	height: 29px;
+	float:left;		
+	position:relative;		
+	cursor: pointer;	
+}
+
+.imgViewerToolbar .sendEmailButton{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -522px -236px scroll;
+	left:25px;	
+}
+.imgViewerToolbar .sendTextButton{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -218px -315px scroll;
+	left:43px;	
+}
+.imgViewerToolbar .editButton{	
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -435px -236px scroll;
+	left:60px;	
+}
+.imgViewerToolbar .saveButton{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -342px -320px scroll;
+	left:79px;	
+}
+.imgViewerToolbar .detailButton{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -219px -285px scroll;
+	left:101px;	
+}
+.imgViewerToolbar .imageButton{
+	background: transparent url(../../../images/ics/BUAPSprites.png) no-repeat -486px -311px scroll;
+	left:101px;	
+}
+.dijitDialog.showImageDialog .dialogVideoDiv2{
+	background-color: #000000;
+    height: 250px;
+	position:relative;
+    width: 500px;
+}
+.dijitDialog.showImageDialog .msgDiv{
+	height:15px;
+    left:265px;
+    position:absolute;
+    top:255px;
+    width:300px;
+}
+.dijitDialog.showImageDialog .msgDiv.dijitProgressBar{
+	margin:0;
+}
+.glassPanel{
+	position:absolute;
+	top:0;
+	left:0;
+	height:525px;
+	width:830px;
+	background-color:#000;
+	opacity:0.75;
+	filter:alpha(opacity=75);
+}
+#detailedInfo{
+	height:300px; /* 400 */
+    margin:50px 100px;
+    width:530px; /* 630 */
+	background-color:black;
+	color: #FFFFFF;
+	position: absolute;
+	padding:50px;
+}
+.dijitDialog.showImageDialog .dialogImage{
+	position:absolute;
+	max-width:800px;
+	min-width:150px;
+}
+.dijitDialog.showImageDialog .dialogVideo{
+	text-align: center;
+	vertical-align: middle;
+}
+.dijitDialog.showImageDialog .dialogVideo2{
+	position: relative;
+    text-align: center;
+    top: 100px;
+    vertical-align: middle;
+}
+.dijitDialog.showImageDialog .dialogImageBottm{  
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color:#5f5f7d;
+   height:25px;
+}
+.dijitDialog.showImageDialog .dialogVideoBottm{  
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height:90px;
+   color:#FFFFFF;
+}
+.dj_ie .dijitDialog.showImageDialog .dialogImageBottm {
+       /*background-color:#000;
+       filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000050,endColorstr=#99000050);*/
+       zoom: 1;
+}
+.dijitDialog.showImageDialog .dialogImageBottm .viewFileName,
+.dijitDialog.showImageDialog .dialogVideoBottm .playFileName{
+	color:white;
+	margin-left:5px;
+	margin-top:5px;
+	width:75%;
+}
+.dijitDialog.showImageDialog .dialogImageBottm .viewFileSize{
+	color:white;
+	margin-right:5px;
+	margin-top:5px;
+}
+.dijitDialog.showImageDialog .dialogVideoBottm .playFileSize{
+	margin-right:5px;
+	margin-top:5px;
+	text-align:right;
+	color:white;
+}
+.dijitDialog.showImageDialog .dialogImageBottm .imageSaveButton{
+	margin-top:2px;
+	margin-right:5px;
+	text-decoration:none;
+}
+.dijitDialog.showImageDialog .imageHideIcon {
+ 	background: url(../../../images/ics/inbox/cancel.png) transparent no-repeat;
+ 	background-position: -20px 0;
+ 	position:absolute;
+ 	top:0px;
+ 	right:0px;
+ 	height:15px;
+ 	width:14px;
+ 	cursor:pointer;
+}
+.dijitDialog .icsTransparentCloseIcon{
+	background:none;
+}
+
+.dijitDialog .dijitDialogPaneContent .icsStorageLimitDialog{
+	width: 450px;
+	height: 200px;
+}
+.dijitDialog .dijitDialogPaneContent .storageDialog{
+	width: 300px;
+	height: 350px;
+}
+
+.dj_ie .dijitDialog .dijitDialogPaneContent .icsStorageLimitDialog{
+	width: 450px;
+	height: 215px;
+}
+
+.icsDialog div.cc_content{
+	padding-bottom: 2px !important;
+}
+
+.attachLink .myMedia,
+.attachLink .myLocal{
+	border: 1px solid grey;
+	color: black;
+	font-size: 11px;
+	cursor: pointer;
+	font-weight: bold;
+	width: 196px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+	margin: 5px 0 0 8px;
+}
+
+.attachLink .myMedia:hover,
+.attachLink .myLocal:hover { 
+	background-image:url(../../../images/vzwrga/buttons/gif/red_1px.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:top left;
+	color: white;
+}
+
+.attachLink .image {
+	background: url("../../../images/ics/InboxSprites.png") no-repeat scroll 0 0 transparent;
+	width:48px;
+	height: 40px; 
+	margin-right: 10px;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}
+
+.attachLink .image.media{
+	background-position: -715px -10px;
+}
+
+.attachLink .image.local{
+	background-position: -775px -10px;
+}
+
+.attachLink .myLocal .uploaderInsideNode{
+	position: absolute !important;
+}
+
+.attachLink .myLocal .uploaderInsideNode embed,
+.attachLink .myLocal .uploaderInsideNode object{
+	opacity: 0;
+	filter:alpha(opacity=0);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.attachLink .myLocal .progText{
+	width: 200px !important;
+}
+.icsDialog div.cc_content .myMedia,
+.icsDialog div.cc_content .myLocal{
+	border: 1px solid grey;
+	color: black;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: bold;
+	width: 270px;
+	height: 40px;
+	position: relative;
+}
+.icsDialog div.cc_content .image,
+.attachLink .image {
+	background: url("../../../images/ics/InboxSprites.png") no-repeat scroll 0 0 transparent;
+	width:48px;
+	height: 40px; 
+	margin-right: 10px;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}
+.icsDialog div.cc_content .image.media,
+.attachLink .image.media{
+	background-position: -715px -10px;
+}
+.icsDialog div.cc_content .image.local,
+.attachLink .image.local{
+	background-position: -775px -10px;
+}
+.icsDialog div.cc_content .myLocal .uploaderInsideNode{
+	position: absolute !important;
+}
+.icsDialog div.cc_content .myLocal .uploaderInsideNode embed{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.icsDialog div.cc_content .myMedia .label{
+	position: absolute;
+	left: 74px;
+	top: 12px;
+}
+.icsDialog div.cc_content .myLocal .label{
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+.icsDialog div.cc_content .myLocal .progBar{
+	left: 75px !important;
+	top: -1px !important;
+}
+.icsDialog div.cc_content .myLocal .progText{
+	width: 200px !important;
+}
+
+.icsDialog.mmsEditor.addCaptionDialog .dijitTextArea{
+	width: 100%;
+}
+.dijitDialogUnderlay.block_underlay{
+	-moz-opacity:0.3;
+	filter:alpha(opacity=30);
+	opacity:0.3;
+}
+
+#ics-app-common-ui-playVideo, #ics-app-common-ui-viewImage {
+	-moz-box-shadow: 20px 20px 20px #181818;
+	-webkit-box-shadow: 20px 20px 20px #181818;
+	box-shadow: 20px 20px 20px #181818;
+}
+.dj_ie #ics-app-common-ui-viewImage, .dj_ie #ics-app-common-ui-playVideo{
+	overflow: visible;
+}
+.dj_ie #ics-app-common-ui-viewImage .dialogImageBottm{
+	background-color: #5f5f7d;
+}
+.dj_ie #ics-app-common-ui-viewImage .modal_content/*.dijitDialogPaneContent*/{
+	background-color: #000000;
+    zoom: 1;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#181818',direction='135',strength='20') alpha(opacity=75);
+    border: none;
+}
+.dj_ie #ics-app-common-ui-playVideo .modal_content/*.dijitDialogPaneContent*/{
+	background-color: #000000;
+    zoom: 1;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#181818',direction='135',strength='20');
+    border: none;
+}
+.dj_ie #ics-app-common-ui-viewImage .glassPanel{
+	filter:alpha(opacity=0);
+}
+#ics-app-common-ui-playVideo_underlay {
+	background-color:#000;
+	filter:alpha(opacity=75);
+	opacity:0.75;
+}
+#ics-app-common-ui-playVideo .modal_content/*.dijitDialogPaneContent*/{
+	border:3px solid #000;
+}
+.fileInfo_name{
+	font-weight: bold;
+    text-align: center;
+	padding: 2px;
+	border-top: 1px dotted;
+}
+.fileInfo_row{
+	padding: 0px;
+}
+.fileInfo_details{
+	padding: 0px;
+	font-size: 10px;
+	border-top: 1px dotted;
+}
+.fileInfo_left,
+.fileInfo_right{
+    width: 45%;
+	padding: 2px 10px;
+}
+.fileInfo_width{
+	width: 280px;
+	text-align: right;
+}
+.imgFileInfo_name{
+	font-weight: bold;
+    text-align: center;
+	padding: 10px;
+	border-top: 1px dotted;
+}
+.imgFileInfo_details{
+	padding: 12px;
+	border-top: 1px dotted;
+}
+.imgFileInfo_row{
+	height: 25px;
+}
+.imgFileInfo_width{
+	width: 370px;
+	text-align: right;
+}
+.dialogVideo{
+	padding: 15px;	
+}
+.mediaPreviewCover{
+	height: 380px;
+	background: url("../../../images/ics/vmm/video_bgoverlay.png") no-repeat scroll top center transparent;
+}
+.dialogVideo .mediaPreviewCover.loadmedia{
+	background: url("../../../images/ics/vmm/blank_bgoverlay.png") no-repeat scroll top center transparent;
+}
+.dialogVideo img{
+	position: absolute;
+	top: 210px;
+	left: 394px;
+}
+.dialogVideo .spaceWrapper{
+	height: 157px;
+}
+.dialogVideo .playmedia.video{
+	height: 0px;
+}
+.dialogVideo .inVisible{
+	visibility:hidden;
+}
+.dialogVideo .errAlert{
+	color: #AEA348;
+    font-size: 20px;
+    line-height: 400px;
+}
+.outHidden{
+	position:relative !important;
+	top:-6000px;
+}

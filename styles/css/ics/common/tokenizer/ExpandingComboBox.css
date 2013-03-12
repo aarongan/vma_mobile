@@ -1,0 +1,44 @@
+.ExpandingComboBox {
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+	#zoom:1;
+	#display:inline;
+	#vertical-align:auto;
+	border:0;
+	padding:0;
+	overflow:hidden;
+	line-height:normal;
+	cursor:text;
+}
+
+.ExpandingComboBox * {
+    cursor: text;
+}
+
+.ExpandingComboBox input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	background: transparent;
+}
+
+html .tundra .ExpandingComboBox{
+	width: auto;
+	border: none;
+	background: transparent;
+}
+
+.ExpandingComboBox .dijitValidationIcon, .ExpandingComboBox .dijitDownArrowButton{
+	display: none;
+}
+
+.ExpandingComboBox input:focus {
+    outline: 0;
+}
+
+.dj_ie6 .ExpandingComboBox {
+    vertical-align: auto;
+}

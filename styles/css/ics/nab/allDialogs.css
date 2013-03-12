@@ -1,0 +1,872 @@
+/*This file has all css related to NAB Dialogs*/
+
+/*These are for import contacts dialog*/
+.fileSelect label {
+	display: block;
+	font-weight: bold;
+	padding-left:2px;
+}
+
+.fileSelect .fileText {
+	margin-right:10px;
+	width:175px;
+}
+
+.fileSelect .button {
+	vertical-align: top;
+}
+
+.fileSelect .confirmButtons{
+	padding:10px;
+}
+
+.fileSelect .buttonText {
+	margin-top: 2px;
+	width: 64px !important;
+	height: 18px !important;
+}
+.fileSelect .labelFileName{
+	padding-top:5px;
+	margin-left: 20px;
+    margin-bottom: 20px;    
+}
+.fileSelect .fileTypeDiv{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.dj_ie .fileSelect .labelFileName{
+	padding-top:0px;
+}
+.dj_ie .fileSelect .fileSelectMsg{
+	margin-top:5px;
+}
+.fileSelect .bulletIcon {
+	font-weight: bold; 
+	font-size: 25px;
+	margin-left: -19px;
+	color: #0000FF;
+}
+.fileSelect .alignBullet {
+	margin: 0px 10px 10px 25px;
+}
+.dj_ie .fileSelect .vcfText, 
+.dj_ie .fileSelect .icsCSVText {
+	line-height:18px;
+}
+.dj_ie .fileSelect .outlookCSVLine {
+	padding-bottom:5px;
+}
+.fileSelect .fileTypeMenu {
+	width:180px;
+}
+.fileSelect .titleText{
+	font-weight: bold;
+   	margin: 10px 0 10px 10px;
+}
+.fileSelect.nabImport{
+	text-align: left;
+}
+.icsButton.fileSelector{
+	float: right;
+	margin-right: 55px;
+}
+.icsButton.fileSelector span{
+	border-top: 1px solid #EEEEEE !important;
+}
+.icsButton.fileSelector .uploaderInsideNode{
+	padding: 0px !important;
+}
+.fileSelect .tipDiv{
+	background-image: url(../../../images/vzwrga/random/question.gif);
+    float: right;
+    height: 14px;
+    margin-top: 2px;
+    margin-left:5px;
+    width: 14px;
+}
+.fileSelect .vcf{
+	margin-right: 230px;
+}
+
+.fileNameCls{
+	font-size: 11px;
+	margin-right:4px
+}
+
+.solidGrayLine{
+	width: 600px;
+    border-color: #D9D9D9;
+    border-style: none none solid;
+    border-width: 1px;
+}
+
+
+.fileSelect .outlook{
+	margin-right: 233px;	
+}
+.fileSelect .csv{
+	margin-right: 240px;	
+}
+
+.dj_ie .fileSelect .vcf{margin-top: -12px;}
+.dj_ie .fileSelect .outlook{margin-top: -15px;}
+.dj_ie .fileSelect .csv{margin-top: -12px;}
+.dj_ie .icsButton.fileSelector{margin-top: -2px;}
+
+.uploadHover, .uploadActive, .uploadDisabled {
+	background: transparent;
+}
+
+.nabImport .dijitArrowButtonInner {
+	background:url("../../../images/ics/common/dropDownButtonArrow.png") no-repeat scroll right center transparent;
+	height:7px;
+	width:11px;
+}
+
+.nabImport .dijitSelect .dijitButtonNode {
+	text-align: left;
+	background: #F4F4F4 url("../../../images/ics/common/dropDownButtonBg.png") repeat-x bottom left;
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+	padding: 1px;	
+}
+
+.nabImport .dijitSelect .dijitButtonContents {
+	padding: 2px;
+	 border-color: #d5d5d5 #bdbdbd #bdbdbd #d5d5d5;
+}
+/* To specify the width of Dialog box for NAB as per PSD*/
+.icsNABDialogUI{
+	width:310px !important;
+	height:auto !important;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.icsNABDialogUI .confirmButtons{
+	padding-top:5px;
+}
+
+/*These are for Mobile Group Error Messages*/
+.mobileGrpDialogUI{
+	padding-top: 9px !important;
+	padding-bottom: 4px !important;
+}
+.mobileGrpDialogUI .confirmButtons{
+	padding:2px 0px 0px !important;
+}
+
+/*These are for export contacts dialog*/
+.exportPane {
+	width:270px;
+	margin-top: 5px;
+	padding-left: 3px;
+	padding-right:6px;
+}
+.exportPane .confirmButtons{
+	padding:10px 5px 5px;
+}
+.exportPane .confirmButtons span.red span span{
+	padding:0;
+}
+.exportPane label {
+	display: block;
+	font-weight: bold;
+	padding-left:2px;
+}
+.exportPane .dijitArrowButtonInner {
+	background:url("../../../images/ics/common/dropDownButtonArrow.png") no-repeat scroll right center transparent;
+	height:7px;
+	width:11px;
+}
+.exportPane .dijitSelect .dijitButtonNode {
+	text-align: left;
+	background: #F4F4F4 url("../../../images/ics/common/dropDownButtonBg.png") repeat-x bottom left;
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+	padding: 1px;	
+}
+.exportPane .dijitButtonText {
+	padding: 1px 45px 2px 10px;
+}
+
+/*These are for add people dialog*/
+.addPeopleRow {
+	padding: 3px 0;
+	border-left: 1px solid #b2b2b2;
+	/*border-bottom: 1px solid #b2b2b2;*/
+}
+.dj_ie7 .addPeopleRow{
+	border-left:none;
+	/*border-bottom: 1px solid #b2b2b2;*/
+}
+.addpBody {
+ 	/*height: 39px;*/	
+}
+.addPeopleRow .icon {
+	width: 25px;/*30px;*/
+	height: 25px;/*30px;*/
+	/*margin: 7px 12px 0px 35px;*/
+	margin:5px 15px 0 40px;	
+}
+.addPeopleContactsItem {
+	border-bottom: 1px solid #b2b2b2;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.addPeopleRow .details {
+	margin: 0 0 0 20px;
+}
+.addPeopleRow .body,
+.addPeopleRow .details {
+	width: 145px;
+	vertical-align: top;
+}
+.addPeopleRow div.dijitCheckBox {
+	padding: 0 0 8px;
+	margin: 0 8px;
+}
+
+.addPeopleList {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	white-space: nowrap;
+	height: 400px;
+	width: 450px;
+}
+
+.addPeoplePane {
+	text-align: left;
+	white-space: nowrap;
+	margin-bottom:-15px;
+}
+
+.dj_ie .addPeoplePane {
+	margin-bottom:-30px;
+}
+
+.addPeoplePane .listWrapper,
+.addPeoplePane .header {
+	border: 1px solid #b2b2b2;
+}
+.addPeoplePane .header {
+	background: transparent url('../../../images/vzw/content_containers/png/gradient.png') repeat-x scroll bottom left;
+	padding: 4px;
+}
+.addPeoplePane .leftPane {
+	width: 430px;/*500px;*/
+}
+.addPeoplePane .rightPane {
+	vertical-align: top;
+	padding-left: 15px; /*20px;*/
+	width: 255px;
+	margin: 6px 0 0;
+}
+.dj_ie .addPeoplePane .rightPane {
+	padding-left: 17px;
+}
+.addPeoplePane .rightPane label {
+	display: block;
+	font-weight: bold;
+	padding-bottom:3px;
+}
+.addPeoplePane .rightPane .TokenizedTextBox{
+	white-space: normal;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 268px;
+}
+.addPeoplePane .rightPane .tokenizer .TokenizedTextBox {
+	height: 160px;
+	padding-top:3px;
+}
+
+.addPeoplePane .rightPane .tokenizer{
+	
+}
+.addPeoplePane .filters {
+	margin: 7px 0 8px 0;
+}
+
+.addPeoplePane .sort {
+	width: 165px;/*185px;*/
+}
+
+.addPeopleRow .line1,
+.addPeopleRow .line2,
+.addPeopleRow .email,
+.addPeopleRow .phone {
+	width: 150px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+	font-size:11px;
+	padding-bottom:3px;
+}
+.addPeopleRow .line1 {
+	font-weight: bold;
+}
+.addPeopleRow .line1,
+.addPeopleRow .email{
+	padding:3px 0px 0px !important;
+}
+
+.dj_ie7 .addPeopleRow .radio{
+	padding-bottom: 10px;
+	padding-left: 3px;
+}
+
+.dj_ie7 .addPeopleRow .checkBox{
+	padding-bottom: 5px;
+}
+
+/*.dj_ie7 .addPeoplePane .filters {
+	margin: 10px 0 0; 
+}*/
+
+.addPeoplePane .rightPane .red span{
+	width: 35px; 
+	text-align: center;
+}
+
+.contactsRow .addPeopleCheckBox.select {
+    left: 5px;
+    
+}
+
+.addpeopleImage.img  {
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.vspSelected .addPeopleCheckBox.select {
+   background:url(../../../images/ics/nab/icons/checkmark.png);
+	background-position:0px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 6px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:10px;/*15px;*/
+}
+
+ .addPeopleCheckBox.select {
+   	background:url(../../../images/ics/nab/icons/checkmark.png);
+	background-position:-79px 50%;
+	background-repeat:no-repeat;
+	height:16px;
+	margin:0 2px 0 6px;
+	padding:0;
+	width:16px;
+	position:absolute;
+	top:10px;/*15px;*/
+}
+.dj_ie .addPeoplePane .dijitButtonNode {
+    background: #F4F4F4 url("../../../images/ics/common/dropDownButtonBg.png") repeat-x bottom left;
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+    height:90%;
+    padding:0;
+}
+
+.addPeoplePane .dijitArrowButtonInner {
+	background:url("../../../images/ics/common/dropDownButtonArrow.png") no-repeat scroll right center transparent;
+	height:7px;
+	width:11px;
+}
+.addPeoplePane .groups .dijitButtonText {
+	padding: 0px 45px 0px 0px;
+}
+.dj_ie .addPeoplePane .groups .dijitButtonText {
+	padding: 0px 55px 0px 2px;
+	font-size:12px;
+}
+
+.addPeoplePane .sort .dijitButtonText {
+	padding: 0px 25px 0px 2px;
+}
+.addPeoplePane .dijitSelect .dijitButtonNode {
+	text-align: left;
+	background: #F4F4F4 url("../../../images/ics/common/dropDownButtonBg.png") repeat-x bottom left;
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+	padding: 1px;	
+}
+
+.addPeoplePane .dijitSelect .dijitButtonContents {
+	padding: 2px;
+	 border-color: #d5d5d5 #bdbdbd #bdbdbd #d5d5d5;
+}
+/*addPeoplePane dialog width changes*/
+.addPeopleDialog, .addPeopleDialog .modal_content{
+	width:745px !important;
+}
+
+.addPeopleDialogContent .confirmButtons {
+	position: relative;
+	top: -10px;
+	padding:0px;
+	margin:0 -15px;
+}
+.dj_ie .addPeopleDialogContent .confirmButtons {
+	top: 7px;
+	margin:0 0px;
+}
+.addPeopleDialogContent {
+	padding: 0px 25px 0px 10px;
+	width: 705px !important; height: 464px !important;
+}
+.dj_ie .addPeopleDialogContent {
+	padding: 0px 5px 0px 10px;
+	width: 725px !important;
+}
+
+/*These are for Connect Buddy dialog*/
+.buddyMainDiv{	
+}
+.buddyMainDiv .connectionDialogSyncConnect{
+	background:url(../../../images/ics/nab/icons/syncConnect.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 115px; 
+	height: 120px; 
+	/*margin-top: 20px;*/
+}
+.buddyMainDiv .buddyMessageImage{
+	background:url(../../../images/ics/nab/icons/red_x.png);	
+	opacity:1;
+	width:11px;
+	height:11px;
+	float:left;
+}
+.buddyMainDiv .buddyMessageBackground{
+	background-color:#ffe5e5;
+	height:30px;
+	margin-top:8px;
+	padding-left:5px;	
+	width:280px;
+}
+.buddyMainDiv .buddyMessage{
+	margin-left:5px;	
+}
+
+.buddyMainDiv .divider{
+	padding-top:5px;	
+	border-bottom: 1px dashed #C8C8C8;
+	display:inline-block;
+	width:290px;
+}
+
+.buddyMainDiv .connectDetails{
+	height:145px; 
+	padding-left:12px;
+	padding-top:2px;
+}
+
+.buddyMainDiv .toMain{
+	width:180px; text-align:left; float:left;height:50px;
+}
+.buddyMainDiv .toDiv{
+	font-weight:bold;padding-top:4px;
+}
+.buddyMainDiv .phoneNumberNode{
+	width: 100px; float: left; margin-right: 12px;
+}
+.buddyMainDiv .fromMain{
+	width:250px; text-align:left; float:left;
+}
+.buddyMainDiv .userImgNode{
+	float:left; width:50px; height:50px
+}
+.buddyMainDiv .pendingMessage{
+	text-align:left;
+	float:left;
+	width:280px;
+	font-size:13px;
+	padding-top:4px;
+}
+.buddyMainDiv .nabMessageDiv{
+	padding-top:2px;
+	padding-bottom:12px;
+	padding-left:12px;
+	text-align:left;
+}
+
+.buddyMainDiv .contactNumber{
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.buddyMainDiv .connectInfo{
+	padding-bottom:15px;
+	text-align:left;
+	padding-left:5px;
+	padding-right:12px;
+}
+
+.buddyMainDiv .nameAddressDisplay{
+	float:left; height:50px; margin-left:10px;
+}
+
+.buddyMainDiv .messageDiv{
+	padding-bottom:15px;
+	padding-left:10px;
+	/*padding-right:10px;*/
+	text-align:left;
+	font-size:13px;
+}
+.buddyMainDiv .button span.red span span{
+	padding:0;
+}
+.clsLink{
+	background:transparent url(../../../images/ics/nab/buttons/close.png) no-repeat top right;
+	padding:0 17px 0 0 !important;
+	position:relative;
+	right:0px;
+	line-height:15px;
+	color:#0066CC;
+	/*text-decoration:underline;*/
+}
+
+/*These are for de-dupes dialog*/
+.deDupMain{
+	width: 435px;
+	height: 100px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.deDupHeading {
+	font-weight: bold;
+	display: inline-block;
+	width: 170px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	-o-text-overflow:ellipsis;
+}
+
+.dupesText{
+	height: 20px;
+	text-align:left;
+}
+
+.acceptAndSavedDupesMain{
+	width:765px; 
+	height:400px; 
+	margin-left:10px; 
+	margin-right:10px; 
+	margin-top:10px;
+}
+
+.acceptAndSavedDupesMain .dupeNamesNode{
+	height:300px; 
+	width:300px; 
+	padding-left:10px; 
+	padding-top:10px;
+	border:1px solid lightgrey; 
+	overflow:auto;
+}
+
+.acceptAndSavedDupesMain .deDupeNameText{
+	height:18px;
+	text-align:left;
+	overflow:hidden;
+}
+
+.deDupeSelections{
+	width:760px; 
+	height:410px; 
+	margin-left:10px; 
+	margin-right:10px; 
+	margin-top:10px;
+}
+
+.deDupeSelections .deDupeSelectionsLeftMain{
+	height: 370px; 
+	width:420px; 
+	float:left;
+}
+
+.deDupeSelections .deDupeSelectionsRightMain{
+	height: 370px; 
+	width:200px; 
+	float:right;
+}
+
+.deDupeSelections .deDupeSelectionsLeftNode{
+	height: 345px; 
+	width:490px; 
+	border: 1px solid lightgrey; 
+	overflow-x:auto; 
+	overflow-y:auto; 
+	margin-top:5px;
+}
+
+.deDupeSelections .deDupeSelectionsRightNode{
+	height: 345px; 
+	border: 1px solid lightgrey; 
+	overflow-y:auto; 
+	overflow-x:hidden; 
+	margin-top:5px;
+}
+
+.deDupeSelections .deDupSubHeading {
+	color: #666666;
+	display: block;
+	width: 140px;
+	overflow: hidden;
+}
+
+.deDupeSelections .deDupSectionHeading {
+	font-weight: bold;
+	display: block;
+}
+
+.deDupeSelections .deDupLabel {
+	float: left;	
+}
+
+.deDupeSelections .deDupValue {
+	float: left;	
+	width: 140px;
+	overflow: hidden;
+	padding-bottom:5px;
+}
+
+.deDupeSelections .deDupContent {
+	height:20px;
+}
+
+.deDupeSelections .deDupContentAddress {
+	overflow: hidden; 
+	/*height: 40px !important;*/
+	width: 180px; 
+	padding-bottom: 5px;
+}
+
+.deDupeSelections .deDupSection{
+	margin-top: 10px !important; 
+	margin-left: 10px !important;
+}
+
+.deDupeSelections .deDupIcon{
+	height:25px;
+	width:20px;
+	float:left;
+}
+
+.deDupeSelections .deDupeColumn{
+	border: 1px solid lightgrey; 
+	float: left; 
+	width: 200px;
+}
+
+
+/*These are for AutoComplete Box*/
+.autoComplete {
+   cursor: text;
+}
+
+.autoComplete .tokenInner {
+    display: inline-block;
+    position: relative;
+}
+
+.autoComplete .tokenCloseButton {
+    cursor: pointer;
+    margin-left: 0.5em;
+    height: 100%;
+    #zoom:1;
+	vertical-align:auto;
+}
+
+.autoComplete .tokenContent {
+    white-space: pre;
+    height: 1.2em;
+}
+
+.autoComplete  .tokenContent, .autoComplete  .tokenCloseButton, .autoComplete  .tokenLabel {
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;   
+    #display:inline; 
+}
+
+.autoComplete  .tokenContent, .autoComplete  .tokenLabel{
+    vertical-align: top;    
+}
+
+.dj_webkit .autoComplete  .tokenContent, .dj_webkit .autoComplete  .tokenCloseButton, .dj_webkit .autoComplete  .tokenLabel {
+    vertical-align: text-top;
+}
+
+.autoComplete  .tokenCloseButton {
+    background-color: transparent;
+    background-image: url('../../../images/ics/common/cancelSmall.png');
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    width: 15px;
+}
+
+.autoComplete  .tokenLabel {
+    min-height: 12px;
+}
+
+.autoComplete .tokenInner {
+    background-color: #e2e2e2;
+    /*background-image: url('../../../../scripts/dojotoolkit/dijit/themes/tundra/images/tabEnabled.png');*/
+    background-image: url("../../../images/ics/common/dropDownButtonBg.png");
+	border-color:#D5D5D5 #BDBDBD #BDBDBD #D5D5D5;
+	background-repeat: repeat-x;
+    background-position: left;
+    border: 1px solid #cccccc;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	padding: 2px;
+	margin:1px 2px 0 1px;
+	
+}
+
+.dj_ie .autoComplete .tokenInner {
+	float:left;
+}
+
+.autoComplete .dijitTextBox{
+	border:none;
+	background:none;
+	color:#999999;
+}
+
+.autoComplete .dijitValidationIcon{
+	background:none;
+}
+
+.dj_ie .autoComplete .dijitReset .dijitInputField INPUT,
+.dj_ie .autoComplete .dijitTextBox INPUT{
+	color:#999999;
+	font-family:sans-serif;
+}
+
+.addNewContact .dijitButtonText{
+	width: 93px;
+}
+
+.addNewContact .nameInputDiv .firstName{
+	width:150px; 
+	margin-left: 5px; 
+	margin-right: 25px;
+}
+
+.addNewContact .nameInputDiv .lastName{
+	width:150px; 
+	margin-left: 5px;
+}
+
+.addNewContact .emailDiv{
+	margin-top: 20px;
+}
+
+.addNewContact .emailDiv .emailType{
+	margin-left: 5px; 
+	margin-right:22px;
+}
+
+.addNewContact .emailDiv .email{
+	margin-left: 5px;
+}
+
+.contactAdded .addMore{
+	color: #0066CC;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.contactAdded .emailDivTxt{
+	margin-top: 5px;
+}
+
+.contactAdded .emailDivTxt .emailTxt{
+	margin-left:5px;
+}
+
+.contactAdded .addMoreDiv{
+	margin-top:15px;
+}
+
+.editExisting .name{
+    height: 20px;
+    padding: 2px 5px;
+    width: 175px;
+}
+.editExisting .emailLbl{
+    margin-left: 25px;
+}
+.editExisting .emailField{
+    margin-left: 10px;
+}
+.contactUpdated .addMoreDiv{
+	margin-top:15px;
+}
+
+.contactUpdated .nameDivTxt{
+	margin-top: 5px;	
+}
+.contactUpdated .addMore{
+	color: #0066CC;
+	cursor: pointer;
+	font-weight: bold;
+}
+.errorMessage{
+    height: 120px;
+    width: 460px;
+}
+.errorMessage .errorImgDiv{
+    background-image: url("../../../images/ics/nab/icons/Notify_Icon.png");
+    float: left;
+    height: 32px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 32px;
+}
+.errorMessage .errorTextDiv{
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.errorMessage .emailDivTxt{
+	margin-top: 5px;
+}
+.errorMessage .addMoreDiv{
+	margin-top:15px;
+}
+.errorMessage .addMore{
+	color: #0066CC;
+	cursor: pointer;
+	font-weight: bold;
+}
+.errorMessage .solidGrayLine{
+    clear: both;
+    width: 450px;
+}
+.errorMessagePane{
+    height: 175px !important;
+    width: 475px !important;
+}
+.dj_ie .dialogWidth470{
+	width: 470px;
+}
+.dj_ie .ieErrorMsgPane{
+	width: 475px !important;
+}
+.dj_ie .ieErrorMsgPaneSingleChild{
+	width: 475px !important;
+}

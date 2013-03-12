@@ -1,0 +1,28 @@
+.messageNode{
+	border-top:2px solid #d1d1d1;
+	width:760px;
+	padding-bottom:20px;
+}
+.messageNode .displayName{
+	font-weight:bold;
+	font-size:18px;
+	padding-bottom:20px;
+}
+.messageNode .label{
+	width:60px;
+	float:left;
+}
+.messageNode .bodyContent{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.messageNode .attachments{
+	border-top:1px solid #d1d1d1;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+.messageNode .attachments .fileName{padding-top:5px;}
+.messageNode .attachments .fileSize{padding-top:5px;}
+.messageNode .printImg {
+	max-width:400px;
+}

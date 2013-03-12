@@ -1,0 +1,148 @@
+/*imageCrop dialog width changes*/
+.imageCropDialog,
+.imageCropDialog .modal_content{
+	width:580px !important;
+}
+.imageCropUI{
+	padding:4px 15px 0 10px !important;
+	width:550px !important;
+}
+
+.imageCropUI .confirmButtons{
+	position: relative;
+	top: -20px;
+	right:-10px;
+	padding:0px;
+}
+
+.contactImageCrop label {
+	display: block;
+	font-weight: bold;
+}
+
+.contactImageCrop .containerTitle {
+	display: block;
+	font-weight: bold;
+	padding-bottom:7px;
+	padding-top:2px;
+	/*margin-left: 223;*/
+}
+
+.contactImageCrop .cropperContainer {
+	height: 200px;
+	width: 200px;
+	background: #cccccc;
+	position: relative;
+}
+
+.contactImageCrop .avatarContainer {
+	height: 200px;
+	width: 200px;
+	background: #cccccc;
+	position: relative;
+	margin-left: 88px;
+}
+
+.contactImageCrop .photoPreview img {
+	height: 100px;
+	width: 100px;
+}
+.contactImageCrop .imageSelection{
+	padding-bottom:8px;
+}
+.dj_ie .contactImageCrop .contactName {
+	margin-top: -100px;
+}
+
+.contactImageCrop .contactName {
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: -85px;
+}
+
+/* part of the widget: drag handle styles */
+.contactImageCrop .imageDragger {
+	/* required: */
+	position:absolute;
+	/* optional: */
+	cursor: move;
+	z-index:999;
+    border:3px solid #f4131d;
+	background: #ebebeb;
+}
+
+.contactImageCrop .ellipsis {
+   white-space:nowrap;
+   text-overflow:ellipsis; /* for internet explorer */
+   -o-text-overflow:ellipsis;
+   overflow:hidden;
+   width:200px;
+}
+
+
+.contactImageCrop .dojoxResizeHandle {
+	background-image:url("../../../../images/ics/nab/icons/imageHandle.png");
+	background-repeat:no-repeat;
+	bottom:0;
+	float:right;
+	height:26px;
+	position:absolute;
+	right:0;
+	width:27px;
+	z-index: 20;
+}
+
+.contactImageCrop .dojoxResizeNW {
+	cursor: nw-resize;
+}
+
+.contactImageCrop .photoPreview {
+	position: relative;
+	overflow: hidden;
+}
+
+/* this is needed to fix an IE bug with fileuploader */
+.contactImageCrop .linkSpan {
+	vertical-align: middle;
+}
+
+.contactImageCrop .avatarTable {
+    width: 217px;
+    height: 200px;
+	padding: 6px 20px;
+	background-color: #cccccc;
+	overflow-y:auto;
+}
+.contactImageCrop .avatarTable img
+{
+	background: #ffffff;
+	color: inherit;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	border: 2px solid #ffffff;
+}
+
+.contactImageCrop .avatarTable img.selected
+{
+	border:2px solid #f4131d;
+}
+
+.contactImageCrop .wrapperContainer {
+	position: relative;
+}
+
+.contactImageCrop .divider {
+height: 20px;
+border-bottom: 1px dotted #C8C8C8;
+margin-bottom:8px;
+}.contactImageCrop .uploadHover {
+	cursor:pointer !important;
+}
+
+
+.dj_ie7 .contactImageCrop .cropperContainer{
+	margin-bottom:6px;
+	margin-right:3px;
+}

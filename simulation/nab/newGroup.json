@@ -1,0 +1,12 @@
+{
+	"statusCode":0,
+	"statusDesc":"Success",
+	"items": [
+		{
+			"id":100,
+			"groupType":'web',
+			"count":0
+			
+		}
+	]
+}

@@ -1,0 +1,159 @@
+.inboxRecipient {
+	padding: 3px 0;
+}
+.inboxRecipient .icon {
+	width: 30px;
+	height: 30px;
+	margin: 3px 12px 0px;
+}
+.inboxRecipient .email {
+	margin: 0 20px 0 20px;
+}
+.inboxRecipient .body, .inboxRecipient .email {
+	vertical-align: top;
+	width: 180px;
+}
+.inboxRecipient div.dijitCheckBox, 
+.recipientPane div.dijitCheckBox {
+	padding: 0 0 8px;
+	margin: 0 8px;
+}
+
+.inboxRecipient .line1 {
+	font-weight: bold;
+}
+
+.inboxRecipient .cloak {
+	visibility: hidden;
+}
+
+.recipientList {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	white-space: nowrap;
+	height: 250px;
+	width: 595px;
+}
+
+.recipientList .checkBoxes {
+	width: 25px;
+}
+
+.recipientPane {
+	text-align: left;
+	white-space: nowrap;
+}
+
+.inboxRecipient, .recipientPane .listWrapper{
+	border: 1px solid #b2b2b2;
+}
+
+.recipientPane .header {
+	border-bottom: 1px solid #b2b2b2;
+}
+
+.recipientPane .header {
+	background: transparent url('../../../images/vzw/content_containers/png/gradient.png') repeat-x scroll bottom left;
+}
+
+.recipientPane .radios {
+	margin: 0 0 0 60px;
+}
+
+.recipientPane .filters {
+	margin: 20px 0 20px 0;
+}
+
+.recipientPane .sort {
+	float: right;
+}
+/*1.4.2 mig: dojoxDropDownSelect*/
+.dj_ie .recipientPane .sort .dijitSelect {
+	margin-bottom:-0.5em;
+}
+.recipientPane .groups {
+	float: left;
+}
+.recipientPane .checkBoxes {
+	text-align: center;
+}
+.recipientPane .left {
+	width: 595px;
+}
+.recipientPane .right {
+	vertical-align: top;
+	padding: 0 0 0 10px;
+	width: 255px;
+}
+.recipientPane .right label {
+	display: block;
+	padding: 8px 0 0 0;
+}
+.recipientPane .right .TokenizedTextBox{
+	white-space: normal;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 250px;
+}
+.recipientPane .right .to .TokenizedTextBox {
+	height: 110px;
+}
+.recipientPane .right .cc .TokenizedTextBox,
+.recipientPane .right .bcc .TokenizedTextBox {
+	height: 70px;
+}
+
+.recipientPane .right .button,
+.recipientPane .right .linkSpan {
+	float: right;
+	padding: 8px 0 0 10px;
+}
+.recipientPane .listWrapper {
+	width: 595px;
+}
+
+.radioSelect .checkBoxes .toCheckBox,
+.radioSelect .checkBoxes .ccCheckBox,
+.radioSelect .checkBoxes .bccCheckBox,
+.radioSelect .cc,
+.radioSelect .bcc {
+	display: none;
+}
+
+.bccOnly .to,
+.bccOnly .cc,
+.bccOnly .checkBoxes .toCheckBox,
+.bccOnly .checkBoxes .ccCheckBox,
+.bccOnly .inboxRecipient .dijitInline.toNode, 
+.bccOnly .inboxRecipient .dijitInline.ccNode 
+{
+	display: none;
+}
+
+.toOnly .cc,
+.toOnly .bcc,
+.toOnly .checkBoxes .ccCheckBox,
+.toOnly .checkBoxes .bccCheckBox,
+.toOnly .inboxRecipient .dijitInline.ccNode, 
+.toOnly .inboxRecipient .dijitInline.bccNode 
+{
+	display: none;
+}
+
+.loadPhoneNumbers .dijitInline.radios .line1,
+.loadPhoneNumbers .dijitInline.radios .line2
+{
+	display: none;
+}
+
+.loadEmails .dijitInline.radios .line3,
+.loadEmails .dijitInline.radios .line4
+{
+	display: none;
+}
+
+.TokenEmptyLabelNode {
+	color: #A4ABB2;
+}
+
+

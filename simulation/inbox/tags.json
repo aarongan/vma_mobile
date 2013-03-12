@@ -1,0 +1,25 @@
+{
+	"numRows": 5,
+	"items": [
+		{
+			"id": 1,
+			name: "Family"
+		},
+		{
+			"id": 2,
+			name: "Concerts"
+		},
+		{
+			"id": 3,
+			name: "Travel"
+		},
+		{
+			"id": 4,
+			name: "Tennis"
+		},
+		{
+			"id": 5,
+			name: "Party"
+		}
+	]
+}

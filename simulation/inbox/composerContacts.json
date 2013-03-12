@@ -1,0 +1,66 @@
+{
+	'identifier': 'email',
+	'label': 'display',
+	'items': [
+		{
+			'name': 'Cao, Eric ',
+			'email': 'eric.cao@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/testman.png',
+		},
+		{
+			'name': 'Chivukula, Raghav',
+			'email': 'raghav.chivukula@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/1.png'
+		},
+		{
+			'name': 'Dubbudu, Srikanth Reddy',
+			'email': 'srikanth.dubbudu@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/5.png'
+		},
+		{
+			'name': 'Koukuntla, Shashidhar',
+			'email': 'shashidhar.koukuntla@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/testman.png'
+		},
+		{
+			'name': 'Lee, David',
+			'email': 'david.lee1@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/2.png'
+		},
+		{
+			'name': 'Lin, Tim',
+			'email': 'tim.lin@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/5.png'
+		},
+		{
+			'name': 'Kumar, Anil',
+			'email': 'anil.kumar@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/5.png'
+		},
+		{
+			'name': 'Hiremath, Shashidhar',
+			'email': 'shashidhar.hiremath@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/5.png'
+		},
+		{
+			'name': 'Kasaraneni, Srinivas',
+			'email': 'srinivas.kasaraneni@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/5.png'
+		},
+		{
+			'name': 'Mangali, Sekhar',
+			'email': 'sekhar.mangali@verizonwireless.com',
+			'company': 'The 2nd line of text goes here',
+			'icon': '../simulation/contacts/profileImages/1.png'
+		}
+	]
+}

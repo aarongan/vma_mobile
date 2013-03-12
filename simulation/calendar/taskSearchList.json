@@ -1,0 +1,22 @@
+{"statusCode":0,
+"statusDesc":"priority_success",
+"items":[
+							{
+								"type": 6,
+								"message": "Today, March 8, 2009"
+							},
+
+							{
+								"taskId":"000000000000000000000000000000004a54230e0000090f000000ba000013ac","calendarColor":"orange",
+								"summary":"Task creation through URL JULY 12 Sports","description":"Creating description for Task(Todo)JULY 12Sports",
+								"dtStart":"12/18/2009","dueDate":"12/18/2009","priority":0,"percentage":10,"taskSetting":"PUBLIC","showOnMyCalendar":"ON",
+								"starred":true,"tags":[]
+							},
+							{
+								"taskId":"000000000000000000000000000000004a5422e50000037e000000b8000013ac","calendarColor":"green",
+								"summary":"Caution!!! This import command is from Java","description":"This description is also for import Command in Java",
+								"dtStart":"10/18/2009","dueDate":"10/18/2009","priority":0,"percentage":40,"taskSetting":"PUBLIC","showOnMyCalendar":"ON",
+								"starred":false,"tags":[]},{"taskId":"000000000000000000000000000000004a5ba2b60000620000000320000013ac","calendarColor":"","summary":"Create Todo ISEP 04 summary Sports","description":"Create Todo I SEP 04 Deion Sports","dtStart":"07/12/2009","dueDate":"09/05/2009","priority":1,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":400,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a5ba1f700001e710000031e000013ac","calendarColor":"","summary":"Create Todo SEP 03 summary Sports","description":"Create Todo SEP 03 Deion Sports","dtStart":"07/12/2009","dueDate":"09/04/2009","priority":1,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":300,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a5ba25f0000014a0000031f000013ac","calendarColor":"","summary":"Create Todo SEP 04 summary Sports","description":"Create Todo SEP 04 Deion Sports","dtStart":"07/12/2009","dueDate":"09/05/2009","priority":1,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":400,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a5ba414000032be00000323000013ac","calendarColor":"","summary":"Create Todo SEP 04 summary Sports","description":"Create Todo SEP 05 Deion Sports","dtStart":"07/12/2009","dueDate":"09/06/2009","priority":1,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":500,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a5ba3a20000371800000322000013ac","calendarColor":"","summary":"Create Todo III SEP 04 summary Sports","description":"Create Todo III SEP 04 Deion Sports","dtStart":"07/12/2009","dueDate":"09/05/2009","priority":1,"percentage":75,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":500,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a5ba17f00006d990000031d000013ac","calendarColor":"","summary":"Create Todo SEP 02 summary Sports","description":"Create Todo SEP 02 Deion Sports","dtStart":"07/12/2009","dueDate":"09/03/2009","priority":5,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":200,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a54e5c800006f60000000cd000013ac","calendarColor":"","summary":"Task creation through URL JULY 14 Sports","description":"Creating description for Task(Todo)JULY 13 Health","dtStart":"07/14/2009","dueDate":"07/14/2009","priority":9,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"ON","starred":false,"tags":[]},{"taskId":"000000000000000000000000000000004a5ba1000000582c0000031c000013ac","calendarColor":"","summary":"Create Todo SEP 01 summary Sports","description":"Create Todo SEP 01 Deion Sports","dtStart":"07/12/2009","dueDate":"09/02/2009","priority":9,"percentage":0,"taskSetting":"PUBLIC","showOnMyCalendar":"off","starred":false,"tags":[{"tagId":100,"tagName":"","tagURL":""}]},{"taskId":"000000000000000000000000000000004a5ba3250000118b00000321000013ac","calendarColor":"","summary":"Create Todo II SEP 04 summary Sports","description":"Create Todo II SEP 04 Deion Sports","dtStart":"07/12/2009","dueDate":"09/05/2009","priority":9,"percentage":75,"taskSetting":"PUBLIC","showOnMyCalendar":"off",
+								"starred":false,"tags":[{"tagId":500,"tagName":"test","tagURL":""}]}
+		]
+}

@@ -1,0 +1,69 @@
+{
+    "preferences": [
+        {
+            "RplyIndt": "on"
+        },
+        {
+            "TrshLogT": ""
+        },
+        {
+            "forward": "EntirMsg"
+        },
+        {
+            "vCard": ""
+        },
+        {
+            "BccDeflt": ""
+        },
+        {
+            "userMdn": "2152194333"
+        },
+        {
+            "AskToAdd": "on"
+        },
+        {
+            "OrigText": "on"
+        },
+        {
+            "DefFrom": "icsNewEmail@icspoc.vzwcorp.com"
+        },
+        {
+            "icsDefFrm": "icsNewEmail@icspoc.vzwcorp.com"
+        },
+        {
+            "SaveDraf": "on"
+        },
+        {
+            "usrDefOn": "on"
+        },
+        {
+            "AutoAdd": ""
+        },
+        {
+            "AutoSpel": ""
+        },
+        {
+            "SaveSent": "on"
+        },
+        {
+            "bccEmail": "icsNewEmail@icspoc.vzwcorp.com"
+        },
+        {
+            "CompHTML": "on"
+        },
+        {
+            "MarkDel": ""
+        }
+    ],
+    "defaultEmailList": [
+        {
+            "fromEmail": "icsNewEmail@icspoc.vzwcorp.com"
+        },
+        {
+            "fromEmail": "ysankar@gmail.com"
+        },
+        {
+            "fromEmail": "ysankar@yahoo.com"
+        }
+    ]
+}

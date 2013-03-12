@@ -1,0 +1,47 @@
+{
+    "statusCode": 0,
+    "statusDesc": "End points are retrieved succcesfully",
+    "title": "",
+    "items": [
+        {
+            "endPointId": 1,
+            "endPointName": "Aol",
+            "loginUserName": "icstestusr2@gmail.com",
+            "currentCapacity": "",
+            "totalCapacity": "Mon Mar 22 21:45:00 UTC 2010",
+            "lastSyncDate": ""
+        },
+	{
+            "endPointId": 2,
+            "endPointName": "Yahoo",
+            "loginUserName": "icstestusr2@yahoo.com",
+            "currentCapacity": "",
+            "totalCapacity": "Mon Mar 22 21:45:00 UTC 2010",
+            "lastSyncDate": ""
+        },
+	{
+            "endPointId":3,
+            "endPointName": "Msn",
+            "loginUserName": "icstestusr2@hotmail.com",
+            "currentCapacity": "",
+            "totalCapacity": "Mon Mar 22 21:45:00 UTC 2010",
+            "lastSyncDate": ""
+        },
+	{
+            "endPointId": 4,
+            "endPointName": "Google",
+            "loginUserName": "icstestusr2@gmail.com",
+            "currentCapacity": "",
+            "totalCapacity": "Mon Mar 22 21:45:00 UTC 2010",
+            "lastSyncDate": ""
+        },
+	{
+            "endPointId": 11,
+            "endPointName": "syncml",
+            "loginUserName": "icstestusr2@gmail.com",
+            "currentCapacity": "",
+            "totalCapacity": "Mon Mar 22 21:45:00 UTC 2010",
+            "lastSyncDate": ""
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{"statusCode":0,"statusDesc":"Login failed or Invalid Session","myCal":[ 
+		{
+			"id": 62333,
+			"calURL": "ico_fav_star.png",
+			"picURL":"../styles/images/ics/calendar/starks.png",
+			"calendarName": "Tim"
+		},
+		{
+			"id": 3333,
+			"calURL": "ico_tag.png",
+			"picURL":"../styles/images/ics/calendar/usholidays.png",
+			"calendarName": "US Holidays"
+		},
+		{
+			"id": 33332,
+			"calURL": "ico_tag.png",
+			"picURL":"../styles/images/ics/calendar/susan.png",
+			"calendarName": "Movie Releases"
+		},
+		{
+			"id": 5444,
+			"calURL": "ico_tag.png",
+			"picURL":"../styles/images/ics/calendar/wally.png",
+			"calendarName": "Susan"
+		}		
+
+]}

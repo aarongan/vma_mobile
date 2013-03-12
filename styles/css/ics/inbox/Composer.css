@@ -1,0 +1,907 @@
+.icsComposer._disabled .composerTop,
+.icsComposer._disabled .composeNav{
+	opacity:0.1;
+	cursor:auto;
+	filter: alpha(opacity=10);
+	zoom:1;
+}
+.icsComposer._disabled .composeHeader{
+	font-weight:lighter;
+	color:#d1d1d1;
+}
+.icsComposer._disabled .TokenizedTextBox,
+.icsComposer._disabled .dijitTextBox{
+	border-color: #d1d1d1;
+	color:#d1d1d1;
+}
+.pl .icsComposer._disabled.button, .pl .icsComposer._disabled .button span,
+.icsComposer._disabled .icsToolbarIconStar:hover, .icsComposer._disabled .linkSpan,
+.icsComposer._disabled .icsToolbarIconTag a:hover{
+	cursor:default;
+}
+
+.simpleEditor.dijitTextArea, 
+.sms .dijitTextArea,
+.mms .dijitTextArea{
+	width: 96%;
+	height: 100px;
+	position: relative;
+}
+.smsEditor .plain .dijitTextArea {
+	height: 300px;
+}
+.smsEditor .lowCount,
+.mmsEditor .lowCount{
+	color: red;
+}
+.smsEditor .right{
+	float: right;
+	margin-top:5px;
+	margin-right:20px;
+}
+.smsEditor .left{
+	float: left;
+}
+.smsEditor .clear{
+	clear: both;
+}
+
+.backButton {
+	padding: 0 0 0 10px;
+}
+.backButton .dijitButtonText .link{
+	text-decoration: underline;
+	cursor:pointer;
+	color:#0066CC;
+}
+.backButton .dijitButtonNode{
+	background: #ffffff none;
+	border: none;
+}
+.backButton .dijitButtonText .plain{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+/****
+.icsComposer .composerTitle {
+	vertical-align: middle;
+	margin: 5px 0 8px 0;
+}
+****/
+.icsComposer .composerTitle {
+	width:744px;
+	line-height: 26px;
+	padding: 0 10px;
+    text-align: center;
+	margin-bottom: 10px;
+}
+.icsComposer .actionsTop div.cc div.middle{
+	height:5px;
+	padding: 3px 10px 15px;
+}
+.icsComposer.mmsEditor .actionsTop,
+.icsComposer.emailEditor .actionsTop{
+	border-bottom: 1px solid #E0E0E0;
+	height: 30px;
+}
+.icsComposer.mmsEditor .actionsTop{
+	margin-bottom:10px;
+}
+.icsComposer.emailEditor .actionsTop div.cc{
+	background-color:#0099CC;
+	color:#ffffff;
+	font-weight:bold;
+}
+.icsComposer.emailEditor .actionsTop div.cc div.middle{
+	border-left:1px solid #0099CC;
+	border-right:1px solid #0099CC;
+}
+.icsComposer.emailEditor .actionsTop div.cc .linkSpan{
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:default;
+}
+.icsComposer.smsEditor .actionsTop{
+	border-bottom: 2px solid #CCCC00;
+}
+/***
+.icsComposer .actionsTop .linkSpan{
+	margin-left:10px;
+}
+***/
+.icsComposer .actionsTop .replyDiv .linkSpan,
+.icsComposer .actionsTop .replyAllDiv .linkSpan{
+	margin-right:10px;
+}
+.icsComposer .actionsTop .replyDiv.borderRight .linkSpan{
+	margin: 0 0 0 10px;
+	padding-right: 10px;
+	border-right: 1px solid #000000;
+}
+.icsComposer .actionsTop .forwardDiv .linkSpan {
+	margin-left:0px;
+}
+.icsComposer .actionsTop .replyAllCc{
+	margin-right:10px;
+}
+.dj_ie .icsComposer .replyCc div.top{
+	width:50px;
+}
+.dj_ie .icsComposer .replyAllCc div.top{
+	width:82px;
+}
+.dj_ie .icsComposer .forwardCc div.top{
+	width:64px;
+}
+.dj_ie .icsComposer .actionsTop .replyDiv, .dj_ie .icsComposer .actionsTop .replyAllDiv,
+.dj_ie .icsComposer .actionsTop .forwardDiv {
+	margin-bottom:5px;
+}
+.icsComposer .replyAllDiv.borderRight .linkSpan{
+	padding-right: 10px;
+	border-right: 1px solid #000000;
+}
+.icsComposer.smsEditor .actionsTop div.cc{
+	background-color:#CCCC00;
+}
+.icsComposer.smsEditor .actionsTop div.cc div.middle{
+	border-left:1px solid #CCCC00;
+	border-right:1px solid #CCCC00;
+}
+
+
+.icsComposer.mmsEditor{
+	height: 100%;
+}
+
+.icsComposer.mmsEditor form.mms{
+	position: relative;
+}
+
+.dj_ie .icsComposer.mmsEditor .bottom .scrollBarComposer .composeArea{
+	display: inline-block;
+}
+
+/*****
+.icsComposer.mmsEditor .actionsTop div.cc{
+	background-color:#FF9900;
+}
+.icsComposer.mmsEditor .actionsTop div.cc div.middle{
+	border-left:1px solid #FF9900;
+	border-right:1px solid #FF9900;
+}
+.icsComposer .composerTitle h1 {
+	display: inline;
+}
+****/
+.icsComposer button::-moz-focus-inner{
+	border: 0;
+	padding: 0;
+}
+.icsComposer button {
+	padding: 2px;
+}
+.dj_safari .icsComposer button {
+	padding: 1px 0px;
+}
+.dj_ie .icsComposer button{
+	padding: 0 2px 0 2px;
+}
+
+.icsComposer .from .dijitTextBox {
+	width: 30%;
+}
+.icsComposer h1{
+	padding: 10px;
+}
+.icsComposer #smsStarDiv{
+	position: relative;
+	left: -15px;
+}
+.icsComposer .composerTop .composeNav {
+	margin-bottom: 8px;
+}
+.icsComposer .draftsSaveInfo{
+	margin: 5px 0 9px;
+}
+.icsComposer .composeNav * {
+	vertical-align: middle;
+}
+
+.icsComposer .composeNav .leftActions {
+	margin-right: -7px;
+}
+
+
+.pl .icsComposer .composeNav .button {
+	padding: 0 8px;
+	display: inline-block;
+	float: none;
+}
+.pl .icsComposer .composeNav .button.firstBtn {
+	padding-left:0;
+	padding-right:11px;
+}
+.dj_ie .pl .icsComposer .composeNav .button.firstBtn.sendBtn{
+	margin-left: 0;
+}
+
+/****
+.icsComposer form {
+	border: 1px solid #CDCDCD;
+	padding: 4px 8px 8px;
+}
+.icsComposer form.email {
+	background: transparent url('../../../images/ics/inbox/editor/lightBlueGrad1x40.png') repeat-x;
+}
+.icsComposer form.mms {
+	background: transparent url('../../../images/ics/inbox/editor/lightOrangeGrad1x40.png') repeat-x;
+	height: 95%;
+	position: relative;
+}
+.icsComposer form.sms {
+	background: transparent url('../../../images/ics/inbox/editor/lightOliveGrad1x40.png') repeat-x;
+}
+****/
+
+.icsComposer .composeHeader {
+	clear:both;
+}
+.icsComposer .composeHeader label {
+	display: inline-block;
+	width: 8%;
+	text-align: right;
+}
+
+.icsComposer .composeHeader .priority label {
+ 	display: inline;
+	width:auto;
+}
+
+.icsComposer .composeHeader .TokenizedTextBox {
+	width: 87%;/*639*/
+	max-height: 62px;
+	overflow: auto;
+}
+
+.icsComposer .composeHeader .subject .dijitTextBox {
+	width: 90.7%;/*664*/
+}
+
+.icsComposer .composeHeader .headerRow {
+	margin: 8px 0 0 0;
+}
+.msgViewer .icsComposer.mmsEditor .composeHeader .headerRow .lookup{
+	margin: -2px 0 0 0;
+}
+.icsComposer .composeHeader .headerRow.add {
+	margin: 0;
+}
+.icsComposer .headerRow .dijitTextBox {
+	height: 18px;
+}
+
+.icsComposer .priority {
+	text-align: center;
+	width: 36%;
+}
+.icsComposer.emailEditor .priority {
+	text-align: center;
+	width: 35%;
+}
+.icsComposer .composeHeader .linkSpan {
+	font-size: 0.9em;
+}
+
+.icsComposer .priority label, .icsComposer .priority span {
+	padding: 0 10px 0 0;
+}
+
+.composeHeader .starTagDiv{
+	text-align: center;
+	/* width: 10%; */
+}
+.starTagDiv .starIcon {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat -220px -126px;
+    width: 15px;
+    height: 16px;
+}
+.starTagDiv .tagIcon{
+    padding-left: 5px;
+}
+.starTagDiv .icsROButton.tag {
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat -125px -23px;
+	width:20px;
+	height:16px;
+}
+
+.icsComposer .statusBar {
+	padding: 10px;
+}
+
+.icsComposer .statusBar .dijitProgressBar{
+	width: 300px;
+}
+
+.icsComposer .statusBar form {
+	border: none;
+	padding: 0px;
+	background: none;
+}
+
+.icsComposer .msgType {
+	margin: 0 auto;
+	width: 285px;
+	text-align: center;
+}
+.icsComposer .mmsMsgType {
+	margin: 0 auto;
+	width: 235px;
+	text-align: center;
+}
+.icsComposer .msgType .dijitButtonText,
+.icsComposer .mmsMsgType .dijitButtonText{
+	width:100px;
+	text-align:left;
+}
+.icsComposer .lookup .dijitButtonNode {
+	padding: 0;
+}
+
+.sms .icsComposer .lookup .dijitButtonNode {
+	padding: 0;
+	position:absolute;
+	top:147px;
+	right:10px;
+}
+
+.dj_ie .sms .icsComposer .lookup .dijitButtonNode {
+	top:149px;
+}
+
+.icsComposer .lookup .dijitButton{
+	margin: 0;
+}
+
+.dj_safari .icsComposer .lookup .dijitButton{
+	margin: 0px -2px;
+}
+
+.icsComposer .addressIcon {
+	background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -406px -278px;
+	width: 16px;
+	height: 16px;
+}
+.icsComposer .lookups {
+	border-color:#C0C0C0 #C0C0C0 #9B9B9B;
+    border-style:solid;
+    border-width:1px;
+    background:#e4e4e4 url("../../../../scripts/dojotoolkit/dijit/themes/tundra/images/buttonEnabled.png") top repeat-x;
+	cursor: pointer;
+}
+.dj_ie7 .icsComposer .lookups {
+	vertical-align: bottom;
+}
+.icsComposer .lookups .addressIcon{
+    margin:1px 2px 3px 2px;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -406px -277px;
+	width: 16px;
+	height: 16px;
+}
+.icsComposer .uploader form {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+
+/* these need to be 25px narrower to make up for the scrollbar */
+/* even narrower for thread messages composer*/
+.msgViewer .icsComposer .composeHeader .TokenizedTextBox {
+	width: 87%;
+}
+.threadMsgViewer .icsComposer.embededComposer .composeHeader .TokenizedTextBox{
+	width: 87%;
+}
+
+.msgViewer .icsComposer .composeHeader .subject .dijitTextBox {
+	width: 90.8%;
+}
+.msgViewer .icsComposer .mms .composeHeader .subject .dijitTextBox {
+	width: 90.9%;
+}
+.sendLaterDetails {
+	padding-top:10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.emailValidateMsg{
+	width:250px;
+	height:50px;
+	overflow:auto;
+	color:#FF0000;
+}
+.typeChangeDiv, .notAvailable{
+	margin-bottom:20px;
+}
+.changeTypeContent, .notAvailableContent{
+	margin:0px;
+	width:565px;
+}
+.changeTypeContent .confirmButtons, .notAvailableContent .confirmButtons{
+	margin-right:13px;
+}
+.typeChangeDiv .infoLeft, .notAvailable .infoLeft{
+	width:300px;
+}
+.typeChangeDiv .infoLeft ul{
+	padding-left:14px;
+	margin-left:2px;
+	margin-top:5px;
+}
+.typeChangeDiv .infoRight, .notAvailable .infoRight{
+	width:250px;
+	margin-top:0px;
+	vertical-align:top;
+}
+.typeChangeDiv .infoRight ul, .notAvailable .infoRight ul{
+	padding-left:18px;
+	margin-left:2px;
+	margin-top:0;
+}
+.typeChangeDiv .infoRight .textArea,
+.notAvailable .infoRight .textArea{
+	width:250px;
+	height:200px;
+	overflow-y:scroll;
+	overflow-x:auto;
+	border:1px solid #e0e0e0;
+	margin-top:5px;
+}
+
+.attachmentContainer .nameDiv{
+	position: absolute;
+	width:225px;
+	left: 0px;
+}
+.mms .attachmentContainer .nameDiv{
+	position: relative;
+	display: block;
+}
+.attachmentContainer .removeDiv{
+	position: absolute;
+	right: 0px;
+}
+.mms .attachmentContainer .removeDiv{
+	position: relative;
+	display: block;
+}
+.icsComposer .contactCards{
+	margin-bottom:20px;
+}
+.icsComposer .contactCardHeader{
+	margin-top:30px;
+}
+.icsComposer .contactCardHeader .contact{
+	width:322px;
+}
+.icsComposer .contactCardHeader .caption{
+	cursor:pointer;
+}
+.icsComposer .contactCardBody{
+	margin-top:5px;
+}
+.icsComposer .contactCardBody .cards{
+	width:322px;
+	vertical-align:top;
+}
+.icsComposer .contactCardBody .cards img{
+	height:20px;
+	width:20px;
+	margin-right:5px;
+}
+.icsComposer .contactCardBody .cardsTextarea{
+	width:350px;
+	height:376px;
+}
+.icsComposer .contactCardBody .remainings{
+	text-align:right;
+	margin-top:5px;
+}
+.icsComposer ._attachmentsDiv{
+	margin-bottom:10px;
+	position: relative;
+}
+.icsComposer .mms ._attachmentsDiv .captionDiv{
+	width: 200px;
+	height: 100px;
+	text-align: left;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+	word-wrap: break-word;
+	font-family: Comic Sans MS;
+}
+.icsComposer ._attachmentsDiv .imgDiv{
+	margin-right:10px;
+}
+/*.icsComposer .mms ._attachmentsDiv .imgDiv{
+	width: 140px;
+	height: 140px;
+}*/
+.icsComposer ._attachmentsDiv .play{
+	color: #0066CC;
+	cursor: pointer;
+}
+.icsComposer ._attachmentsDiv .remove{
+	color: #0066CC;
+	cursor: pointer;
+}
+
+.icsComposer .mms ._attachmentsDiv img{
+	width:128px;
+}
+.icsComposer ._attachmentsDiv .dijitInline{
+	vertical-align:top;
+}
+.icsComposer .verbiageTxt{
+	color: #999999;
+	font-size:12px;
+	margin-left:200px;
+}
+.icsComposer.mmsEditor .verbiageTxt{
+	margin-left:0px;
+}
+.dj_ie .icsComposer.mmsEditor .verbiageTxt{
+	position: relative;
+	left :90px;
+}
+.icsComposer .headerNode{
+	width:427px;
+}
+.icsComposer.mmsEditor .headerNode{
+	zoom: normal;
+}
+.icsComposer.emailEditor .taglistHolder{
+	left: 0px;
+}
+.icsComposer.emailEditor .composerStarredDiv{
+	left: 0px;
+}
+.icsComposer.emailEditor .leftActions, .icsComposer.smsEditor .leftActions,
+.icsComposer.mmsEditor .leftActions{
+	width: 633px;
+}
+
+.dj_ie .icsComposer.emailEditor .leftActions, .dj_ie .icsComposer.smsEditor .leftActions,
+.dj_ie .icsComposer.mmsEditor .leftActions{
+	zoom: normal;
+}
+.dj_ie .icsComposer .ieBtnNode {
+	/* position: relative;
+	left: 65px; */
+}
+.dj_ie .icsComposer.mmsEditor .ieMmsBtnNode {
+	position: relative;
+	left: 41px;
+}
+.icsComposer.smsEditor .taglistHolder{
+	left: 25px;
+}
+.icsComposer.smsEditor .composerStarredDiv{
+	left: 25px;
+}
+.icsComposer.mmsEditor .taglistHolder{
+	left: 10px;
+}
+.icsComposer.mmsEditor .composerStarredDiv{
+	left: 10px;
+}
+.icsComposer .smsTxt{
+	font-size: 8px;
+	font-weight:bold;
+}
+.icsComposer .txtCC{
+	margin-bottom:10px;
+	margin-left:4px;
+	background-color:#F6F6F6;
+}
+.icsComposer .txtCC .middle{
+	padding:0 !important;
+}
+.icsComposer .txtCC .linkSpan{
+	margin-top:3px;
+}
+.dj_ie .icsComposer .txtCC .linkSpan{
+	margin: 0 0 2px 0;
+}
+.icsComposer .smsTxtDiv{
+	margin-right:5px;
+	margin-left:20px;
+}
+.icsComposer .smsTxtDiv .redColor{
+	color: red;
+}
+.dj_ie .icsComposer .smsTxtDiv .redColor{
+	margin-bottom:5px;
+}
+.icsComposer .composeNav .fixer{
+	border-top:1px solid #CDCDCD;
+}
+.sms .icsComposer .composeNav .fixer{
+	margin-top:20px;
+}
+.composerBottom .attach{
+	padding-right:5px;
+}
+.icsComposer .fromSelect.dijitSelect{
+	margin-top:0;
+}
+.dj_ie .icsComposer .fromSelect.dijitSelect{
+	margin-top:-2px;
+}
+
+.icsComposer .fromSelect .dijitButtonContents.dijitButtonNode{
+	background:url(../../../images/ics/InboxSprites.png) repeat-x scroll -464px -54px;
+	border:none;
+	width:233px;
+	padding: 3px 0px 4px 2px;
+}
+
+.dj_ie.dj_ie7 .icsComposer .fromSelect .dijitButtonContents.dijitButtonNode{
+	padding: 2px 0px 5px 2px;
+}
+.icsComposer .fromSelect .dijitButtonNode.dijitArrowButton.dijitDownArrowButton,
+.icsComposer .typeChg .dijitButtonNode.dijitArrowButton.dijitDownArrowButton{
+	display:none;
+}
+.icsComposer .fromSelect .dijitArrowButtonInner,
+.icsComposer .typeChg .dijitArrowButtonInner{
+	background:none;
+}
+
+.icsComposer .typeChg .dijitButtonContents.dijitButtonNode{
+	background:url(../../../images/ics/InboxSprites.png) repeat-x scroll -180px -52px;
+	border:none;
+	width:112px;
+	padding: 5px 0px 4px 3px;
+}
+
+.dj_ie .icsComposer .typeChg .dijitButtonContents.dijitButtonNode{
+	padding: 5px 0px 2px 2px;
+}
+.dj_ie.dj_ie7 .icsComposer .typeChg .dijitButtonContents.dijitButtonNode{
+	padding: 5px 0px 4px 3px;
+}
+
+.icsComposer div.middle .statusBar{
+	padding: 0;
+}
+
+.icsComposer .attachCc .attachInfo{
+	margin: 3px 0 0 466px;
+	display: inline-block;
+}
+
+.icsComposer .email .attachCc{
+    padding-top: 10px;
+}
+
+.icsComposer .attachCc .attachBox{
+	height: 97px;
+	width: 763px;
+}
+/*
+.icsComposer .mms .attachCc .attachBox{
+	height: 30px;
+}
+.icsComposer .mms .composeArea{	
+	margin: 0 0 10px 0;
+}
+*/
+.icsComposer .attachCc .attachBox .addButton{
+	background:	url("../../../images/ics/BUAPSprites.png") repeat-x scroll 0 0 transparent;
+	width: 30px;
+	height: 26px;
+	cursor: pointer;
+	margin: 0 20px 0 0;
+}
+
+.icsComposer .attachCc .attachBox .addButton.attachIcon{
+	margin:0;
+}
+
+.dj_ie.dj_ie7 .icsComposer .attachCc .attachBox .addButton.attachLabel{
+	vertical-align:	middle;
+}
+
+.dj_ie.dj_ie7 .icsComposer .attachCc .attachBox .addButton{
+	margin-bottom:	4px;
+}
+
+.icsComposer .attachCc .attachBox .addButton.attachIcon{
+	background-position: -10px -237px;
+}
+
+.icsComposer .attachCc .attachBox .addButton.attachLabel{
+	vertical-align: text-top;
+	font-weight: bold;
+}
+
+.icsComposer .attachCc .attachBox .addButton.picture{
+	background-position: -42px -235px;
+}
+
+.icsComposer .attachCc .attachBox .addButton.video{
+	background-position: -74px -237px;
+}
+
+.icsComposer .attachCc .attachBox .addButton.music{
+	background-position: -107px -237px;
+}
+
+.icsComposer .attachCc .attachBox .addButton.document{
+	background-position: -136px -237px;
+}
+
+.icsComposer .attachCc .attachBox .addButton.show{
+	border-bottom:	none;
+	background-color: #C0C0C0;
+}
+
+.icsComposer .attachCc .attachBox .uploadedFileBox{
+	height: 76%;
+	border: 1px solid #d1d1d1;
+	width: 45%;
+	overflow: auto;
+	float: right;
+	padding: 7px 10px 10px;
+	margin: 0 0 7px;
+	position:relative;
+}
+
+.icsComposer .attachCc .attachBox .attachButtons{
+	width: 300px;
+	float: left;
+	padding-left: 60px;
+}
+
+.icsComposer .mms .composeArea .uploadedFileBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.icsComposer .mms .composeArea .uploadedFileBox div{
+	margin: 5px 5px 0; 
+	position: relative;
+}
+
+.icsComposer .composeArea .uploadedFileBox .removePlayer{
+	background-color: #CCCC00;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	width: 55px;
+	border: 2px dotted #0066CC;
+	margin-bottom: -7px;
+}
+
+.icsComposer .attachLink{
+	background-color: #C0C0C0;
+	position: relative;
+	z-index: 99;
+	width: 217px;
+	height: 96px;
+	top: -71px;
+	left: 132px;
+}
+
+.icsComposer .mms .attachLink{
+	left: 110px;
+}
+
+.icsComposer .mms .attachMiddle{
+	height: 40px;
+}
+
+.icsComposer .email .attachMiddle{
+	height: 97px;
+}
+
+.icsComposer .icsToolbar button span.dijitReset
+{
+	position: static;
+}
+.icsComposer .attachLink.opacity{
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.icsComposer .attachLink.hide{
+	display: none !important;
+}
+
+.icsComposer .composeHeader .headerRow .replySetting.sms {
+	display: inline-block;
+	text-align: right;
+	width: 24%;
+}
+.icsComposer .composeHeader .headerRow .replySetting.sms table{
+	margin: 0 3px 0 5px;
+}
+.msgViewer .icsComposer .composeHeader .headerRow .replySetting.sms table{
+	margin: 0 0 0 5px;
+}
+.icsComposer .composeHeader .headerRow .replySetting.mms {
+	display: inline-block;
+	text-align: right;
+	width: 24%;
+}
+.icsComposer .composeHeader .headerRow .replySetting.mms table{
+	margin: 0 3px 0 5px;
+}
+.msgViewer .icsComposer .composeHeader .headerRow .replySetting.mms table{
+	margin: 0 0 0 5px;
+}
+.icsComposer .composeHeader .headerRow .replySetting .dijitButtonText{
+	width: 66px;
+	text-align: left;
+}
+.icsComposer .composeHeader .headerRow .replySetting label{
+	width: 30%;
+}
+
+.icsComposer .dragDrop .progressImg{
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+
+.icsComposer .dragDrop .progressImg img{
+	width: 53px;
+	height: 38px;
+}
+
+.icsComposer .dragDrop .progressText{
+	-moz-border-radius: 50px;
+}
+
+.icsComposer .dragDrop{
+	width: 200px;
+	margin: 0 0 5px 106px;
+	position: relative;
+	background-color: #ffffff;
+}
+.icsComposer .mms .dragDrop{
+	margin: 0 0 5px 54px;
+}
+
+.icsComposer .drop_zone {
+ 	-moz-border-radius: 5px 5px 5px 5px;
+    border: 2px dashed #0066CC;
+    padding: 20px;
+    margin-top:10px;
+}
+
+.icsComposer .dragDrop .message{
+    color: #FF9900;
+    text-align: left;
+	font-weight: bold;
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	width: 120px;
+}
+
+.icsComposer .composeNav .sendSpan,
+.icsComposer .composeNav .saveDraftSpan {
+	margin-bottom: 2px !important;	
+}
+#ics-app-inbox-composer-stackContainer{
+	border-top: 1px solid #E0E0E0;
+	margin-top: 5px;
+    padding-top: 25px;
+}

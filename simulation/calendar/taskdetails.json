@@ -1,0 +1,28 @@
+{
+    items: [
+      {
+	   "statusCode":"0",		
+	   "desc":"status msg",
+	   "calendarID":"12345",
+	   "taskID":"876765",
+	   "taskname": "Attend birthday Party",
+	   "location": "Rahway, NJ,USA",
+	    "repeats": "donotrepeat",
+	    "tasktype": "Public",
+	    "priority": "High",
+	    "status": "10%",
+	    "createBy":'somebody',
+	   "description":"Please join us to celebrate the birthday party",
+        duedate:[ { 'startDate':'mm/dd/yyyy',
+		     'startTime':'00:00',
+		     'startAMPM':'AM'}
+		     ],
+         "reminders": [
+            {"type":'M|S', 
+			 "to":"name@abcd.com|7326078907",
+			 "alertTime":"15"}
+        ]
+        }
+    ]
+ }
+

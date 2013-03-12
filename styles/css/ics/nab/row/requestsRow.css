@@ -1,0 +1,239 @@
+/*NEW VDL requestsRow css*/
+
+.requestsRow {
+    border-color: #d9d9d9;
+    border-style: none solid solid solid;
+    border-width: 1px;
+}
+
+.requestsItem {
+	border-left:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+	width:100%;
+	height:100%;
+}
+
+.requestsRow .body {
+    background: #fff;
+    position: relative;
+	zoom: 1;
+	height: 70px;
+	overflow: hidden;
+	display: block;
+}
+
+.dj_gecko .requestsRow .body  {
+	padding-bottom:1px;
+}
+
+.requestsRow.vspSelected .body  {
+	background-color: #ebebeb;
+}
+
+.requestsRow.rowHover .body  {
+	background-color: #d9d9d9 !important;
+}
+
+.requestsRow img {
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.requestsRow .message {
+    margin: 6px 0 0 100px;
+    padding: 5px 0;
+    line-height: 15px;
+    width: 490px;
+	height: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.requestsRow .name,
+.requestsRow .phone {
+	font-weight: bold;
+}
+
+.requestsRow .name span {
+	font-weight: normal;
+	padding-left: 6px;
+}
+
+.requestsRow .date {
+    margin: 22px 0 0 0;
+    width: 100px;
+	vertical-align: top;
+	font-family:arial;
+	color: #999999;
+}
+
+.requestsRow .icsROToolbar,
+.requestsRow .icsROButton.select {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.requestsRow .icsROButton.select {
+    right: 7px;
+    visibility: hidden;
+}
+
+.rowHover .icsROButton.select,
+.vspSelected .icsROButton.select {
+    visibility: visible;
+	cursor: pointer;
+}
+
+.requestsRow .emptyIcon { display: none;}
+
+.buddyincoming,
+.buddyaccepted,
+.buddyrejected{
+	/*border-left:1px solid #d9d9d9;*/
+	border-bottom:1px solid #d9d9d9;
+	width:100%;
+	height:100%;
+}
+
+/* icons */
+.buddyincoming .reqIcon {
+	width: 16px;
+	height: 16px;
+	background:url(../../../../images/ics/nab/icons/buddy_request.png) no-repeat transparent 0px 4px;
+	position: absolute;
+	left: 4px;
+	top: 27px;
+}
+.buddyaccepted .reqIcon {
+	width: 16px;
+	height: 16px;
+	background:url(../../../../images/ics/nab/icons/buddy_accept.png) no-repeat transparent 0px 4px;
+	position: absolute;
+	left: 2px;
+	top: 30px;
+}
+
+.buddyrejected .reqIcon {
+	width: 16px;
+	height: 16px;
+	background:url(../../../../images/ics/nab/icons/buddy_decline.png) no-repeat transparent 0px 4px;
+	position: absolute;
+	left: 2px;
+	top: 30px;
+}
+
+.requestsRow .line1 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+}
+
+.rowHover .buddyincoming,
+.vspSelected .buddyincoming,
+.buddyincoming .iconSection{
+	background-color: #e5f5fa;
+}
+.rowHover .buddyaccepted{
+	background-color: #d1d1d1;
+}
+.rowHover .buddyrejected{
+	background-color: #d1d1d1;
+}
+
+/* Following css is used for dropdown email/SMS/MMS numbers in requests tab*/
+.contactsMsgToolbar  {
+	width: 35px;
+	height: 35px;
+	background: transparent  url(../../../../../styles/images/ics/nab/buttons/rolloverDropdowns.png) no-repeat;
+	text-align: center;
+}
+.contactsMsgToolbar .emailMessage {
+	background-position: -35px 0px;
+	display:block;
+	padding-top:0px;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+.contactsMsgToolbar .textMessage {
+	background-position: -35px -35px;
+	display:block;
+	padding-top:0px;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+.contactsMsgToolbar .videoMessage {
+	background-position: -35px -70px;
+	display:block;
+	padding-top:0px;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+
+
+/* Following css is used for dropdown email & phone numbers in requests tab*/
+.newMsgDiv {
+	background-color: #ffffff;
+	width: 350px;
+}
+
+.newMsgDiv .bodyDiv {
+	height: 100%;
+}
+
+.newMsgDiv .bodyDiv .buttons {
+	padding-top: 3px;
+}
+
+.newMsgDiv .bodyDiv .buttons .dijitButtonNode {
+	border: 0px #ffffff solid;
+	background: none;
+}
+
+.newMsgDiv .textDiv {
+	text-align: left;
+}
+
+.newMsgDiv .textDiv .email {
+	margin-left: 25px;
+}
+
+.newMsgDiv .textDiv .text {
+	margin-left: 25px;
+}
+
+.newMsgDiv .textDiv .mms {
+	margin-left: 15px;
+}
+.newMsgDiv .emailSmall {
+	width: 15px;
+	height: 13px;
+	background: url(../../../../images/ics/inbox/msgListSprite.png);
+	background-repeat: no-repeat;
+	background-position: -19px -8px;
+	padding-left:1px;
+}
+
+.newMsgDiv .smsSmall {
+	width: 15px;
+	height: 13px;
+	background: url(../../../../images/ics/inbox/msgListSprite.png);
+	background-repeat: no-repeat;
+	background-position: -72px -8px;
+	padding-left:1px;
+}
+
+.newMsgDiv .mmsSmall {
+	width: 15px;
+	height: 13px;
+	background: url(../../../../images/ics/inbox/msgListSprite.png);
+	background-repeat: no-repeat;
+	background-position: -126px -5px;
+	padding-left:1px;
+}
+.newMsgDiv .text {cursor:pointer;}
+.newMsgDiv .text:hover {background-color:#f5f5f5}

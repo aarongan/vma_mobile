@@ -1,0 +1,50 @@
+/* buttons */
+.pl .button.roundgray span {display:inline-block; position:relative;}
+
+/* close button */
+.pl a.close {background: url(../../images/vzwrga/buttons/gif/close.gif) transparent no-repeat right;}
+
+/* expand/collapse buttons */
+.pl a.expand {background: url(../../images/vzwrga/buttons/gif/plus.gif) transparent no-repeat top left;}
+.pl a.collapse {background: url(../../images/vzwrga/buttons/gif/minus.gif) transparent no-repeat top left;}
+
+/* headers & subheaders */
+.pl h3.rounded span,
+.pl h4.rounded span {zoom:1;}
+
+/* tabs */
+.pl .tabs {background:transparent url(../../images/vzwrga/tabs/gif/gray_1px.gif) repeat-x 0 25px;}
+.pl .tabs a {background:transparent url(../../images/vzwrga/tabs/gif/bg_tab.gif);}
+
+/* small tabs */
+.pl .small_tabs {overflow:auto;background:transparent url(../../images/vzwrga/small_tabs/gif/bg_right.gif) no-repeat top right;}
+.pl .small_tabs ul {overflow:auto;background:transparent url(../../images/vzwrga/small_tabs/gif/bg_slab.gif) no-repeat top left;}
+.pl .tabset {clear:both;}
+
+.pl .small_tabs a.active span {background:transparent url(../../images/vzwrga/small_tabs/gif/tab_left.gif) no-repeat top left;}
+.pl .small_tabs a.active span span {background:transparent url(../../images/vzwrga/small_tabs/gif/tab_right.gif) no-repeat top right;}
+.pl .small_tabs a.active span span span {background:#fff url(../../images/vzwrga/small_tabs/gif/tab_1px.gif) repeat-x;}
+
+/*radio buttons & checkboxes */
+.checkbox, 
+.radio {width: 14px;height: 15px;padding: 0 5px 0 0;background: url('../../images/vzwrga/radiocheck/checkbox.gif') no-repeat;float: left;}
+.radio {background: url('../../images/vzwrga/radiocheck/radio.gif') no-repeat; width:17px; height:17px;}
+
+/* modal */
+div.modal .title_bar a.close {float:right; background:url(../../images/vzwrga/modal/close.gif) center no-repeat;}
+
+/* local navigation */
+.pl .ln ul,
+.pl .ln a.active span span span {zoom:1;}
+
+.pl .ln {background:transparent url(../../images/vzwrga/ln/gif/bg_right.gif) no-repeat top right;}
+.pl .ln ul {background:transparent url(../../images/vzwrga/ln/gif/bg_slab.gif) no-repeat top left;}
+
+.pl .ln a span.first {background:transparent url(../../images/vzwrga/ln/gif/tab_left_round_dark.gif) no-repeat top left;}
+.pl .ln a.active span.first {background:transparent url(../../images/vzwrga/ln/gif/tab_left_round.gif) no-repeat top left;}
+
+.pl .ln a.active span {background:transparent url(../../images/vzwrga/ln/gif/tab_left.gif) no-repeat top left;}
+.pl .ln a.active span span {background:transparent url(../../images/vzwrga/ln/gif/tab_right.gif) no-repeat top right;}
+.pl .ln a.active span span span {background:transparent url(../../images/vzwrga/ln/gif/tab_1px.gif) repeat-x;}
+
+/* tooltips */

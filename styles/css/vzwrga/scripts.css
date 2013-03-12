@@ -1,0 +1,58 @@
+
+/* ELEMENTS */
+
+/* close button */
+.pl a.close {background:transparent url(../i/buttons/png/close.png) no-repeat top right;padding:0 20px 0 0;}
+
+/* scripts */
+.pl .lib_content {z-index:999;background-color:#fff;}
+.pl .hidden, .pl .tip {position:absolute;left:-1000em;top:-1000em;overflow:hidden;}
+
+/* layers */
+.pl div.layer {position:absolute;z-index:100002;font:normal 12px/15px arial,sans-serif;text-align:left;overflow:hidden;padding:0;margin:0;left:-1000em;top:-1000em;}
+.pl div.layer img {display:block;}
+.pl div.layer div.bottom {background:transparent url(../i/layers/bottom_left.gif) no-repeat top left;padding:0 0 0 10px;height:15px;overflow:hidden;} 
+.pl div.layer div.bottom div {background:transparent url(../i/layers/bottom_right.gif) no-repeat top right;padding:0 10px 0 0;height:15px;overflow:hidden;}
+.pl div.layer div.bottom div div {background:transparent url(../i/layers/bottom_1px.gif) repeat-x top left;padding:0;height:15px;overflow:hidden;}
+
+
+/* layers v2 */
+.pl div.layer2 {position:absolute;z-index:100002;font:normal 12px/15px arial,sans-serif;text-align:left;overflow:hidden;padding:0;margin:0;text-align:left;left:-1000em;top:-1000em;}
+
+/* loader */
+.pl div.lib_loading {background:#fff url('../i/random/loader.gif') no-repeat center center;height:100%;width:100%;position:absolute;top:0;left:0;visibility:hidden;}
+.pl div.loading {background:#fff url('../i/random/loader.gif') no-repeat center center;}
+
+/* tooltips */
+.pl div.tip {position:absolute;left:-1000em;background:url(../i/random/s.gif);z-index:2000;font:normal 12px/15px arial,sans-serif;text-align:left;}
+
+.pl div.tip div.top,
+.pl div.tip div.top div,
+.pl div.tip div.bottom,
+.pl div.tip div.bottom div,
+.pl div.tip div.tip_carat {background-image:url(../i/tooltips/sprite.gif);background-color:transparent;background-repeat:no-repeat;overflow:hidden;}
+
+.pl div.tip div.top {height:4px;padding:0 0 0 4px;background-position:0 0;}
+.pl div.tip div.top div {height:4px;padding:0 4px 0 0;background-position:100% -4px;}
+.pl div.tip div.top div div {height:4px;padding:0;background-repeat:repeat-x;background-position:0 -8px;}
+.pl div.tip div.middle {border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;background-color:#fff;}
+.pl div.tip div.middle div.pad {border-left:1px solid #999999;border-right:1px solid #999999;padding:6px 8px 6px 8px;}
+.pl div.tip div.bottom {height:4px;padding:0 0 0 4px;background-position:0 -12px;}
+.pl div.tip div.bottom div {height:4px;padding:0 4px 0 0;background-position:100% -16px;}
+.pl div.tip div.bottom div div {height:4px;padding:0;background-repeat:repeat-x;background-position:0 -20px;}
+
+.pl div.tip_pad_left {padding-left:11px;}
+.pl div.tip_pad_right {padding-right:11px;}
+.pl div.tip_pad_top {padding-top:11px;}
+.pl div.tip_pad_bottom {padding-bottom:11px;}
+
+.pl div.tip div.tip_carat {position:absolute;}
+.pl div.tip_pad_left div.tip_carat, 
+.pl div.tip_pad_right div.tip_carat {width:13px;height:22px;top:10px;}
+.pl div.tip_pad_top div.tip_carat, 
+.pl div.tip_pad_bottom div.tip_carat {width:22px;height:13px;left:10px;}
+
+.pl div.tip_pad_left div.tip_carat {left:0px;background-position:100% -24px;}
+.pl div.tip_pad_right div.tip_carat {right:0px;background-position:0 -46px;}
+.pl div.tip_pad_top div.tip_carat {top:0px;background-position:0 -68px;}
+.pl div.tip_pad_bottom div.tip_carat {bottom:0px;background-position:0 -82px;}

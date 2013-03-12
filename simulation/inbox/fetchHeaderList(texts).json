@@ -1,0 +1,1491 @@
+{
+    "getContactsTime": 0,
+    "getMessageTime": 729,
+    "numRows": 52,
+    "numDummyRows": 2,
+    "all": {
+        "All": 80,
+        "email": 0,
+        "sms": 48,
+        "mms": 32,
+        "vvm": 0,
+        "call_log": 0
+    },
+    "unread": {
+        "All": 0,
+        "email": 0,
+        "sms": 0,
+        "mms": 0,
+        "vvm": 0,
+        "call_log": 0
+    },
+    "undelivered": {
+        "smsRowNums": 0,
+        "mmsRowNums": 0,
+        "isShow": false,
+        "smsItems": [],
+        "mmsItems": []
+    },
+    "statusCode": 0,
+    "statusDesc": "Done",
+    "items": [
+        {
+            "messageId": 0,
+            "folderName": "",
+            "type": 6,
+            "isThread": false,
+            "threadLength": 0,
+            "draftLength": 0,
+            "deliveryStatusCode": 0,
+            "from": [],
+            "to": [],
+            "toParty": [],
+            "cc": [],
+            "subject": "Monday March 05th, 2012",
+            "receivedDateShortTxt": "",
+            "receivedDate": "",
+            "contactId": "",
+            "attachment": false,
+            "size": 0,
+            "priority": 0,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": false,
+            "inNetwork": false,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": []
+        },
+        {
+            "messageId": 2223,
+            "folderName": "UnifiedInbox",
+            "type": 2,
+            "isThread": false,
+            "threadLength": 0,
+            "draftLength": 0,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "Test Account",
+                    "emailAddress": "9082270027"
+                }
+            ],
+            "to": [
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "Test Account",
+                    "emailAddress": "9082270027"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message from Test Account",
+            "receivedDateShortTxt": "Mon, 12:46",
+            "receivedDate": "Mon Mar 05 15:46:25 EST 2012",
+            "contactId": "b8e31db101341000a8fa39408c9ba676",
+            "attachment": false,
+            "size": 0,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": false,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": []
+        },
+        {
+            "messageId": 0,
+            "folderName": "",
+            "type": 6,
+            "isThread": false,
+            "threadLength": 0,
+            "draftLength": 0,
+            "deliveryStatusCode": 0,
+            "from": [],
+            "to": [],
+            "toParty": [],
+            "cc": [],
+            "subject": "Tuesday February 28th, 2012",
+            "receivedDateShortTxt": "",
+            "receivedDate": "",
+            "contactId": "",
+            "attachment": false,
+            "size": 0,
+            "priority": 0,
+            "answered": false,
+            "draft": false,
+            "read": false,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": false,
+            "inNetwork": false,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": []
+        },
+        {
+            "messageId": 1671,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1672,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1673,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1674,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1675,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1676,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1677,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1678,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1679,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1680,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1681,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1682,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1683,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1684,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1685,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1686,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1687,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1688,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        },
+        {
+            "messageId": 1689,
+            "folderName": "Drafts",
+            "type": 2,
+            "isThread": true,
+            "threadLength": 66,
+            "draftLength": 2,
+            "deliveryStatusCode": 0,
+            "from": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                }
+            ],
+            "to": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                },
+                {
+                    "name": "Test User",
+                    "emailAddress": "8165606736"
+                },
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "toParty": [
+                {
+                    "name": "anillll mallii",
+                    "emailAddress": "9082467553"
+                }
+            ],
+            "cc": [],
+            "subject": "Text Message to anillll mallii",
+            "receivedDateShortTxt": "Tue, 13:54",
+            "receivedDate": "Tue Feb 28 16:54:35 EST 2012",
+            "contactId": "b8e31db101341000a8fe39408c9ba676",
+            "attachment": true,
+            "size": 1,
+            "priority": 3,
+            "answered": false,
+            "draft": false,
+            "read": true,
+            "sourceSystem": "",
+            "sourceMessageId": "",
+            "sourceMessageFolder": "",
+            "sourceMessageUID": "",
+            "isStarred": true,
+            "inNetwork": true,
+            "isBuddy": false,
+            "ics": "",
+            "sensitivity": "",
+            "orderNum": 0,
+            "tags": [
+                {
+                    "id": 1000,
+                    "name": "Starred"
+                }
+            ]
+        }
+    ],
+    "passwordChangeNotifications": [],
+    "flags": {
+        "showSyncPod": false,
+        "errorMessage": "",
+        "showSnglSyncPod": []
+    },
+    "tags": [],
+    "nabNotifications": [],
+    "tagExceedNotifications": {
+        "tagErrorMessage": ""
+    }
+}

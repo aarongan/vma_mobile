@@ -1,0 +1,118 @@
+{
+	"numRows": 5,
+	"items": [
+		{
+		"id":"1",
+		"title": "Filter 1",
+		"priority": 1,
+		"isEnabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "Subject",
+				"condition" : "contains",
+				"condValue" : "Mary"
+			},
+			{
+				"property" : "Email Priority",
+				"condition" : "is",
+				"condValue" : "High"
+			}
+			],
+		"actions" : [
+				{
+					"action" : "Add Tag",
+					"target" : "Family"
+				},
+				{
+					"action" : "Move message",
+					"target" : "Drafts"
+				}
+				]
+		},
+			
+		{
+		"id":"2",
+		"title": "Filter 2",
+		"priority": 2,
+		"isEnabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"id":"3",
+		"title": "Filter 3",
+		"priority": 3,
+		"isEnabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"id":"4",
+		"title": "Filter 4",
+		"priority": 4,
+		"isEnabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		},
+			
+		{
+		"id":"5",
+		"title": "Filter 5",
+		"priority": 5,
+		"isEnabled" : true,
+		"ifCondition": "all",
+		"conditions": [
+			{
+				"property" : "subject",
+				"condition" : "some value",
+				"condValue" : "mary"
+			}
+			],
+		"actions" : [
+			{
+				"action" : "addTag",
+				"target" : "Family"
+			}
+			]
+		}
+		]
+}

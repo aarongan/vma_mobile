@@ -1,0 +1,46 @@
+/*this is the default style for floating item box*/
+.floatingBox {width:200px;margin-bottom:10px; background:#ffffff;}
+
+.floatingBox .headerNode{float:left;margin: 2px 5px 5px 10px;}
+
+.floatingBox .bodyNode{float:none;margin:0px;clear:both}
+
+.floatingBox .headerDiv {border-bottom : #d1d1d1 solid 1px ; height: 24px}
+
+.floatingBox .bodyDiv{height: 145px; border-bottom: #d1d1d1 solid 1px; overflow-x: hidden;overflow-y: scroll;position: relative;}
+
+.floatingBox .footerDiv{height: 25px}
+
+.floatingBox .tipDiv{float:right}
+
+.floatingBox .tipDiv img{float:none;margin:5px 10px;}
+
+.floatingBox .inactive{display:none}
+
+.floatingBoxContent{padding: 1px 0px 1px 0px !important}
+
+.floatingBox .floatingBoxContent .hidden {display:none}
+
+.floatingBox .opDivInactive{display:none}
+
+.floatingBox .opDivActive{height:30px;border-bottom:#d1d1d1 solid 1px;background-color:#d1d1d1}
+
+.floatingBox .opDivActive div.inputFieldDiv{float:left;}
+
+.floatingBox .opDivActive div.inputFieldDiv input{float:none; margin:5px 3px 0px 6px;width:135px;}
+
+.floatingBox .opDivActive div.buttonDiv{float:left; margin-top:4px}
+
+.floatingBox .tagBodyWrapper{height:28px}
+
+.floatingBox .tagBodyWrapper div.tagNameDiv{float:left}
+
+.floatingBox .tagBodyWrapper div.inputFieldDiv{float:left;border: none;line-height: 2.3em;padding-left:10px;}
+
+.floatingBox .tagBodyWrapper div.inputFieldDiv input{width:110px;margin-top:5px;}
+
+.floatingBox .tagBodyWrapper div.buttonDiv{float:right;margin-top:4px;}
+
+.floatingBox .tagBodyWrapper div.menuDiv{float:right}
+
+.floatingBox .selected {background-color: black;}

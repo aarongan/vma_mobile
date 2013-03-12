@@ -1,0 +1,80 @@
+{
+	"messageId": 46456,
+	"folderName": "inbox",
+	"messageType": "thread",
+	"threadList": [
+		{
+			"messageUID": 1234,
+			"folderID": 234234,
+			"sender": "Sarah Gray",
+			"icon": "../simulation/inbox/profileImages/profile_small_1.jpg",
+			"isAttachment": true,
+			"timestamp": "4 days ago"
+		},
+		{
+			"messageUID": 2343,
+			"folderID": 234234,
+			"sender": "Justin Case",
+			"icon": "../simulation/inbox/profileImages/profile_small_2.jpg",
+			"isAttachment": true,
+			"timestamp": "3 days ago"
+		},
+		{
+			"messageUID": 45645,
+			"folderID": 234234,
+			"sender": "Michelle Longhorn",
+			"icon": "../simulation/inbox/profileImages/profile_small_3.jpg",
+			"isAttachment": true,
+			"timestamp": "2 days ago"
+		}
+		
+	],
+	"sender": {
+		"name": "Sarah Gray",
+		"email": "lorem.nomem@email.net",
+		"icon": "http://server.com/uri"
+	},
+	"subject": "Surprise Party",
+	"isStarred": false,
+	"body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2//EN\">\r\n<HTML>\r\n<HEAD>\r\n<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\r\n<META NAME=\"Generator\" CONTENT=\"MS Exchange Server version 6.5.7654.12\">\r\n<TITLE>test1</TITLE>\r\n</HEAD>\r\n<BODY>\r\n<!-- Converted from text/rtf format -->\r\n\r\n<P><FONT FACE=\"Arial\" SIZE=2 COLOR=\"#000000\"> &lt;&lt;Filters.doc&gt;&gt; </FONT><FONT FACE=\"Arial\" SIZE=2 COLOR=\"#000000\"> &lt;&lt;ICS_TASK.xls&gt;&gt; </FONT><FONT FACE=\"Arial\" SIZE=2 COLOR=\"#000000\"> &lt;&lt;test&gt;&gt; </FONT>\r\n</P>\r\n\r\n<pre>\r\n\r\nThe information contained in this message and any attachment may be\r\nproprietary, confidential, and privileged or subject to the work\r\nproduct doctrine and thus protected from disclosure. If the reader\r\nof this message is not the intended recipient, or an employee or\r\nagent responsible for delivering this message to the intended\r\nrecipient, you are hereby notified that any dissemination,\r\ndistribution or copying of this communication is strictly prohibited.\r\nIf you have received this communication in error, please notify me\r\nimmediately by replying to this message and deleting it and all\r\ncopies and backups thereof. Thank you.\r\n\r\n</pre></BODY>\r\n</HTML><!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2//EN\">\r\n<HTML>\r\n<HEAD>\r\n<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\r\n<META NAME=\"Generator\" CONTENT=\"MS Exchange Server version 6.5.7654.12\">\r\n<TITLE>test</TITLE>\r\n</HEAD>\r\n<BODY>\r\n<!-- Converted from text/rtf format -->\r\n\r\n<P><FONT SIZE=2 FACE=\"Arial\">Hi test eamil.<FONT FACE=\"Arial\" SIZE=2 COLOR=\"#000000\"> &lt;&lt;client-mail.vsd&gt;&gt; </FONT></FONT>\r\n</P>\r\n\r\n</BODY>\r\n</HTML>",
+	"timestamp": "Mon, 9:40 PM",
+	"msgTags": [
+		{
+			"tagId": 123,
+			"tagName": "Family"
+		},
+		{
+			"tagId": 36,
+			"tagName": "Party"
+		}
+	],
+	"attachments": [
+				{
+					"id": 3756,
+					"type": "image",
+					"iconUrl": "../simulation/inbox/image_thumbnail.png",
+					"name": "Smith_Family_Photo.jpg",
+					"size": "235k",
+					"saveLink": "../simulation/inbox/previewAttachmentImage.png"
+				},
+				{
+					"id": 4523,
+					"type": "vcf",
+					"iconUrl": "../styles/images/ics/inbox/attachment_thumbnail.png",
+					"name": "smith.vcf",
+					"size": "22k",
+					"saveLink": "../simulation/inbox/John_Doe.vcf"
+				},
+				{
+					"id": 3524,
+					"type": "pdf",
+					"iconUrl": "../styles/images/ics/inbox/attachment_thumbnail.png",
+					"name": "family.pdf",
+					"size": "124k",
+					"saveLink": "saveUrl"
+				}
+			],
+	"blockImages": true,
+	"standardHeader": "<b>Sarah Gray</b> to me<br /><b>Today, 10:42AM</b> (8 min ago)<br />",
+	"xtraHeader": "<b>Reply to:</b> sarah@verizon.net<br /><b>To: Wade Doe</b> &#60;wade@verizon.net&#62;<br /><b>Rob Walch</b> &#60;rob.walch@gmail.com&#62;<br /><b>cc: Lori Doe</b> &#60;lori@verizon.net&#62;<br /><b>Julia Doe</b> &#60;julia@gmail.com&#62;<br /><b>Robert Henry</b> &#60;robert@verizon.net&#62;<br /><b>Date: </b>Sat, May 15, 2009 at 10:42AM<br /><b>Subject: </b>Surprise Party<br /><b>Mailed by: </b>verizon.net<br />"
+}

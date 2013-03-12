@@ -1,0 +1,112 @@
+{
+    "numRows": 6,
+	"All": 24,
+    "email": 8,
+    "sms": 2,
+    "mms": 3,
+    "vvm": 6,
+    "callLog": 0,
+	"status": 0,
+    "items": [
+		{
+			"type": 6,
+			"message": "Today, July 8, 2009"
+		},
+        {
+		"invitationId":"1",
+		"picURL":"../simulation/inbox/profileImages/1.png",
+		"type":"event",
+		"subject":"Invitation 1",
+		"message":"Test Invitation 1",
+		"dueDate":"07/29/2009",
+		"dueTime":"Tue, 17:14 PM",
+		"organizer":"Manager 1",
+		"senderName":"Mary Jones",
+		"readWrite":"true",
+		"inviteOthers":"true",
+		"calendarColor":"#FF8040"
+        },
+	  {
+		"invitationId":"2",
+		"picURL":"../simulation/inbox/profileImages/3.png",
+		"type":"event",
+		"subject":"Invitation 2",
+		"message":"Test Invitation 2",
+		"dueDate":"07/29/2009",
+		"dueTime":"Tue, 07:04 PM",
+		"organizer":"Manager 2",
+		"senderName":"Mary Jones",
+		"readWrite":"false",
+		"inviteOthers":"false",
+		"calendarColor":"#FF00FF"
+
+
+        },
+	  {
+		"invitationId":"3",
+		"picURL":"../simulation/inbox/profileImages/4.png",
+		"type":"event",
+		"subject":"Invitation 3",
+		"message":"Test Invitation 3",
+		"dueDate":"07/29/2009",
+		"dueTime":"Tue, 10:15 PM",
+		"organizer":"Manager 3",
+		"senderName":"Mary Jones",
+		"readWrite":"true",
+		"inviteOthers":"false",
+		"calendarColor":"#C0C0C0"
+
+        },
+	  {
+		"type": 6,
+		"message": "Today, July 9, 2009"
+	  },
+	  {
+		"invitationId":"4",
+		"picURL":"../simulation/inbox/profileImages/6.png",
+		"type":"event",
+		"subject":"Invitation 4",
+		"message":"Test Invitation 4",
+		"dueDate":"07/30/2009",
+		"dueTime":"Tue, 10:15 PM",
+		"organizer":"Manager 4",
+		"senderName":"Mary Jones",
+		"readWrite":"false",
+		"inviteOthers":"false",
+		"calendarColor":"#808000"
+        },
+	 {
+		"invitationId":"5",
+		"picURL":"../simulation/inbox/profileImages/8.png",
+		"type":"event",
+		"subject":"Invitation 5",
+		"message":"Test Invitation 5",
+		"dueDate":"07/24/2009",
+		"dueTime":"Tue, 10:15 PM",
+		"organizer":"Manager 5",
+		"senderName":"Mary Jones",
+		"readWrite":"true",
+		"inviteOthers":"true",
+		"calendarColor":"#00FF00"
+
+        },
+	 {
+		"invitationId":"6",
+		"picURL":"../simulation/inbox/profileImages/9.png",
+		"type":"event",
+		"subject":"Invitation 6",
+		"message":"Test Invitation 6",
+		"dueDate":"07/24/2009",
+		"dueTime":"Tue, 10:15 PM",
+		"organizer":"Manager 6",
+		"senderName":"Mary Jones",
+		"readWrite":"false",
+		"inviteOthers":"false",
+		"calendarColor":"#00FF00"
+
+
+        }
+
+       
+    ]
+}

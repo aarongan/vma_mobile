@@ -1,0 +1,7 @@
+ 
+
+
+
+
+
+{"statusCode":0,"statusDesc":"New message received","isSlide":false,"unread":{"All":"","email":"","sms":"","mms":"","vvm":"","call_log":""},"mailQuotaUsage":0,"messageId":0,"composerId":"1317997239519","replyMode":"","folderName":"","vcard":false,"captionTxt":"","displayImages":false,"receivedDate":"","relativeTime":"","receivedTimestamp":"","type":0,"from":[],"to":[{"name":"","emailAddress":""}],"cc":[],"bcc":[],"replyTo":"","replyFrom":"","subject":"","attachment":false,"contactId":"","size":0,"priority":0,"answered":false,"draft":false,"read":false,"sourceSystem":"","sourceMessageId":"","sourceMessageUID":"","sourceMessageFolder":"","isStarred":false,"inNetwork":false,"isBuddy":false,"ics":"","sensitivity":"","isHTML":false,"body":"","orderNum":0,"newContent":"","oldContent":"","tags":[],"attachmentList":[{"attachName":"#DATA.vcf","attachSize":"1 K","attachPath":"/#DATA.vcf","attachType":"","attachInfo":"","xml":""}],"slideList":[],"isSendLater":"","startTime":"","endTime":"","recurrenceType":""}

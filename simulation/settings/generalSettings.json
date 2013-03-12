@@ -1,0 +1,12 @@
+{
+	"country": "us",
+	"zip": "12345",
+	"timeFormat":"standard",
+	"dateFormat" : "3",
+	"timeZone" : "EST",
+	"msgAlert":"on",
+	"prefContact":"email",
+	"prefEmail":"john.doe@vzw.net",
+	"prefText":"1234567890",
+	"serviceLevel":"premium"
+}

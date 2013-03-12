@@ -1,0 +1,143 @@
+{}&&{ 
+    "statusCode":"0",		
+	"desc":"status msg",
+    items: [
+         {
+          "calendarID":"6666",
+		  "eventID": "1234444",
+		  "allday":"false",
+		  "repeated":"false",
+		  "startDate":"04/01/2009",
+		  "startTime":"12:00",
+		  "startAMPM":"PM",
+		  "calcolor":"orange",
+		  "endDate":"04/01/2009",
+		  "eventTitle":"Lunch with ICS Team",
+		  "endTime":"12:30",
+		  "endAMPM":"PM",
+		  "description":"Joining lunch with ICS Team",
+          "personcalendar":"John’s",
+          "location":"Rahway, NJ"
+         }
+        ,
+         {
+          "calendarID":"8888",
+		  "eventID": "56890",
+		  "allday":"false",
+		  "repeated":"false",
+		  "startDate":"04/15/2009",
+		  "startTime":"2:30",
+		  "startAMPM":"PM",
+		  "calcolor":"#4682B4",
+		  "endDate":"04/15/2009",
+		  "eventTitle":"Soccer Practice",
+		  "endTime":"4:30",
+		  "endAMPM":"PM",
+		   "description":"Soccer Practice for final game",
+          "personcalendar":"John’s",
+          "location":"Branchberg, NJ"
+         }
+        ,
+        {
+          "calendarID":"9999",
+		  "eventID": "54330",
+		  "startDate":"04/24/2009",
+		  "startTime":"1:30",
+		  "allday":"false",
+		  "repeated":"false",
+		  "calcolor":"#3CB371",
+		  "startAMPM":"PM",
+		  "endDate":"04/24/2009",
+		  "eventTitle":"ICS Meeting",
+		  "endTime":"3:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Warren, NJ"
+         }
+          ,
+        {
+          "calendarID":"2222",
+		  "eventID": "54330",
+		  "startDate":"04/15/2009",
+		  "startTime":"5:30",
+		  "allday":"false",
+		  "repeated":"false",
+		  "calcolor":"orange",
+		  "startAMPM":"PM",
+		  "endDate":"04/15/2009",
+		  "eventTitle":"Lunch with ABC Team",
+		  "endTime":"6:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Warren, NJ"
+         }   ,
+        {
+          "calendarID":"1111",
+		  "eventID": "54360",
+		  "startDate":"04/26/2009",
+		  "startTime":"1:30",
+		  "allday":"false",
+		  "repeated":"false",
+		  "calcolor":"#4682B4",
+		  "startAMPM":"PM",
+		  "endDate":"04/28/2009",
+		  "eventTitle":"Vacation",
+		  "endTime":"2:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Warren, NJ"
+         },
+        {
+          "calendarID":"2222",
+		  "eventID": "54360",
+		  "startDate":"04/05/2009",
+		  "startTime":"1:30",
+		  "allday":"false",
+		  "repeated":"false",
+		  "calcolor":"#3CB371",
+		  "startAMPM":"PM",
+		  "endDate":"04/06/2009",
+		  "eventTitle":"New Year's Eve",
+		  "endTime":"2:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Warren, NJ"
+         },
+          {
+          "calendarID":"5555",
+		  "eventID": "54360",
+		  "startDate":"05/25/2009",
+		  "startTime":"1:30",
+		  "allday":"false",
+		  "repeated":"false",
+		  "calcolor":"#3CB371",
+		  "startAMPM":"PM",
+		  "endDate":"05/26/2009",
+		  "eventTitle":"Vacation",
+		  "endTime":"2:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Warren, NJ"
+         },
+          {
+          "calendarID":"5555",
+		  "eventID": "54360",
+		  "startDate":"04/10/2009",
+		  "startTime":"2:30",
+		  "allday":"false",
+		  "repeated":"false",
+		  "calcolor":"#4682B4",
+		  "startAMPM":"PM",
+		  "endDate":"04/10/2009",
+		  "eventTitle":"Soccer Practice",
+		  "endTime":"3:30",
+		  "endAMPM":"PM",
+          "personcalendar":"John’s",
+          "location":"Warren, NJ"
+         }
+    ]
+}
+
+
+
+

@@ -1,0 +1,50 @@
+{}&&{ 
+    "statusCode":"0",		
+	"desc":"status msg",
+    items: [
+         {
+          "calendarID":"9888",
+		  "taskID": "1234444",
+          "taskname": "Clean the pool this weekend",
+          "priority":"High",
+          "enterdate":"Nov. 9, 2008",
+          "duedate":"Dec. 6, 2009",
+          "personcalendar":"Sam's",
+          "status":"20%"}
+        ,
+         {
+         "calendarID":"9888",
+		 "taskID": "1234444",
+         "taskname": "Vehicle Maintenance",
+         "priority":"High",
+         "enterdate":"Aug. 2, 2008",
+         "duedate":"Dec. 2, 2008",
+         "personcalendar":"Eric's",
+         "status":"10%"}
+        ,
+         {"taskname": "Birthday party", "priority":"High", "enterdate":"Aug. 6, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""}
+        ,
+         {"taskname": "Play with kids", "priority":"High", "enterdate":"Aug. 8, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"ram's", "status":""},
+         {"taskname": "Requirements Discussion", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+         {"taskname": "Design doc preparation", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+         {"taskname": "Framework discussion", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+         {"taskname": "Framework discussion1", "priority":"High", "enterdate":"Aug. 9, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+         {"taskname": "Framework discussion2", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+         {"taskname": "Framework discussion3", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+  
+         {"taskname": "Framework discussion4", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""},
+            {"taskname": "Framework discussion5", "priority":"High", "enterdate":"Aug. 2, 2008",
+        "duedate":"Dec. 2, 2008","personcalendar":"Eric's", "status":""}
+    ]
+}
+
+

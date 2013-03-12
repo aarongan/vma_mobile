@@ -1,0 +1,76 @@
+{
+	"all":{
+			"All": 716,
+			"music": 3,
+			"pictures": 15,
+			"videos": 3,
+			"documents": 4
+		},
+	"flags":{
+			"errorMessage": "",
+			"showSyncPod": false
+		},
+	"tags": [],
+	"numRows":4,
+	"numDummyRows":2,
+	"statusCode":0,
+	"statusDesc":"successful",
+	"items": [
+		{	"fileId": "",
+		"fileName": "",
+		"type": "dummy",
+		"fileSize": "",
+		"fileExt": "",
+		"uploadDateShortTxt": "Today, July 15th, 2011 Friday",
+		"filePreviewIcon": "",
+		"fileUrl": ""
+		},
+		{	"fileId": "1010017",
+		"fileName": "document_00017",
+		"type": "Document",
+		"fileSize": "112K",
+		"fileExt": "ppt",
+		"uploadDateShortTxt": "Mon, 03:16 PM",
+		"filePreviewIcon": "../simulation/inbox/vzw-htc.jpg",
+		"fileUrl": "../simulation/inbox/vzw-htc.jpg"
+		},
+		{	"fileId": "1010004",
+		"fileName": "document_00004",
+		"type": "Document",
+		"fileSize": "112K",
+		"fileExt": "jpg",
+		"uploadDateShortTxt": "Mon, 03:16 PM",
+		"filePreviewIcon": "../simulation/inbox/lte-modems-_1.jpg",
+		"fileUrl": "../simulation/inbox/lte-modems-_1.jpg"
+		},
+		{	"fileId": "",
+		"fileName": "",
+		"type": "dummy",
+		"fileSize": "",
+		"fileExt": "",
+		"uploadDateShortTxt": "July 9th, 2011 Saturday",
+		"filePreviewIcon": "",
+		"fileUrl": ""
+		},
+		{	"fileId": "1015014",
+		"fileName": "document_50014",
+		"type": "Documen",
+		"fileSize": "112K",
+		"fileExt": "doc",
+		"uploadDateShortTxt": "Mon, 03:16 PM",
+		"filePreviewIcon": "../simulation/inbox/skype-vzw-commercial-dl.png",
+		"fileUrl": "../simulation/inbox/skype-vzw-commercial-dl.png"
+		},
+		{	"fileId": "1015016",
+		"fileName": "document_50016",
+		"type": "Document",
+		"fileSize": "112K",
+		"fileExt": "txt",
+		"uploadDateShortTxt": "Mon, 03:16 PM",
+		"filePreviewIcon": "../simulation/inbox/verizon10.jpg",
+		"fileUrl": "../simulation/inbox/verizon10.jpg"
+		}
+		
+	],
+	"notifications": []
+}

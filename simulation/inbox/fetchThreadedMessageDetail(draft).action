@@ -1,0 +1,124 @@
+{
+    "statusCode":0,
+    "statusDesc":"Done",
+    "isThread":false,
+    "unread":{
+        "All":42,
+        "email":42,
+        "sms":0,
+        "mms":0,
+        "vvm":0,
+        "call_log":0
+    },
+    "threadId":0,
+    "folderName":"UnifiedInbox",
+    "vcard":false,
+    "captionTxt":"",
+    "subject":"test attachment",
+    "isStarred":false,
+    "tags":[],
+    "memberHeaders":[{
+            "messageId":385,
+            "folderName":"UnifiedInbox",
+            "type":1,
+            "replyMode":"",
+            "isSlide":false,
+            "from":[{
+                    "name":"Li, Hui",
+                    "emailAddress":"Hui.Li3@VerizonWireless.com"
+                }
+            ],
+            "to":[{
+                    "name":"",
+                    "emailAddress":"buaplus@gmail.com"
+                }
+            ],
+            "subject":"test attachment",
+            "receivedDateShortTxt":"Today, 09:29 AM",
+            "receivedDateDetailedTxt":"Today, 09:29 AM (56 mins ago)",
+            "receivedDate":"Thu Feb 02 09:29:47 EST 2012",
+            "contactId":"",
+            "attachment":true,
+            "size":51,
+            "priority":3,
+            "answered":false,
+            "draft":false,
+            "read":true,
+            "sourceSystem":"GOOGLE",
+            "sourceMessageId":"<4f2a9e05.1446650a.159f.ffffdd01SMTPIN_ADDED@mx.google.com>",
+            "sourceMessageUID":"11",
+            "sourceMessageFolder":"INBOX",
+            "isStarred":false,
+            "inNetwork":false,
+            "isBuddy":false,
+            "ics":"",
+            "sensitivity":"",
+            "orderNum":1,
+            "receivedTimestamp":"Thu Feb 02 09:29:47 EST 2012",
+            "relativeTime":"Today, 09:29 AM (56 mins ago)",
+            "cc":[],
+            "bcc":[],
+            "replyTo":"Hui.Li3@VerizonWireless.com",
+            "replyFrom":"buaplus@gmail.com",
+            "composerId":"",
+            "displayImages":false,
+            "isHTML":true,
+            "body":"<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=us-ascii\"><meta name=Generator content=\"Microsoft Word 12 (filtered medium)\"><style><!--\u000d\u000a/* Font Definitions */\u000d\u000a@font-face\u000d\u000a\u0009{font-family:Calibri;\u000d\u000a\u0009panose-1:2 15 5 2 2 2 4 3 2 4;}\u000d\u000a/* Style Definitions */\u000d\u000ap.MsoNormal, li.MsoNormal, div.MsoNormal\u000d\u000a\u0009{margin:0in;\u000d\u000a\u0009margin-bottom:.0001pt;\u000d\u000a\u0009font-size:11.0pt;\u000d\u000a\u0009font-family:\"Calibri\",\"sans-serif\";}\u000d\u000aa:link, span.MsoHyperlink\u000d\u000a\u0009{mso-style-priority:99;\u000d\u000a\u0009color:blue;\u000d\u000a\u0009text-decoration:underline;}\u000d\u000aa:visited, span.MsoHyperlinkFollowed\u000d\u000a\u0009{mso-style-priority:99;\u000d\u000a\u0009color:purple;\u000d\u000a\u0009text-decoration:underline;}\u000d\u000aspan.EmailStyle17\u000d\u000a\u0009{mso-style-type:personal-compose;\u000d\u000a\u0009font-family:\"Calibri\",\"sans-serif\";\u000d\u000a\u0009color:windowtext;}\u000d\u000a.MsoChpDefault\u000d\u000a\u0009{mso-style-type:export-only;}\u000d\u000a@page WordSection1\u000d\u000a\u0009{size:8.5in 11.0in;\u000d\u000a\u0009margin:1.0in 1.0in 1.0in 1.0in;}\u000d\u000adiv.WordSection1\u000d\u000a\u0009{page:WordSection1;}\u000d\u000a--></style><!--[if gte mso 9]><xml>\u000d\u000a<o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" />\u000d\u000a</xml><![endif]--><!--[if gte mso 9]><xml>\u000d\u000a<o:shapelayout v:ext=\"edit\">\u000d\u000a<o:idmap v:ext=\"edit\" data=\"1\" />\u000d\u000a</o:shapelayout></xml><![endif]--></head><body lang=EN-US link=blue vlink=purple><div class=WordSection1><p class=MsoNormal>test attachment<o:p></o:p></p></div></body></html>",
+            "attachmentList":[{
+                    "attachName":"testD.txt",
+                    "attachSize":"1K",
+                    "attachPath":"1",
+                    "attachType":"TEXT/PLAIN; name=testD.txt",
+                    "attachInfo":"",
+                    "xml":""
+                },
+                {
+                    "attachName":"test.flv",
+                    "attachSize":"1K",
+                    "attachPath":"2",
+                    "attachType":"APPLICATION/OCTET-STREAM; name=test.flv",
+                    "attachInfo":"",
+                    "xml":""
+                },
+                {
+                    "attachName":"test.avi",
+                    "attachSize":"1K",
+                    "attachPath":"3",
+                    "attachType":"VIDEO/AVI; name=test.avi",
+                    "attachInfo":"",
+                    "xml":""
+                },
+                {
+                    "attachName":"Test Word File.docx",
+                    "attachSize":"13K",
+                    "attachPath":"4",
+                    "attachType":"APPLICATION/OCTET-STREAM; name=&#034;Test Word File.docx&#034;",
+                    "attachInfo":"",
+                    "xml":""
+                },
+                {
+                    "attachName":"testExcel.xlsx",
+                    "attachSize":"11K",
+                    "attachPath":"5",
+                    "attachType":"APPLICATION/OCTET-STREAM; name=testExcel.xlsx",
+                    "attachInfo":"",
+                    "xml":""
+                },
+                {
+                    "attachName":"GLTE.jpg",
+                    "attachSize":"18K",
+                    "attachPath":"6",
+                    "attachType":"IMAGE/JPEG; name=GLTE.jpg",
+                    "attachInfo":"",
+                    "xml":""
+                }
+            ],
+            "slideList":[],
+            "isSendLater":"",
+            "startTime":"",
+            "endTime":"",
+            "recurrenceType":"",
+            "tags":[]
+        }
+    ]
+}

@@ -1,0 +1,451 @@
+/* overriding some dijit stuff  - might be better to do with an id*/
+.tundra .dijitBorderContainer-child{
+	border: none;
+}
+
+.taskRow {
+	position: relative;
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.taskRow .gutter{height:80px;}
+
+.taskRow .gutter .body{height:80px;}
+
+.taskRow.vspSelected .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .body {
+	background: #fff;
+	margin: 0 0 0 8px;
+	position: relative;
+}
+.taskRow .body .dijitToolbar {
+  	position: absolute;
+	top: 20px;
+	right: 60px;
+	background:none;
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+.taskRow .gutter .body .statusBar {
+	position:absolute;
+	right:550px;
+	top:22px;
+}
+
+.taskRow .body .statusDetail {
+	display:none;
+}
+
+.taskRowHover .body .statusDetail {
+	display:block;
+	font-weight: bold;
+	position:absolute;
+	top:-25px;
+	margin-top:10px;
+}
+
+.taskRow .body .priorityField{display:none}
+
+
+
+.taskRow.taskRowHover .body .priorityField {
+	display:block;
+	background-color: #666666;
+	color: #ffffff;
+	position:absolute;
+	right:310px;
+	top:22px;
+	height:30px;
+	width:140px;
+}
+
+.taskRow .msgBackgroundColor {
+	height:80px;
+	position:absolute;
+	right:726px;
+	top:0;
+	width:10px;
+}
+
+
+.taskRow.taskRowHover .body .taggingPanel{background-color:#ffffff;}
+
+.taskRow .body .priorityField .button{position:absolute;right:8px;top:5px;}
+
+
+
+
+.taskRow .body .priorityField .inputField{width:20px;padding-left:2px;margin-top:5px;}
+
+.taskRow .body .priorityField .text{float:left;margin: 6px 5px 0px 4px;font-weight:bold;}
+/*
+.taskRowHover .body .priorityField 
+{
+	display:block;
+	position:absolute;
+	right:88px;
+	top:-25px;
+}
+*/
+
+
+.taskRow .dijitSliderImageHandleH {
+	display:none;
+}
+
+.taskRowHover .dijitSliderImageHandleH {
+	display:block !important;
+}
+
+.taskRow img {
+	height: 60px;
+	width: 60px;
+}
+.senderIconInv {
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+
+.testnow1 {
+	width: 738px !important;
+}
+
+
+.taskBodyText {
+	margin: 0 0 0 190px;
+	/*height: 60px;*/
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.invBodyText {
+	margin: 0 0 0 120px;
+	/*height: 60px;*/
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.taskBodyText .fontBold
+{
+	font-weight: bold;
+}
+
+.invBodyText .fontBold
+{
+	font-weight: bold;
+}
+.unread .taskBodyText .sender, .unread .taskBodyText .subject, 
+.unread .size, .unread .msgDate {
+	font-weight: bold;
+}
+.taskBodyText .title {
+	font-weight: bold;
+}
+.taskBodyText .tags {
+	font-size: 10px;
+	color: #999999;
+}
+.taskBodyText .tagIcon {
+	width: 22px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -180px;
+}
+.taskBodyText .star {
+	width: 15px;
+	height: 15px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -202px;
+}
+
+.unread .invBodyText .sender, .unread .invBodyText .subject, 
+.unread .size, .unread .msgDate {
+	font-weight: bold;
+}
+.invBodyText .title {
+	font-weight: bold;
+}
+.invBodyText .tags {
+	font-size: 10px;
+	color: #999999;
+}
+.invBodyText .tagIcon {
+	width: 22px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -180px;
+}
+.invBodyText .star {
+	width: 15px;
+	height: 15px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -202px;
+}
+.taskRow .taskDate, .taskRow .attach {
+	position: absolute;
+	top: 30px;
+}
+.taskRow .size {
+	position: absolute;
+	top: 10px;
+}
+.taskRow .taskDate, .taskRow .size {
+	right: 20px;
+}
+.taskRow .attach {
+	width: 7px;
+	height: 17px;
+	background: url(../../../../styles/images/ics/inbox/msgListSprite.png) no-repeat;
+	background-position: -217px;
+	right: 120px;
+}
+.dj_ie6 .taskRow .attach, .dj_ie6 .taskRow .size, .dj_ie6 .taskRow .msgDate {
+	padding-right: 15px;
+}
+
+/* msgType specific css */
+.delimiter .body {
+	background: #999999;
+	font: bold 12px arial;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+/* hover  and select state */
+.taskRowHover .gutter .body{
+	background-color : #EBEBEB;
+}
+
+.taskRowHover .taskTagRow .gutter, .taskRowHover .taskTagRow .body{background-color:#ffffff;}
+
+.vspSelected .dijitEditorIconUndo { background-position: -504px; }
+
+.taskRow .taskStripe {
+}
+
+.taskRow .Marigold .gutter{background-color:#FFCC00;}
+.taskRow .Marigold .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Marigold .gutter .body, .taskRow.vspSelected .Marigold .gutter .body {background-color:#EBEBEB;}
+
+.taskRow .Orange .gutter{background-color:#FF9900}
+.taskRow .Orange .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Orange .gutter .body, .taskRow.vspSelected .Orange .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Magenta .gutter{background-color:#CC0066}
+.taskRow .Magenta .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Magenta .gutter .body, .taskRow.vspSelected .Magenta .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Blue .gutter{background-color:#0099CC}
+.taskRow .Blue .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Blue .gutter .body, .taskRow.vspSelected .Blue .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Olive .gutter{background-color:#CCCC00}
+.taskRow .Olive .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Olive .gutter .body, .taskRow.vspSelected .Olive .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Teal .gutter{background-color:#00CCCC}
+.taskRow .Teal .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Teal .gutter .body, .taskRow.vspSelected .Teal .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Purple .gutter{background-color:#964EC4}
+.taskRow .Purple .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Purple .gutter .body, .taskRow.vspSelected .Purple .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Navy .gutter{background-color:#0000A9}
+.taskRow .Navy .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Navy .gutter .body, .taskRow.vspSelected .Navy .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Evergreen .gutter{background-color:#306C4E}
+.taskRow .Evergreen .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Evergreen .gutter .body, .taskRow.vspSelected .Evergreen .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Red .gutter{background-color:#C50000}
+.taskRow .Red .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Red .gutter .body, .taskRow.vspSelected .Red .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Beige .gutter{background-color:#C09E89}
+.taskRow .Beige .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Beige .gutter .body, .taskRow.vspSelected .Beige .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Brown .gutter{background-color:#6B2E08}
+.taskRow .Brown .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Brown .gutter .body, .taskRow.vspSelected .Brown .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Yellow .gutter{background-color:#FFF000}
+.taskRow .Yellow .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Yellow .gutter .body, .taskRow.vspSelected .Yellow .gutter .body{background-color:#EBEBEB;}
+
+.taskRow .Pink .gutter{background-color:#FF8DC8}
+.taskRow .Pink .gutter .body{background-color:#ffffff;}
+.taskRow.taskRowHover .Pink .gutter .body, .taskRow.vspSelected .Pink .gutter .body{background-color:#EBEBEB;}
+
+
+/* toolbar buttons */
+.taskRow .taskToolbar {
+	width: 38px;
+	height: 38px;
+	background: url(../../../images/ics/calendar/toolbar/taskSprite.png) no-repeat;
+	text-align: center;
+}
+.taskRow .taskToolbar.edit {
+	background-position: 0px !important;
+}
+.taskRow .taskToolbar.star {
+	background-position: -40px !important;
+}
+.taskRow .taskToolbar.tag {
+	background-position: -80px !important;
+}
+.taskRow .taskToolbar.trash {
+	background-position: -120px !important;
+}
+.taskRow .taskToolbar.taskActions {
+	background-position: -159px !important;
+}
+.taskRow .taskToolbar.check {
+	background-position: -198px !important;
+	margin-left:5px;
+}
+
+.taskRow .checkSelect {
+	background-position: -198px !important;
+	position:absolute;
+	top:20px;
+	right:-1000px;
+	z-index:1000;
+}
+
+.taskRow.taskRowHover .checkSelect {
+	background-position: -198px !important;
+	right:10px;
+}
+
+.taskRow.vspSelected .checkSelect {
+	background-position: -248px !important;
+	right:10px;
+}
+
+.selectedAll .taskRow .checkSelect {
+	background-position: -248px !important;
+	right:10px;
+}
+.selectedAll .taskRow.vspSelected .checkSelect {
+	right:-1000px;
+}
+.selectedAll .taskRow.taskRowHover .checkSelect {
+	background-position: -248px !important;
+	right:10px;
+}
+.selectedAll .taskRow.taskRowHover.vspSelected .checkSelect {
+	background-position: -198px !important;
+	right:10px;
+}
+
+/*Invitation Tool Bar Buttons - Start*/
+.taskRow .invToolbar {
+	width: 38px;
+	height: 38px;
+	background: url(../../../images/ics/calendar/toolbar/invitationSprite.png) no-repeat;
+	text-align: center;
+}
+.taskRow .invToolbar.accept {
+	background-position: 0px !important;
+}
+.taskRow .invToolbar.decline {
+	background-position: -40px !important;
+}
+.taskRow .invToolbar.prpnewtime {
+	background-position: -117px !important;
+}
+
+.taskRow .invToolbar.forward {
+	background-position: -154px !important;
+}
+.taskRow .invToolbar.delete {
+	background-position: -193px !important;
+}
+
+.taskRow .invToolbar.actions {
+	background-position: -232px !important;
+}
+
+
+.taskRow .invcheckSelect {
+	background-position: -272px !important;
+	position:absolute;
+	top:20px;
+	right:-1000px;
+	z-index:1000;
+}
+
+.taskRow.taskRowHover .invcheckSelect {
+	background-position: -280px !important;
+	right:10px;
+	top:23px;
+}
+
+.taskRow.vspSelected .invcheckSelect {
+	background-position: -322px !important;
+	right:10px;
+}
+
+.selectedAll .taskRow .invcheckSelect {
+	background-position: -322px !important;
+	right:10px;
+}
+.selectedAll .taskRow.vspSelected .invcheckSelect {
+	right:-1000px;
+}
+.selectedAll .taskRow.taskRowHover .invcheckSelect {
+	background-position: -322px !important;
+	right:10px;
+}
+.selectedAll .taskRow.taskRowHover.vspSelected .invcheckSelect {
+	background-position: -280px !important;
+	right:10px;
+}
+/* Invitation Tool Bar Buttons - end */
+
+/*
+
+.taskRow .checkSelect {
+	background-position: -320px;
+	position:absolute;
+	top:20px;
+	right:-1000px;
+	z-index:1000;
+}
+
+.taskRow.rowHover .checkSelect {
+	background-position: -275px;
+	right:10px;
+}
+
+.taskRow.vspSelected .checkSelect {
+	background-position: -320px;
+	right:10px;
+}
+
+.selectedAll .taskRow .checkSelect {
+	background-position: -320px;
+	right:10px;
+}
+.selectedAll .taskRow.vspSelected .checkSelect {
+	right:-1000px;
+}
+.selectedAll .taskRow.rowHover .checkSelect {
+	background-position: -320px;
+	right:10px;
+}
+.selectedAll .taskRow.rowHover.vspSelected .checkSelect {
+	background-position: -275px;
+	right:10px;
+} */
+/* divider is at -300px; */

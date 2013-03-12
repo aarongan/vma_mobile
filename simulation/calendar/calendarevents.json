@@ -1,0 +1,25 @@
+{
+
+"statusDesc":"EVENT: Fetch events command was successfull","statusCode":0,"operation":"fetch",
+"events":[
+	{"eventId":"000000000000000000000000000000004a55068200001b85000000d7000013ac",
+	"calId":"caltest@icspoc.vzwcorp.com:Demo1",
+	"title":"This is for Mc Nair",
+	"eventType":"public","categoryType":{"id":"Tennis"
+	,"description":"Tennis","url":""},
+	"place":"Wimbledon",
+	"eventStart":"07/12/2009 12:00 AM",
+	"eventEnd":"07/12/2009 10:52 PM",
+	"message":"Go Tiger Woods Go!!!",
+	"organizer":"calendar.test@icspoc.vzwcorp.com",
+	"duration":"21:52",
+	"seeGuestList":"on",
+	"inviteOthers":"off",
+	"attendees":[{"userId":"Hiremath Shashidhar","statusType"
+	:"TENTATIVE","picURL":""}]
+	}
+
+
+]
+
+}

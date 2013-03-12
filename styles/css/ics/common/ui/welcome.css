@@ -1,0 +1,24 @@
+.baWelcome {
+	margin: 8px;
+}
+
+.baWelcome h2 {
+	font-weight: normal;
+}
+
+.baWelcome ul {
+	padding: 20px 8px;
+}
+
+.baWelcome ul li {
+	margin-left:18px;
+}
+
+.dj_ie7 .welcomeOverlay .cc,
+.dj_ie6 .welcomeOverlay .cc {
+	width:420px;
+}
+
+.dj_ie7 .welcomeOverlay .cc .title {
+	height:0px;
+}

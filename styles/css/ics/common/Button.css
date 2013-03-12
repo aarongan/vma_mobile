@@ -1,0 +1,33 @@
+.pl .button span.link span span {
+	text-decoration: underline;
+	color:#0066CC;	
+}
+
+.pl .button span.link,
+.pl .button span.link span {
+	padding: 0;
+}
+
+/*
+ * Make All "CANCEL & OK" 11px away
+ * FF already has 2px
+ */
+.pl .confirmButtons .icsButton {
+	margin-left:9px;
+}
+
+.dj_ie .pl .confirmButtons .icsButton {
+	margin-left:11px;
+}
+
+/* BA: this might be safe to uncomment for ics before we switch to BA*/
+body.tundra .button, body.tundra .button span {
+	float: none;
+	display: inline-block;
+}
+
+.disabledButton span.interface, .disabledButton span.gray, .disabledButton span.interface span, .disabledButton span.interface span span {
+	cursor:not-allowed !important;
+	opacity:0.8;
+	filter: alpha(opacity=60);
+}

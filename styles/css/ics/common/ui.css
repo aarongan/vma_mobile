@@ -1,0 +1,509 @@
+@import url('ui/alert.css');
+@import url('ui/welcome.css');
+@import url('ui/aBook.css');
+
+.processing_icon {
+	background:url('../../../images/ics/common/processing.gif');
+	background-repeat: no-repeat;
+	width:20px;
+	height:20px;	
+}
+
+/* Increased OK button size as per PSD*/
+.icsDialog span.red span span{
+	padding:0 10px;
+}
+
+/* Made font-weight to normal for cancel button as per PSD*/
+.icsDialog .confirmButtons .link span{
+	font-weight:normal;
+}
+
+
+.confirmButtons .noLinkSpan {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0066CC;
+    font-weight:bold;
+}
+
+* :focus {
+	outline: 0;
+}
+
+.helpTip .dijitTooltipContainer{
+	background:none;
+	background-color:#FFFFCC;
+	border:1px solid #D1D1D1;
+}
+
+.lineHolder {
+	clear:both;
+	padding:5px;
+}
+
+.pl .noDecoLink, a.noDecoLink:hover {
+	text-decoration: none;
+}
+.pl .commonBoxChild a.noDecoLink:hover {
+	color:#444;
+}
+/*
+This file we place we put all css customizations for dijit widgets.
+*/
+/*
+.dj_ie6 .dijitPopup,
+.dj_ie7 .dijitPopup{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.dj_webkit .dijitPopup {
+	overflow-y: hidden;
+}
+*/
+/*Menu customization for dropdowns*/
+.dijitPopup .tagItemPopup{
+	margin: 0;
+} 
+
+.dj_ie .dijitPopup .dijitMenuItemDisabled *,
+.dj_ie .dijitPopup .dijitMenuItemDisabled td {
+	filter: none;
+	color: #D8D8D8 !important;
+}
+.tundra .dijitMenu {
+	/* _border-collapse: expression('separate', cellSpacing = '0px');  needed to get IE6 to set border-spacing to 0 */
+	/***
+	border-collapse: separate;
+	border-spacing: 0;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-radius: 5px;
+	****/
+	background-color: #fff;
+    border: 1px solid #cdcdcd;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}	
+.dj_ie7 .tundra .dijitMenu,
+.dj_ie8 .tundra .dijitMenu {
+	/*  border-collapse: collapse;  */
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=8);
+}
+.tundra .dijitMenuItem td {
+	padding: 1px;
+}
+
+.tundra .dijitMenuItemIcon {
+	width: 1px;
+}
+
+.tundra .dijitMenuPassive .dijitMenuItemHover,
+.tundra .dijitMenuItemSelected {
+	background: #CCC;
+	color: #000;
+}
+
+.tundra .dijitMenuPassive .addContactsDropDown.dijitMenuItemHover,
+.tundra .addContactsDropDown.dijitMenuItemSelected {
+	background: #B00000;
+	color: #FFF;
+}
+
+.tundra .addContactsDropDown.dijitMenuItem td{
+	line-height: 24px;
+    padding-left: 5px;
+	font-weight: bold;
+}
+.dj_ie .tundra .addContactsDropDown.dijitMenuItem td{
+	position: static; /* For IE8 Style fix */
+}
+
+
+/* Styling of scrollbars for dropdowns and other widgets for IE */
+/* #overflow_dropdown , .overflowScrollbar,
+.basePanelBodyDiv, .mytags_bodyDiv  */
+.dj_ie DIV {
+	scrollbar-face-color: #E9E9E9;
+	scrollbar-highlight-color: #E9E9E9;
+	scrollbar-shadow-color: #C8C8C8;
+	scrollbar-3dlight-color: #C8C8C8;
+	scrollbar-arrow-color: #797979;
+	scrollbar-track-color: #E3E3E3;
+	scrollbar-darkshadow-color: #EEE;
+}
+
+.dj_ie6 .dijitMenuSeparatorTop, .dj_ie6 .dijitMenuSeparatorBottom ,
+.dj_ie7 .dijitMenuSeparatorTop, .dj_ie7 .dijitMenuSeparatorBottom {
+	line-height:0px;
+	margin:0px;
+}
+
+	/* Old Tooltip and TooltipDialog */
+
+
+/*		.tundra .dijitTooltipContainer {
+			/* The part with the text. 	*/
+/*			background: #EFEFEF url("../../../images/ics/common/tooltip/tooltipBg.png") repeat-x bottom left;
+			border: 1px solid #CCC;
+			border-bottom-color: #7F7F7F;
+			padding: 3px 10px;
+			-webkit-border-radius: 5px !important;
+			-moz-border-radius: 5px !important;
+			text-shadow: 0 1px 0 #FCFCFC;
+			-moz-box-shadow: 1px 1px 2px #CBCBCB;
+			-webkit-box-shadow: 1px 1px 1px #CBCBCB;
+		}
+
+			.tundra .dijitTooltipABRight .dijitTooltipContainer {
+			width: 280px;
+			text-align:left;
+		}
+
+		.dj_ie .tundra .dijitTooltipContainer,
+		.dj_ie .tundra .dijitTooltipAbove .dijitTooltipConnector {
+			/* drop shadow for IE */
+/*			zoom: 1;
+    		filter:
+				progid:DXImageTransform.Microsoft.DropShadow(OffX='1', OffY='1', Color='#dcdcdc', Positive='true')
+				progid:DXImageTransform.Microsoft.DropShadow(OffX='1', OffY='1', Color='#ededed', Positive='true')
+			;
+		}
+
+		.dj_ie6 .tundra .dijitTooltipContainer,
+		.dj_ie6 .tundra .dijitTooltipAbove .dijitTooltipConnector {
+			/* drop shadow for IE6 */
+/*			zoom: none;
+			float: left;
+		}
+
+		.tundra .dijitTooltipContainer span {
+			/* The tooltip text. */
+/*			color: #000;
+			text-shadow: 0 1px 0 #FCFCFC;
+		}
+
+		.dj_ie .tundra .dijitTooltipContainer span {
+			/* The tooltip text for IE. */
+/*			zoom: 1;
+			filter:progid:DXImageTransform.Microsoft.Shadow(color='#FFFFFF', Direction=100, Strength=1);
+		}
+
+		.tundra .dijitTooltipBelow .dijitTooltipConnector {
+			/* the arrow piece for tooltips below an element */
+/*			top: 5px;
+			background: url("../../../images/ics/common/tooltip/tooltipConnectorUp.png") no-repeat top left;
+			width: 16px;
+			height: 9px;
+		}
+		
+		.dj_ie .tundra .dijitTooltipBelow .dijitTooltipConnector {
+			/* the arrow piece for tooltips below an element */
+/*			top: 5px;
+			background: url("../../../images/ics/common/tooltip/tooltipConnectorUp.png") no-repeat top left;
+			width: 16px;
+			height: 9px;
+		}
+
+		.tundra .dijitTooltipAbove .dijitTooltipConnector {
+			/* the arrow piece for tooltips above an element */
+/*			bottom: 5px;
+			background:url("../../../images/ics/common/tooltip/tooltipConnectorDown.png") no-repeat top left !important;
+			width: 16px;
+			height: 10px;
+		}
+
+		.tundra .dijitTooltipRight .dijitTooltipConnector {
+			/* the arrow piece for tooltips to the left of an element */
+/*			left: 7px;
+			background: url("../../../images/ics/common/tooltip/tooltipConnectorRight.png") no-repeat top left;
+			width: 9px;
+			height: 16px;
+		}
+
+		.tundra .dijitTooltipLeft .dijitTooltipConnector {
+			/* the arrow piece for tooltips to the right of an element, bottom borders aligned */
+/*			right: 4px;
+			background:url("../../../images/ics/common/tooltip/tooltipConnectorLeft.png") no-repeat top left;
+			width: 12px;
+			height: 19px;
+		}
+
+		.dj_ie .tundra .dijitTooltipLeft .dijitTooltipConnector {
+			/* the arrow piece for tooltips to the right of an element for IE */
+/*			right: 3px;
+		}
+		
+		.dj_ie7 .tundra .dijitTooltipLeft .dijitTooltipConnector {
+			/* the arrow piece for tooltips to the right of an element for IE */
+/*			right: 6px;
+		}		
+
+		.tundra .dijitTooltipAbove .dijitTooltipConnector,
+		.tundra .dijitTooltipBelow .dijitTooltipConnector {
+			/* tooltip connector horizontal placment */
+/*			left: 3%;
+		}
+
+		.tundra .dijitTooltipRight .dijitTooltipConnector,
+		.tundra .dijitTooltipLeft .dijitTooltipConnector {
+			/* tooltip connector vertical placment */
+/*			top: 1px;
+		}
+
+		.dj_webkit .tundra .dijitTooltipRight .dijitTooltipConnector {
+			/* tooltip connector vertical placment for webkit */
+/*			top: 2px;
+			left: 6px;
+		}
+		
+		.dj_webkit .tundra .dijitTooltipLeft .dijitTooltipConnector {
+			/* tooltip connector vertical placment for webkit */
+/*			top: 2px;			
+			right: 3px;
+		}		
+
+		.tooltip {
+			/* This is only for the 'buttons' used for this example and not needed for the dijit theme */
+/*			width: 100px;
+			margin: 50px 0 50px 200px;
+			padding: 3px 10px;
+			color: #FFF;
+			text-align: center;
+			background: #555;
+			border: 1px solid #B7B7B7;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+		}
+*/		
+	/* New tooltip style */
+	
+			.tundra .dijitTooltip .dijitTooltipConnector,
+			.dj_ie .tundra .dijitTooltip .dijitTooltipConnector{
+				background:none;
+				bottom:0;
+			    left:0;
+				height:0;
+				width:0;
+			}
+			
+			.dijitTooltipAbove {
+				padding-bottom: 0;
+			}
+					
+			.dijitTooltip .dijitTooltipContainer{
+				background: none;
+				border: none;
+				padding: 0;
+			}			
+			
+			.tundra .dijitTooltipRight{
+				padding-left: 0;
+			}
+							
+			.dijitTooltip .ttrga{
+				position: relative;
+				top: 60px;
+			}			
+			.dj_ie .dijitTooltip .ttrga{
+				top: 0px;
+			}
+			.dj_ie .tundra .dijitTooltip .rightTT{
+				padding-top: 60px;
+			}
+	
+			.ttrga .text{
+				background:transparent url(../../../images/ics/common/tooltip/bigTooltip_1px.png) repeat-x;
+				padding: 38px 18px 0;
+				float: left;
+				font-size: 12px;
+				line-height: 15px;							
+			}
+
+			.ttrga .right, .ttrga .left, .dijitTooltip .downArrow{
+				background-image:url("../../../images/ics/BUAPSprites.png");								
+				float:left;
+			}
+			
+			.ttrga .right.multi{
+				background-position:-819px -191px;
+				height: 140px;
+				width: 28px;
+			}
+			
+			.ttrga .left.multi{
+				background-position:-778px -191px;
+				height: 136px;
+				width: 34px;
+			}
+			
+			.ttrga .text.multi{
+				height: 100px;	
+			}
+			
+			.dijitTooltipAbove .ttrga.short{
+				top: 10px;
+				left: -25px;							
+			}	
+			
+			.dijitTooltipRight .ttrga.short{
+				top: 26px;
+				left: -8px;
+			}
+			
+			.dj_ie7 .dijitTooltipRight .ttrga.short{
+				top: 20px;
+			}
+			
+			.dijitTooltipRight .ttrga .left.short, 
+			.dijitTooltipRight .ttrga .right.short{
+				height: 50px;
+			}		
+			
+			.dijitTooltipRight .ttrga .text.short{
+				height: 38px;
+			}
+			
+			.dj_ie7 .dijitTooltip .ttrga.short{
+				height: 43px;
+			}
+			
+			.ttrga .right.short{
+				background-position: -459px -292px;
+				height: 43px;
+				width: 28px;
+			}
+			
+			.ttrga .left.short{
+				background-position: -431px -292px;
+				height: 43px;
+				width: 24px;
+			}
+			
+			.ttrga .text.short{
+				height: 25px;	
+				background:transparent url(../../../images/ics/common/tooltip/shortTooltip_1px.png) repeat-x;
+				padding: 18px 5px 0;	
+			}
+			
+			.dijitTooltipAbove .downArrow{
+				background-position: -496px -296px;
+				height: 9px;
+				width: 15px;
+				position: relative;
+				top: 3px;
+				left: 8px;				
+			}
+			
+			.dijitTooltipRight .downArrow{
+				background-position: -520px -296px;
+				height: 15px;
+				width: 9px;
+				position: relative;
+				top: -5px;
+				left: -85px;
+			}
+			
+			.dj_ie .dijitTooltip.dijitTooltipRight .downArrow{
+				top: 45px;
+				left: -1px;
+			}
+			
+			.dj_ie7 .dijitTooltip.dijitTooltipRight .downArrow{
+				top: -4px;	
+			}
+
+			.dj_ie .dijitTooltip .downArrow{
+				top: 46px;
+				float:none;			
+			}
+			
+			.dj_ie7 .dijitTooltip .downArrow{
+				top: 3px;				
+			}
+			
+
+.tundra .dijitMenuExpand {
+	background-position: -42px 0px;
+}
+p.closeLink {
+	background:transparent url(../../../images/vzw/buttons/png/close.png) no-repeat top right;
+	padding:0 20px 0 0 !important;
+	position:absolute;
+	right:4px;
+	line-height:15px;
+	color:#0066CC;
+	text-decoration:underline;
+	/* Changed the font for Close Link as per PSD*/
+	font-weight:normal;
+	font-size:11px;
+}
+.styleNotifierPane{
+	z-index:1000;
+	width:250px;
+	height:68px;
+	left:300px;
+	top:250px;
+}
+.styleNotifierPane.email{
+	/*
+	border:3px solid #BFF2F2
+	*/
+	border:3px solid #0099CC
+}
+.styleNotifierPane.sms{
+	border:3px solid #CCCC00
+}
+.styleNotifierPane.mms{
+	border:3px solid #FF9900
+}
+
+.styleNotifierPane.dojoxFloatingPane {
+	background: #fff;
+	-webkit-box-shadow: 0px 5px 10px #adadad;
+	-moz-border-radius:6pt;
+	-webkit-border-radius:5pt;
+	padding: 0 3px 3px 3px;
+}
+
+.styleNotifierPane .dojoxFloatingPaneFg {
+	-webkit-box-shadow: 0px 8px 20px #525252;
+}
+
+/* titleNode */
+.styleNotifierPane .dojoxFloatingPaneTitle {
+	border:0px solid #bfbfbf;
+	padding:8px 4px 2px 8px;
+	cursor: pointer;
+}
+.styleNotifierPane .dojoxFloatingCloseIcon {
+	height: 15px;
+	width: 15px;
+	background:url("../../../images/ics/inbox/cancel.png") no-repeat 0px 0px;
+	overflow:hidden;
+	float:right; 
+	margin-top:-5px;
+	margin-right:-4px;
+}
+/*Progress bar css*/
+.tundra .dijitProgressBarTile { background:	red repeat-x scroll center; }
+.tundra  .dijitProgressBarFull { border-right: 1px solid red;}
+
+/* Patch for fix conflict between VZWRGA and Dojo Style */
+div.modal .title_bar h1 {
+	margin-top:0;
+}
+
+
+
+.dj_ie7 .tundra .boxShadow,
+.dj_ie8 .tundra .boxShadow {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=8);
+}
+.boxShadow {
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}

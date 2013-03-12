@@ -1,0 +1,18 @@
+/* Data Grid */
+.dojoxGridRow {
+
+	border: 1px solid #E8E4D8;
+	border-color: #efefef #999999 #aaaaaa #999999;
+	border-left: none;
+	border-right: none;
+	background-color: white;
+}
+.dojoxGridRowOver {
+	border-top-color: #efefef;
+	border-bottom-color: #444444;
+	background-color: #D9E8F9 !important;
+}
+.tundra .dojoxGridCell {
+	border: 0px;
+	font-size: 120%;
+}

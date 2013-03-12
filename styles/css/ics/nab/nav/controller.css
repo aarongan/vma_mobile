@@ -1,0 +1,183 @@
+/***
+.nabMainContainer{
+	margin-top: 42px;
+}
+.nabMainContainer .dijitLayoutContainer{
+ width: 732px !important;
+}
+.nabMainContainer .dijitTabPaneWrapper{
+ width: 730px !important;
+}
+*******/
+.navController, .navController.hideDislaimer,
+.navController.contacts.hideDisclaimer {
+	height: 100px;
+}
+/*******
+.nabMainContainer .navController {
+	margin: 0 0 0 -10px;
+}
+
+.nabMainContainer .listContainer{
+	margin: 5px 0 0 -10px;
+}
+**********/
+.nabMainContainer .navController {
+	top: 50px !important;/*10px !important;*/
+}
+
+.nabMainContainer .cardContainer{
+	margin: 22px 0 0 200px;
+}
+
+.navController .dijitTabContainerTop-tabs * {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.navController .dijitTabContainerTop-tabs {
+	/* TODO: see if we can get a better image for this */
+	/*background: url('../../../../images/ics/common/tab/tab_bg_732.jpg') no-repeat scroll left top;*/
+	border-color: #FFFFFF;
+	height: 30px;
+	padding-left:10px;/* Added for BUA  Plus*/
+}
+
+.nabMainContainer .navController .dijitTabListContainer-top{
+	top: -5px !important;
+}
+
+.navController .dijitTabContent .tabLabel {
+	color: #000000;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 7px 5px 8px;
+}
+
+.navController .dijitTabChecked .tabLabel {
+	color: #000000;
+	/*margin: 10px 3px 5px 4px; Modified as per PSD*/
+	margin: 10px 10px 5px;
+}
+
+.navController .dijitTabContainerTop-tabs .dijitTab {
+	top: 2px;
+	height: 24px;
+	/*border: 1px solid #CBCBCB;*/
+	background: url("../../../../images/vzwrga/buttons/gif/lightgray_1px.gif") repeat-x scroll 0 0 transparent;
+}
+
+.navController .dijitTabContainerTop-tabs .dijitTabChecked {
+	border-right: none;
+	height: 31px;
+}
+
+.navController .dijitTabContent .tabLabel {
+	color: #666;
+	font-weight: bold;
+	display: inline-block;
+	margin: 5px 7px 5px 8px;
+	padding-top:1px;
+}
+
+.navController .dijitTabChecked .tabLabel {
+	/*color: #000;*/
+	/*margin: 8px 3px 7px 4px; Modified as per PSD*/
+	/*margin: 8px 10px 7px;*/
+	color: #FFFFFF;
+    margin: 5px 10px 7px;
+}
+
+.navController .dijitTabChecked {
+	/*background: url('../../../../images/ics/common/tab/tab_left.jpg') no-repeat scroll left top;*/
+	background: url("../../../../images/vzwrga/buttons/gif/darkgray_1px.gif") repeat-x scroll 0 0 transparent;
+	padding-left: 0px;
+}
+
+.navController .dijitTabChecked .dijitTabInnerDiv {
+	/*background: url('../../../../images/ics/common/tab/tab_right.jpg') no-repeat scroll right top;*/
+	background: url("../../../../images/vzwrga/buttons/gif/darkgray_1px.gif") repeat-x scroll 0 0 transparent;
+	padding-right: 4px;
+}
+
+.dj_ie .navController .dijitTabChecked .dijitTabInnerDiv {
+	margin-top: 4px;
+}
+
+.navController .dijitTabChecked .dijitTabContent {
+	/*background: url('../../../../images/ics/common/tab/tab_main_1px.jpg') repeat-x scroll left top;*/
+	 background: url("../../../../images/vzwrga/buttons/gif/darkgray_1px.gif") repeat-x scroll 0 0 transparent;
+}
+
+.dijitTabContainer.navController .dijitTabCheckedHover { /* 1.4 Migration */
+	/*background:url("../../../../images/ics/common/tab/tab_left.jpg") no-repeat scroll left top;*/
+/*	background: url("../../../../images/vzwrga/buttons/gif/darkgray_1px.gif") repeat-x scroll 0 0 transparent;*/
+	border: 0;
+	/*padding-left:4px;*/
+}
+
+.navController .dijitTabPaneWrapper{
+	border-left: #FFFFFF;
+	border-right: #FFFFFF;
+	border-bottom: #FFFFFF;
+}
+
+/*.nabMainContainer .dijitTabContainerTop-container{ height: 68px !important;}*/
+.navController .dijitTabContainerTop-container{ 
+	/*top: -3px !important;*/
+	top: 0px !important;
+	height: 120px !important;
+}
+
+.dj_ie .navController .dijitTabContainerTop-container{ 
+	z-index: -5;
+}
+
+/*Install static pages related css*/
+#installBAWrapper .header { display:inline-block;margin-top:20px;vertical-align:top;}
+#installBAWrapper .whyBox {display:inline-block;width:500px;height:90px;margin-right:10px;vertical-align:top; }
+#installBAWrapper .downloadBox { display:inline-block;width:175px;height:90px;margin-right:10px;vertical-align:top; }
+#installBAWrapper .downloadContent {display:inline-block;width:100px;margin-left:5px;vertical-align:top;margin-top:5px;}
+#installBAWrapper .stepBox {display:inline-block;width:280px;vertical-align:top;margin-top:5px;margin-left:5px; }
+#installBAWrapper .stepNumber {font-weight:bold;color:#C0C0C0;font-size:25px;vertical-align:top;margin-right:5px; }
+#installBAWrapper .stepContent { display:inline-block;width:250px;height:210px; }
+
+ /* Disclaimer Related css */ 
+.disclaimerNav.isVisible{
+ 	border-left:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+	border-right:1px solid #d9d9d9;
+	text-align: center;
+	background: white;
+	width: 745px;
+}
+.cardContainer .disclaimerNav.isVisible{
+	margin-left: 15px;
+}
+.virtualList .disclaimerNav.isVisible{
+	margin-left: 3px;
+}
+
+.disclaimerNav.isVisible .disclaimer{
+ 	margin-top:5px;
+ 	margin-bottom:5px;		
+}
+
+.nabMainContainer .listContainer{
+	top: /*122px*/ 164px !important;
+}
+
+.nabMainContainer .formContainer{ 
+	top: 85px !important;
+}
+.nabMainContainer .tabContentDelimit {
+	background:transparent url(../../../../images/ics/BUAPSprites.png) no-repeat -20px -120px;	
+	height: 5px;
+    left: 206px;
+    margin-top: 30px;
+    position: absolute;
+    width: 750px;
+    z-index: 3;
+}

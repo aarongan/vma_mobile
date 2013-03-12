@@ -1,0 +1,49 @@
+<div class="messagesView" data-dojo-type="dojox.mobile.View">
+    <div data-dojo-type="dojox.mobile.FixedSplitter" data-dojo-props="orientation:'H'">
+        <div class="messageLists" data-dojo-type="dojox.mobile.FixedSplitterPane">
+            <div class="mblListItem" data-dojo-type="dojox.mobile.Heading" fixed="top">
+                <div class="label">
+                    CONVERSATIONS
+                </div>
+                <div data-dojo-type="dojox.mobile.Button" label="Edit List">
+                </div>
+            </div>
+            <div id="msgLists" data-dojo-type="dojox.mobile.ScrollableView" data-dojo-attach-point="messageListsView" keepScrollPos="true">
+                <ul data-dojo-type="dojox.mobile.EdgeToEdgeList" data-dojo-attach-point="messageListsNode">
+                </ul>
+            </div>
+        </div>
+        <div class="messageDetails" data-dojo-type="dojox.mobile.FixedSplitterPane">
+            <div class="mblListItem" data-dojo-type="dojox.mobile.Heading">
+                <div class="label">
+                </div>
+                <div data-dojo-type="dojox.mobile.Button" label="Message Options" fixed="top">
+                </div>
+            </div>
+            <div data-dojo-type="dojox.mobile.View">
+                <div id="msgDetails" data-dojo-type="dojox.mobile.ScrollableView" data-dojo-attach-point="messageDetailsView" selected="true" keepScrollPos="true">
+                    <ul data-dojo-type="dojox.mobile.EdgeToEdgeList" data-dojo-attach-point="messageDetailsNode">
+                    </ul>
+                </div>
+                <div id="mediaSlideView" data-dojo-type="dojox.mobile.ScrollableView">
+                    <div data-dojo-type="dojox.mobile.Heading" fixed="bottom">
+                        <button data-dojo-type="icsMobile.widget.common.Button" label="BACK" moveTo="msgDetails" transition="slide">
+                        </button>
+                        <button data-dojo-type="icsMobile.widget.common.Button" label="SHARE" moveTo="mediaListView" transition="slide">
+                        </button>
+                        <button data-dojo-type="icsMobile.widget.common.Button" label="LISTVIEW" moveTo="mediaListView" transition="cover">
+                        </button>
+                    </div>
+                </div>
+                <div id="mediaListView" data-dojo-type="dojox.mobile.View">
+                    <div data-dojo-type="dojox.mobile.View">
+                        <div data-dojo-type="dojox.mobile.Heading" fixed="top" back="BACK" label="ALL MEDIA" moveTo="mediaSlideView" transition="cover">
+                        </div>
+                        <div id="mediaListViewContainer" data-dojo-type="dojox.mobile.ScrollableView">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

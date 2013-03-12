@@ -1,0 +1,25 @@
+#mixerStack .mixcontainer{
+    position: relative;
+    top: 10px;
+    left: 0px;
+	height: 700px
+}
+.dj_ie mixerStack .mixcontainer{
+    top: 6px;
+	left: 10px;
+}
+#mixerStack .mixerNodeDiv{
+    position: relative;
+	height: 650px;
+	text-align: center;
+	/* 
+	background-color: #ECECEC;
+	 width: 850px; 
+	 */
+}
+#mixerStack .mixerDoneButton{
+    position: absolute;
+	top: -40px;
+	right: 0px;
+}
+

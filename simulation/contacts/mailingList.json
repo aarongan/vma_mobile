@@ -1,0 +1,53 @@
+{
+"items":[
+	{
+		"id": 1,
+		"name": "Soccer",
+		"groupType": "standard",
+		"count" : 113,
+		"accessRight" :"modify",
+		"membershipStatus" : "owned"
+	},
+	{
+		"id": 2,
+		"name": "DOJO",
+		"groupType": "standard",
+		"count" : 13,
+		"accessRight" :"view",
+		"membershipStatus" : "owned"
+	},
+	{
+		"id": 3,
+		"name": "Roomies",
+		"groupType": "standard",
+		"count" : 10,
+		"accessRight" :"modify",
+		"membershipStatus" : "owned"
+	},
+	{
+		"id": 4,
+		"name": "MS",
+		"groupType": "standard",
+		"count" : 1,
+		"accessRight" :"view",
+		"membershipStatus" : "owned"
+	},
+	{
+		"id": 5,
+		"name": "ICS",
+		"groupType": "standard",
+		"count" : 24,
+		"accessRight" :"modify",
+		"membershipStatus" : "owned"
+	},
+	{
+		"id": 6,
+		"name": "Family",
+		"groupType": "standard",
+		"count" : 7,
+		"accessRight" :"view",
+		"membershipStatus" : "owned"
+	}				
+
+]
+}

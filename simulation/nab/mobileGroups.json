@@ -1,0 +1,48 @@
+{
+"items":[
+	{
+		"id": 1,
+		"name": "Contacts on Mobile",
+		"groupType": "mobile",
+		"count" : 113,
+		"operationType" :""
+	},
+	{
+		"id": 2,
+		"name": "VZW",
+		"groupType": "mobile",
+		"count" : 13,
+		"operationType" :""
+	},
+	{
+		"id": 3,
+		"name": "College",
+		"groupType": "mobile",
+		"count" : 10,
+		"operationType" :""
+	},
+	{
+		"id": 4,
+		"name": "MS",
+		"groupType": "mobile",
+		"count" : 1,
+		"operationType" :""
+	},
+	{
+		"id": 5,
+		"name": "ICS",
+		"groupType": "mobile",
+		"count" : 24,
+		"operationType" :""
+	},
+	{
+		"id": 245,
+		"name": "Family",
+		"groupType": "mobile",
+		"count" : 7,
+		"operationType" :""
+	}				
+
+]
+}
+

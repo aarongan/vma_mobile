@@ -1,0 +1,61 @@
+.msgRow.notifyRow .attach {
+	right: 20px;
+	top: 30px;
+	left: 400px;
+}
+
+.notifyRow .wrapper {
+	margin: 5px;
+	padding: 0 5px;
+	background: #d9d9d9;
+	border: 1px solid #cccccc;
+}
+
+.notifyRow .wrapper div {
+	background: transparent url(../../../../styles/images/ics/inbox/notifyActions.png) no-repeat;
+	height: 15px;
+	width: 15px;
+}
+
+.notifyRow .actions {
+	position: absolute;
+	top: 15px;
+}
+
+.notifyRow .unread .actions {
+	top: 3px;
+	left: 28px;
+}
+
+.notifyRow .actions .star {
+	background-position: 0px;
+}
+
+.notifyRow .actions .trash {
+	background-position: -15px;
+}
+
+.notifyRow .senderIcon {
+	left: 40px;
+}
+
+.unread .notifyRow .senderIcon {
+	left: 46px;
+}
+
+.notifyRow .msgBodyText {
+	margin: 0 0 0 110px;
+}
+
+.notifyRow .close {
+	position: absolute;
+	background:url(../../../images/ics/InboxSprites.png) no-repeat -320px -125px;
+	height:15px;
+	width:15px;
+	top: 5px;
+	left: 440px;
+}
+
+.notifyRow .unread .close{
+	left: 456px;
+}

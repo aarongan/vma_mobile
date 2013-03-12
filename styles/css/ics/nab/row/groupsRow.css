@@ -1,0 +1,130 @@
+
+/* Groups Row CSS*/
+.groupsRow .starredIcon{
+	height:20px;
+	text-indent:10px;
+	left: 8px;/*3px;*/ top:1px;
+	width:15px;
+	position:absolute;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -226px;
+    background-repeat: no-repeat;
+}
+
+.groupsRow .mbSyncIcon{
+	height:20px;
+	text-indent:10px;
+	left: 8px;/*3px;*/ top:1px;
+	width:18px;
+	position:absolute;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -240px;
+    background-repeat: no-repeat;
+}
+.groupsRow {
+	height:24px;
+	position:relative;
+	zoom:1;
+	padding-top: 3px;
+	padding-left:5px;
+}
+.groupsRow.starred .name{
+	padding-left: 20px;
+}
+
+.groupsRow.mbSync .name{
+	padding-left: 23px;
+}
+
+.groupsRow.mbSync{
+	border-bottom:1px dashed grey;
+}
+
+.groupsRow.web .name,
+.groupsRow.mobile .name{
+	padding-left: 5px;
+}
+
+.groupsRow .count{
+	color:#999999;
+}
+
+.groupsRow .text{
+	vertical-align:middle;
+	padding-top:3px;
+}
+
+.groupsRow .webIcon,
+.groupsRow .mobileIcon{
+    background: url("../../../../images/ics/nab/icons/groups.png") no-repeat scroll 50% 50% transparent;
+    height: 21px;
+    margin-right: 3px;
+    width: 22px;
+}
+
+.groupsRow.hovered{
+	background-color:#F5F5F5;
+	cursor:pointer;
+}
+
+.groupsRow.groupExists {
+	background-color:#EBEBEB;
+}
+
+.groupsRow .popup{
+	position: absolute;
+	top: 0px;
+	right: 2px;
+}
+
+.groupsRow .popup .dijitDropDownButton,
+.groupsRow .popup .dijitButtonNode,
+.groupsRow .popup .dijitButtonText,
+.groupsRow .popup .dijitButtonContents,
+.groupsRow .popup .dijitButtonNode button {
+	margin:0;
+	padding:0;
+	text-indent:0;
+	border:none;
+	background:none;
+}
+
+.groupsRow .popup button span {
+	padding:0;
+	line-height:0;		
+}
+
+.groupsRow .popup.dijitArrowButtonInner {
+	width: 45px;
+	height: 22px;
+	padding: 0;
+	margin: 0;
+	background: url("../../../../images/ics/nab/icons/actionDropdownBg.png") no-repeat 0 0;	
+	border: none;
+	background-position: -100px 0;	
+}
+		
+.groupsRow .popup.dijitDropDownButtonHover .dijitArrowButtonInner {
+	width: 45px;
+	height: 22px;
+	background-position: -50px 0;
+	margin:0;
+	padding:0;
+}
+
+.groupsRow .popup.dijitDropDownSelectOpened .dijitArrowButtonInner {
+	width: 45px;
+	height: 22px;
+	background-position: -100px 0;
+	margin:0;
+	padding:0;
+}
+.dj_ie7 .groupsRow .popup.dijitArrowButtonInner {
+	width: 45px;
+	height: 22px;
+	padding: 0;
+	margin-top: 1px;
+	background: url("../../../../images/ics/nab/icons/actionDropdownBg.png") no-repeat 0 0;	
+	border: none;	
+	background-position: -100px 0;
+}

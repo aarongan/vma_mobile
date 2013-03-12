@@ -1,0 +1,18 @@
+.baseRow {
+	border: 1px solid black;
+	position: relative;
+}
+.baseRow .body {
+	background: #fff;
+	border-left: 1px solid black;
+	position: relative;
+}
+.baseRow .body .dijitToolbar {
+  	position: absolute;
+	top: 12px;
+	right: 40px;
+}.textCutOff {
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}

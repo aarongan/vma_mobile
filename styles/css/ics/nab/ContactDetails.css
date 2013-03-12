@@ -1,0 +1,446 @@
+.contactDetails{
+	/*margin-left: 4px;*/
+	overflow-x: hidden;
+    /*height: 1016px;*/
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.dj_ie7 .contactDetails {
+    overflow-x: hidden;
+    /*height: 1016px;*/
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.contactDetails .buttonRow {
+	zoom: 1;
+	margin: 6px 0 17px;
+	position: relative;
+}
+
+.contactDetails .headerSection,
+.contactDetails .section {
+	border-bottom: 1px dashed #b2b2b2;
+	width:385px;/*440px;*/
+	margin-top: 8px;
+	padding: 4px 0;
+}
+
+.contactDetails .headerSection {
+	border-top: 1px dashed #b2b2b2;
+}
+
+.contactDetails .overview {
+	position: relative;
+}
+.contactDetails .overview h1 {
+	font-size: 16px;
+	padding-top:5px;
+}
+.contactDetails .overview h2,
+.contactDetails .groupValue {
+	font-weight: normal;
+	font-size:11px; /*12px;*/
+	color: #666666;
+	white-space: nowrap;
+	width: 350px;/*380px;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+	margin-top:5px;
+}
+.contactDetails .headerLabel {
+	width: 324px;
+	padding-bottom:3px;
+}
+.contactDetails .companyBold{
+	font-weight:bold;
+	font-size:16px;
+}
+.contactDetails .overview img {
+	position: absolute;
+	top: 8px;
+	right: 0px;/*28px;*/
+	height: 80px;/*60px;*/
+}
+.contactDetails .section h3 {
+	font-size: 14px/*12px;*/
+}
+.contactDetails .line {
+	margin: 8px 0 15px;
+}
+.contactDetails .label,
+.contactDetails .value {
+	vertical-align: top;
+	font-size: 11px;
+	white-space: nowrap;
+}
+.contactDetails .label {
+	font-weight: bold;
+	padding-left: 4px;
+	width: 120px;/*150px;*/
+}
+.contactDetails .newFieldsLabel {
+	vertical-align: top;	
+	font-size: 11px;
+	white-space: nowrap;
+	font-weight: bold;
+	padding-left: 4px;
+	width: 138px;/*168px;*/
+}
+
+.contactDetails .value {
+	width: 238px;/*258px;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+}
+.contactDetails .value p{
+	padding: 0;
+	margin: 0;
+}
+.contactDetails .webGroup,
+.contactDetails .mobileGroup {
+	margin: 5px 4px 0;
+	width: 400px;
+	padding-right: 4px;
+
+}
+
+.contactDetails .business,
+.contactDetails .home,
+.contactDetails .mobile,
+.contactDetails .personal,
+.contactDetails .other,
+.contactDetails .im,
+.contactDetails .webGroup,
+.contactDetails .mobileGroup {
+	background: transparent url('../../../images/ics/nab/form/formSmSprite.png') no-repeat;
+	width: 18px;
+	height: 15px;
+}
+.contactDetails .home {
+	background-position: 0px;
+}
+.contactDetails .mobile {
+	background-position: -18px;
+}
+.contactDetails .business {
+	background-position: -36px;
+}
+.contactDetails .personal {
+	background-position: -54px;
+}
+.contactDetails .other {
+	background-position: -72px;
+}
+.contactDetails .im {
+	background-position: -90px;
+}
+.contactDetails .mobileGroup {
+	background-position: -165px;
+	width: 16px;
+}
+.contactDetails .webGroup{
+background-position: -143px;
+	width: 18px;
+}
+.contactDetails .buttonRow p {
+	/*margin: 0;*/
+	margin:-2px 0px 0px;
+	text-align: center;
+	font-size:11px;
+}
+
+.contactDetails .groupsButton,
+.contactDetails .messagesButton {
+	padding-top:2px;
+}
+
+.contactDetails .buttonRow .icsROButton {
+	/*margin:0px 1px; /*0;*/
+	margin:2px 1px -2px;
+}
+.dj_ie .contactDetails .buttonRow .icsROButton {
+	/*margin:0px 1px; /*0;*/
+	margin:2px 1px -4px;
+}
+.dj_ie .contactDetails .buttonRow p {
+	margin: 0;
+}
+
+.contactDetails .detailsButton {
+	width: 35px;
+	height: 35px;
+	/*background: transparent url('../../../images/ics/nab/icons/detailButtons.png') no-repeat;*/
+	background: transparent url('../../../images/ics/InboxSprites.png') no-repeat;
+}
+
+.contactDetails .detailsButton.edit {
+	/*background-position: 0px;*/
+	background-position: -418px -431px;
+}
+.contactDetails .detailsButton.editOn {
+	/*background-position: 0px;*/
+	background-position: -803px -431px;
+}
+.contactDetails .buttonRow .editButton {
+	margin-right: 7px; 
+}
+.contactDetails .detailsButton.view {
+	/*background-position: 0px;*/
+	background-position: -383px -431px;
+}
+.contactDetails .detailsButton.viewOn {
+	/*background-position: 0px;*/
+	background-position: -733px -431px;
+}
+.contactDetails .detailsButton.mobileGroups {
+	/*background-position: -35px;*/
+	background-position: -453px -431px;
+}
+
+.contactDetails .buttonRow .groupsButton,
+.contactDetails .buttonRow .messagesButton {
+	margin-right: 7px; 
+	height: 53px;
+}
+.contactDetails .buttonRow .groupsButton p ,
+.contactDetails .buttonRow .messagesButton p {
+	margin-top: 2px;
+}
+
+.dj_ie7 .contactDetails .buttonRow .groupsButton{
+	width: 50px;
+	height: 57px;
+	margin-top: 5px;
+}
+
+.dj_ie7 .contactDetails .buttonRow .messagesButton{
+	height:57px;
+	margin-top: 5px;
+}
+
+.contactDetails .detailsButton.print {
+	background-position: -488px -431px;/*-70px;*/
+}
+
+.contactDetails .buttonRow .printButton {
+	margin-left: 7px;/*9px;*/ 
+	margin-right:0;
+}
+
+/*Added to adjust spacing in IE*/
+.dj_ie7 .contactDetails .buttonRow .printButton {
+	margin-right: 5px;
+	margin-left: 13px;
+}
+.contactDetails .detailsButton.trash {
+	background-position: -523px -431px;/*-105px;*/
+}
+.contactDetails .detailsButton.trashOn {
+	background-position: -769px -431px;/*-105px;*/
+}
+.contactDetails .buttonRow .deleteButton {
+	/*margin-left:0;*/
+	margin-left:-2px;
+	margin-right: 5px;/*7px;*/
+}
+
+/*Added to adjust spacing in IE*/
+.dj_ie7 .contactDetails .buttonRow .deleteButton {
+	margin-right:13px; 
+	margin-left:0;
+}
+
+.contactDetails .detailsButton.actions {
+	/*background-position: -140px;*/
+	background-position: -558px -431px;
+}
+.contactDetails .dijitDropDownButtonFocused .detailsButton.actions,
+.contactDetails .detailsButton.actionsOn  {
+	/*background-position: -175px;*/
+	background-position: -593px -431px;
+}
+
+.contactDetails .buttonRow .groupsButton .dijitDropDownSelectOpened,
+.contactDetails .buttonRow .groupsButton .dijitDropDownSelectOpened:hover,
+.contactDetails .detailsButton.mobileGroupsOn   {
+	background-position: -628px -431px;/*-210px;*/
+}
+
+.contactDetails .buttonRow .messagesButton .dijitDropDownSelectOpened,
+.contactDetails .buttonRow .messagesButton .dijitDropDownSelectOpened:hover,
+.contactDetails .detailsButton.newOn {
+	background-position: -698px -431px;/*-280px;*/
+}
+
+.contactDetails .detailsButton.new {
+	background-position: -663px -431px;/*-245px;*/
+}
+
+.contactDetails .buttonRow .dijitButton,
+.contactDetails .buttonRow .dijitDropDownButton,
+.contactDetails .buttonRow .dijitButtonNode,
+.contactDetails .buttonRow .dijitButtonText {
+	margin:0;
+	padding:0;
+}
+.contactDetails .buttonRow .dijitButtonNode {
+	background: none;
+	border:none;
+}
+
+.tundra .contactDetails .buttonRow .dijitArrowButtonInner {
+	display: none;
+}
+
+.contactDetails .buttonRow .icsROButton:hover {
+	border:none;
+}
+
+.dj_ie7 .contactDetails .buttonRow .icsROButton{
+	height:39px;
+}
+
+/* To show the message when buddy connected with the warning image */
+.contactDetails .msgTextSpan{
+	background:#F1FAFF url(../../../images/ics/nab/form/infoMsg.png) no-repeat scroll 6px 4px;
+	border:2px solid #6F8FA8;
+	height:35px;
+	margin-top:9px;
+	/*margin-bottom:15px;*/
+	width:380px;/*340px;*/
+}
+.contactDetails .onConnectMsg{
+	margin-left:27px;
+	font-size:11px;
+}
+.contactDetails .overflowDetails {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+}
+
+.contactDetails  .bothGroups{
+	margin-top:25px; /*40px;*/
+	margin-bottom:14px;
+}
+
+.contactDetails .starIcon{
+	height:15px;
+	width:15px;
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -226px;
+    background-repeat: no-repeat;
+
+}
+
+.contactDetails .mbSyncIcon{
+	height:15px;
+	width:20px;
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -240px;
+    background-repeat: no-repeat;
+
+}
+
+.contactDetails .statusIcon {display: none; }
+
+.contactDetails .statusIcsIcon {
+	height:15px;
+	width:20px;
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -185px;
+    background-repeat: no-repeat;
+
+}
+
+.contactDetails .statusConnectedIcon {
+	height:15px;
+	width:40px;
+	background:url(../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat:no-repeat;
+    background-position: -185px;
+}
+
+/* CSS Styling for Recent Messages*/
+.contactDetails .calInboxSection{
+	float:right;
+	position:absolute; 
+	right:0px; 
+	top:6px;
+}
+
+.dj_ie .contactDetails .calInboxSection{
+	margin-left: 20px;
+	right: -25px;
+	padding-right:25px;
+}
+
+.dj_ie .contactDetails .calInboxSection .basePanel.expanded {
+padding-right:5px;
+}
+.contactDetails .messagesRow{
+	padding-top:5px;padding-bottom:5px;
+}
+.contactDetails .divider{
+	margin-left:4px;padding-top:10px; width:260px;border-bottom: 1px dashed #C8C8C8;
+}
+.dj_ie .contactDetails .messagesRow{
+	padding-top:0px;padding-bottom:0px;
+}
+.dj_ie .contactDetails .calInboxSection .basePanel .baseWidgetNodeClass {
+	padding-bottom:10px ;
+	padding-right:25px;
+}
+
+.contactDetails .recentMessages {
+	width: 15px;
+	height: 13px;
+	background: url(../../../images/ics/InboxSprites.png);
+	background-repeat: no-repeat;
+}
+.contactDetails .recentMessages.read {	
+	background-position: -18px -126px; /*0px -5px;*/
+}
+.contactDetails .recentMessages.unread {
+	background-position: -37px -126px;;/*-19px -5px;*/
+}
+
+.contactDetails .recentMessages.sms {
+	background-position: -90px -126px;;/*-72px -5px;*/
+}
+
+.contactDetails .recentMessages.mms {
+	background-position: -144px -126px;;/*-126px -5px;*/
+}
+.contactDetails .subject{
+	font-weight: bold;
+	text-overflow: ellipsis;-o-text-overflow: ellipsis;
+}
+.calInboxSection .basePanel .noItemsMessage {
+	color: #999999;
+	border-top:1px dashed #d9d9d9;
+	padding-top: 20px; 
+}
+
+.calInboxSection .basePanel .titleNode {
+	float:left;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.calInboxSection .basePanel .headerLink {
+	float:right;
+	text-decoration:underline;
+	padding-left:78px;
+	padding-right:16px;
+}
+
+.calInboxSection .basePanel .expandableNode {
+	padding: 5px 9px 15px;
+	width: 290px;/*260px;*/
+}

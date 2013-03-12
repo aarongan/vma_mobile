@@ -1,0 +1,14 @@
+.notificationRow{}
+
+.notificationRow .body {	
+	line-height: 2.5em;
+	text-indent:35px;
+}
+
+.notificationRow .text .gutter{
+	background:url(../../../images/vzw/myverizon/exclaim.gif) no-repeat transparent ; background-position: 5px 5px; padding:0px; margin-left: 4px;
+}
+
+.notificationRow .pictureVideo .gutter{
+	background:url(../../../images/vzw/myverizon/exclaim.gif) no-repeat transparent ; background-position: 5px 5px; padding:0px; margin-left: 4px;
+}

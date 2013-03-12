@@ -1,0 +1,49 @@
+#moduleStack .navController .searchContainer {
+    position: static;
+    top: 85px;
+}
+#moduleStack .searchContainer {
+	position: absolute;
+	right: 5px;
+    top: 68px;
+	height:22px;
+	width: 185px;
+    z-index: 99;
+}
+#moduleStack .searchContainer .searchForm {
+    padding: 0 0 0 1px;border: 1px solid #ccc;height:100%;/*width:160px;*/
+    width:180px;/* Changed as per PSD*/
+}
+#moduleStack .searchContainer .dijitButtonNode {
+        background: none;
+        background-color:transparent;
+        border:0 none;
+        height:90%;
+        padding:0;
+}
+#moduleStack .searchContainer .dijitButtonNode button {
+    background-color:transparent;
+    border:0 none;
+    height:90%;
+    padding:0;
+}
+#moduleStack .searchContainer .searchInput {
+    float:left;background: transparent none repeat scroll 0 0; border: 0 none; width:80%; height:100%;
+}
+#moduleStack .searchContainer .searchButton {
+    float:right;height:90%;background-color:transparent;border:0 none;
+}
+
+#moduleStack .searchContainer .searchGlass {
+	width: 14px;
+	height: 14px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat;
+    background-position: -90px -23px;
+}
+#moduleStack .searchContainer .empty{ color:#a4abb2;}
+
+#moduleStack .searchContainer .searchOptionList {float:left;height:100%;margin-left:5px;}
+
+/* buttons on Contact tab for filtering list of contacts to a given letter */
+.searchIndex, .searchIndexNumber, .searchIndexAll {font-weight:bold;font-size:12px;color:#0066CC;margin:0 3px 0 3px;text-decoration:underline;cursor: pointer;}
+.searchIndexSelected {font-weight:bold;font-size:12px;margin:0 3px 0 3px;text-decoration:none;cursor:pointer;color:black;}

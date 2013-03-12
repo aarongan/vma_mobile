@@ -1,0 +1,593 @@
+/*
+ * navigation tabs
+ */
+
+/*
+#inboxTopTab_tablist .tabLabel span {
+	margin: 0 0 0px 3px;
+	padding:2px 0;
+	background: transparent no-repeat left center;
+}
+#inboxTopTab_tablist .tabLabel .All,
+#inboxTopTab_tablist .tabLabel .All span {
+	background-image: url(../../../images/ics/common/tab/all_bg.png);
+}
+#inboxTopTab_tablist .tabLabel .email,
+#inboxTopTab_tablist .tabLabel .email span {
+	background-image: url(../../../images/ics/common/tab/mail_bg.png);
+}
+#inboxTopTab_tablist .tabLabel .sms,
+#inboxTopTab_tablist .tabLabel .sms span {
+	background-image: url(../../../images/ics/common/tab/sms_bg.png);
+}
+#inboxTopTab_tablist .tabLabel .mms,
+#inboxTopTab_tablist .tabLabel .mms span {
+	background-image: url(../../../images/ics/common/tab/mms_bg.png);
+}
+#inboxTopTab_tablist .tabLabel .vvm,
+#inboxTopTab_tablist .tabLabel .vvm span {
+	background-image: url(../../../images/ics/common/tab/vm_bg.png);
+}
+#inboxTopTab_tablist .tabLabel .call_log,
+#inboxTopTab_tablist .tabLabel .call_log span {
+	background-image: url(../../../images/ics/common/tab/call_bg.png);
+}
+
+#inboxTopTab_tablist .tabLabel span span  {
+	background-position: right center;
+	margin-right:8px;
+}
+
+#inboxTopTab_tablist .tabLabel span span span {
+	background:transparent repeat-x center center;
+	border: 0 none;
+	padding-left: 1px;
+	padding-right: 0px;
+	color:#ffffff;
+	font-size:12px;
+}
+#inboxTopTab_tablist .tabLabel span.All span span {
+	background-image: url(../../../images/ics/common/tab/all_1x16.png);
+}
+#inboxTopTab_tablist .tabLabel span.email span span {
+	background-image: url(../../../images/ics/common/tab/mail_1x16.png);
+}
+#inboxTopTab_tablist .tabLabel span.sms span span {
+	background-image: url(../../../images/ics/common/tab/sms_1x16.png);
+}
+#inboxTopTab_tablist .tabLabel span.mms span span {
+	background-image: url(../../../images/ics/common/tab/mms_1x16.png);
+}
+#inboxTopTab_tablist .tabLabel span.vvm span span {
+	background-image: url(../../../images/ics/common/tab/vm_1x16.png);
+}
+#inboxTopTab_tablist .tabLabel span.call_log span span {
+	background-image: url(../../../images/ics/common/tab/call_1x16.png);
+}
+
+#inboxTopTab_tablist .tabLabel,
+#vmmTopTab_tablist .tabLabel{
+	margin-top:2px;
+}
+
+#inboxTopTab_tablist .unreadDiv,
+#vmmTopTab_tablist .unreadDiv{
+	height:18px;
+	margin-left:3px;
+	margin-top:1px;
+}
+
+.dj_ie7 #inboxTopTab_tablist .unreadDiv,
+.dj_ie7 #vmmTopTab_tablist .unreadDiv{
+	margin-top:0px;
+	margin-bottom:1px;
+}
+#inboxTopTab_tablist .unreadCount,
+#vmmTopTab_tablist .unreadCount {
+	color: #ffffff;
+	display: inline-block;
+	height:16px;
+}
+#inboxTopTab_tablist .All .unreadCount,
+#vmmTopTab_tablist .All .unreadCount {
+	background-color:#B2B2B2;
+}
+#inboxTopTab_tablist .email .unreadCount,
+#vmmTopTab_tablist .email .unreadCount {
+	background-color:#0099CC;
+}
+#inboxTopTab_tablist .sms .unreadCount,
+#vmmTopTab_tablist .sms .unreadCount {
+	background-color:#CCCC00;
+}
+#inboxTopTab_tablist .mms .unreadCount,
+#vmmTopTab_tablist .mms .unreadCount {
+	background-color:#FF9900;
+}
+#inboxTopTab_tablist .vvm .unreadCount,
+#vmmTopTab_tablist .vvm .unreadCount {
+	background-color:#CC0066;
+}
+#inboxTopTab_tablist .call_log .unreadCount,
+#vmmTopTab_tablist .call_log .unreadCount {
+	background-color:#B2B2B2;
+}
+
+#inboxTopTab_tablist .circle,
+#vmmTopTab_tablist .circle{
+	display:inline-block;
+	height:16px;
+	width:6px;
+}
+
+#inboxTopTab_tablist .All .circle,
+#inboxTopTab_tablist .email .circle,
+#inboxTopTab_tablist .sms .circle,
+#inboxTopTab_tablist .mms .circle,
+#vmmTopTab_tablist .All .circle,
+#vmmTopTab_tablist .email .circle,
+#vmmTopTab_tablist .sms .circle,
+#vmmTopTab_tablist .mms .circle{
+	background-image: url("../../../images/ics/InboxSprites.png");
+}
+#inboxTopTab_tablist .All .leftCircle,
+#vmmTopTab_tablist .All .leftCircle{
+	background-position: -490px -21px;
+}
+
+#inboxTopTab_tablist .All .rightCircle,
+#vmmTopTab_tablist .All .rightCircle{
+	background-position: -502px -21px;
+}
+#inboxTopTab_tablist .email .leftCircle,
+#vmmTopTab_tablist .email .leftCircle{
+	background-position: -512px -21px;
+}
+#inboxTopTab_tablist .email .rightCircle,
+#vmmTopTab_tablist .email .rightCircle{
+	background-position: -522px -21px;
+}
+#inboxTopTab_tablist .sms .leftCircle,
+#vmmTopTab_tablist .sms .leftCircle{
+	background-position: -533px -21px;
+}
+#inboxTopTab_tablist .sms .rightCircle,
+#vmmTopTab_tablist .sms .rightCircle{
+	background-position: -543px -21px;
+}
+#inboxTopTab_tablist .mms .leftCircle,
+#vmmTopTab_tablist .mms .leftCircle{
+	background-position: -554px -21px;
+}
+#inboxTopTab_tablist .mms .rightCircle,
+#vmmTopTab_tablist .mms .rightCircle{
+	background-position: -564px -21px;
+}
+***/
+/*
+ * other stuff...
+ */
+.dj_ie #inboxTopTab .isps button,
+.dj_ie #vmmTopTab .isps button {
+	height: 18px;
+	font-size: 12px;
+}
+#inboxTopTab .isps .dijitButtonContents,
+#vmmTopTab .isps .dijitButtonContents {
+	 width: 100px;
+	 text-align: left !important;
+	 border-width: 1px 0 1px 1px;
+	 background:transparent url(../../../images/ics/common/tab/tab_bg.jpg) no-repeat scroll left top;
+	 background-position: -180px;
+	 border: 1px solid #d1d1d1;
+	/* margin-right:10px;*/
+}
+#inboxTopTab .isps .dijitArrowButtonInner,
+#vmmTopTab .isps .dijitArrowButtonInner{
+	margin-left:0;
+}
+#inboxTopTab .isps .dijitButtonNode,
+#vmmTopTab .isps .dijitButtonNode{
+	padding:0;
+}
+#inboxTopTab .isps .dijitButtonContents .dijitButtonText,
+#vmmTopTab .isps .dijitButtonContents .dijitButtonText{
+	width:75px;
+	text-align:left;
+}
+#inboxTopTab .isps.dijitDropDownButtonHover,
+#vmmTopTab .isps.dijitDropDownButtonHover {
+	background: #ffffff;
+	border:1px #ffffff solid;
+}
+
+#inboxTopTab .dijitTabPaneWrapper,
+#vmmTopTab .dijitTabPaneWrapper {
+	border: none;
+	padding-top: 15px;
+}
+/****
+.dj_ie6 #inboxTopTab .navTab .navList,
+.dj_ie6 #vmmTopTab .navTab .navList,
+****/
+.dj_ie7 #inboxTopTab .navTab .navList,
+.dj_ie7 #vmmTopTab .navTab .navList {
+	margin-top:5px;
+}
+#inboxTopTab .navTab .navList,
+#vmmTopTab .navTab .navList {
+	margin-top:8px;
+}
+/****
+.dj_ie6 #inboxTopTab .navTab .sortByPane,
+.dj_ie6 #vmmTopTab .navTab .sortByPane {
+	margin-top:5px;
+	width: 364px;
+}
+****/
+#inboxTopTab .navTab .sortByPane,
+#vmmTopTab .navTab .sortByPane {
+	margin-top:4px;
+	width: 260px;
+}
+/*****
+.dj_ie6 #inboxTopTab .navTab .sortMenu,
+.dj_ie6 #vmmTopTab .navTab .sortMenu,
+*****/
+.dj_ie7 #inboxTopTab .navTab .sortMenu,
+.dj_ie7 #vmmTopTab .navTab .sortMenu {
+	margin-top:4px;
+}
+#inboxTopTab .navTab .sortMenu,
+#vmmTopTab .navTab .sortMenu {
+	margin-top:6px;
+}
+
+#inboxTopTab .navTab .sortMenu .dijitButtonText,
+#vmmTopTab .navTab .sortMenu .dijitButtonText{
+	width: 80px; 
+	text-align: left;
+}
+#inboxTopTab .tabContent .allIsps .dijitButtonNode,
+#vmmTopTab .tabContent .allIsps .dijitButtonNode{
+	padding: 1px 0 1px 0;
+}
+#inboxTopTab .tabContent .allSorts.dijitDropDownButton, 
+#vmmTopTab .tabContent .allSorts.dijitDropDownButton {
+	margin-bottom:0;
+}
+.dj_ie #inboxTopTab .tabContent .allSorts,
+.dj_ie #inboxTopTab .tabContent .allIsps,
+.dj_ie #vmmTopTab .tabContent .allSorts,
+.dj_ie #vmmTopTab .tabContent .allIsps{
+	height:24px;
+}
+#inboxTopTab .tabContent .allSorts .dijitButtonNode,
+#inboxTopTab .tabContent .allIsps .dijitButtonNode,
+#vmmTopTab .tabContent .allSorts .dijitButtonNode,
+#vmmTopTab .tabContent .allIsps .dijitButtonNode{
+	background:url(../../../images/ics/InboxSprites.png) repeat-x scroll -180px -52px #FFFFFF;
+	border:none;
+	padding: 5px 5px 5px 1px;
+}
+
+.dj_safari #inboxTopTab .tabContent .allSorts .dijitButtonNode,
+.dj_safari #inboxTopTab .tabContent .allIsps .dijitButtonNode,
+.dj_safari #vmmTopTab .tabContent .allSorts .dijitButtonNode,
+.dj_safari #vmmTopTab .tabContent .allIsps .dijitButtonNode{
+	padding: 6px 9px 8px 4px;
+}
+.dj_ie #inboxTopTab .tabContent .allSorts .dijitButtonNode,
+.dj_ie #inboxTopTab .tabContent .allIsps .dijitButtonNode,
+.dj_ie #vmmTopTab .tabContent .allSorts .dijitButtonNode,
+.dj_ie #vmmTopTab .tabContent .allIsps .dijitButtonNode{
+	padding: 2px 10px 5px 3px; 
+}
+
+#inboxTopTab .tabContent .allSorts .dijitArrowButtonInner,
+#inboxTopTab .tabContent .allIsps .dijitArrowButtonInner,
+#vmmTopTab .tabContent .allSorts .dijitArrowButtonInner,
+#vmmTopTab .tabContent .allIsps .dijitArrowButtonInner{
+	background:none;
+}
+#inboxTopTab .tabContent .allIsps .dijitButtonText,
+#inboxTopTab .tabContent .allSorts .dijitButtonText,
+#vmmTopTab .tabContent .allIsps .dijitButtonText,
+#vmmTopTab .tabContent .allSorts .dijitButtonText{
+	width:80px;
+	text-align:left;
+	font-size: 11px;
+	overflow: hidden;
+}
+
+#inboxTopTab .tabContent .sortByLbl,
+#vmmTopTab .tabContent .sortByLbl {
+	padding-top:3px;
+	font-weight:bold;
+}
+#inboxTopTab .tabContent.Emails .sortByLbl,
+#inboxTopTab .tabContent.All .sortByLbl,
+#vmmTopTab .tabContent.Emails .sortByLbl,
+#vmmTopTab .tabContent.All .sortByLbl {
+	padding-top:2px;
+}
+.dj_ie #inboxTopTab .tabContent .sortByLbl,
+.dj_ie #vmmTopTab .tabContent .sortByLbl{
+	padding-right:3px;
+	padding-top:3px;
+}
+.dj_ie7 #inboxTopTab .tabContent .sortByLbl,
+.dj_ie7 #vmmTopTab .tabContent .sortByLbl{
+	padding-top:0px;
+	padding-bottom: 1px;
+}
+.dj_ie #inboxTopTab .tabContent.Emails .sortByLbl,
+.dj_ie #inboxTopTab .tabContent.All .sortByLbl,
+.dj_ie #vmmTopTab .tabContent.Emails .sortByLbl,
+.dj_ie #vmmTopTab .tabContent.All .sortByLbl{
+	padding-bottom: 8px;
+}
+#inboxTopTab .tabContent .allSorts,
+#vmmTopTab .tabContent .allSorts {
+	margin-top:5px;
+}
+#inboxTopTab .tabContent.Emails .allSorts,
+#inboxTopTab .tabContent.All .allSorts,
+#vmmTopTab .tabContent.Emails .allSorts,
+#vmmTopTab .tabContent.All .allSorts{
+	margin-top:2px;
+}
+.dj_ie #inboxTopTab .tabContent .allSorts,
+.dj_ie #vmmTopTab .tabContent .allSorts{
+	margin-top:5px;
+}
+.dj_ie #inboxTopTab .tabContent.Emails .allSorts,
+.dj_ie #inboxTopTab .tabContent.All .allSorts,
+.dj_ie #vmmTopTab .tabContent.Emails .allSorts,
+.dj_ie #vmmTopTab .tabContent.All .allSorts {
+	margin: 0 0 7px 2px;
+}
+#inboxTopTab .tabContent .allIsps{
+	/*padding-right:15px;*/
+	margin-right:1px;
+	padding-left:0;
+}
+#vmmTopTab .tabContent .allIsps{
+	visibility:hidden;
+	/*padding-right:15px;*/
+	margin-right:1px;
+	padding-left:0;
+}
+#inboxTopTab .tabContent .allIspsLabel{
+	margin-left: 116px;
+	font-weight: bold;
+	padding: 0px 3px 2px 0px;
+}
+#vmmTopTab .tabContent .allIspsLabel{
+	visibility:hidden;
+	margin-left: 116px;
+	font-weight: bold;
+	padding: 0px 3px 2px 0px;
+}
+#inboxTopTab .tabContent .allIsps ._isps,
+#vmmTopTab .tabContent .allIsps ._isps,
+.ispFilter ._isps {
+	background: url(../../../images/ics/InboxSprites.png) no-repeat transparent;
+	height:14px;
+    width:17px;
+}
+.ispFilter .emailId {
+	font-weight: bold;	
+	margin-left: 4px;
+}
+
+#inboxTopTab .tabContent .allIsps ._isps.GOOGLE,
+#vmmTopTab .tabContent .allIsps ._isps.GOOGLE {
+    background-position: -20px -93px;
+	margin-left: -4px;
+}
+
+#inboxTopTab .tabContent .allIsps ._isps.YAHOO,
+#vmmTopTab .tabContent .allIsps ._isps.YAHOO {
+    background-position: -140px -93px;
+	margin-left: -4px;
+}
+
+#inboxTopTab .tabContent .allIsps ._isps.AOL,
+#vmmTopTab .tabContent .allIsps ._isps.AOL {
+    background-position: -60px -93px;
+	margin-left: -4px;
+}
+
+#inboxTopTab .tabContent .allIsps ._isps.MSN,
+#vmmTopTab .tabContent .allIsps ._isps.MSN {
+	background-position: -100px -93px;
+	margin-left: -4px;   
+}
+
+#inboxTopTab .tabContent .allIsps ._isps.POP3,
+#vmmTopTab .tabContent .allIsps ._isps.POP3{
+	background-position: -358px -93px;    
+	width: 26px;
+	margin-left: -4px;
+}
+
+.ispFilter ._isps.GOOGLE {
+    background-position: -20px -93px;
+	margin-left: -2px;
+}
+
+.ispFilter ._isps.YAHOO {
+    background-position: -140px -93px;
+	margin-left: -2px;
+}
+
+.ispFilter ._isps.AOL {
+    background-position: -60px -93px;
+	margin-left: -2px;
+}
+
+.ispFilter ._isps.MSN {
+	background-position: -100px -93px;
+	margin-left: -2px;   
+}
+
+.ispFilter ._isps.POP3 {
+	background-position: -358px -93px;    
+	width: 26px;
+	margin-left: -2px;
+}
+
+#inboxTopTab .tabContent .allIsps ._isps.orderNum,
+#vmmTopTab .tabContent .allIsps ._isps.orderNum,
+.ispFilter ._isps.orderNum{
+	background-position: -593px -23px;
+	height: 14px;
+	width: 13px;
+	font-family: fantasy Grande;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	line-height: 11px;
+	margin-left: -4px;
+}
+/****
+.dj_ie #inboxTopTab .tabContent .allIsps,
+.dj_ie #vmmTopTab .tabContent .allIsps {
+	padding-top:-1px;
+}
+****/
+#inboxTopTab .tabContent .folderList,
+#vmmTopTab .tabContent .folderList {
+	padding-left:6px;
+	padding-top:4px;
+	width:552px;
+}
+.dj_ie #inboxTopTab .tabContent .folderList,
+.dj_ie #vmmTopTab .tabContent .folderList{
+	width:557px;
+}
+.dj_ie7 #inboxTopTab .tabContent .folderList,
+.dj_ie7 #vmmTopTab .tabContent .folderList{
+	margin-top:0;
+	margin-bottom:2px;
+}
+.dj_ie7 #inboxTopTab .tabContent.Emails .folderList,
+.dj_ie7 #inboxTopTab .tabContent.All .folderList,
+.dj_ie7 #vmmTopTab .tabContent.Emails .folderList,
+.dj_ie7 #vmmTopTab .tabContent.All .folderList{
+	margin-bottom:5px;
+}
+#inboxTopTab .tabContent .folderList.emailsTab,
+#vmmTopTab .tabContent .folderList.emailsTab {
+	padding-top:3px !important;
+	padding-left:6px !important;
+}
+/***********
+.dj_ie #inboxTopTab .tabContent.Emails span.linkSpan,
+.dj_ie #inboxTopTab .tabContent.Emails .linkSeparator,
+.dj_ie #inboxTopTab .tabContent.All span.linkSpan,
+.dj_ie #inboxTopTab .tabContent.All .linkSeparator,
+.dj_ie #vmmTopTab .tabContent.Emails span.linkSpan,
+.dj_ie #vmmTopTab .tabContent.Emails .linkSeparator,
+.dj_ie #vmmTopTab .tabContent.All span.linkSpan,
+.dj_ie #vmmTopTab .tabContent.All .linkSeparator{
+	margin-bottom:4px;
+}
+*************/
+.actionsTop .linkSpan,
+#inboxTopTab .tabContent .linkSpan,
+#vmmTopTab .tabContent .linkSpan,
+.icsDialog .storageDetails .headerWrapper .linkSpan {
+    background: url("../../../images/vzwrga/buttons/gif/lightgray_1px.gif") repeat-x scroll 0 0 transparent;
+    color: #444;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+	font-weight: bold;
+    padding: 0 7px;
+	float:left;
+	padding: 0 15px;
+}
+.actionsTop .linkSpan.selected,
+#inboxTopTab .tabContent .linkSpan.selected,
+#vmmTopTab .tabContent .linkSpan.selected,
+.icsDialog .storageDetails .headerWrapper .linkSpan.selected{
+	color: #fff;
+	padding: 0 15px;
+	text-decoration: none;
+	background: url("../../../images/vzwrga/buttons/gif/darkgray_1px.gif") repeat-x  scroll 0 0 transparent;
+	cursor: default;
+}
+/***********
+#vmmTopTab .tabContent .linkSpan{
+	visibility:hidden;
+	font-weight:bold;
+}
+#vmmTopTab .tabContent .linkSpan.selected{
+	visibility:hidden;
+	color: #000000;
+	text-decoration: none;
+}
+#inboxTopTab .tabContent .linkSeparator{
+	margin: 0 7px 0 7px;
+}
+#vmmTopTab .tabContent .linkSeparator{
+	visibility:hidden;
+	margin: 0 7px 0 7px;
+}
+************/
+.icsNavList .folder .dijitButtonText{
+	font: bold 12px Arial;
+	text-decoration: underline;
+	cursor:pointer;
+	color:#0066CC;	
+}
+.icsNavList .folder.dijitChecked .dijitButtonText{
+	text-decoration: none;
+	cursor: default;
+	color:#000000;
+}
+.icsNavList button::-moz-focus-inner{
+	border: 0;
+	padding: 0;
+}
+.icsNavList .dijitButton .dijitButtonText{
+	border-right: 1px solid #666666;
+	padding: 0 5px;
+}
+.icsNavList .dijitButton.last .dijitButtonText{
+	border-right: none;
+}
+.tundra .dijitToolbar.icsNavList{
+	background: #ffffff none;
+	border: none;
+}
+.tundra .dijitToolbar.icsNavList .dijitButtonHover{
+	background-color: #ffffff;
+	border: none;
+	padding: 1px;
+	color: #0066CC;
+}
+
+#inboxTopTab .dijitTabContainerTop-container .tabContent,
+#vmmTopTab .dijitTabContainerTop-container .tabContent{
+	position: absolute !important;
+}
+
+.dj_ie .dijitPopup .dijitSelectMenu .dijitReset > .dijitMenuItem{
+	white-space:pre;
+}
+/****
+#inboxTopTab_tablist .refreshTabButton{
+    position: relative;
+    top: 4px;
+	left: 290px;
+	background: url("../../../images/ics/InboxSprites.png") no-repeat scroll -126px -272px white;
+    height: 26px;
+    text-align: center;
+    width: 35px
+}
+*****/

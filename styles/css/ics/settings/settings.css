@@ -1,0 +1,1330 @@
+/* Settings Styles */
+/*
+.settings .topToolBar {
+    /* border-bottom: 1px solid #ccc; */
+/*    height: 44px;
+	text-align: right;
+}
+
+.settings .topToolBar h2{
+	float:left;
+	font-size: 25px;
+	margin:6px 0 0 15px !important;
+}
+
+.settings .topToolBar .buttonrga{
+	margin-top: 9px;
+	margin-right: 15px;
+}
+
+.dj_ie .settings .topToolBar {
+	padding-right: 5px;
+}
+*/
+.settings .signatureSettings {
+	height: 100%;
+}
+.settings .addButtonIcon{
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -312px -90px;
+    width: 22px;
+    height: 21px;
+    cursor:pointer;
+}
+.dj_ie7 .settings .addButtonIcon{
+	height: 23px;
+	margin: 0 3px 0 6px;
+}
+.settings .syncPanelAddBtn {
+    margin: 0 3px 0 6px;
+}
+
+.settings .cc .bottom{
+	left: 37px;
+	position: relative;
+	width: 120px;
+	height: 26px;
+	top: 119px;
+}
+
+.settings .cc .collapse{
+	top: 24px;
+}
+
+.settings .cc .bottom .linkSpan{
+	background: url("../../../images/vzwrga/buttons/gif/darkgray_1px.gif") repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    padding: 0 18px 0 12px;
+    float: left;
+    font-weight: bold;
+    line-height: 26px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.settings .cc .bottom .arrow{
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat -231px -262px scroll;
+	height:20px;
+	width:19px;
+	float:left;
+}
+
+#mainStack .settings .bua_brand_label {
+	left: 0;
+}
+
+/*
+.settings .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-weight: bold;
+}
+
+.settings .nav ul li {
+    margin: 0;
+    padding: 2px 0 2px 0;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.settings .nav .level1 {
+    padding-left: 27px;
+}
+
+
+.settings .nav .level2 {
+    padding-left: 50px;
+}
+
+.settings .nav .level3 {
+    padding-left: 70px;
+}
+
+.settings .nav ul li a {
+    margin-left: -20px;
+}
+
+.dj_ie .settings .nav ul li a {
+    float: left;
+	margin: 4px -26px -26px 8px; 
+}
+
+.settings .nav li.active {
+    background: transparent url(../../../images/ics/settings/settings_nav_active_bg.png) no-repeat 0 2px;
+    color: #fff;
+}
+*/
+#settingTab .nav ul li {
+	margin: -1px 0 0 -1px;
+}
+
+#settingTab .nav .level1 {
+	padding:0px 0px 0px 28px;
+	line-height: 54px;
+}
+
+#settingTab .nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#settingTab .nav .level2 {
+    padding-left: 50px;
+}
+
+.settings .noStyle {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.settings .tooltipImg{
+    background: url("../../../images/vzwrga/random/question.gif") no-repeat scroll right top transparent;
+    height: 15px;
+    margin-left: 3px;
+    width: 13px;
+}
+
+.settings ul.noStyle li,
+.settings .noStyle td
+ {
+    font-weight: normal;
+    margin: 0;
+    padding: 4px 0;
+}
+
+.settings .contentWrapper {
+    padding: 50px;
+	border: 1px solid #CDCDCD !important;
+}
+
+#settingTab .nav ul li ul li.inactive:hover {
+	width: 199px;
+	background-color: #ECECEC;
+}
+
+#settingTab .nav ul li ul li.active {
+	width: 199px;
+}
+
+.pl a.collapse:hover, .pl a.expand:hover {
+	text-decoration:none; 
+}
+
+
+#settingTab .nav ul li ul {	
+	margin: -5px 0 0 -1px;
+	border-right: 0 none;
+	border-bottom: 1px solid #CDCDCD !important;
+	border-top: 0 none;
+	border-left: 1px solid #CDCDCD !important;
+}
+
+#settingTab .nav .level2 {
+	padding:0 0 0 60px;
+	line-height: 30px;
+	font-weight:600;
+}
+
+#settingTab .nav ul li ul li {
+	height: 30px;
+	border-top: 0px none;
+	border-bottom: 0px none;
+	border: 0;
+	width: 199px;
+	margin: 0;
+	background-color:white;
+}
+#settingTab .nav ul li ul li[type="vacationReply"] {
+	height:40px;
+}
+
+.settings .contentWrapper .title{
+	font-size: 16px;
+	line-height: 17px;
+	font-weight: 600;
+	color: #333333;
+	height: 22px;
+}
+
+.settings .contentWrapper .syncButton {
+	float: right;
+	width: 50px;
+}
+
+.settings .contentWrapper .syncButton .buttonrga {
+	margin-top: 10px; 
+}
+
+.settings .contentWrapper .yourSync{
+	margin-top: 0px; 
+	height: 20px;
+}
+
+.settings .contentWrapper .linkTitle{
+	cursor: pointer;
+}
+
+.settings .endPointSpan  {
+  	color: #0066CC;
+  	display:inline-block;
+	vertical-align: super;
+	cursor: pointer;
+}
+.settings .aol  {
+	background:url(../../../images/ics/InboxSprites.png) no-repeat scroll -625px -200px transparent;
+    	display: inline-block;
+    	height: 34px;
+   	width: 45px;
+}
+.settings .mobile  {
+	background-image: "https://icsimgs.verizonwireless.com/ics/styles/images/ics/provision/redphone.gif";
+	display: inline-block;
+    	height: 34px;
+    	width: 45px;
+}
+.settings .yahoo  {
+	background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -578px -200px transparent;
+    	display: inline-block;
+    	height: 34px;
+    	width: 45px;
+}
+.settings .google  {
+	background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -921px -200px transparent;
+    	display: inline-block;
+    	height: 34px;
+    	width: 45px;
+}
+.settings .msn  {
+	background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -805px -200px transparent;
+    	display: inline-block;
+    	height: 34px;
+    	width: 45px;
+}
+.settings .syncProgressBar{
+	background: url(../../../../styles/images/ics/common/progressBar.gif) no-repeat;
+    width: 166px;
+    height: 24px;
+    /*margin-top:1px;*/
+}
+.settings .signatureSettings .contentWrapper {
+  	padding: 50px;
+	height: 1140px;
+	overflow: auto;
+}
+
+.settings .contentWrapper .prefBox {
+    height: 16px;
+	margin-left: 18px;
+}
+
+.dj_ie .settings .contentWrapper .prefBox {
+    margin-bottom: 0.5em;
+	margin-top: 3px;
+    height: 16px;
+	position: absolute;
+}
+
+.settings .contentWrapper .indentText .addressBookIcon,
+.filterIfSelect .addressIcon, .filterThenSelect .addressIcon{
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -405px -273px; 
+	width: 18px; 
+	height: 26px;
+}
+
+.settings .contentWrapper .emotionIcon {
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -218px -488px; 
+	width: 18px; 
+	height: 18px;
+}
+
+.dj_ie .settings .contentWrapper .indentText .dijitButtonNode {
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+.dj_ie .settings .contentWrapper .indentText .addressBookIcon {
+	background-position: -403px -273px;
+	width: 24px; height: 22px;
+}
+
+.settings .contentWrapper .PhotoPanel .fixer {
+	height: 0px !important;
+}
+
+.settings h1 {
+    height: 30px;
+    padding-top: 15px;
+}
+
+.settings h2 {
+    margin: 10px 0 10px 0 !important;
+}
+
+.settings h3 {
+    margin: 6px 0 10px 0 !important;
+}
+
+.settings dt {
+    font-weight: bold;
+    margin-top: 18px;
+	line-height: 18px;
+}
+
+.settings dt .divd {
+	border-bottom:1px solid #CCCCCC;
+}
+
+.settings dd {
+    margin-top: 5px;
+}
+
+.settings .sub_title{
+	margin-top: 8px;
+}
+
+.settings dd .dijitSelect {
+    margin: 0;
+}
+
+.settings .dottedContainer {
+    border-top: 1px dashed #ccc;
+    margin-top: 20px;
+    padding: 3px 0 5px 3px;
+}
+
+.settings .bottomToolBar {
+    height: 30px;
+	margin-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.settings .accEmail{
+	width: 200px;
+	font-weight: bold;
+}
+.settings .changeBtn {
+	margin-left:30px;
+	float:left;
+}
+.settings .accEmail .email{
+	line-height: 26px;
+	padding-right: 10px;
+	float: left;
+}
+.settings .bottomToolBar .icsButton {
+	margin: 20px 0 0 10px;
+	float:right;
+}
+
+.settings .bottomToolBar .label{
+    margin: 0 0 0 -40px;
+	width: 500px;
+}
+
+.settings .addNewLink {
+    float: left;
+    clear: both;
+}
+
+.settings .header2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.settings .filterHeaderDiv {
+    margin-top: 10px;
+}
+
+.settings .filterInfo {
+	margin-top: 10px;
+	color: #A4ABB2;
+}
+
+.settings .filterInfo span {
+	color: #000000;
+	font-weight: bold;
+}
+
+.settings .crossSpan {
+    color: #0066CC;
+    cursor: pointer
+}
+/*dojoxDropDownSelect*/
+.settings .dijitSelect .dijitButtonContents {
+    width: 150px;
+    text-align: left !important;
+    border-width: 1px 0 1px 1px;
+}
+
+/*
+ .dojoxDropDownSelectMenu .dijitMenuItemLabel { width: 140px; text-align: left; }
+ */
+ /*dojoxDropDownSelect*/
+.dijitSelect .dijitArrowButton {
+    border-width: 1px 1px 1px 0;
+    padding: 5px 3px 3px 3px;
+}
+
+.settings .inlineBlockText {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+.settings ul.noStyle li.indentText {
+    padding-left: 20px;
+}
+
+.settings .titlePaneContainer {
+    margin: 0 0 10px 0;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneTitle {
+    background: none;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    padding: 2px 4px;
+    height: 29px;
+}
+
+.settings .titlePaneContainer div.dijitTitlePaneTitle {
+    line-height: 29px;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneTextNode {
+    color: #0066cc;
+    outline: none;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneFocused .dijitTitlePaneTextNode {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneContentOuter {
+    border-width: 1px 1px 0 1px;
+}
+
+.settings .titlePaneContainer .dijitTitlePaneContentInner * {
+    line-height: normal;
+}
+
+.settings .titlePaneContainer .titlePaneOdd {
+    background: #ebebeb;
+}
+
+.settings .titlePaneContainer .titlePaneEven {
+    background: #f5f5f5;
+}
+/*
+/	added for 1.4.2 to remove the arrow on titlepane
+*/
+.settings .dijitTitlePane .dijitArrowNode{
+	display:none;
+}
+
+.settings .containerHeader {
+    background: #a9a9a9;
+    color: #fff;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 4px;
+}
+
+.settings .titlePaneContainer .signatureName {
+    float: left;
+    width: 457px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.settings .titlePaneContainer .action {
+    float: left;
+	width:100px; 
+	text-align: center;
+}
+
+.settings .titlePaneContainer .isDefault {
+    width: 70px;
+    text-align: center;
+}
+
+.settings .titlePaneContainer .filterName {
+    float: left;
+    width: 380px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.settings .titlePaneContainer .priority {
+    float: left;
+    width: 100px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.settings .titlePaneContainer .filterAction {
+    float: left;
+}
+
+.settings .titlePaneContainer .isEnabled {
+    float: right;
+    width: 70px;
+    text-align: center;
+}
+
+.settings .editLinkIcon {
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -377px -21px transparent;
+    padding: 0 12px 3px 0;
+    cursor: pointer;
+}
+.dj_ie .settings .editLinkIcon {
+	background-position: -377px -22px;
+}
+
+.settings .editLink {
+    color: #0066CC;
+    padding: 0 8px 0 0;
+    cursor: pointer;
+}
+
+.settings .deleteLinkIcon {
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -393px -21px transparent;
+    padding: 0 12px 3px 0;
+    cursor: pointer;
+}
+.dj_ie .settings .deleteLinkIcon {
+	background-position: -393px -22px;
+}
+
+.settings .deleteLink {
+	color: #0066CC;
+    padding: 0 8px 0 0;
+    cursor: pointer;
+}
+
+/* Spinner Widget Styles */
+.spinner .buttonContainer {
+    float: left;
+    width: 22px;
+    padding: 2px;
+}
+
+.spinner .countNode {
+    float: left;
+}
+
+.spinner .upArrowEnabled {
+    width: 16px;
+    height: 13px;
+    overflow: hidden;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -324px -24px;
+}
+
+.spinner .downArrowEnabled {
+    width: 16px;
+    height: 13px;
+    overflow: hidden;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -342px -25px;
+}
+
+.spinner .upArrowDisabled {
+    width: 16px;
+    height: 13px;
+    overflow: hidden;
+    width: 16px;
+    height: 13px;
+    overflow: hidden;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -306px -24px;
+}
+
+.spinner .downArrowDisabled {
+    width: 16px;
+    height: 13px;
+    overflow: hidden;
+    background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -360px -25px;
+}
+
+
+/* Dialog Styles */
+.pl .settingsDialog {
+    text-align: left;
+	width:760px;
+	height:342px;
+}
+
+.settingsDialog .sigNameSpan {
+	line-height: 38px;
+	margin-left: 12px;
+}
+
+.pl .settingsDialog .icsComposer.sigEditForm .dijitToolbar {
+	margin-top: 0px;
+}
+
+.pl .settingsDialog .icsComposer.sigEditForm{
+	height: 293px;
+} 
+
+.pl .settingsDialog .icsComposer .RichTextEditable{
+	margin-bottom: 0px;
+}
+
+.settingsDialog .icsBottomCap {
+    display: none;
+}
+.settingsDialog .bottomToolBar {
+    float: right;
+    padding: 7px 10px 0 0;
+}
+
+.settingsDialog .bottomToolBar .sigCancelSpan{
+	left: 0px;
+}
+
+.settingsDialog .bottomToolBar .textLink {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.settingsDialog .addNewLink {
+    float: left;
+    clear: both;
+}
+
+.settingsDialog .dijitDialogPaneContent {
+    height: 286px;
+    padding: 10px 25px !important;
+}
+
+.dj_ie .settingsDialog .dijitDialogPaneContent {
+    height: 292px;
+}
+
+.settingsDialog .cc_content {
+	border: 0;
+}
+
+.settingsDialog div.cc_content {
+	height: 200px;
+	width: 321px;
+	overflow: hidden;
+}
+
+.settingsDialog .signature div.RichTextEditable{
+	height: 160px;
+	width: 745px;
+	border: 2px solid #BFF2F2;
+}
+
+.settingsDialog .signature div.RichTextEditable.simpleEditor{
+	height: 160px;
+	border: 2px solid #BFF2F2;
+}
+
+.settingsDialog div.RichTextEditable iframe{
+	height: 160px !important;
+}
+
+.pl .filterDialog {
+    text-align: left;
+	width: 750px;
+	height: 379px;
+}
+
+/*
+ .icsSpinner { width: auto; border: none; }
+ 
+ .icsSpinner .dijitValidationIcon { display: none; }
+ .icsSpinner .dijitInputField { display: none; }
+ 
+ .icsSpinner .dijitSpinnerButtonContainer { float: left; width: 16px; }
+ */
+/*email filter editor style*/
+.pl .filterEditor {
+    height: 330px;
+}
+
+.filterEditor .messageNode {
+    color: red;
+    margin-left: 20px;
+}
+
+.filterEditor .inactive {
+    display: none;
+}
+
+.filterEditor .bodyWrapper {
+    padding: 13px;
+}
+
+.filterEditor .addNewDiv {
+    padding-top: 5px;
+    clear: both;
+}
+.dj_ie .filterEditor .addNewDiv {
+    margin-top: 2px;
+}
+
+.filterEditor .bodyWrapper .label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.filterEditor .bodyWrapper .crossSpan {
+    color: #0066CC;
+    cursor: pointer
+}
+
+.filterEditor .bodyWrapper .dijitTextBox {
+    width: 250px;
+    height: 16px;
+}
+
+.filterEditor .bodyWrapper .ifDiv {
+    height: 120px;
+    margin-top:13px;
+}
+
+.dj_ie .filterEditor .bodyWrapper .ifDiv {
+    height: 110px;
+}
+
+.filterEditor .bodyDiv{
+	height:220px;
+}
+
+.dj_ie6 .filterEditor .bodyWrapper .ifDiv .options,
+.dj_ie7 .filterEditor .bodyWrapper .ifDiv .options{
+	vertical-align:middle;
+}
+
+.dj_ie .filterEditor .bodyWrapper .thenDiv {
+	margin-top:	22px !important; 
+}
+.filterEditor .bodyWrapper .ifDiv .ifSection, .filterEditor .bodyWrapper .thenDiv .thenSection {
+    overflow-y: auto;
+    height:72px;
+    position: relative;
+}
+.dj_ie7 .filterEditor .bodyWrapper .ifDiv .ifSection, .dj_ie7 .filterEditor .bodyWrapper .thenDiv .thenSection {
+    height:72px;
+}
+
+.dj_ie .filterEditor .bodyWrapper .ifDiv .ifNode {
+    padding-top: 4px;
+}
+/*dojoxDropDownSelect*/
+.filterEditor .bodyWrapper .ifDiv .ifNode .firstSelect .dijitSelect .dijitButtonContents {
+    width: 155px;
+    text-align: left !important;
+}
+/*dojoxDropDownSelect*/
+.filterEditor .bodyWrapper .ifDiv .ifNode .secondSelect .dijitSelect .dijitButtonContents {
+    width: 110px;
+    text-align: left !important;
+}
+/*dojoxDropDownSelect*/
+.filterEditor .bodyWrapper .ifDiv .dijitSelect .dijitButtonContents {
+    width: 65px;
+    text-align: left !important;
+    border-width: 1px 0 1px 1px;
+}
+/*dojoxDropDownSelect*/
+.dj_ie7 .filterEditor .bodyWrapper .ifDiv .dijitSelect .dijitButtonContents {
+    width: 75px;
+}
+
+.filterEditor .bodyWrapper .ifDiv .options .dijitButtonContents .dijitButtonText{
+	 text-align: left !important;
+	 width: 75px;
+}
+
+.filterEditor .bodyWrapper .thenDiv {
+    height: 120px;
+	margin-top: 15px;
+}
+
+.dj_ie .filterEditor .bodyWrapper .thenDiv {
+    height: 110px;
+	margin-top: 15px;
+}
+
+.dj_ie .filterEditor .bodyWrapper .thenDiv .thenNode {
+    padding-top: 4px;
+}
+/*dojoxDropDownSelect*/
+.filterEditor .bodyWrapper .thenDiv .thenNode .firstSelect .dijitSelect .dijitButtonContents {
+    width: 180px;
+    text-align: left !important;
+    border-width: 1px 0 1px 1px;
+}
+/*dojoxDropDownSelect*/
+.filterEditor .bodyWrapper .thenDiv .thenNode .secondSelect .dijitSelect .dijitButtonContents {
+    width: 100px;
+    text-align: left !important;
+    border-width: 1px 0 1px 1px;
+}
+
+.filterEditor .bodyWrapper .buttonsDiv {
+    margin-top: 30px;
+	float: right;
+}
+
+.pl .settingsDialog .addVacationReply .bodyWrapper {
+    margin: 0 13px 13px;
+}
+
+.pl .settingsDialog .buttonrga span.gray,
+.pl .filterEditor .buttonrga span.gray {
+	cursor:not-allowed;
+}
+
+.pl .filterEditor .bodyWrapper .buttonrga span.gray{
+	padding-bottom: 5px;	
+}
+
+.dj_ie .filterEditor .bodyWrapper .buttonsDiv {
+    margin-top: 60px;
+}
+
+.filterEditor .bodyWrapper .button {
+    padding-right: 15px;
+}
+
+.tundra .filterEditor .bodyWrapper .dijitValidationIcon {
+	height: 16px;
+}
+
+.filterIfSelect .closeIcon, .filterThenSelect .closeIcon {
+    height: 15px;
+    width: 15px;
+    background: url("../../../images/ics/nab/form/delete.png") no-repeat 0px 0px;
+    cursor: pointer;
+}
+
+.filterIfSelect .addressIcon, .filterThenSelect .addressIcon {
+    width: 15px;
+    height: 15px;
+	background-position: -406px -277px;
+}
+
+.filterIfSelect {
+    padding-bottom: 10px;
+}
+.dj_ie7 .filterIfSelect{
+	padding-bottom:15px;
+}
+
+.filterIfSelect .warningIcon {
+    display: none;
+}
+
+.filterIfSelect.invalid .warningIcon {
+    float: right;
+    color: red;
+    margin-right: 40px;
+    display: block;
+}
+
+.filterIfSelect .firstSelect, .filterIfSelect .secondSelect, .filterIfSelect .thirdSelect {
+    float: left;
+}
+
+.filterIfSelect .thirdSelect .text input {
+	height:	14px;
+    width: 200px;
+	margin-top: 2px;
+}
+
+.dj_ie .filterIfSelect .thirdSelect .text input {
+	margin-top: 1px;
+}
+
+.filterIfSelect .thirdSelect .date .dijitTextBox {
+    width: 100px;
+	margin-top: 2px;
+}
+
+.filterIfSelect .thirdSelect .priority {
+    width: 85px;
+}
+
+.filterIfSelect .thirdSelect .address input {
+    width: 200px;
+}
+
+.dj_ie .filterIfSelect .thirdSelect .address input {
+    margin-bottom: 2px;
+}
+
+.filterIfSelect .thirdSelect .dijitButton, .filterThenSelect .secondSelect .address .dijitButton {
+    margin: -1px 3px 0px 2px;
+}
+
+.filterIfSelect .thirdSelect .text, .filterIfSelect .thirdSelect .priority, .filterIfSelect .thirdSelect .address, .filterIfSelect .thirdSelect .date {
+    display: none;
+}
+
+.filterIfSelect .thirdSelect.text .text, .filterIfSelect .thirdSelect.priority .priority, .filterIfSelect .thirdSelect.address .address, .filterIfSelect .thirdSelect.date .date {
+    display: block;
+}
+
+.filterThenSelect {
+    padding-bottom: 10px;
+}
+.dj_ie7 .filterThenSelect{
+	padding-bottom:15px;
+}
+
+.filterThenSelect .warningIcon {
+    display: none;
+}
+
+.filterThenSelect.invalid .warningIcon {
+    float: right;
+    color: red;
+    margin-right: 40px;
+    display: block;
+}
+
+.filterThenSelect .firstSelect {
+    float: left;
+}
+
+.filterThenSelect .secondSelect {
+    float: left;
+}
+
+.filterThenSelect .secondSelect .dijitDropDownButton {
+    margin: 0px;
+}
+
+.filterThenSelect .secondSelect .addTag, .filterThenSelect .secondSelect .priority, .filterThenSelect .secondSelect .putMessageIn, .filterThenSelect .secondSelect .address {
+    display: none;
+}
+
+.filterThenSelect .secondSelect.addTag .addTag, .filterThenSelect .secondSelect.priority .priority, .filterThenSelect .secondSelect.putMessageIn .putMessageIn, .filterThenSelect .secondSelect.address .address {
+    display: block;
+}
+
+.filterThenSelect .addTag .dijitButtonNode {
+    padding: 0;
+	margin-top: 2.3px;
+	height: 16px;
+}
+
+.dj_ie .filterThenSelect .addTag .dijitButtonNode button{
+	margin-top: -3px;
+}
+.filterThenSelect .addTag .dijitButtonText {
+    width: 165px;
+    text-align: left;
+}
+
+.dj_ie .filterThenSelect .secondSelect .address input {
+    margin-bottom: 2px;
+}
+
+.filterTagBox {
+    z-index: 1000;
+    border-top: #d1d1d1 solid 1px;
+}
+
+.filterTagBox {
+    width: 200px;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+
+.filterTagBox .headerNode {
+    float: left;
+    margin: 2px 5px 5px 10px;
+}
+
+.filterTagBox .bodyNode {
+    float: none;
+    margin: 0px;
+    clear: both
+}
+
+.filterTagBox .headerDiv {
+    border-bottom: #d1d1d1 solid 1px;
+    display: none;
+}
+
+.filterTagBox .bodyDiv {
+    height: 145px;
+    border-bottom: #d1d1d1 solid 1px;
+    overflow-x: none;
+    overflow-y: auto;
+    position: relative;
+}
+
+.filterTagBox .footerDiv {
+    height: 25px
+}
+
+.filterTagBox .tipDiv {
+    float: right
+}
+
+.filterTagBox .tipDiv img {
+    float: none;
+    margin: 5px 10px;
+}
+
+.filterTagBox .inactive {
+    display: none
+}
+
+.filterTagBoxContent {
+    padding: 1px 0px 1px 0px !important
+}
+
+.filterTagBox .filterTagBoxContent .hidden {
+    display: none
+}
+
+.filterTagBox .opDivInactive {
+    display: none
+}
+
+.filterTagBox .opDivActive {
+    height: 30px;
+    border-bottom: #d1d1d1 solid 1px;
+    background-color: #d1d1d1
+}
+
+.filterTagBox .opDivActive div.inputFieldDiv {
+    float: left;
+}
+
+.filterTagBox .opDivActive div.inputFieldDiv input {
+    float: none;
+    margin: 5px 3px 0px 6px;
+    width: 135px;
+}
+
+.filterTagBox .opDivActive div.buttonDiv {
+    float: left;
+    margin-top: 4px
+}
+
+.filterTagBox .tagBodyWrapper {
+    height: 28px
+}
+
+.filterTagBox .tagBodyWrapper div.tagNameDiv {
+    float: left
+}
+
+.filterTagBox .tagBodyWrapper div.inputFieldDiv {
+    float: left;
+    border: none;
+    line-height: 2.3em;
+    padding-left: 10px;
+}
+
+.filterTagBox .tagBodyWrapper div.inputFieldDiv input {
+    width: 110px;
+    margin-top: 5px;
+}
+
+.filterTagBox .tagBodyWrapper div.buttonDiv {
+    float: right;
+    margin-top: 4px;
+}
+
+.filterTagBox .tagBodyWrapper div.menuDiv {
+    float: right
+}
+
+.filterTagBox .selected {
+    background-color: black;
+}
+
+.errorMessageClass {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.simpleEditor.dijitTextArea,
+.dj_ie6 .pl .simpleEditor {
+	border: 2px solid #BFF2F2;
+	width: 97%;
+	height: 100px;
+	padding: 4px;
+	margin: 10px 2px;
+}
+
+.settingsDialog .simpleEditor.dijitTextArea,
+.dj_ie6 .settingsDialog .simpleEditor {
+	width: 723px;
+	margin: 10px 0 8px;
+}
+
+.settings .plusSymbol {
+color: #0066CC;
+font-size:14px;
+font-weight:bold;
+line-height: 26px;
+float:left;
+}
+
+.pl .settings .signatureSettings .buttonrga span{
+	padding-left: 5px;
+}
+
+.datePicker {
+    width: 22px;
+    height: 17px;
+    overflow: hidden;
+    margin-bottom: -5px;
+	margin-left: 2px;
+}
+
+.timePicker {
+    width: 22px;
+    height: 17px;
+    overflow: hidden;
+    margin-bottom: -5px;
+	margin-left: 2px;
+}
+
+.dj_ie .datePicker, .dj_ie .timePicker{
+	margin-bottom: -3px;
+}
+/*		
+ * settings sync 
+ */
+.settings .syncPanelContent {
+	padding: 0 !important;
+}
+
+.settings .syncPanel .syncPanelIsp{
+	border-right: 0px;
+}
+
+.settings .syncPanelContent .settingsSyncIsps{
+	width:250px;
+	position: relative;
+	left: -10px;
+	border-right: 0px;
+}
+
+.settings .syncPanel {
+	position: static;
+}
+
+/*
+ * Overwrite tundra/TimePicker.css (fixed mousehover event styling issues)
+ * 
+ */
+
+.pl .dijitPopup .dijitTimePickerMarkerHover {
+	border-top: 0 solid #ccc;
+}
+
+.pl .dijitPopup .dijitTimePickerTickHover,
+.pl .dijitPopup .dijitTimePickerTickSelected {
+	margin-top:0;
+	margin-bottom:0;
+	border-bottom: 1px solid #CCC !important;
+}
+
+.numberSpinnerBbImg .dijitArrowButtonInner {
+	background: transparent url(../../../images/ics/settings/arrowSprite.png) no-repeat scroll 0px center;
+	width: 10px;
+    height: 10px;
+	font-size: 1px;
+}
+.numberSpinnerBbImg .dijitUpArrowButton .dijitArrowButtonInner {
+	background-position: -20px -3px;
+}
+.numberSpinnerBbImg.dijitUpArrowActive .dijitUpArrowButton .dijitArrowButtonInner,
+.numberSpinnerBbImg.dijitUpArrowHover .dijitUpArrowButton .dijitArrowButtonInner {
+	background-position: -3px -3px;
+}
+.numberSpinnerBbImg .dijitDownArrowButton .dijitArrowButtonInner {
+	background-position: -3px -14px;
+}
+.numberSpinnerBbImg.dijitDownArrowActive .dijitDownArrowButton .dijitArrowButtonInner,
+.numberSpinnerBbImg.dijitDownArrowHover .dijitDownArrowButton .dijitArrowButtonInner {
+	background-position: -20px -14px;
+}
+
+.settingsDialog .addVacationReply .lineHolder {
+	padding: 10px 0 0 20px;
+}
+
+.settingsDialog .addVacationReply .buttonsDiv {
+	float:right;
+}
+
+.settingsDialog .addVacationReply .lineHolder .date .startDtTm {
+	padding-bottom: 10px;
+}
+
+.settingsDialog .addVacationReply {
+	height: 294px;
+}
+
+.settingsDialog .addVacationReply .lineHolder .label,
+.settingsDialog .addVacationReply .lineHolder .label {
+	text-align:	right;
+}
+.pl .settingsDialog .addVacationReply .lineHolder .accounts {
+	vertical-align:	top;
+	width: 300px;
+	height: 70px;
+	margin: -29px 0 0 45px;	
+}
+.dj_ie .settingsDialog .addVacationReply .lineHolder .accounts {
+	margin: -29px 0 0 57px;	
+}
+
+.settingsDialog .addVacationReply .lineHolder .accounts .allEmailDiv {
+	border: 1px solid #B3B3B3;
+	height: 55px;
+	width: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;	
+}
+.settingsDialog .addVacationReply .lineHolder .accounts .allEmailDiv .emailWrapperDiv {
+	width: 100%;
+}
+.settingsDialog .addVacationReply .lineHolder .accounts .allEmailDiv .indEmailDiv {
+	margin: 2px 8px 0;
+	vertical-align: top;
+	width: 5.3%;
+}
+.settingsDialog .addVacationReply .lineHolder .accounts .allEmailDiv .indEmailDiv .dijitCheckBoxInput{
+	overflow: visible;
+	display: inline-block;
+}
+
+.settingsDialog .addVacationReply .lineHolder .accounts .allEmailDiv .emailLabel{
+	color: #0066CC;
+	width: 88%;
+	line-height: 11px;
+	margin: 4px 0 0 0;
+	display: inline-block;
+	word-wrap: break-word;
+}
+.dj_ie .settingsDialog .addVacationReply .lineHolder .accounts .allEmailDiv .emailLabel{
+	margin: 0;
+	padding: 0 0 4px 0;
+}
+.settings .syncOptions .emailDiv,
+.settings .syncOptions .contactsDiv{
+	margin: 12px 0 12px 0;
+}
+.settings .syncOptions .emailDiv .emailDesc,
+.settings .syncOptions .contactsDiv .emailDesc{
+	display: inline-block;
+	vertical-align: middle;
+}
+.settings .syncOptions .emailDiv .dijitCheckBox, 
+.settings .syncOptions .contactsDiv .dijitCheckBox {
+	margin: 4px 4px 4px 4px;
+}
+.settings .syncOptions .emailDiv .dijitCheckBox .dijitCheckBoxInput, 
+.settings .syncOptions .contactsDiv .dijitCheckBox .dijitCheckBoxInput{
+	display: inline-block;
+}
+
+.dj_ie .vrAutoDialog {
+	width: 452px;
+	height: 99px;
+}
+
+/* CSS for AddNewSyncPoint*/
+
+.addNewSyncPoint .epText,
+.addNewSyncPoint .mText{
+	width:100px;
+	font-weight:bold;
+	display:block;
+}
+/* Fix IE style when allows addNewSyncPoint dialog icons change by account status
+.dj_ie7 .addNewSyncDialog,
+.dj_ie7 .addNewSyncDialog .modal_content{
+	width: 535px;	
+}
+*/
+.addNewSyncDialog .confirmButtons{
+	display: none;
+}
+.addNewSyncDialog .addSyncPointContent .settings{
+	vertical-align: top;
+}
+

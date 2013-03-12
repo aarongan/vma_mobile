@@ -1,0 +1,222 @@
+.businessCard {
+	width:100%
+}
+
+.businessCard .cardContent{
+height:335px;/*350px;*/ 
+padding-bottom:5px !important;
+margin-left:0px;
+}
+
+/* businessCard content containers */
+.businessCardTop {height:5px;padding:0 0 0 5px;background:transparent url(../../../../images/vzw/cc/png/top_left.png) no-repeat top left;overflow:hidden;}
+.businessCardTop div {height:5px;padding:0 5px 0 0;background:transparent url(../../../../images/vzw/cc/png/top_right.png) no-repeat top right;overflow:hidden;}
+.businessCardTop div div {height:5px;padding:0;background:url(../../../../images/vzw/cc/gif/top_1px.gif) repeat-x;overflow:hidden;}
+.businessCardMiddle {border-left:1px solid #d1d1d1;border-right:1px solid #d1d1d1;padding:5px 9px 15px 9px;}
+.businessCardBottom {height:5px;padding:0 0 0 5px;background:transparent url(../../../../images/vzw/cc/png/bottom_left.png) no-repeat bottom left;overflow:hidden;}
+.businessCardBottom div {height:5px;padding:0 5px 0 0;background:transparent url(../../../../images/vzw/cc/png/bottom_right.png) no-repeat bottom right;overflow:hidden;}
+.businessCardBottom div div {height:5px;padding:0;background:transparent url(../../../../images/vzw/cc/gif/bottom_1px.gif) repeat-x;overflow:hidden;}
+
+.businessCard img{
+	float:right; height:75px; width:75px;
+}
+
+.businessCard .contactName{
+	display: block; font-weight:bold;color:#1D46A6; font-size:16px;/*15px;*/margin:15px 0 8px 0; width:100px; white-space:nowrap;
+}
+
+.businessCard .companyBold{
+	display: block; font-weight:bold;color:#1D46A6; font-size:15px;margin:5px 0 8px 0; width:150px;white-space:nowrap;
+}
+
+.businessCard .companyOrTitle{
+	display: block; 
+	font-size:13px;
+	color:#666666;
+	margin:0 0 8px 0; 
+	width:150px;
+	font-size:12px !important;
+	padding-bottom:20px;
+	margin-top:-5px !important;
+}
+
+.businessCard .newContactText{
+color:#999999;padding-top:150px;text-align:center;
+}
+
+.businessCard .shortRows{
+	display:block;width:150px;margin:8px 0 8px 0;
+}
+
+.businessCard .longRows{
+	display:block;width:230px;margin:8px 0 8px 0;
+}
+
+.businessCard .updatedDate{
+	float:right;display:block;font-size:11px;/*12px;*/color:#999999;margin:5px 0 5px 0;
+}
+
+.businessCard .cardIconLabel {display:block;font-size:12px;margin:5px 0px -3px;/*5px 0 5px 0;*/ }
+
+.businessCard .homeIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:16px;
+    margin-right:5px;
+    float:left;
+    background-position: 0px;
+}
+.businessCard .mobileIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:17px;
+    margin-right:5px;
+    float:left;
+    background-position: -18px;
+}
+
+.businessCard .personalIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:17px;
+    margin-right:5px;
+    float:left;
+	background-position: -54px;
+}
+.businessCard .businessIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:14px;
+	float:left;
+    margin-right:5px;
+    background-position: -36px;
+}
+
+.businessCard .otherIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:14px;
+	float:left;
+    margin-right:5px;
+    background-position: -72px;
+}
+.businessCard .imIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:14px;
+	float:left;
+    margin-right:5px;
+    background-position: -90px;
+}
+
+.businessCard .websiteIcon{
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat: no-repeat;
+	width:15px;
+	height:12px;
+	float:left;
+    margin-right:5px;
+    background-position: -108px;
+}
+
+.businessCard .ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+	font-size:11px;
+}
+.businessCard .divider{height: 0px;}
+
+.cardEndPoints  {
+	width: 20px;
+	height: 20px;
+	background: transparent  url(../../../../images/ics/common/isp/endpoints.png);
+	background-repeat:no-repeat;
+	text-align: center;
+	margin-top: 5px;
+	float:left;
+}
+
+.cardEndPoints.GOOGLE {
+	background-position: -20px;
+}
+.cardEndPoints.AOL {
+	background-position: -60px;
+}
+.cardEndPoints.MSN {
+	background-position:  -100px;
+}
+.cardEndPoints.YAHOO {
+	background-position:  -140px;
+}
+.cardEndPoints.OUTLOOK {
+	background-position:  -220px;
+}
+.contactsEndPoint.SYNCML {
+	display: none;
+}
+.cardEndPoints.THUNDERBIRD { 
+	background-position:  -260px;
+}
+
+.businessCard .webGroupsIcon  {
+	background:url("../../../../images/ics/nab/form/formSmSprite.png") no-repeat scroll -143px 50% transparent;
+	width:22px;
+	height:15px;
+	margin-right:4px;
+	vertical-align:top;
+	display:inline-block;
+	float:left;	
+}
+.businessCard .mobileGroupsIcon  {
+    background: url("../../../../images/ics/nab/form/groupIcon_small.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    float: left;
+    height: 15px;
+    margin-left: 3px;
+    margin-right: 1px;
+    vertical-align: top;
+    width: 18px;	
+}
+
+.businessCard .starIcon{
+	height:15px;
+	width:15px;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -226px;
+    background-repeat: no-repeat;
+
+}
+
+.businessCard .mbSyncIcon{
+	height:15px;
+	width:20px;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -240px;
+    background-repeat: no-repeat;
+
+}
+
+.businessCard .statusIcsIcon {
+	height:15px;
+	width:20px;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+    background-position: -185px;
+    background-repeat: no-repeat;
+
+}
+
+.businessCard .statusConnectedIcon {
+	height:15px;
+	width:40px;
+	background:url(../../../../images/ics/nab/form/formSmSprite.png);
+	background-repeat:no-repeat;
+    background-position: -185px;
+}

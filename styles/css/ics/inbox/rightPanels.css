@@ -1,0 +1,1058 @@
+/* Inbox Right Panels Styles start*/
+#inboxRightPanel, #taskRightPanel,
+#vmmRightPanel, #taskRightPanel {
+    overflow: hidden;
+    border: none;
+    padding: 0px;
+    height: 100%;
+}
+#moduleStack .expandedRP{
+	display: none;
+}
+#inboxRightPanel .dijitComboBox,
+#vmmRightPanel .dijitComboBox {
+	border:2px solid #cdcdcd;
+}
+#inboxRightPanel .dijitComboBoxHover,
+#vmmRightPanel .dijitComboBoxHover {
+	border:2px solid #BFF2F2;
+}
+#inboxRightPanel .dijitComboBoxFocused,
+#vmmRightPanel .dijitComboBoxFocused {
+	border:2px solid #999;
+}
+
+.rightPaneHeading {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.basePanel {
+    width: 238px;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+.basePanel span.plusSign{
+	font-weight: bold;
+	color: #0066CC;
+	text-decoration: none;
+    cursor: auto;
+}
+.basePanel .headerNode {
+    margin: 2px 5px 5px 10px;
+    float:left;
+}
+.basePanel.expandable .headerNode{
+	width:200px;
+	float:none;
+}
+
+.basePanel .bodyNode {
+    margin: 0px;
+}
+
+.basePanel .tipDiv {
+    float: right;
+    margin-right:8px;
+    margin-top:3px;
+}
+
+.basePanel .tipDiv img {
+    float: none;
+    margin: 5px 10px;
+}
+
+.basePanel .inactive {
+    display: none
+}
+
+.basePanelContent {
+    padding: 1px 0px 1px 0px !important
+}
+
+.opDivInactive {
+    display: none
+}
+
+.opDivActive {
+    height: 30px;
+    border-bottom: #d1d1d1 solid 1px;
+    /*background-color: #d1d1d1*/
+    background-color: #EBEBEB;
+}
+
+.opDivActive div.inputFieldDiv {
+    float: left
+}
+
+.opDivActive div.inputFieldDiv input {
+    float: none;
+    margin: 5px 3px 0px 6px
+}
+
+.opDivActive div.buttonDiv {
+    float: left;
+    margin-top: 4px
+}
+
+.dj_ie .opDivActive div.buttonDiv {
+    margin-top: 5px
+}
+
+.opDivActive .addInput{
+	width:155px;
+}
+
+.addPanel {
+    width: 238px;
+    margin-bottom: 10px;
+}
+
+.addPanel img {
+    margin: 5px 1px
+}
+
+.addPanel .tipDiv {
+    float: right
+}
+
+.addPanel .floatLeft {
+    float: left
+}
+
+.addPanel .tipDiv .inactive {
+    display: none
+}
+
+.addPanel .addPanelContent {
+    padding-bottom: 5px !important;
+}
+
+.addPanel .addPanelContent .dijitToolbar {
+    z-index: 102;
+    position: absolute;
+    top: 140px;
+    right: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.addPanel .addPanelContent .button {
+    padding-left: 2px;
+}
+
+.addPanel .addPanelContent .button .newMessage {
+    padding: 0px;
+    width: 204px;
+    text-align: center;
+}
+
+.addMessagePanel {
+    width: 238px;
+    margin-bottom: 10px;
+}
+
+.addMessagePanel img {
+    margin: 5px 1px
+}
+
+.addMessagePanel .tipDiv {
+    float: right
+}
+
+.addMessagePanel .floatLeft {
+    float: left
+}
+
+.addMessagePanel .tipDiv .inactive {
+    display: none
+}
+
+.addMessagePanel .addPanelContent {
+    padding-bottom: 5px !important;
+}
+
+.addMessagePanel .addPanelContent .dijitToolbar {
+    z-index: 102;
+    position: absolute;
+    top: 140px;
+    right: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.addMessagePanel .addPanelContent .button {
+    padding-left: 2px;
+}
+
+.addMessagePanel .addPanelContent .button .newMessage {
+    padding: 0px;
+    width: 204px;
+    text-align: center;
+}
+
+.contactList {
+    text-align: left;
+    text-indent: 10px;
+}
+
+.contactList .contactItemSelected.contactNode {
+    background-color: #E0FFFF;
+}
+
+.contactList .contactNode {
+    border-bottom: dashed #d1d1d1 1px;
+    background-color: #ffffff;
+}
+
+.contactList .dijitButtonNode {
+    border: 0px #ffffff solid;
+    background: none;
+    text-indent: 0px;
+}
+
+.contactList .contactGroup {
+    height: 26px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contactList .contactGroup:hover {
+    cursor: pointer;
+}
+.contactList .fullName {
+    height: 16px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contactList .link {
+    font-family: arial;
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0066CC;
+    height: 20px;
+}
+
+.contactList .phone {
+    height: 20px;
+}
+
+.vacationReply {
+    width: 199px;
+    margin-bottom: 10px;
+}
+
+.vacationReply .vacationReplyContent {
+    padding-bottom: 5px !important;
+    height: 50px;
+}
+
+.vacationReply .vacationReplyContent .buttons .turnOffBtn {
+    margin-top: 8px;
+    margin-right:5px;
+}
+.vacationReply .vacationReplyContent .buttons .settingBtn {
+	margin-top:9px;
+}
+
+#add _new_btn_content {
+    padding: 0px !important;
+}
+#add _new_btn_content .dijitTooltipContainer, #add _new_btn_content .dijitTooltipFocusNode {
+    padding: 0px;
+}
+
+/*
+ #add_new_btn_content .dijitTooltipContainer .buttonsContent{padding:2px;}
+ */
+/*TODO not to override the css */
+/*
+.tundra .dijitTooltipBelow .dijitTooltipConnector {
+    background: none;
+    background-image: none
+}
+*/
+
+.newMessageIcon, .contactNode .newMessageIcon,
+.contactList .contactNode .buttons span,
+.contactList .contactNode .buttons a {
+    background: url(../../../images/ics/BUAPSprites.png) no-repeat scroll 0 0;
+	height:35px;
+	width:35px;
+}
+.newMessageIcon.email, .contactNode .newMessageIcon.email {
+    background-position: -159px -32px;
+}
+.newMessageIcon.text, .contactNode .newMessageIcon.text {
+    background-position: -193px -31px;
+}
+/***
+.newMessageIcon.mms, .contactNode .newMessageIcon.mms {
+    background-position: -560px -271px;
+}
+***/
+.contactList .contactNode .buttons .text {
+    background-position: -505px -271px;
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+.contactList .contactNode .buttons .mms {
+    background-position: -560px -271px;
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+
+.dj_ie .newMessageDiv{
+	width:200px;
+}
+.dj_ie7 .newMessageDiv .top, .dj_ie7 .newMessageDiv .bottom{
+	width:211px;
+}
+.newMessageDiv {
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat -225px -13px transparent;
+    z-index: 1000;
+	width: 200px !important;
+	height:75px;
+}
+.newMessageDiv .bodyDiv {
+    height: 36px;  /* 52 */
+}
+.newMessageDiv .bodyDiv .buttons {
+    padding-top: 1px;  /* 8 */
+    margin-left: 15px;  /* 24 */
+    text-align:left;
+}
+
+.newMessageDiv .bodyDiv .buttons .dijitButtonNode {
+    border: 0px #ffffff solid;
+    background: none;
+    padding:0px;
+}
+.newMessageDiv .emailDiv{
+    left: 34px; /*48px*/
+    position: absolute;
+    top: 11px;
+	cursor: pointer;
+   /*width: 35px*/
+}
+.newMessageDiv .mmsDiv{
+    position: absolute;
+    right: 33px; /*45px*/
+    top: 11px;   /*12px*/
+	cursor: pointer;
+  /*width: 35px*/
+}
+.newMessageDiv .emailDiv .email{
+	margin-left: 15px;
+}
+.newMessageDiv .mmsDiv .text{
+	margin-left: 9px;
+}
+.newMessageDiv .mmsDiv,
+.newMessageDiv .mmsDiv .link{
+	width: 52px;
+}
+.dj_ie .newMessageDiv .mmsDiv,
+.dj_ie .newMessageDiv .mmsDiv .link{
+	width:54px;
+}
+.newMessageDiv .emailDiv,
+.newMessageDiv .emailDiv .link{
+	width: 64px;
+}
+.newMessageDiv .emailDiv:hover, .newMessageDiv .mmsDiv:hover{ /*.newMessageDiv .textDiv span:hover*/
+	background: none repeat scroll 0 0 #f6f6f6;
+}
+.dj_ie .newMessageDiv .bodyDiv .buttons .newMessageIcon.text{
+	margin-left:10px;
+	margin-right:7px;
+}
+.newMessageDiv .smsDiv{
+	width:53px;
+}
+/*
+.newMessageDiv .textDiv {
+    text-align: left;
+    font-size: 11px;
+}
+.dj_ie .newMessageDiv .emailDiv{
+	width:46px;
+}
+.dj_ie .newMessageDiv .smsDiv{
+	width:66px;
+} 
+.newMessageDiv .textDiv .email {
+    left: 40px;
+    position: absolute;
+    top: 43px;
+}
+.newMessageDiv .textDiv .text {
+    position: absolute;
+    right: 40px;
+    top: 43px;
+}
+.newMessageDiv .textDiv .mms {
+    margin-left: 13px;
+}
+.newMessageDiv .newMessageIcon{
+	cursor:pointer;
+}
+.newMessageDiv .textDiv span{
+	cursor: pointer;
+}
+*/
+
+.contactNode .buttons {
+    height: 40px;
+    clear: both;
+}
+
+.contactNode .texts {
+	margin-bottom:5px;
+}
+
+.contactNode .hidden {
+    display: none;
+}
+
+.contactNode span.textNode {
+	margin-left:7px;
+}
+
+.contactNode span.mmsNode{
+	margin-left:12px;
+}
+/* not using due to class email is not added into the email address span */
+.contactNode a.email:hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+
+.contactNode a.text:hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+
+.contactNode a.mms:hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+
+.imageWrapper .emailImg {
+    margin-right: 25px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imageWrapper .textImg {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imageWrapper .picVideoImg {
+    margin-left: 25px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.addEmailMsgImg {
+    background: url(../../../images/ics/calendar/toolbar/temp/edit.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.addTextMsgImg {
+    background: url(../../../images/ics/calendar/toolbar/temp/forward.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.addPicVideoMsgImg {
+    background: url(../../../images/ics/calendar/toolbar/temp/delete.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    text-align: center;
+    width: 53px;
+}
+
+.inputFieldHint {
+    width: 216px;
+}
+.inputFieldHint input{
+	color: #999999;
+	font-size: 12px !important;
+    font-family: arial !important;
+	vertical-align: middle !important;
+}
+
+.inputFieldText {
+    width: 216px;
+    color: #000000;
+    font-size: 12px !important;
+    font-family: arial;
+	vertical-align: middle;
+}
+
+.addPanelButton {
+    text-align:left;
+}
+
+.syncPanel {
+    /*width: 238px;
+    margin: 0px 0px 7px 0px*/
+	position: absolute;
+	right: 10px;
+    top: 8px;
+}
+
+.syncPanel .addButtonIcon{
+    background: url(../../../images/ics/InboxSprites.png) no-repeat scroll -312px -90px;
+    width: 22px;
+    height: 21px;
+    cursor:pointer;
+}
+.syncPanel .dojoxGridError{
+	font-size:10px;
+	margin-left:4px;
+}
+.syncPanelContent {
+    padding: 4px 0px 0px 0px !important
+}
+.syncPanelContent img{
+	max-height:20px;
+	margin-left:10px;
+}
+
+.dj_ie.dj_ie8 .syncPanelContent img{
+	width:12px;
+}
+
+.syncPanelContent .syncText{
+	margin-left:8px;
+	margin-right:7px;
+	display:inline-block;
+}
+.dj_ie7 .syncPanelContent .syncText{
+	margin-bottom:6px;
+}
+.syncPanelContent .syncProgressBar{
+	background: url(../../../../styles/images/ics/common/progressBar.gif) no-repeat;
+    width: 166px;
+    height: 24px;
+    /*margin-top:1px;*/
+}
+.syncPanel .syncPanelAddBtn {
+    margin-left: 7px;
+	float:left;
+}
+
+.syncPanel .syncPanelSyncBtn {
+    margin-left: 12px;
+	margin-top:-3px;
+}
+
+.dj_safari .syncPanel .syncPanelSyncBtn {
+    margin-top: 2px;
+}
+
+.syncPanelButton {
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.syncPanel .syncPanelIsp {
+    border-right: 1px dashed #d1d1d1;
+    width: 138px;
+    height: 20px;
+	float:left;
+}
+
+.syncAddDialog {
+    width: 500px;
+    height: 500px;
+}
+
+.syncDialog {
+    width: 700px;
+    height: 700px;
+}
+#inboxRightPanel .footerMainDiv,
+#vmmRightPanel .footerMainDiv{
+    padding: 0px 0px 10px 10px;
+}
+#inboxRightPanel .settingsDiv,
+#vmmRightPanel .settingsDiv{
+    padding: 15px 0px 0px 20px;
+}
+#inboxRightPanel .helpingWrapper,
+#vmmRightPanel .helpingWrapper,
+#nabRightPanel .helpingWrapper{
+    padding: 4px 0px;
+}
+#inbox-right-panel-help .tooltipImg,
+#vmm-right-panel-help .tooltipImg,
+#ics-app-nab-panels-help .tooltipImg{
+	/*background: transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -109px -25px;*/
+	background: url("../../../images/vzwrga/random/question.gif") no-repeat scroll right top transparent;
+	height:15px;/*11px;*/
+	width:13px;
+	margin-left:3px;
+}
+.inboxRP .footerMainDiv{
+	border-top:1px solid #D1D1D1;
+}
+.inboxRP .footerBottom{
+	margin-top:5px;
+}
+.inboxRP .privacyDiv {
+	width:80px;
+}
+.inboxRP .TnCSpan{
+	margin-left:5px;
+}
+/* .inboxRP .linkDivider{
+	color: #999999;
+}
+.settingsDiv .settingsSpan, .settingsDiv .helpSpan{
+	margin-left:7px;
+}
+.settingsDiv .noGetPin .settingsSpan{
+	margin-left:0px;
+}
+.settingsDiv .getPin{
+	width:50px;
+}
+.settingsDiv .settings{
+	width:58px;
+}
+.settingsDiv .noGetPin .settings{
+	width:52px;
+}	*/
+.settingsDiv .noGetPin .getPin, .settingsDiv .noGetPin .pinDivider{
+	display:none;
+}
+/*  .settingsDiv .helping{
+	width:50px;
+}  */
+
+.linkSpan {
+    text-decoration: none; /* underline */
+    cursor: pointer;
+    color: #0066CC;
+}
+.syncPanel .rightArrow.inactiveArrow,
+.syncPanel .leftArrow.inactiveArrow{
+	opacity:0.3;
+	cursor:auto;
+	filter: alpha(opacity=30);
+}
+.syncPanel .rightArrow{
+	cursor:pointer;
+	background: url(../../../images/vzw/buttons/png/right.png) no-repeat transparent 0px 0px;
+	margin-left:10px;
+	height:15px;
+	width:15px;
+}
+.dj_ie7 .syncPanel .rightArrow{
+	margin-top:-20px;
+}
+.syncPanel .leftArrow{
+	cursor:pointer;
+	background: url(../../../images/vzw/buttons/png/left.png) no-repeat transparent 0px 0px;
+	margin-left:5px;
+	height:15px;
+	width:15px;
+}
+.dj_ie7 .syncPanel .leftArrow{
+	margin-top:-20px;
+}
+._isps{
+	background: url(../../../images/ics/InboxSprites.png) no-repeat transparent;
+	height:20px;
+    width:18px;
+}
+.dj_ie7 ._isps.syncItem {
+	margin-bottom:4px;
+}
+._isps.googleImg {
+    margin-left:10px;
+    background-position: -20px -90px;
+}
+._isps.yahooImg {
+    margin-left:10px;
+    background-position: -139px -90px;
+}
+._isps.aolImg {
+    margin-left:10px;
+    background-position: -60px -90px;
+}
+._isps.cellPhoneImg {
+    background-position: -178px -90px;
+    margin-left:10px;
+}
+._isps.inactiveCellPhoneImg{
+ 	background-position: -198px -90px;
+    margin-left:10px;
+	cursor:auto;
+}
+._isps.outlookImg {
+	margin-left:10px;
+	background-position: -218px -90px;
+}
+._isps.msnImg {
+	background-position: -99px -90px;    
+    margin-left:10px;
+}
+._isps.thunderBirdImg{
+	background-position: -258px -90px;    
+    margin-left:10px;
+}
+
+.navPanelsTitle {
+    font-family: arial;
+    font-weight: 600;
+    font-size: 12px
+}
+.grey_ruler {
+    background: transparent url(../../../images/ics/inbox/img_rule_1x1.gif) repeat-x;
+    height: 10px;
+    clear: both;
+}
+
+.newMessageRuler {
+    width: 215px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.mytags_headerDiv {
+    border-bottom: #d1d1d1 solid 1px;
+    height: 24px
+}
+.tags_headerDiv{
+    height: 24px
+}
+.expanded .tags_headerDiv{
+    border-bottom: #d1d1d1 solid 1px;
+}
+
+.mytags_bodyDiv {
+    height: 190px;
+    border-bottom: #d1d1d1 solid 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+	position: relative;
+}
+
+.mytags_footerDiv {
+    height: 25px
+}
+
+.buddyReq_headerDiv {
+    height: 24px
+}
+.expanded .buddyReq_headerDiv{
+    border-bottom: #d1d1d1 solid 1px;
+}
+
+.buddyReq_bodyDiv {
+    height: 180px;
+    border-bottom: #d1d1d1 solid 1px;
+    overflow-x: none;
+    overflow-y: none
+}
+
+.buddyReq_footerDiv {
+    height: 25px
+}
+
+.notification_headerDiv {
+    border-bottom: #d1d1d1 solid 1px;
+    height: 24px
+}
+
+.notification_bodyDiv {
+    height: 60px;
+    border-bottom: #d1d1d1 solid 1px;
+    overflow-x: none;
+    overflow-y: auto
+}
+
+.notification_footerDiv {
+    height: 25px
+}
+
+/*
+ .mytagsRow{line-height: 2.5em; text-indent:6px}
+ .mytagsRow div:hover {	background : #A0A0A0;}
+ */
+.buddyRow {
+    line-height: 2.5em;
+    text-indent: 6px
+}
+
+.footerLinkDiv {
+    padding: 5px 5px 5px 7px
+}
+
+.footerLinkDiv .left {
+    float: left;
+}
+
+.footerLinkDiv .right {
+    float: right
+}
+
+.footerLinkDiv .inactive {
+    display: none
+}
+
+.errorMsg {
+    height: 50px
+}
+
+.errorMsg div.a {
+    margin: 5px;
+    width: 368px;
+    float: left;
+    border: 2px solid #FF0000;
+    margin-bottom: 4px;
+    padding-top: 1px;
+    background-color: #FFCCCC;
+    color: #FF0000;
+}
+
+.errorMsg div.b {
+    float: left;
+    width: 22px;
+    padding: 3px 9px 3px 2px;
+}
+
+/*.errorMsg img{src:../../../images/ics/common/isp/googleIcon.jpg}
+ */
+.errorMsg div.c {
+    float: left;
+    padding-top: 7px;
+    font-weight: bold;
+    width: 310px;
+}
+
+.rightPanelTT {
+    text-align: left;
+    font-size: 12px;
+}
+
+/*my tags confirmation styles*/
+.mytagsConf {
+    height: 90px;
+}
+
+.mytagsConf .confBody {
+    margin-bottom: 30px;
+}
+
+.mytagsConf .cancelLink {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0066CC;
+    float: right;
+    margin-top: 5px;
+}
+
+.mytagsConf .buttonDiv {
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.mytagsAction {
+    height: 15px;
+    width: 15px;
+    background: url("../../../images/ics/calendar/calAction.png") no-repeat center top;
+}
+
+.undelivered{
+	margin-bottom:10px;
+	width: 238px;
+}
+.undelivered.expanded .headerDiv{
+	border-bottom:1px solid #D1D1D1;	
+
+}
+.undelivered .headerDiv{
+	height:21px;
+	padding-top:2px;
+	text-indent:5px;
+}
+.undelivered .middle .one{
+	height:35px;
+}
+.undelivered .middle .two{
+	height:70px;
+}
+.undelivered .footerDiv{height:25px;border-top:1px solid #D1D1D1}
+.undelivered .footerDiv .linkSpan{
+	float:left;
+	margin-top:7px;
+	margin-left:7px;
+}
+.undelivered .footerDiv .button{
+	float:right;
+	margin-right:10px;
+	margin-top:4px;
+}
+.undelivered .undeliveredRow{
+	height:35px;
+	width:236px;
+	cursor:pointer;
+}
+.undelivered .undeliveredRow.hovered{
+	background-color: #e0e0e0;
+	cursor:pointer;
+}
+.undelivered .mmsIcon{
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -442px -347px;
+	background-repeat: no-repeat;
+	height:25px;
+	width:30px;
+	margin-top:5px;
+	margin-left:10px;
+}
+.undelivered .smsIcon{
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -442px -321px;
+	background-repeat: no-repeat;
+	height:20px;
+	width:30px;
+	margin-top:10px;
+	margin-left:10px;
+}
+.dj_ie7 .undelivered .smsText, .dj_ie7 .undelivered .mmsText {
+	margin-bottom:4px;
+}
+.undelivered .tooltipImg{
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -109px -25px;
+	height:11px;
+	width:13px;
+	margin-bottom:2px;
+}
+
+.dj_ie .undelivered .actionArrow{
+	margin-bottom:3px;
+}
+.undelivered.expanded .actionArrow{
+	background-position: -175px -27px;
+}
+.undelivered .actionArrow{
+	height:11px;
+	width:11px;
+	cursor:pointer;
+	background:transparent url(../../../images/ics/InboxSprites.png) no-repeat scroll -162px -27px;
+	opacity:0.3;
+	filter: alpha(opacity=30);
+}
+
+.undelivered .undeliveredHeader{
+	width:205px;
+}
+.inboxConnReq .connReqContent{
+	border-top:1px dashed #e9e9e9;
+}
+.inboxConnReq .reqHeader{
+	margin-bottom:28px;
+	word-wrap: break-word;
+}
+.inboxConnReq img{
+	height:60px;
+	width:60px;
+	margin: 5px 10px 10px 0;
+}
+.inboxConnReq .footerDiv{
+	margin:10px 0 0 0;
+}
+.inboxConnReq .requesterInfo{
+ 	vertical-align:top;
+ 	margin-top:3px;
+	width: 340px;
+	word-wrap: break-word;
+}
+
+.syncPanel .syncContainerSpan{
+	width:90px;
+	overflow:hidden;
+	height:20px;
+	position:relative;
+}
+.syncPanel .servicesInsideDiv{
+	position:absolute;
+	left:0px;
+	width:400px;
+}
+.tundra .inboxDropDown.dijitDropDownButton,
+.tundra .vmmDropDown.dijitDropDownButton{
+	margin:0;
+}
+.tundra .inboxDropDown .dijitButtonNode, .inboxDropDown.dijitDropDownHover .dijitButtonNode,
+.tundra .vmmDropDown .dijitButtonNode, .vmmDropDown.dijitDropDownHover .dijitButtonNode{
+	border:none;
+	background:none;
+	padding:0;
+}
+.tundra .inboxDropDown .dijitButtonText,
+.tundra .vmmDropDown .dijitButtonText{
+	padding:0;
+}
+.tundra .inboxDropDown .dijitArrowButtonInner{
+	background:none;
+	width:0;
+	height:0;
+	margin:0;
+}
+
+.ddActionIcon{
+	width: 48px;
+	height: 23px;
+	background: url(../../../images/ics/InboxSprites.png) no-repeat -16px -54px;	
+}
+
+.inboxDropDown.dijitDropDownButtonHover .ddActionIcon,
+.inboxDropDown.dijitDropDownButtonFocused.dijitDropDownButtonHover .ddActionIcon{
+	background-position: -68px -54px;	
+}
+.inboxDropDown.dijitDropDownButtonFocused.shownDD .ddActionIcon{
+	background-position: -118px -54px;	
+}
+
+/*
+ * Fixed hegith:340px and scroll:auto for New Message DropDownBox
+ * 
+ */
+.pl .dijitPopup ul.contactList{
+	height: 340px;
+	width: 240px;
+	overflow-y: auto !important;
+}
+/**
+.myTagIcon {
+	background: url(../../../images/ics/inbox/ico_tag.png) no-repeat transparent 0 0;
+	width:19px;
+	height:10px;
+}
+**/
+/* Increased OK button size as per PSD*/
+.icsDialog.connectRequest span.red span span{
+	padding:0px;
+}
+
+/*Inbox Right Panels Styles end*/

@@ -1,0 +1,495 @@
+{
+	
+	"statusCode":0,
+	"statusDesc":"",
+	items: [
+		{ name:'widget119', label:'September 6 Sunday',   content: '133',
+										
+										 events:[
+											   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS team meeting',duration:'2 hrs'},
+											   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+											   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+											   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+											   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+											   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+											   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+											    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+											     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      						{colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+														 		 
+										 ],
+										  tasks: [
+										 						   {eventType:'../styles/images/ics/calendar/game.png',description:'ICS Test meeting'},
+										 						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+											]
+		},
+		{ name:'widget4333', label:'September 7 Monday',   content: '222',
+										
+										 events:[
+											   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS team meeting',duration:'2 hrs'},
+											   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+											   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+											   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+											   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+											   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+											   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+											    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+											     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      						{colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+														 		 
+										 ],
+										  tasks: [
+										 						   {eventType:'../styles/images/ics/calendar/game.png',description:'My verizon meeting'},
+										 						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+											]
+		},
+		{ name:'widget199', label:'September 8 Tuesday',   content: 'Vinay',
+								
+								 events:[
+									   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS team meeting',duration:'2 hrs'},
+									   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+									   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+									   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+									   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+									   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+									   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+									    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+									     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+		 		      						{colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+												 		 
+								 ],
+								  tasks: [
+								 						   {eventType:'../styles/images/ics/calendar/game.png',description:'My verizon meeting'},
+								 						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+									]
+		},
+		{ name:'widget1113', label:'September 9 Wednesday',   content: 'Vinay',
+						
+						 events:[
+							   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+							   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+							   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+							   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+							   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+							   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+							   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+							    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+							     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+							      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+										 		 
+						 ],
+						  tasks: [
+						 						   {eventType:'../styles/images/ics/calendar/game.png',description:'Vacation'},
+						 						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},	
+			
+		{ name:'widget1533', label:'September 10 Thursday',   content: 'Vinay',
+						
+						 events:[
+							   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+							   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+							   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+							   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+							   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+							   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+							   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+							    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+							     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+							      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+										 		 
+						 ],
+						  tasks: [
+						 						   {eventType:'../styles/images/ics/calendar/game.png',description:'calendar demo'},
+						 						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},
+			
+		{ name:'widget133', label:'September 11 Friday',   content: 'Vinay11',
+						
+						 events:[
+							   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+							   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+							   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+							   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+							   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+							   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+							   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+							    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+							     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+							      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+										 		 
+						 ],
+						  tasks: [
+						 						   {eventType:'../styles/images/ics/calendar/game.png',description:'Birthday Function'},
+						 						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation'}
+							]
+		},
+		{ name:'widget16', label:'September 12 Saturday',   content: 'Vinay22',
+						
+						 events:[
+							   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+							   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+							   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+							   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+							   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+							   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+							   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+							    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+							     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+							      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+										 		 
+						 ],
+						  tasks: [
+							   {eventType:'../styles/images/ics/calendar/game.png',description:'Inbox meeting'},
+							   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},
+		
+		{ name:'widget15', label:'September 13 Sunday',   content: 'Vinay33',
+				
+				 events:[
+					   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+					   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+					   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+					   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+					   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+					   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+					   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+					    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+					     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+					      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+								 		 
+				 ],
+						  tasks: [
+							   {eventType:'../styles/images/ics/calendar/game.png',description:'Bombay trip'},
+							   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},
+		
+		{ name:'widget01', label: 'September 14 Monday',content: 'Sekhar11',
+				 events:[
+				 		   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS team meeting',duration:'2 hrs'},
+				 		   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+				 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+				 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+				 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+				 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+				 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+				 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+				 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+				 		 
+				 ],
+						  tasks: [
+							   {eventType:'../styles/images/ics/calendar/game.png',description:'Summar camp'},
+							   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},
+		
+		{ name:'widget02', label: 'September 15 Tuesday',content: 'Sekhar22',
+				 events:[
+				 		   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS team meeting',duration:'2 hrs'},
+				 		   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+				 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+				 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+				 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+				 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+				 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+				 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+				 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+				 		 
+				 ],
+						  tasks: [
+							   {eventType:'../styles/images/ics/calendar/game.png',description:'Vacation camp'},
+							   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},
+		
+		{ name:'widget0', label: 'September 16 Wednesday',content: 'Sekhar',
+		 events:[
+		 		   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS team meeting',duration:'2 hrs'},
+		 		   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+		 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+		 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+		 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+		 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+		 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+		 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+		 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+		 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+		 		 
+		 ],
+						  tasks: [
+							   {eventType:'../styles/images/ics/calendar/game.png',description:'India trip'},
+							   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+							]
+		},
+		{ name:'widget1', label: 'September 17 Thursday',    content: 'Srikanth',
+		 events:[
+				 		   {colorName:'orange',eventTime:'6:00 AM',eventType:'../styles/images/ics/calendar/game.png',description:'ICS Coverflow Demo',duration:'2 hrs'},
+				 		   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+				 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+				 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+				 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+				 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+				 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+				 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+				 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+				 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Smith BirthDay'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'All Day Meeting'}
+			]
+		
+		},
+		{ name:'widget2', label: 'September 18 Friday',   content: 'Raghav',
+		 events:[
+				 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+				 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+				 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+				 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+				 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+				 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+				 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+				 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+				 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+				 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'John Party'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'ICS team Meeting'}
+			]
+		
+		},
+		{ name:'widget3', label: 'September 19 Saturday',   content: 'ShashiDhar',
+		 events:[
+				 		   {colorName:'blue',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Contacts team meeting',duration:'2 hrs'},
+				 		   {colorName:'orange',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+				 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+				 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+				 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+				 		   {colorName:'orange',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+				 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+				 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+				 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+				 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+				 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Vacation'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		
+		},
+		{ name:'widget4', label: 'September 20 Sunday',   content: 'Raman',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Vacation'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget5', label: 'September 21 Monday',   content: 'SriRam',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'India Trip'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget6', label: 'September 22 Tuesday',   content: 'David',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Lunch with ICS Team'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget7', label: 'September 23 Wednesday',   content: 'Eric',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Dallas Trip'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget8', label: 'September 24 Thursday',   content: 'Srini',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Vacation'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget9', label: 'September 25 Friday',   content: 'Anil',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Soccer'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget10', label:'September 26 Saturday',   content: 'Shankara',
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Team Lunch'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget11', label:'September 27 Sunday',   content: 'Vinay',
+		
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'Vacation'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget12', label:'September 28 Monday',   content: 'Sham',
+		
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ],
+		 tasks: [
+						   {eventType:'../styles/images/ics/calendar/game.png',description:'WorkOut'},
+						   {eventType:'../styles/images/ics/calendar/eventDefault.png',description:'MyVersion team Meeting'}
+			]
+		},
+		{ name:'widget13', label:'September 29 Tuesday',   content: 'Vinay',
+		
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ]
+		},
+		{ name:'widget14', label:'September 30 Thursday',   content: 'Vinay',
+		
+		 events:[
+						 		   {colorName:'orange',eventTime:'6:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Inbox Design Review',duration:'2 hrs'},
+						 		   {colorName:'red',eventTime:'9:00 AM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Design discussion',duration:'4 hrs'},
+						 		   {colorName:'green',eventTime:'10:30 AM',eventType:'../styles/images/ics/calendar/game.png',description:'Basketball',duration:'30 mins'},
+						 		   {colorName:'blue',eventTime:'12:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'WorkOut',duration:'1.5 hrs'},
+						 		   {colorName:'red',eventTime:'2:30 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Kids CarPool',duration:'3 hrs'},
+						 		   {colorName:'blue',eventTime:'3:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'Vacation',duration:'2 hrs'},
+						 		   {colorName:'yellow',eventTime:'4:00 PM',eventType:'../styles/images/ics/calendar/game.png',description:'Calendar Testing',duration:'1.5 hrs'},
+						 		    {colorName:'skyblue',eventTime:'5:30 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'TestCases Review',duration:'1 hr'},
+						 		     {colorName:'#CCCCCC',eventTime:'7:30 PM',eventType:'../styles/images/ics/calendar/eventDefault.png',description:'BirthDay Party',duration:'45 mins'},
+						 		      {colorName:'green',eventTime:'8:00 PM',eventType:'../styles/images/ics/calendar/dinner.png',description:'Team Dinner',duration:'2 hrs'}
+						 		 
+		 ]
+		}
+	]
+}

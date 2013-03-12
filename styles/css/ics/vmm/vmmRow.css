@@ -1,0 +1,262 @@
+/*** VMM ROW  ****/
+.musicRow,
+.nonMusicRow {
+	position:relative;
+	line-height:45px;
+}
+.vmmListScrollbox .msgRow .body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 0 0 20px;
+    position: relative;
+}
+
+/* file type icons*/
+.vmmFileIcon {
+	background: url(../../../images/ics/BUAPSprites.png) no-repeat transparent;
+	height:22px;
+    width:23px;
+	margin:2px 0 0 30px;
+	position: relative;  /* fix issue due to margin - jumping in IE when DnD related code added */
+}
+.vmmFileIcon.play.music{
+	background-position: -614px -244px;
+	margin-left:15px;
+	width:15px;
+	height:15px;
+	cursor:pointer !important;
+}
+.vmmFileIcon.picture{
+	background-position: -636px -244px;
+	cursor:pointer !important;
+}
+.vmmFileIcon.folder{
+	background-position: -751px -244px;
+	cursor:pointer !important;
+}
+.vmmFileIcon.trashedFolder{
+	background-position: -751px -244px;
+	cursor:default;
+}
+.vmmFileIcon.music{
+	background-position: -696px -244px;
+	cursor:pointer !important;
+}
+.vmmFileIcon.video{
+	background-position: -666px -244px;
+	cursor:pointer !important;
+}
+.vmmFileIcon.document{
+	background-position: -721px -244px;
+	margin-top:0;
+	cursor:pointer !important;
+}
+.vmmFileIcon.other{
+	background-position: -835px -384px;
+	cursor:pointer !important;
+}
+
+/**** file fields  *****/
+.m_fileName {
+	width: 140px;
+	font-weight: 600;
+	position: relative;  /* fix issue due to margin - jumping in IE when DnD related code added */
+}
+.dj_ie7 .m_fileName {
+	width: 160px; 
+}
+.m_artist{
+	width: 70px;
+	padding-left: 15px;
+}
+.m_album{
+	width: 70px;
+	padding-left: 15px;
+}
+.m_genre {
+	width: 55px;
+	padding-left: 15px;
+}
+.m_year{
+	width: 35px;
+	padding-left: 15px;
+	text-align:center;
+}
+.m_time,
+.m_fileSize {
+	width: 55px;
+	padding-left: 15px;
+}
+.m_vmmDate {
+	width: 65px;
+	padding-left: 10px;
+}
+
+
+.n_fileName {
+	padding-left: 20px; 
+	width: 300px;
+	font-weight: bold;
+	position: relative; 
+}
+.dj_ie7 .n_fileName {
+	width: 320px; 
+}
+.n_fileType{
+	width: 93px;
+	padding-left: 10px;
+}
+.n_fileSize {
+	width: 87px;
+	padding-left: 10px;
+}
+.n_vmmDate {
+	width: 85px;
+	padding-left: 10px;
+}
+
+/* vmmGridRow css */
+.msgGridRow {
+	position: relative;
+	width: 138px; 
+	height: 138px;
+	margin: 5px 5px 15px;
+}
+.msgGridRow .senderIconImg {
+	max-height: 90px;
+	width: 90px;
+	margin: 12px 5px 35px 5px;
+}
+.msgGridRow .senderIconDiv {
+	background-color: #EBEBEB;
+	text-align: center;
+    height: 138px;
+    width: 138px;
+}
+.msgGridRow .senderIconImg.trashedFolder{
+	cursor:default !important;
+}
+/* get rid of colors temporarily */
+.msgGridRow .gutter,
+.msgGridRow.rowHover .gutter,
+.msgGridRow.rowHover .gutter .body {
+	background-color: #ffffff;
+}
+.msgGridRow .itemLink {
+	position: relative;
+	text-align: left;
+	white-space:nowrap;
+	margin: -25px 5px 1px 35px;
+	overflow: hidden;
+}
+#ics-app-vmm-searchList-vmmList .msgRow .checkSelect{
+	top:15px; 
+}
+#ics-app-vmm-searchList-vmmGrid .msgGridRow .checkSelect {
+	top:114px; 
+}
+.msgGridRow.vspSelected .checkSelect {
+	background-position: -629px -21px; 
+}
+.selectedAll .msgGridRow .checkSelect {
+	background-position: -629px -21px; 
+}
+.selectedAll .msgGridRow.vspSelected .checkSelect {
+	background-position: -612px -21px;
+}
+
+.dojoDndCopy #ics-app-vmm-searchList-vmmList .msgRow.dojoDndItemOver {
+	/*background-color: #B1B1B1;*/
+	border-bottom:3px solid #898989;
+}
+.dojoDndCopy #ics-app-vmm-searchList-vmmGrid .msgGridRow.dojoDndItemOver {
+	/*background-color: #B1B1B1;*/
+	border-right:3px solid #898989;
+}
+.dojoDndCopy #ics-app-vmm-searchList-vmmList .msgRow.dojoDndItem.vspSelected,
+.dojoDndCopy #ics-app-vmm-searchList-vmmGrid .msgGridRow.dojoDndItem.vspSelected {
+	opacity:0.2;
+	filter:alpha(opacity=20);	/* ie */
+}
+/***
+.dojoDndCopy #ics-app-vmm-searchList-vmmList .msgRow.dojoDndItemOver .body {
+	background-color: #B1B1B1;
+}
+***/
+/***
+#ics-app-vmm-searchList-vmmList .msgRow.dojoDndItemOver{
+	cursor:move;
+}
+***/
+.vmmListAvatarMain {
+	width:755px;
+	height:40px;
+	background-color:#EBEBEB !important;
+	border:1px solid #ccc;
+	position:absolute;
+	opacity:0.85;
+	filter:alpha(opacity=85);	/* ie */
+}
+.vmmGridAvatarMain .msgGridRow {
+	margin:0;
+}
+.dummyAvatarDiv {
+	width:755px;
+	height:40px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	position:absolute;
+}
+.dummyGridAvatarDiv {
+	width:140px;
+	height:140px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	position:absolute;
+}
+#avatarStopSign {
+    background-color: #890000;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+.vmmListAvatarMain .msgRow .body {
+	background-color:transparent;
+}
+
+/**** NO RO Toolbar for VMM now ***********
+#ics-app-vmm-searchList-vmmList .msgRow .icsROToolbar,
+#ics-app-vmm-searchList-vmmList .msgRow .icsROButton.select {
+    top: 5px; 
+}
+
+#ics-app-vmm-searchList-vmmList .msgRow .checkSelect {
+	top:15px; 
+}
+#ics-app-vmm-searchList-vmmList .msgBodyText {
+	height: 35px;
+}
+*******************************************/
+#ics-app-vmm-searchList-vmmList .msgRow.dojoDndItemOver{
+	cursor:default;
+}
+.m_copyright{
+	height:15px;
+    width:15px;
+	margin: 0 3px;
+	position: relative;    
+}
+.n_copyright{
+	height:15px;
+    width:15px;
+	margin:0 0 0 15px;
+	position: relative;    
+}
+.m_copyright.vmmCopyrightIcon,
+.n_copyright.vmmCopyrightIcon{
+	background:transparent url(../../../images/ics/BUAPSprites.png) no-repeat -515px -332px;   
+}
